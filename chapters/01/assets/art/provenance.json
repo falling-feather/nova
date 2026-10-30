@@ -1,0 +1,110 @@
+{
+  "created": "2026-09-28",
+  "tool": "image_gen.imagegen",
+  "processing": "Generated original PNG copied without image editing. Runtime texture UVs and material shading do not alter source files.",
+  "files": [
+    {
+      "file": "assets/art/fine-leather.png",
+      "created": "2026-10-05",
+      "usage": "Tintable fine leather albedo and small bump on avatar bag bindings, shoulder straps and shoes; kept separate from woven cloth.",
+      "prompt": "Use case: stylized-concept. Asset type: seamless original albedo material for small 3D leather backpack straps, bindings and shoes in a refined cozy countryside game. A square high-resolution flat orthographic scan of softly worn fine-grain vegetable-tanned leather, muted medium tan, delicate small irregular pores and gentle natural mottling. Very fine supple leather grain, faint subtle creasing within the surface, no folds, no seams, no punched holes, no stitching, no straps or objects pictured, no border, no text. Uniform diffuse albedo only, no directional light or cast shadow, no glossy highlight, no edge darkening. Seamless on both axes, calm uniform large-scale value with restrained realistic close detail. Warm, cared-for natural material, not reptile skin and not coarse pebble upholstery. Runtime tint, roughness and actual mesh shapes will provide the final object appearance.",
+      "tool": "Built-in image_gen.imagegen",
+      "sourceFile": "exec-e6e4d6c7-32ec-427f-b19a-590fb179480d.png",
+      "sha256": "10cde0a5509625c64d53905cbfb71962a66d37dae951b9f1740045ca12ca08d3",
+      "bytes": 3131043
+    },
+    {
+      "file": "assets/art/slate-cleft.png",
+      "created": "2026-10-05",
+      "usage": "Natural cleft face and bump detail on the existing real roof shingles; runtime tint preserves each shop roof palette.",
+      "prompt": "Use case: stylized-concept. Asset type: production albedo texture for actual 3D roof shingles in a refined cozy European countryside village. Create one square high-resolution seamless material scan of natural fine-cleft slate, neutral pale warm gray with very subtle blue-gray/ochre mineral variations. Flat orthographic surface fills every pixel: delicate horizontal lamination, fine cleft ridges, thin flakes and restrained mottled mineral structure; sophisticated lightly weathered cared-for cottage slate. This is ONE uninterrupted material surface, NOT rows of roofing, NOT a whole tile object, NOT a roof scene. Moderate fine and medium-scale surface variation, low contrast so the material can be tinted teal, dusty blue, terracotta or muted mauve at runtime. Uniform diffuse albedo only, no directional lighting, no cast shadows, no glossy highlights, no vignetting, no borders, no mortar, no outlines, no labels, no text. Seamless across both edges. Original production texture, painterly realism with convincing stone structure; avoid coarse gravel or granite speckles.",
+      "tool": "Built-in image_gen.imagegen",
+      "sourceFile": "exec-7a7cb969-a574-4a06-902b-0a672cd141e9.png",
+      "sha256": "309b0a260b647dec24bf4794e396852373b8ae63d469c2a7d88864278fee6a0a",
+      "bytes": 3223306
+    },
+    {
+      "file": "assets/art/linen-cotton.png",
+      "created": "2026-10-05",
+      "usage": "Tintable woven fabric surface and fine bump for clothing, aprons, curtains and canvas; geometry supplies folds.",
+      "prompt": "Use case: stylized-concept. Asset type: seamless diffuse albedo texture for actual 3D cotton shirts, aprons, canvas bags and soft curtains in a refined cozy countryside game. One square high-resolution flat orthographic scan of natural ivory linen-cotton weave. Fine irregular warp and weft, delicately visible individual thread fibres, soft slub variations, tiny alternating raised threads, very restrained irregular natural cream tones. About 150-200 fine threads across the image, suitable for tiling at physical clothing scale. Soft, supple cloth surface, premium storybook 3D realism, no strong directional light. Whole image is the flat textile surface; no clothing shape, no folds or crumples (geometry provides those), no seams, no embroidery, no buttons, no border, no text, no logos. Uniform diffuse albedo with no baked cast shadow or highlight, seamless top-bottom and left-right. Not burlap, not coarse sackcloth, not a grid diagram. Pale neutral warm ivory overall, detailed yet low contrast for runtime tinting.",
+      "tool": "Built-in image_gen.imagegen",
+      "sourceFile": "exec-a907bf2d-ec9b-435d-aa12-bd8ad80b16b3.png",
+      "sha256": "bb90e3f135624027df82777e1fc5ca838c7cd4a7a1c40737e5efa61d093cc8c9",
+      "bytes": 3116373
+    },
+    {
+      "file": "assets/art/honey-oak.png",
+      "usage": "Timber, furniture and store framing. Neutralized luminance preserves individual object palette.",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready seamless albedo material texture for a refined cozy 3D village game. Generate one square 2048x2048 tileable honey oak timber surface texture. Straight-on orthographic flat material scan, completely fills the image, no object, no room, no frame. Fine elegant natural flowing wood grain runs vertically, warm light caramel honey beige, restrained soft knots, small pores, lightly worn silky satin finish. Handcrafted high-end illustrated 3D game realism, warm countryside carpentry, subtle painted tonal variation. Keep the large scale value and hue uniform, low contrast grain that looks beautiful on small furniture. Diffuse albedo only: uniform soft neutral light, NO cast shadows, NO directional illumination, NO glossy reflections, NO perspective, NO board divisions, NO seams, NO nails, NO text. Left/right and top/bottom edges join seamlessly. This image will be repeated on actual three-dimensional wooden furniture and shopfronts, not used as a full scene.",
+      "sha256": "397c3ba34ab063027304f9d4de43faae72939a6511c67b0cfdf099f7b9f350dc",
+      "bytes": 2070220
+    },
+    {
+      "file": "assets/art/warm-limestone.png",
+      "usage": "Limestone paving and pale stone geometry.",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready seamless albedo material texture for actual limestone paving geometry in a refined cozy 3D spring village. Generate one square 2048x2048 tileable light warm golden-beige aged limestone surface. Flat orthographic material view, fills entire image. Delicate creamy mineral flecks, subtle tiny pores, soft natural mineral veining, very slight ochre patina. Premium hand-painted physically believable storybook game material, restrained and elegant. The image shows ONE continuous limestone surface with no tile pattern, no brick shapes, no grout and no gaps: individual stone slab boundaries are modeled in the game. Mostly light cream-beige, low contrast, fairly even overall brightness. Neutral diffuse albedo only, NO cast shadows, NO directional shading, NO perspective, NO specular reflections, NO text or frame. Top/bottom and left/right seamless repeat. Fine convincing detail up close, calm unified colour from a distance.",
+      "sha256": "7953458ff59f70b0b3e0d6e40215952ff38baf66e8485606bf53d960748447d5",
+      "bytes": 3186524
+    },
+    {
+      "file": "assets/art/naturalist-prints.png",
+      "usage": "Four wall illustrations; 2x2 atlas sampled by UV quadrants.",
+      "prompt": "Use case: illustration-story. Asset type: a single 2x2 art atlas to be used as four framed decorative illustrations on the walls of a real interactive cozy 3D village game. Square 2048x2048 image, precisely four equally-sized square panels in a 2x2 grid, with no gap between the panels. Each panel has its own warm ivory uncoated paper background, generous interior margin, delicate realistic botanical ink and softly painted watercolor, exquisitely detailed museum-quality pastoral illustrations, same lighting and colour style throughout. Top-left: graceful green woodland fern fronds and a tiny pressed oak leaf, botanical specimen study. Top-right: a lovely small bunch of white daisies, yellow buttercups and mauve spring wildflowers, botanical study. Bottom-left: two small friendly brown and cream songbirds resting on a thin flowering branch, detailed feathers. Bottom-right: two delicate cream and amber butterflies with a sprig of blue meadow blossoms, naturalist study. Flat frontal print artwork only, NOT a photo of physical frames, not a room, no perspective, no 3D shadows, no mockup. No captions, no lettering, no labels, no grid lines, no wood borders, no logos. Each panel composition must stay completely inside its own quarter with at least 12 percent blank paper margin. Warm natural sage greens and soft ochre accents; elegant and calm, not cartoon clipart. Four artworks share a subtly fibrous fine paper texture.",
+      "sha256": "aafb7233b02ae9fa02566fbfbd55c5c8e058fb6029f8df6d3b919839a35e812c",
+      "bytes": 2953157
+    },
+    {
+      "file": "assets/art/ivory-plaster.png",
+      "usage": "Clean cream plaster interior and exterior surface.",
+      "prompt": "Use case: stylized-concept. Asset type: seamless diffuse albedo wall material for a refined cozy countryside 3D game. One square 2048x2048 texture, completely flat orthographic material surface, no scene, no objects. Warm ivory and pale buttermilk hand-troweled lime plaster. Broad very delicate irregular cloudy tonal variations across the surface, tiny fine smooth pores, subtle handcrafted plaster strokes. Clean cared-for sunlit village shop wall, calm luminous cream, not sterile white. High-end hand-painted game finish with restrained realistic microdetail. Uniform diffuse albedo, NO baked directional light, no specular, no shadows, no edge gradients. Seamless top-bottom and left-right. Absolutely NO cracks, grime, mold, black dots, strong speckles, exposed bricks, tiles, frames, borders, graffiti or text. The result should look like a clean warm wall material suitable for softly lit wooden interiors.",
+      "sha256": "dc157f872351eb672e91118709a68ba89da93dd4e5ab3e54862d74d946f52e1c",
+      "bytes": 2393834
+    },
+    {
+      "file": "assets/art/bread-crust.png",
+      "usage": "Diffuse material for scored real 3D course bread loaves. Quantity remains determined by the OCR activity.",
+      "prompt": "Use case: stylized-concept. Asset type: production diffuse albedo texture for a small real 3D baked bread roll mesh in a cozy village game bakery. One square 2048x2048 seamless texture of warm golden brown freshly baked bread crust. Flat orthographic material surface fills image. Fine porous bread skin, soft irregular toasted golden and caramel mottling, very restrained ivory flour specks, artisanal baked texture. No whole loaf, no round object silhouette, no plate, no scored lines (scoring is modeled in geometry), no separated items. Warm appetizing honey ochre, medium light overall with subtle baked brown areas; refined stylized 3D game realism, not gross macro pores. Uniform diffuse albedo only, no cast shadows, no highlights baked in, no lighting gradients, no scene, no text. Seamless left-right and top-bottom. A visually rich but not high contrast reusable material for actual 3D bread.",
+      "sha256": "e7a7b17ea1500d0363afd874338e09e0661ca20f319097c80795c80c92ced322",
+      "bytes": 3306689
+    },
+    {
+      "file": "assets/art/meadow-atlas.png",
+      "usage": "Six static spatial batches of curved, crossed, alpha-tested 3D flower cards. Four atlas cells: daisies, hydrangea/rose, lavender/bluebell, yellow-white meadow.",
+      "prompt": "Use case: stylized-concept. Asset type: production RGBA vegetation atlas for physically rendered crossed-plane flower clusters in a detailed cozy 3D village game. Create ONE square 2048x2048 PNG with a REAL fully transparent alpha background. Precisely four equally-sized isolated flower clumps in a 2x2 grid; each clump fits entirely inside its own quarter with at least 7 percent transparent margin, no overlap between quadrants. No drawn checkerboard, no white or colored backdrop, no ground plane, no pots, no text, no frame, no labels. FRONT VIEW with gentle three-dimensional volume, plant bases centered near bottom of each quarter. TOP LEFT: a lush small bush of many fine WHITE DAISIES with golden centers, tiny five-petal white blooms and delicate sage/olive leaves. TOP RIGHT: a rich rounded cluster of SOFT PINK HYDRANGEA and small blush cottage roses with medium green natural leaves. BOTTOM LEFT: upright LAVENDER and pale periwinkle BLUEBELLS with narrow leaves and fine stems. BOTTOM RIGHT: a dense cheerful cluster of GOLDEN BUTTERCUPS, tiny white meadow flowers and ferny olive foliage. All four plant clusters about the same overall size and detail scale, 10-25 small blossoms in each cluster, irregular graceful silhouettes, layered leaves, clearly recognizable fine petal detail rather than broad cartoon circles. Premium hand-painted 3D game art with natural botanical detail; warm spring palette harmonious with cream timber cottage buildings, slightly muted to work under sunlit PBR shading. Neutral diffuse lighting, no strong directional shadows or black outlines, no ground shadows. Soft modeled petal forms, naturally lit color variation within flowers, distinct transparent gaps between stems and leaves. This is the raw transparent plant atlas itself, not a mockup or a village picture. Must export genuinely transparent alpha pixels.",
+      "tool": "Built-in image_gen.imagegen",
+      "sourceFile": "exec-f70ac2b4-e52f-4bf8-ad0e-3ccb8bde9f57.png",
+      "size": [1254, 1254],
+      "mode": "RGBA",
+      "alphaExtrema": [0, 255],
+      "processing": "Recovered the completed generation after interruption; copied original PNG unchanged. No image editing.",
+      "sha256": "46fbba7e478b47bf2bfe4577ac97228ea4632c1a4c1dd31155dd38a8f316d11c",
+      "bytes": 2657181
+    },
+    {
+      "file": "assets/art/photographers-prints.png",
+      "usage": "Four generated decorative photography prints for frames in photo studio. Not student photos, not historical evidence, not a scene backdrop.",
+      "prompt": "Use case: stylized-concept. Asset type: production 2x2 image atlas for four framed photography prints INSIDE a cozy three-dimensional village game. Create one square 2048 by 2048 image containing exactly FOUR square art photographs, filling equally sized quadrants in a precise 2x2 grid, no gutters, no outer border or frames, no typography or letters. Top left: a refined charming spring village street photograph, cream plaster cottages, teal roofs, wooden porches, flower boxes and warm slant sunlight. Top right: nostalgic warm black and white archival photograph of an old country windmill and two small villagers viewed from afar, gentle photographic grain. Bottom left: delicate still-life macro photograph of white daisies and a glass bottle on a worn oak tabletop by a window, convincing petals and leaves. Bottom right: peaceful willow-lined pond with a wooden jetty, reflections and a pair of white ducks, lush spring greenery. All four compositions distinct, elegant photographic composition, consistent handcrafted stylized 3D world, understated sage green/cream/honey oak/terracotta palette. These are artworks for picture frames, not UI, not a mockup, not a game screenshot, not a whole scene backdrop. Edge-to-edge quadrants, square output, softly natural realistic material rendering with sophisticated shapes. No text, labels, numbers, watermarks, mats or frames.",
+      "tool": "Built-in image_gen.imagegen",
+      "sourceFile": "exec-76dba422-d1e0-49c3-95ef-4baa5f7aaa8d.png",
+      "processing": "Copied original PNG unchanged; runtime quadrant UVs select each print.",
+      "size": [1254, 1254],
+      "mode": "RGB",
+      "sha256": "bc1b75676073272880f31cac773a0ffd0998dae6638b2a212d21fe439fecbda2",
+      "bytes": 3176359
+    },
+    {
+      "file": "assets/art/tree-foliage.png",
+      "usage": "True-alpha oak/ash/willow/cherry branch atlas for curved fixed-orientation tree crown cards and distant LOD. Real 3D trunks/branches remain.",
+      "prompt": "Use case: stylized-concept. Asset type: production RGBA foliage texture atlas for curved 3D tree branch cards in a refined cozy village game. Generate ONE square 2048x2048 image with a REAL TRANSPARENT background and exactly four equally sized isolated botanical branch clusters in a precise 2x2 grid. Each cluster stays entirely within its own quarter with 8 percent empty transparent margin. TOP LEFT: a lush irregular branching spray of many small rounded oval spring oak leaves, fresh olive and yellow-green, 35-55 leaves with a few fine brown twigs, graceful layered depth. TOP RIGHT: an airy but rich cluster of compound ash leaves, soft sage and fresh medium green, many smaller tapered leaves arranged naturally along fine twigs. BOTTOM LEFT: a graceful downward cascade of many very fine willow leaves on thin drooping stems, several long branching strands, olive and silver-green. BOTTOM RIGHT: a dense irregular flowering cherry branch, many small pale blush and ivory five-petaled cherry blossoms with soft warm pink centers and some tiny fresh green leaves, about 35 blooms. Each cluster is a front-facing natural branch spray, similar image scale, nearly filling the square quadrant in an irregular lush silhouette. High-quality stylized 3D game foliage with subtle photographic botanical surface detail, softly modeled curved leaves, variation in orientation and size. Neutral diffuse illumination, NO cast shadows or sun-direction baked into image, no black outline, no hard glints, natural lively medium-light colors. Transparent gaps between individual leaves. No pots, soil, trunks, landscapes, grass, text, labels, borders, watermark or checkerboard. Actual alpha transparency, isolated botanical foliage only. This is a raw game material atlas, not a composition or mockup.",
+      "tool": "Built-in image_gen.imagegen",
+      "sourceFile": "exec-75264203-532d-4911-a02b-ea60dc07c6b0.png",
+      "processing": "Original RGBA PNG copied unchanged; runtime quadrant UVs, alphaTest and curved geometry.",
+      "size": [1254, 1254],
+      "mode": "RGBA",
+      "alphaExtrema": [0, 255],
+      "sha256": "491ad1b9e9fe6f1f7a890d13d4d4cc4e24b0df94998b6a81b76e36985bb3a75d",
+      "bytes": 2683388
+    }
+  ]
+}

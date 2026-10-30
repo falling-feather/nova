@@ -1,0 +1,2675 @@
+{
+  "version": 1,
+  "date": "2026-10-10",
+  "requested": 103,
+  "delivered": 102,
+  "gameConnected": true,
+  "blocked": [
+    {
+      "batch": "art-20261010",
+      "path": "ui/lens-fog.png",
+      "requirement": "A5",
+      "status": "not-generated",
+      "reason": "Built-in image generation output was blocked by automatic safety review, category sexual. Request concerned neutral condensation and water droplets only. No output delivered; not retried through another tool or path.",
+      "requestId": "2c90169b-63aa-4e9d-9c48-1d779b005fce",
+      "runtime": "Existing fog rendering was left unchanged."
+    }
+  ],
+  "entries": [
+    {
+      "id": "living-terrain/pond-bank-left",
+      "group": "A1",
+      "name": "pond-bank-left.png",
+      "url": "/assets/living-terrain/pond-bank-left.png",
+      "size": [
+        600,
+        840
+      ],
+      "transparent": true,
+      "provenance": "/assets/living-terrain/provenance.json",
+      "original": "art-source/2026-10-10/living-terrain/pond-bank-left.png",
+      "sha256": "c3fb490b16bedfb9dbdef5ac4abbf591cd30dcb11484e5d26b6527cf96004770",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/living-terrain/pond-bank-left.webp",
+        "sha256": "4355be86db8d639e5fd2b9759c08fb0fb428b5d21c4c08a624a869fb57930037",
+        "bytes": 139510
+      }
+    },
+    {
+      "id": "living-terrain/pond-bank-right",
+      "group": "A1",
+      "name": "pond-bank-right.png",
+      "url": "/assets/living-terrain/pond-bank-right.png",
+      "size": [
+        600,
+        840
+      ],
+      "transparent": true,
+      "provenance": "/assets/living-terrain/provenance.json",
+      "original": "art-source/2026-10-10/living-terrain/pond-bank-right.png",
+      "sha256": "47581ce7a5f03a65774cd23c9034023bbd2daee0c2ac3ff4e08a5efae7b5b982",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/living-terrain/pond-bank-right.webp",
+        "sha256": "5b45e3ea7031e516557f3d617b3c8b905573394dbeffacb9bb9dd6fb10decb02",
+        "bytes": 138206
+      }
+    },
+    {
+      "id": "living-terrain/pond-reeds-a",
+      "group": "A1",
+      "name": "pond-reeds-a.png",
+      "url": "/assets/living-terrain/pond-reeds-a.png",
+      "size": [
+        360,
+        360
+      ],
+      "transparent": true,
+      "provenance": "/assets/living-terrain/provenance.json",
+      "original": "art-source/2026-10-10/living-terrain/pond-reeds-a.png",
+      "sha256": "994c8e095791e630e19dec54a10f9c6170b994d6f634c9e0be69b9b58c52b13a",
+      "anchor": [
+        0.52,
+        0.9666666666666667
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/living-terrain/pond-reeds-a.webp",
+        "sha256": "ab53e230137e328aaff2ffc086437fba6e7e3d22e130a507ca2f64f3cfa2e1a1",
+        "bytes": 50782
+      }
+    },
+    {
+      "id": "living-terrain/pond-reeds-b",
+      "group": "A1",
+      "name": "pond-reeds-b.png",
+      "url": "/assets/living-terrain/pond-reeds-b.png",
+      "size": [
+        360,
+        360
+      ],
+      "transparent": true,
+      "provenance": "/assets/living-terrain/provenance.json",
+      "original": "art-source/2026-10-10/living-terrain/pond-reeds-b.png",
+      "sha256": "5f94d0909bd139bf82c12e91c6479b5d36b3ce7f9e82bb691234401a8318a635",
+      "anchor": [
+        0.5114,
+        0.9
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/living-terrain/pond-reeds-b.webp",
+        "sha256": "cadb8261e154aac331ccd8ab9af48a0609a4ce453e57aad5622c1c4fa8f2a24e",
+        "bytes": 33576
+      }
+    },
+    {
+      "id": "living-terrain/pond-water",
+      "group": "A1",
+      "name": "pond-water.png",
+      "url": "/assets/living-terrain/pond-water.png",
+      "size": [
+        1024,
+        512
+      ],
+      "transparent": false,
+      "provenance": "/assets/living-terrain/provenance.json",
+      "original": "art-source/2026-10-10/living-terrain/pond-water.png",
+      "sha256": "2125eedb0074fd2aaba7751aee956302f167c9f2aee379b16e873d31ec5adb74",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "mirror-x",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/living-terrain/pond-water.webp",
+        "sha256": "d0e7e72573844b59a3475cd51e2e4e8ccd1a7133cd2b2e07a266d9439d61c8be",
+        "bytes": 114970
+      }
+    },
+    {
+      "id": "living-terrain/pond-waterline",
+      "group": "A1",
+      "name": "pond-waterline.png",
+      "url": "/assets/living-terrain/pond-waterline.png",
+      "size": [
+        1024,
+        48
+      ],
+      "transparent": true,
+      "provenance": "/assets/living-terrain/provenance.json",
+      "original": "art-source/2026-10-10/living-terrain/pond-waterline.png",
+      "sha256": "3d4dd995ab277283692917ab5e2b65bcecb46fbe68d24fef3dc699aa97502756",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "mirror-x",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/living-terrain/pond-waterline.webp",
+        "sha256": "57c21694bf4df4aa0a06ee7239a073c4be00346df16893e6f22d7977ceb54698",
+        "bytes": 36484
+      }
+    },
+    {
+      "id": "specimens/bell-1",
+      "group": "A2",
+      "name": "bell-1.png",
+      "url": "/assets/specimens/bell-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/bell-1.png",
+      "sha256": "dd0794d1026db2ff2266629f037407ef5316894a0deb993f7d5e887d7e4668cf",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/bell-1.webp",
+        "sha256": "69bad2f83a27a37edfae3592653f491d30b41917ad687d1621c66bc9b097e123",
+        "bytes": 36162
+      }
+    },
+    {
+      "id": "specimens/bell-2",
+      "group": "A2",
+      "name": "bell-2.png",
+      "url": "/assets/specimens/bell-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/bell-2.png",
+      "sha256": "3269c0529662dae43cb1223fe22470f83618e9898828754b770f0e0da06b8d04",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/bell-2.webp",
+        "sha256": "d38c69ba19faad7a3207d89f4ab605764900c1baf23ec71a66032099404d3591",
+        "bytes": 36272
+      }
+    },
+    {
+      "id": "specimens/bell-3",
+      "group": "A2",
+      "name": "bell-3.png",
+      "url": "/assets/specimens/bell-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/bell-3.png",
+      "sha256": "fbb4a685902357365d914d08303561440d69e284e772ccb140c8636944959128",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/bell-3.webp",
+        "sha256": "14ffb5e82fe6e2fa79150945b02e8ecf1eacf9fbda7427bbb91862d564012c89",
+        "bytes": 40208
+      }
+    },
+    {
+      "id": "specimens/block-1",
+      "group": "A2",
+      "name": "block-1.png",
+      "url": "/assets/specimens/block-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/block-1.png",
+      "sha256": "fb7f9e2c310015aa62d63c7caad40ff6fcfbc7088895d7d30a3f475f17f2e54c",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/block-1.webp",
+        "sha256": "961cc362ed2d71519468611c2c7dd5ff10d0acb1bd89115d1a47bb05fcfca80d",
+        "bytes": 40438
+      }
+    },
+    {
+      "id": "specimens/block-2",
+      "group": "A2",
+      "name": "block-2.png",
+      "url": "/assets/specimens/block-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/block-2.png",
+      "sha256": "e10bdae238098fa69a89b9ff70d685909fcc91b21f560319f06a0a0d169b96ff",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/block-2.webp",
+        "sha256": "85d6ea981480acde54270f6ce23bd821a65ff2ff55e7370e1385fb4fdbc6c803",
+        "bytes": 48910
+      }
+    },
+    {
+      "id": "specimens/block-3",
+      "group": "A2",
+      "name": "block-3.png",
+      "url": "/assets/specimens/block-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/block-3.png",
+      "sha256": "693f8531ae2dddd80f3ca981950dd890ba880a8ea7d6ff1172bc2072d47a386f",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/block-3.webp",
+        "sha256": "5f43936b82e59a68106d31212c80714754944304bbc7fa01bc45fd1cec6f31d3",
+        "bytes": 45840
+      }
+    },
+    {
+      "id": "specimens/car-1",
+      "group": "A2",
+      "name": "car-1.png",
+      "url": "/assets/specimens/car-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/car-1.png",
+      "sha256": "7ff78d6fa4d15755c58d898ddd24db10d5be837b598b0418518885b2b7e4d011",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/car-1.webp",
+        "sha256": "19d00b956750dfbed399cde58d48918a2d639ec1969c5ca31481949e3e92e697",
+        "bytes": 37470
+      }
+    },
+    {
+      "id": "specimens/car-2",
+      "group": "A2",
+      "name": "car-2.png",
+      "url": "/assets/specimens/car-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/car-2.png",
+      "sha256": "cfa3ecf22cbf706d360989ac2917cd4fd2a192901aa273e137533f4eb0b09285",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/car-2.webp",
+        "sha256": "7d6fb2ea8679a439138b093d91f60c6bea4e10363de7a60d1b8de6350db886d9",
+        "bytes": 32570
+      }
+    },
+    {
+      "id": "specimens/car-3",
+      "group": "A2",
+      "name": "car-3.png",
+      "url": "/assets/specimens/car-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/car-3.png",
+      "sha256": "ab33c4f91f593e4176f60f3e575191e5ed85d3540450f0409179155603ce02ef",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/car-3.webp",
+        "sha256": "6af618d3c7377a54b34c517c97136793f92ef6d8bbc0533e2d4a8b47a1a79301",
+        "bytes": 36084
+      }
+    },
+    {
+      "id": "specimens/ginkgo-1",
+      "group": "A2",
+      "name": "ginkgo-1.png",
+      "url": "/assets/specimens/ginkgo-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/ginkgo-1.png",
+      "sha256": "3d187afeda7895abaeb870e43c7b70e49156002f6d6dd26c1d59068c5d384073",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/ginkgo-1.webp",
+        "sha256": "7e312ecd4ae9b01d997b1c233cf11956135b5a253f4844d2d9e8318991cc1369",
+        "bytes": 33704
+      }
+    },
+    {
+      "id": "specimens/ginkgo-2",
+      "group": "A2",
+      "name": "ginkgo-2.png",
+      "url": "/assets/specimens/ginkgo-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/ginkgo-2.png",
+      "sha256": "1605f4ad03c6e439a6188a9124acc06a1103388013188135b072647808028bc4",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/ginkgo-2.webp",
+        "sha256": "e8fb3627310e8bcfa8baa9b296d8056444d3c0ef4429a8203eb9284f2fcf4ba1",
+        "bytes": 34680
+      }
+    },
+    {
+      "id": "specimens/ginkgo-3",
+      "group": "A2",
+      "name": "ginkgo-3.png",
+      "url": "/assets/specimens/ginkgo-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/ginkgo-3.png",
+      "sha256": "b79e71b44a242fb4f4154dd7678ecc5feb115f7fbd886d38ddabcec9c0b4fe28",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/ginkgo-3.webp",
+        "sha256": "3869add70e2f431ec6e927c811fd41089232913c7c2fb9b41149886310feb3af",
+        "bytes": 32016
+      }
+    },
+    {
+      "id": "specimens/leaf-1",
+      "group": "A2",
+      "name": "leaf-1.png",
+      "url": "/assets/specimens/leaf-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/leaf-1.png",
+      "sha256": "11c750bd19c06917cc4168974f4d33358e182b24ae8e1564a05278c52659f4e5",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/leaf-1.webp",
+        "sha256": "e83b1cfa7728e9c4fb9330a1c413bab99f538c94390e80936cb4757dfe0f0403",
+        "bytes": 34640
+      }
+    },
+    {
+      "id": "specimens/leaf-2",
+      "group": "A2",
+      "name": "leaf-2.png",
+      "url": "/assets/specimens/leaf-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/leaf-2.png",
+      "sha256": "63b75bc981b76145fd38b531912933a198f999cd529d5e7982ca3f9418078813",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/leaf-2.webp",
+        "sha256": "0ee77012bc9eca141966141eb0462afac44c3b6c57496741977f21f745432e4e",
+        "bytes": 39598
+      }
+    },
+    {
+      "id": "specimens/leaf-3",
+      "group": "A2",
+      "name": "leaf-3.png",
+      "url": "/assets/specimens/leaf-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/leaf-3.png",
+      "sha256": "8a01411638d84891220e12eebb2cb0e84cf36448255fb2aa003a71cc57c3b223",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/leaf-3.webp",
+        "sha256": "9063d7f1008160dfe760bb595948d2faea33d239f41fde26b8f6ef504757eea3",
+        "bytes": 40030
+      }
+    },
+    {
+      "id": "specimens/maple-1",
+      "group": "A2",
+      "name": "maple-1.png",
+      "url": "/assets/specimens/maple-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/maple-1.png",
+      "sha256": "fa0afb439c8d1d5fbe101365e5c1c85a0cecd27ea5cf62771a883564a3143fc4",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/maple-1.webp",
+        "sha256": "b57bc24e78446920819206a7ba94609072831e10e79cf22d9abd5a7c06e2af9b",
+        "bytes": 40026
+      }
+    },
+    {
+      "id": "specimens/maple-2",
+      "group": "A2",
+      "name": "maple-2.png",
+      "url": "/assets/specimens/maple-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/maple-2.png",
+      "sha256": "cce6cf9b1ead63c0ef7a0fa647f1f6aae35573162df0d69058edf08d15b589b6",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/maple-2.webp",
+        "sha256": "82089b7141a183bc0140aeeb6d35b916c0778b6add4cfbc50c7d32b1fa58805d",
+        "bytes": 45404
+      }
+    },
+    {
+      "id": "specimens/maple-3",
+      "group": "A2",
+      "name": "maple-3.png",
+      "url": "/assets/specimens/maple-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/maple-3.png",
+      "sha256": "5393d0591f23a72f91842f0f6eb7d2036f5b901ecf35d187a1bf2ee49e102568",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/maple-3.webp",
+        "sha256": "a39c9d754e60979e650532ecb887e897f0cc48c5ad270a77328bdb8c578dcbdc",
+        "bytes": 46382
+      }
+    },
+    {
+      "id": "specimens/paper-blue",
+      "group": "A2",
+      "name": "paper-blue.png",
+      "url": "/assets/specimens/paper-blue.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": false,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/paper-blue.png",
+      "sha256": "fa61e227207e6f0db450c8121f26795791a20122e8c113b648c37c4638a84b47",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "mirror-xy",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/paper-blue.webp",
+        "sha256": "f731854c2732848c5cbb8ec2bf1163050b7f315bbc03fca56d32fbccc2007d7b",
+        "bytes": 58024
+      }
+    },
+    {
+      "id": "specimens/paper-cream",
+      "group": "A2",
+      "name": "paper-cream.png",
+      "url": "/assets/specimens/paper-cream.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": false,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/paper-cream.png",
+      "sha256": "7a67e5112293ed5e3ca5e6c2c609769da8ad323e5b07306db0dd93286b36e847",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "mirror-xy",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/paper-cream.webp",
+        "sha256": "77571dfae89e33cc985c73946310d04aa05ddc9f0c0e96c80edc671b902bc344",
+        "bytes": 49142
+      }
+    },
+    {
+      "id": "specimens/paper-green",
+      "group": "A2",
+      "name": "paper-green.png",
+      "url": "/assets/specimens/paper-green.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": false,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/paper-green.png",
+      "sha256": "c63569ba92d06f2b9e4c8fa795b82f073838880dcc6ee42444e67813f467668f",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "mirror-xy",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/paper-green.webp",
+        "sha256": "15244a79f48d5003e2508b89b9997954fe018d96bcd1842393518ea99d22bf3a",
+        "bytes": 61132
+      }
+    },
+    {
+      "id": "specimens/paper-yellow",
+      "group": "A2",
+      "name": "paper-yellow.png",
+      "url": "/assets/specimens/paper-yellow.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": false,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/paper-yellow.png",
+      "sha256": "3e0f6731c461461d4cc1e94e69bcb07197dc6bb133349e0da7eec959a8ac4bca",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "mirror-xy",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/paper-yellow.webp",
+        "sha256": "ed26487c44a1739ecab77f49f23a936f5adc5534915a5d0737451d072b1211f2",
+        "bytes": 57784
+      }
+    },
+    {
+      "id": "specimens/pinecone-1",
+      "group": "A2",
+      "name": "pinecone-1.png",
+      "url": "/assets/specimens/pinecone-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/pinecone-1.png",
+      "sha256": "6667232572592880d0c23d770a84025cc4caf74a10fd89c294e1e0cf9c13a097",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/pinecone-1.webp",
+        "sha256": "8b9a9cc44a6ca85070cfae18a5a508f5fc3fa4f8973f22ee61a5bd5d9798cedb",
+        "bytes": 45958
+      }
+    },
+    {
+      "id": "specimens/pinecone-2",
+      "group": "A2",
+      "name": "pinecone-2.png",
+      "url": "/assets/specimens/pinecone-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/pinecone-2.png",
+      "sha256": "91b1d5b7f4a505dbd89588e6b28b94c3b974ff9ece5ccf61f5f70bf85c088a82",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/pinecone-2.webp",
+        "sha256": "d08f97303e69de2e5bebce9a1cd3d3c5244ad9ad9789ab3bbcb7d9baac5620d5",
+        "bytes": 57824
+      }
+    },
+    {
+      "id": "specimens/pinecone-3",
+      "group": "A2",
+      "name": "pinecone-3.png",
+      "url": "/assets/specimens/pinecone-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/pinecone-3.png",
+      "sha256": "0bb173ea20a9c52d195aee1112cdefdacce3058beddb01b8470bb5c704a56f3d",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/pinecone-3.webp",
+        "sha256": "1a3a4f78c39384c89ba95ac003f870854f5d003c154357bf6c734cc9ccead7f1",
+        "bytes": 41804
+      }
+    },
+    {
+      "id": "specimens/radio-1",
+      "group": "A2",
+      "name": "radio-1.png",
+      "url": "/assets/specimens/radio-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/radio-1.png",
+      "sha256": "4d5a5c22b77bca61eaff9a925e5ac04918a381ec5c570ab36dedac157a077426",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/radio-1.webp",
+        "sha256": "4d2a3fde9f25265413faa7666b1a66fa77118b6953fde3c99ddcbfd94df84268",
+        "bytes": 54428
+      }
+    },
+    {
+      "id": "specimens/radio-2",
+      "group": "A2",
+      "name": "radio-2.png",
+      "url": "/assets/specimens/radio-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/radio-2.png",
+      "sha256": "44dc7630a05c8a591f74d45f5bc4724d2a838eaa014e9a2dbbd95bd3d768b0df",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/radio-2.webp",
+        "sha256": "bb8a8c53487d26e5c174259accd41e3d3aa0d99615ecf1fc8b7297ab1d9fd1d4",
+        "bytes": 55042
+      }
+    },
+    {
+      "id": "specimens/radio-3",
+      "group": "A2",
+      "name": "radio-3.png",
+      "url": "/assets/specimens/radio-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/radio-3.png",
+      "sha256": "5358809a6881e1dce83c18e797e46ccd803246177a58938ae0eb9ff037863438",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/radio-3.webp",
+        "sha256": "65917957bb09a8d7afdb02bb68c25c8000e922c119e9dbec4a4b4d5030534c32",
+        "bytes": 59946
+      }
+    },
+    {
+      "id": "ui/assistant/idle",
+      "group": "A3",
+      "name": "idle.png",
+      "url": "/assets/ui/assistant/idle.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/assistant/provenance.json",
+      "original": "art-source/2026-10-10/ui/assistant/idle.png",
+      "sha256": "2a747f117d6c8bf0c40ac5a4167e966dc35cbd9326d9341cdcf6ed179148cd95",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/assistant/idle.webp",
+        "sha256": "361764f74d899d802b915deb6e97ca13f238defbc38fc9e895ed60a9f3bb1084",
+        "bytes": 61636
+      }
+    },
+    {
+      "id": "ui/assistant/right",
+      "group": "A3",
+      "name": "right.png",
+      "url": "/assets/ui/assistant/right.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/assistant/provenance.json",
+      "original": "art-source/2026-10-10/ui/assistant/right.png",
+      "sha256": "b7a957ad130d228ceb0ea70071f4ac4eed6b0053f9587c11e28a643e0c11f3b8",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/assistant/right.webp",
+        "sha256": "543b010fa3942012a9c472f02930c3f7c1e3083d4df31ca9ecd9a13a22417593",
+        "bytes": 53976
+      }
+    },
+    {
+      "id": "ui/assistant/sure",
+      "group": "A3",
+      "name": "sure.png",
+      "url": "/assets/ui/assistant/sure.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/assistant/provenance.json",
+      "original": "art-source/2026-10-10/ui/assistant/sure.png",
+      "sha256": "409dd3170907920d0ce3250fa57eddcffa6b9fef7c30f45b76f5e09ced3cec87",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/assistant/sure.webp",
+        "sha256": "0c68b8c2dd05f5ec5d59727fc936ffb84bc37d719dd20e0300a93237411e3a04",
+        "bytes": 54146
+      }
+    },
+    {
+      "id": "ui/assistant/thinking",
+      "group": "A3",
+      "name": "thinking.png",
+      "url": "/assets/ui/assistant/thinking.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/assistant/provenance.json",
+      "original": "art-source/2026-10-10/ui/assistant/thinking.png",
+      "sha256": "2395fa28c453bc19ba7a64734e9b5014eb3d16e462055b98fb166bc1ebbd221c",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": false,
+      "webp": {
+        "url": "/assets/ui/assistant/thinking.webp",
+        "sha256": "049624569a5da48b1473d5dfaaaa2ed21321d95ac35a02a5ad176826ab37740c",
+        "bytes": 53438
+      },
+      "gameNote": "Not shown: the assistant computes instantly, and a 'thinking' face would fake a wait (per the A3 state contract)."
+    },
+    {
+      "id": "ui/assistant/unsure",
+      "group": "A3",
+      "name": "unsure.png",
+      "url": "/assets/ui/assistant/unsure.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/assistant/provenance.json",
+      "original": "art-source/2026-10-10/ui/assistant/unsure.png",
+      "sha256": "d033718a556b8fcb165704eb261b395c2388f512ba796e30b15a672eeef7e691",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/assistant/unsure.webp",
+        "sha256": "820a755499858c365b95436803ceb8bd97ae4d7c53be2b786386f986b0d6305e",
+        "bytes": 55700
+      }
+    },
+    {
+      "id": "ui/assistant/wrong",
+      "group": "A3",
+      "name": "wrong.png",
+      "url": "/assets/ui/assistant/wrong.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/assistant/provenance.json",
+      "original": "art-source/2026-10-10/ui/assistant/wrong.png",
+      "sha256": "7721fe24d99249c112560be81f257b9c837fbe7c7bf3737102159ca83978ba58",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/assistant/wrong.webp",
+        "sha256": "d0062595449a924edee857557303e88001958ca56fa1a9bd3f7304f16f662e13",
+        "bytes": 54486
+      }
+    },
+    {
+      "id": "specimens/cover-leaf",
+      "group": "A4",
+      "name": "cover-leaf.png",
+      "url": "/assets/specimens/cover-leaf.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "transparent": true,
+      "provenance": "/assets/specimens/provenance.json",
+      "original": "art-source/2026-10-10/specimens/cover-leaf.png",
+      "sha256": "6a346017498d9e3ea39d25c7bc48ffcc2ee8b0f390a2f6579cd3064f7abc1331",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/specimens/cover-leaf.webp",
+        "sha256": "1b01697d45c17ae868095afad225d6554e483c9eb665c1d947d824df49d96908",
+        "bytes": 208858
+      }
+    },
+    {
+      "id": "ui/wipe-cloth",
+      "group": "A5",
+      "name": "wipe-cloth.png",
+      "url": "/assets/ui/wipe-cloth.png",
+      "size": [
+        256,
+        192
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/provenance.json",
+      "original": "art-source/2026-10-10/ui/wipe-cloth.png",
+      "sha256": "d9483899df3c3266a7b9cc384d3b7b1c365f3afe81d05ee18f65bf1463d99cc5",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/wipe-cloth.webp",
+        "sha256": "69af73cf497a44edd3df519bb403a2097bc2362690793d5f7ac587078f0798ad",
+        "bytes": 15068
+      }
+    },
+    {
+      "id": "ui/child/checking",
+      "group": "A6",
+      "name": "checking.png",
+      "url": "/assets/ui/child/checking.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/child/provenance.json",
+      "original": "art-source/2026-10-10/ui/child/checking.png",
+      "sha256": "2ddc064ea13cade0581d9e6aba902315c659737cb13ef055214fcecb153eaaf0",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/child/checking.webp",
+        "sha256": "4b47f848edc8c0ba24d683fb7ec4912212bee358dcb713ff84f848e5ef169c74",
+        "bytes": 75050
+      }
+    },
+    {
+      "id": "ui/child/sure",
+      "group": "A6",
+      "name": "sure.png",
+      "url": "/assets/ui/child/sure.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/child/provenance.json",
+      "original": "art-source/2026-10-10/ui/child/sure.png",
+      "sha256": "396e01f9149a8dac05b0d3c2bc088502fa2b97eaacf540cb0cc32da3a38bbe27",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/child/sure.webp",
+        "sha256": "a772c036f4c172e9a3784efe502fa15fef5457c63e7088c256ad46c13a5d3dcb",
+        "bytes": 69004
+      }
+    },
+    {
+      "id": "ui/child/unsure",
+      "group": "A6",
+      "name": "unsure.png",
+      "url": "/assets/ui/child/unsure.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/child/provenance.json",
+      "original": "art-source/2026-10-10/ui/child/unsure.png",
+      "sha256": "dae74ed3e3e7834fe96dc0b70d48b813ad8f971ef22f1104f8a9162375ce83da",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/child/unsure.webp",
+        "sha256": "b7ad11445c87123018aa375a44618986a9fb46f60e4d0317f27c0a79af21b8b6",
+        "bytes": 72144
+      }
+    },
+    {
+      "id": "ui/icons/clue-note",
+      "group": "A7",
+      "name": "clue-note.png",
+      "url": "/assets/ui/icons/clue-note.png",
+      "size": [
+        256,
+        256
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/clue-note.png",
+      "sha256": "445835302ffa5b15ad50b7403f383811c0f4f241cb984947c6cf1e7dd587c6ca",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/clue-note.webp",
+        "sha256": "45a43c4cd370115c59bfba980aabcb30ece93b901c7e3207bf91293816f90431",
+        "bytes": 16806
+      }
+    },
+    {
+      "id": "ui/icons/clue-voice",
+      "group": "A7",
+      "name": "clue-voice.png",
+      "url": "/assets/ui/icons/clue-voice.png",
+      "size": [
+        256,
+        256
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/clue-voice.png",
+      "sha256": "98806df0ebe75c5b93ffbeb54c8846b82a7d508253c3665cb92de33a755985d5",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/clue-voice.webp",
+        "sha256": "029ad72c3b37ef6e28447890a3df013dd10b4e018ca4c4da523c5ec2e325fc76",
+        "bytes": 13002
+      }
+    },
+    {
+      "id": "ui/icons/sound-bell",
+      "group": "A7",
+      "name": "sound-bell.png",
+      "url": "/assets/ui/icons/sound-bell.png",
+      "size": [
+        256,
+        256
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/sound-bell.png",
+      "sha256": "76644b10604808f1f8b25274c337529c7e1f1dabe7ed78f63f49c51248843af0",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/sound-bell.webp",
+        "sha256": "573372afd8b0307ec5f44e198bcafc9e54e966cb3ae29c79d876da9c3294e158",
+        "bytes": 17264
+      }
+    },
+    {
+      "id": "ui/icons/sound-bird",
+      "group": "A7",
+      "name": "sound-bird.png",
+      "url": "/assets/ui/icons/sound-bird.png",
+      "size": [
+        256,
+        256
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/sound-bird.png",
+      "sha256": "7cb369f32581c32eac9dfcc4fa897d2dd9ec0d8e119e7ef8de4726b3a4d3ef43",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/sound-bird.webp",
+        "sha256": "52e052b7b1b796e17d6190da674d4da76986a503b1a8a5c22ca2890ed1c2da4b",
+        "bytes": 26862
+      }
+    },
+    {
+      "id": "ui/icons/sound-clock",
+      "group": "A7",
+      "name": "sound-clock.png",
+      "url": "/assets/ui/icons/sound-clock.png",
+      "size": [
+        256,
+        256
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/sound-clock.png",
+      "sha256": "f12f9c6fdf7a7f13622c54d20f30745cc01006f39ce508a21f09447bd5be9988",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/sound-clock.webp",
+        "sha256": "46555e9fa4cc4df63dfdbe25f4c92096509dfc70f846867bf6ff4fde013f763f",
+        "bytes": 23706
+      }
+    },
+    {
+      "id": "ui/icons/sound-water",
+      "group": "A7",
+      "name": "sound-water.png",
+      "url": "/assets/ui/icons/sound-water.png",
+      "size": [
+        256,
+        256
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/sound-water.png",
+      "sha256": "0fdc180612e23d6eba7c9e7624faf1a32963b19710247ddf468bd3a515e7c86c",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/sound-water.webp",
+        "sha256": "b5720e27b8248eb20d59c6317948e39785d6be1133f24d2b44f15a15138c06b1",
+        "bytes": 27356
+      }
+    },
+    {
+      "id": "ui/badges/leaf-1",
+      "group": "A8",
+      "name": "leaf-1.png",
+      "url": "/assets/ui/badges/leaf-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/badges/provenance.json",
+      "original": "art-source/2026-10-10/ui/badges/leaf-1.png",
+      "sha256": "2c5381b31587bd5019773d15601dd5b78a79db58616a76db5b6974454059c60c",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/badges/leaf-1.webp",
+        "sha256": "4842520fdacdc3f7417deaa7bc35a991747e5471d7c19dc70800d82e124a7bac",
+        "bytes": 66212
+      }
+    },
+    {
+      "id": "ui/badges/leaf-2",
+      "group": "A8",
+      "name": "leaf-2.png",
+      "url": "/assets/ui/badges/leaf-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/badges/provenance.json",
+      "original": "art-source/2026-10-10/ui/badges/leaf-2.png",
+      "sha256": "5d872886955503b9b07dffea2478c9b8504fcfba3262620db2eca4644f3453a6",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/badges/leaf-2.webp",
+        "sha256": "0d313036047dbeb57bd996cd4a2dfbaf2be4035f204508c87443b90429c990b4",
+        "bytes": 75056
+      }
+    },
+    {
+      "id": "ui/badges/leaf-3",
+      "group": "A8",
+      "name": "leaf-3.png",
+      "url": "/assets/ui/badges/leaf-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/badges/provenance.json",
+      "original": "art-source/2026-10-10/ui/badges/leaf-3.png",
+      "sha256": "b8ebc07ccbcee0bb6e16ee20d1e33ab1a737272c3f8c336e1b9a6870822e6671",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/badges/leaf-3.webp",
+        "sha256": "a0326a7212420a3cee399e3639906939fead8b0c17adf3552ee1b9777f94a5c6",
+        "bytes": 61072
+      }
+    },
+    {
+      "id": "ui/badges/leaf-4",
+      "group": "A8",
+      "name": "leaf-4.png",
+      "url": "/assets/ui/badges/leaf-4.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/badges/provenance.json",
+      "original": "art-source/2026-10-10/ui/badges/leaf-4.png",
+      "sha256": "6a0300e62c40fcd08bbb53305521334b9c73676b23f4681b6b897adfeb2e91ec",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/badges/leaf-4.webp",
+        "sha256": "8a7aca2b9fd0392c9d8abaea73a186d9f000cad4327b10af8d3dad6f45af2f7e",
+        "bytes": 80212
+      }
+    },
+    {
+      "id": "ui/badges/leaf-5",
+      "group": "A8",
+      "name": "leaf-5.png",
+      "url": "/assets/ui/badges/leaf-5.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/badges/provenance.json",
+      "original": "art-source/2026-10-10/ui/badges/leaf-5.png",
+      "sha256": "af2ff56d212a22903a5c24c70b2f9e6a3e03af60e1a941506b31cbed7fc2f800",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/badges/leaf-5.webp",
+        "sha256": "7a8c1b305e4c189d0169fde9306240f487de88f020d0d8e25ef4aa09b08eecab",
+        "bytes": 75004
+      }
+    },
+    {
+      "id": "ui/badges/leaf-all",
+      "group": "A8",
+      "name": "leaf-all.png",
+      "url": "/assets/ui/badges/leaf-all.png",
+      "size": [
+        512,
+        512
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/badges/provenance.json",
+      "original": "art-source/2026-10-10/ui/badges/leaf-all.png",
+      "sha256": "2f7ac371176233412857b9b74b36b643e90298f45fdec2a0278c29a97d1d83e7",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/badges/leaf-all.webp",
+        "sha256": "515acde3666baa1898fb3d5646a3dd5ba2adb0748f3379861d20a61f8eb88749",
+        "bytes": 85292
+      }
+    },
+    {
+      "id": "ui/title-art",
+      "group": "A9",
+      "name": "title-art.png",
+      "url": "/assets/ui/title-art.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "transparent": false,
+      "provenance": "/assets/ui/provenance.json",
+      "original": "art-source/2026-10-10/ui/title-art.png",
+      "sha256": "026eb5d5d1be1b81dff1e49c9c633017bc05390b22221f71ca4d41f13e6acbe8",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/title-art.webp",
+        "sha256": "cdb30d88adcbd4f5f812f7f221d9eeefeace797c5367e703a7aa286656905434",
+        "bytes": 512144
+      }
+    },
+    {
+      "id": "ui/glossary/01-input",
+      "group": "A10",
+      "name": "01-input.png",
+      "url": "/assets/ui/glossary/01-input.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/01-input.png",
+      "sha256": "76207fbc7e28048281947286bab54373221fff2fd953ab3c7b4ce011eb177070",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/01-input.webp",
+        "sha256": "f96b7a83d7d1a4a952f373f2da48c52f8fbab503fcf48a0ce2222d2473f7f6e2",
+        "bytes": 39620
+      }
+    },
+    {
+      "id": "ui/glossary/02-sound-recognition",
+      "group": "A10",
+      "name": "02-sound-recognition.png",
+      "url": "/assets/ui/glossary/02-sound-recognition.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/02-sound-recognition.png",
+      "sha256": "b328d9b18c78ded6b7f6f31e2935be882f9e09c8966ce9c1968e0dcbae87a2b5",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/02-sound-recognition.webp",
+        "sha256": "790dea3b825d37fc661642e25199f7c4ffd9cd60b0a32bc5224e400a43b57519",
+        "bytes": 34924
+      }
+    },
+    {
+      "id": "ui/glossary/03-keywords",
+      "group": "A10",
+      "name": "03-keywords.png",
+      "url": "/assets/ui/glossary/03-keywords.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/03-keywords.png",
+      "sha256": "01694f5596c918601185c20a6ccce585d651de2ce4dea0ca1ddc5a1b6272e53e",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/03-keywords.webp",
+        "sha256": "7719bae359931f3bd4c08b2f89e22ad6b24557da154e504ec37fdd71396e9e45",
+        "bytes": 37344
+      }
+    },
+    {
+      "id": "ui/glossary/04-video",
+      "group": "A10",
+      "name": "04-video.png",
+      "url": "/assets/ui/glossary/04-video.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/04-video.png",
+      "sha256": "2dfe4f3c02710328c2ae78c9cecb43a6f6c80de04ffa6c1b93c9ec93fbc44486",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/04-video.webp",
+        "sha256": "729e49bfb76eeb4a7e7000eb26beb5f5d25e4b2f88778f59c838b4a62477d336",
+        "bytes": 22160
+      }
+    },
+    {
+      "id": "ui/glossary/05-multimodal",
+      "group": "A10",
+      "name": "05-multimodal.png",
+      "url": "/assets/ui/glossary/05-multimodal.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/05-multimodal.png",
+      "sha256": "fc7ca708863fbc4401311cc04513be7600e9a05b262fc080062a9ff3e1e7b3fe",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/05-multimodal.webp",
+        "sha256": "22ca767a693db762d264b36a9b8ce36d68bb074cde8b691ca5d2544266ded9bf",
+        "bytes": 34420
+      }
+    },
+    {
+      "id": "ui/glossary/06-incomplete-information",
+      "group": "A10",
+      "name": "06-incomplete-information.png",
+      "url": "/assets/ui/glossary/06-incomplete-information.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/06-incomplete-information.png",
+      "sha256": "4ca916dc7fdd1a2858069f7b4eedc7c28537697361d5fc05eee92c22a2d7ed61",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/06-incomplete-information.webp",
+        "sha256": "2e34d6a259cd49c609cb56fc731daae814ed4ac00cf8733778ad0556e00c703c",
+        "bytes": 24546
+      }
+    },
+    {
+      "id": "ui/glossary/07-noise",
+      "group": "A10",
+      "name": "07-noise.png",
+      "url": "/assets/ui/glossary/07-noise.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/07-noise.png",
+      "sha256": "9010cbf5b83cbf6a7b970cb3bd47017ab0c3c29aeb410f9bd45e6ce47cb915ae",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/07-noise.webp",
+        "sha256": "af5e38241d3535bb9fbe17a4c9780a53e18ff7d6122b91e74a661fad6b086f95",
+        "bytes": 41662
+      }
+    },
+    {
+      "id": "ui/glossary/08-different-views",
+      "group": "A10",
+      "name": "08-different-views.png",
+      "url": "/assets/ui/glossary/08-different-views.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/08-different-views.png",
+      "sha256": "ff791ca75f732b2fffbb16bcceeb79c5b2db604516a7b08d5c09da93a79ca7cd",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/08-different-views.webp",
+        "sha256": "163000aa14d119f2017a96f61d5b35888dd3b13fd5c046e0ae50716fc5390abd",
+        "bytes": 30922
+      }
+    },
+    {
+      "id": "ui/glossary/09-controlled-variable",
+      "group": "A10",
+      "name": "09-controlled-variable.png",
+      "url": "/assets/ui/glossary/09-controlled-variable.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/09-controlled-variable.png",
+      "sha256": "10d979fad37efdd9ce5c01343ab294da23bcc564dc29ff1d012f216566d27c73",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/09-controlled-variable.webp",
+        "sha256": "02dbf08374faa6f0daf05f6d0c1c94c26001e5859ce2bec00f7236bdec84e68c",
+        "bytes": 24502
+      }
+    },
+    {
+      "id": "ui/glossary/10-ask-the-question",
+      "group": "A10",
+      "name": "10-ask-the-question.png",
+      "url": "/assets/ui/glossary/10-ask-the-question.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/10-ask-the-question-r2.png",
+      "sha256": "5c224b05ee9943b9a6d0fa846aa04b559e5aac889df456100b68442e1c59fab4",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/10-ask-the-question.webp",
+        "sha256": "926e560a93a40601adf16272e1d478e671b8bd3be869fca7ddcbd378602e04fc",
+        "bytes": 37658
+      }
+    },
+    {
+      "id": "ui/glossary/11-label",
+      "group": "A10",
+      "name": "11-label.png",
+      "url": "/assets/ui/glossary/11-label.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/11-label.png",
+      "sha256": "ec862cd601cb3d710d3b4aa00731635128d059574fe97e04568ddda823f6079f",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/11-label.webp",
+        "sha256": "b8c5ac395835663793623c2f9c4c6c761d04c70819c2ba282dd01cb9db53f52d",
+        "bytes": 28638
+      }
+    },
+    {
+      "id": "ui/glossary/12-classification",
+      "group": "A10",
+      "name": "12-classification.png",
+      "url": "/assets/ui/glossary/12-classification.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/12-classification.png",
+      "sha256": "c017a241414147a1e1c75a42a79ae59b6a05f44eeff5629b59ccc9464dc62328",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/12-classification.webp",
+        "sha256": "37c27f355d20c4948ac7032c4de27a07966ea091c098aa03d3f91b4accf72816",
+        "bytes": 28192
+      }
+    },
+    {
+      "id": "ui/glossary/13-attributes",
+      "group": "A10",
+      "name": "13-attributes.png",
+      "url": "/assets/ui/glossary/13-attributes.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/13-attributes.png",
+      "sha256": "634b0e9299694e80a6030e7c372f0d4c2d4acbea54147da1e9bced15c150cbe9",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/13-attributes.webp",
+        "sha256": "d548dd30d152c1e3170781b200f5c94bf8de55162d0333fbf13b1a97d5678921",
+        "bytes": 30852
+      }
+    },
+    {
+      "id": "ui/glossary/14-unknown",
+      "group": "A10",
+      "name": "14-unknown.png",
+      "url": "/assets/ui/glossary/14-unknown.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/14-unknown.png",
+      "sha256": "531c03647e3b3cc651de4273aa4c557711db0326d1e067b70b66c6bd56af9941",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/14-unknown.webp",
+        "sha256": "d8eaf1731f904429cee71aa8d38f355bb9b8f93d06d84fa705a54c5a24526f6b",
+        "bytes": 36640
+      }
+    },
+    {
+      "id": "ui/glossary/15-training-data",
+      "group": "A10",
+      "name": "15-training-data.png",
+      "url": "/assets/ui/glossary/15-training-data.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/15-training-data.png",
+      "sha256": "ef26b9ed9febae39db530a35df210af1b6cd5865c0553b971dfaf6a09e9f3ed6",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/15-training-data.webp",
+        "sha256": "a60c23bdea6b924e4e7837fb0f66cb86a91ffa516b1fdf1911a1ca2e17b55f0d",
+        "bytes": 34194
+      }
+    },
+    {
+      "id": "ui/glossary/16-record-vs-learning",
+      "group": "A10",
+      "name": "16-record-vs-learning.png",
+      "url": "/assets/ui/glossary/16-record-vs-learning.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/16-record-vs-learning.png",
+      "sha256": "e16e21eac2529ed57d6c3ae7feeda71075ccc37d689da73cb814b02d5274f67f",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/16-record-vs-learning.webp",
+        "sha256": "d72e1e6041ae7fefa22e2f5dca5c00a242930e53f4cea698e21c888a822e1842",
+        "bytes": 37776
+      }
+    },
+    {
+      "id": "ui/glossary/17-retraining",
+      "group": "A10",
+      "name": "17-retraining.png",
+      "url": "/assets/ui/glossary/17-retraining.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/17-retraining.png",
+      "sha256": "541433cf671c05324b82de789956eead0243f15c5ba8d0a28c626e04e7e3cce1",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/17-retraining.webp",
+        "sha256": "df89b49eb7c21cb5ba7b8b5b911561f01558fc9ce8b9e8c1b835e8ba61b0d03e",
+        "bytes": 34398
+      }
+    },
+    {
+      "id": "ui/glossary/18-data-diversity",
+      "group": "A10",
+      "name": "18-data-diversity.png",
+      "url": "/assets/ui/glossary/18-data-diversity.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/18-data-diversity.png",
+      "sha256": "421f38f9caf7ae59859376ecde735e0af4d4a73070739e9dc5cc835ed1861f4d",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/18-data-diversity.webp",
+        "sha256": "48556b35bb98a6e2e16a32ca077c9b985e7e243b06010247fb5f223425115f6e",
+        "bytes": 42794
+      }
+    },
+    {
+      "id": "ui/glossary/19-data-bias",
+      "group": "A10",
+      "name": "19-data-bias.png",
+      "url": "/assets/ui/glossary/19-data-bias.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/19-data-bias.png",
+      "sha256": "e702d801ae878e6046235d5c09fca32e895863f8c018cd91a677cb41a47110c2",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/19-data-bias.webp",
+        "sha256": "7d90608372ac3de1dd69ebaeea3867867fc6da34c19366d215a03cb123021abc",
+        "bytes": 33956
+      }
+    },
+    {
+      "id": "ui/glossary/20-test-data",
+      "group": "A10",
+      "name": "20-test-data.png",
+      "url": "/assets/ui/glossary/20-test-data.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/20-test-data-r2.png",
+      "sha256": "991510236cc35d2981bfa4965f8579771366c8f928622dd1e753bae70dba0f24",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/20-test-data.webp",
+        "sha256": "913221ef734e06a214fcc26a85e65a3502c3f9fd4da5e7f8bad219b7a7c37bf2",
+        "bytes": 40534
+      }
+    },
+    {
+      "id": "ui/glossary/21-evidence",
+      "group": "A10",
+      "name": "21-evidence.png",
+      "url": "/assets/ui/glossary/21-evidence.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/21-evidence.png",
+      "sha256": "c3ff6f76e31001fb1745533ff90e12cb13ad8c95a12edbd38b835ec5bf46a8cb",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/21-evidence.webp",
+        "sha256": "e915eda4e5a4c0c74756f2721d31e0e318d8fa70ed4b78cf28fcc4d312982ebb",
+        "bytes": 34046
+      }
+    },
+    {
+      "id": "ui/glossary/22-content-and-source",
+      "group": "A10",
+      "name": "22-content-and-source.png",
+      "url": "/assets/ui/glossary/22-content-and-source.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/22-content-and-source-r2.png",
+      "sha256": "bb9c5870fd641e0859f140e93549c88c123211e44a0967df32194b8424933885",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/22-content-and-source.webp",
+        "sha256": "aee069daddd5f27abcc0fa5edb775ba4237d620cf84b07521b649b6d2d25b7a4",
+        "bytes": 30042
+      }
+    },
+    {
+      "id": "ui/glossary/23-transfer",
+      "group": "A10",
+      "name": "23-transfer.png",
+      "url": "/assets/ui/glossary/23-transfer.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/23-transfer.png",
+      "sha256": "0a0cf4f3a267e3e406c5359b2f96faf05035b53096c541a22d29d10a7d2d534a",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/23-transfer.webp",
+        "sha256": "7313b179cf607ae106d94b967007ae2a7c4b2338d164c6972913014fb817ced8",
+        "bytes": 38024
+      }
+    },
+    {
+      "id": "ui/glossary/24-uncertainty",
+      "group": "A10",
+      "name": "24-uncertainty.png",
+      "url": "/assets/ui/glossary/24-uncertainty.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/24-uncertainty.png",
+      "sha256": "6a855448757bef32deb18c50750efa0a4faf80e1f49a96f5b2ef86e56c6d1d4e",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/24-uncertainty.webp",
+        "sha256": "1ab220377afdcb039ea57adbd405d4db77ecf69a2cd550639059e9e6d6624656",
+        "bytes": 34766
+      }
+    },
+    {
+      "id": "ui/glossary/25-human-check",
+      "group": "A10",
+      "name": "25-human-check.png",
+      "url": "/assets/ui/glossary/25-human-check.png",
+      "size": [
+        320,
+        320
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/glossary/provenance.json",
+      "original": "art-source/2026-10-10/ui/glossary/25-human-check.png",
+      "sha256": "077ad3d581e87b71d88b97271f6e13bff643029dce89d0d3ba9a0f0d0f798939",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/glossary/25-human-check.webp",
+        "sha256": "ff78253a20acdfd1eefc111573549161b23758a0751a1c12691eced52bb36235",
+        "bytes": 39804
+      }
+    },
+    {
+      "id": "ui/icons/station-archive",
+      "group": "A11",
+      "name": "station-archive.png",
+      "url": "/assets/ui/icons/station-archive.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-archive.png",
+      "sha256": "cc939541f33a35f7ab20feb75c693c2e2d423296f9e1abf9141119f3f9d3aa59",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-archive.webp",
+        "sha256": "f601a093fe4622e8b40c356608a5c92292fca7e490f58eaf2911cf05d01b9b5f",
+        "bytes": 10642
+      }
+    },
+    {
+      "id": "ui/icons/station-attributes",
+      "group": "A11",
+      "name": "station-attributes.png",
+      "url": "/assets/ui/icons/station-attributes.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-attributes.png",
+      "sha256": "b9e61a511876be1ef08d9784e71c4286274bce1a0dcfda84885e9233011d0883",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-attributes.webp",
+        "sha256": "37510ae1b5de911e33c66ad10369d9785499eab19f9ffea5780fe1ec1a54b75b",
+        "bytes": 9860
+      }
+    },
+    {
+      "id": "ui/icons/station-author",
+      "group": "A11",
+      "name": "station-author.png",
+      "url": "/assets/ui/icons/station-author.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-author.png",
+      "sha256": "6731dd366021d578161e8f588801118b7c710800ebad69b91ea2e8ca5e41a96e",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-author.webp",
+        "sha256": "faeb6f0614e4eecb2a6961659db8eacc244330a3a7186b4875d386c7190ec223",
+        "bytes": 12854
+      }
+    },
+    {
+      "id": "ui/icons/station-camera",
+      "group": "A11",
+      "name": "station-camera.png",
+      "url": "/assets/ui/icons/station-camera.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-camera.png",
+      "sha256": "232b84fc4d803300d7976a212126a4b5b528d068b12cd57a7ebf128299a83d08",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-camera.webp",
+        "sha256": "c7e4a882e43ae8c63457bf4fc8002506767af21572e5b1317e2b57b6d77390ce",
+        "bytes": 8286
+      }
+    },
+    {
+      "id": "ui/icons/station-delivery",
+      "group": "A11",
+      "name": "station-delivery.png",
+      "url": "/assets/ui/icons/station-delivery.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-delivery.png",
+      "sha256": "bbb5c47850d5e5088e3230995039e4569cb1ed89fe086fd23e9688437dff50d4",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-delivery.webp",
+        "sha256": "627ba3455197accb417c5d184308afc7de1d5bac72e1ad248fc5552c309f2e72",
+        "bytes": 9932
+      }
+    },
+    {
+      "id": "ui/icons/station-evaluation",
+      "group": "A11",
+      "name": "station-evaluation.png",
+      "url": "/assets/ui/icons/station-evaluation.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-evaluation.png",
+      "sha256": "64e6bbe7f77df150ac58a9354fb54052edcb3d0b3e3f2196bad4abd0009a9e8d",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-evaluation.webp",
+        "sha256": "16285149eb128b3ac9bd8caa7508a1c4731cd02321462950d1a670a520bbd280",
+        "bytes": 10398
+      }
+    },
+    {
+      "id": "ui/icons/station-fusion",
+      "group": "A11",
+      "name": "station-fusion.png",
+      "url": "/assets/ui/icons/station-fusion.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-fusion.png",
+      "sha256": "923d5737f935b007fee0e1f32fef6a9a77f54842a8ca4c64888e2823b2247aeb",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-fusion.webp",
+        "sha256": "81eeb8f6a273ae0887a513a36005ef5e2151c1e1ddc0818839598136e9b2d42f",
+        "bytes": 10512
+      }
+    },
+    {
+      "id": "ui/icons/station-learning",
+      "group": "A11",
+      "name": "station-learning.png",
+      "url": "/assets/ui/icons/station-learning.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-learning.png",
+      "sha256": "ebfcddd91b19e1593faba5b214e6be37990c320dad2458f22fe6b715a31995de",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-learning.webp",
+        "sha256": "1ac251fb1e81d321d68659afe7ec7cd0542455782b684e01241e545c757840d9",
+        "bytes": 10240
+      }
+    },
+    {
+      "id": "ui/icons/station-message",
+      "group": "A11",
+      "name": "station-message.png",
+      "url": "/assets/ui/icons/station-message.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-message.png",
+      "sha256": "b9708e536382a0f6c3972efd29c02ab4f239fe3b5171cd2cc0db80c552ea9347",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-message.webp",
+        "sha256": "cf07054e548adf7f3ae4ef4b172941811871b38edad6f814af0d7ede4176b38a",
+        "bytes": 8652
+      }
+    },
+    {
+      "id": "ui/icons/station-motion",
+      "group": "A11",
+      "name": "station-motion.png",
+      "url": "/assets/ui/icons/station-motion.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-motion.png",
+      "sha256": "11067577a0994f3358c5997c4efbc7288ce52f56c7d253c491738ed1fc13bef2",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-motion.webp",
+        "sha256": "09d4738e746a493ab09c762c654c3faddd3874b227ecf98693a4a9a5d5d158af",
+        "bytes": 10184
+      }
+    },
+    {
+      "id": "ui/icons/station-rain",
+      "group": "A11",
+      "name": "station-rain.png",
+      "url": "/assets/ui/icons/station-rain.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-rain.png",
+      "sha256": "700b56d7799d69a81bfabee5bccd17c307b3dd4eed9bec7469cb8a7b3432a5c5",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-rain.webp",
+        "sha256": "e74529cd5d51052e905eb399e89bce1045daa4304f55165a58537bd771faa10f",
+        "bytes": 9414
+      }
+    },
+    {
+      "id": "ui/icons/station-sorting",
+      "group": "A11",
+      "name": "station-sorting.png",
+      "url": "/assets/ui/icons/station-sorting.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-sorting.png",
+      "sha256": "b92634a529cdd9b0ec24284e26c6f97b42d67aeb46ae17b5c9521b54d7033d85",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-sorting.webp",
+        "sha256": "4e3cb80cf62ab56b52fb8488126dc1b880d8fcb4602a998b39849c0fce11200c",
+        "bytes": 10168
+      }
+    },
+    {
+      "id": "ui/icons/station-sound",
+      "group": "A11",
+      "name": "station-sound.png",
+      "url": "/assets/ui/icons/station-sound.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-sound.png",
+      "sha256": "6c09fad60479d59de776c3c7e72206eb03ab63f714643d7656392fb9197b3ec7",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-sound.webp",
+        "sha256": "9c5f25f485c7756c237cce4d2bb9bef46c7d2e7d4d7db204a9f2b4de959bb6f2",
+        "bytes": 9254
+      }
+    },
+    {
+      "id": "ui/icons/station-unknown",
+      "group": "A11",
+      "name": "station-unknown.png",
+      "url": "/assets/ui/icons/station-unknown.png",
+      "size": [
+        160,
+        160
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/icons/provenance.json",
+      "original": "art-source/2026-10-10/ui/icons/station-unknown.png",
+      "sha256": "dadfc09d037c88e7d095dcfb2bbec4224441367ed74fd312e3d7b2388b848b4f",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/icons/station-unknown.webp",
+        "sha256": "2c153f7fb10e2e2f8857279129a06e9248284c9e48cdce676c181b98c47af756",
+        "bytes": 7836
+      }
+    },
+    {
+      "id": "ui/sorting-crate-dark",
+      "group": "A12",
+      "name": "sorting-crate-dark.png",
+      "url": "/assets/ui/sorting-crate-dark.png",
+      "size": [
+        512,
+        384
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/provenance.json",
+      "original": "art-source/2026-10-10/ui/sorting-crate-dark.png",
+      "sha256": "4dd7866224f454a30f1a852a4fafee6c10c84d47d82757aaf52e587bdfea10f6",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/sorting-crate-dark.webp",
+        "sha256": "3f20649aa429b50214b5b0151875feb65d4c41d89261ca03ce52da1c069e0508",
+        "bytes": 55082
+      }
+    },
+    {
+      "id": "ui/sorting-crate-light",
+      "group": "A12",
+      "name": "sorting-crate-light.png",
+      "url": "/assets/ui/sorting-crate-light.png",
+      "size": [
+        512,
+        384
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/provenance.json",
+      "original": "art-source/2026-10-10/ui/sorting-crate-light.png",
+      "sha256": "faeb4d8826fd9427427535f095b14f811a5e55561c73c4299cb808eaf0bfacee",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/sorting-crate-light.webp",
+        "sha256": "642dc29c8809e684b028e59f8004af3e6cf0f59f65b095499000964d472eb671",
+        "bytes": 54704
+      }
+    },
+    {
+      "id": "ui/sorting-crate-white",
+      "group": "A12",
+      "name": "sorting-crate-white.png",
+      "url": "/assets/ui/sorting-crate-white.png",
+      "size": [
+        512,
+        384
+      ],
+      "transparent": true,
+      "provenance": "/assets/ui/provenance.json",
+      "original": "art-source/2026-10-10/ui/sorting-crate-white.png",
+      "sha256": "40ffc6e283f35fd46652370d3222a371b312c13f50474588b68264863adb6e10",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/ui/sorting-crate-white.webp",
+        "sha256": "fc6a82ed42c68ff910b279181ec656af9168b36f4a762fabb82cae0a4549b992",
+        "bytes": 56120
+      }
+    },
+    {
+      "id": "environment/marker-active",
+      "group": "A13",
+      "name": "marker-active.png",
+      "url": "/assets/environment/marker-active.png",
+      "size": [
+        128,
+        128
+      ],
+      "transparent": true,
+      "provenance": "/assets/environment/provenance.json",
+      "original": "art-source/2026-10-10/environment/marker-active.png",
+      "sha256": "4ad97b949c692825e6766c2411138aaee48a568efc3277cb7f1d91c93ffec415",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/environment/marker-active.webp",
+        "sha256": "d18051c21056276c2f0323e9031de1d0f0391ad03fbf668cb89f7065a03a451f",
+        "bytes": 6096
+      }
+    },
+    {
+      "id": "environment/marker-visited",
+      "group": "A13",
+      "name": "marker-visited.png",
+      "url": "/assets/environment/marker-visited.png",
+      "size": [
+        128,
+        128
+      ],
+      "transparent": true,
+      "provenance": "/assets/environment/provenance.json",
+      "original": "art-source/2026-10-10/environment/marker-visited.png",
+      "sha256": "32b2c5a4aed36b191622cec39ca4fc000646f7746d28d5bb107ee450646d455d",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "tileMode": "none",
+      "contactShadow": false,
+      "gameConnected": true,
+      "webp": {
+        "url": "/assets/environment/marker-visited.webp",
+        "sha256": "28b93b81d4d9722b370be9f8ca7eaedbbb4a99d8944d9fa8b539d659cea47a99",
+        "bytes": 6194
+      }
+    }
+  ],
+  "gameConnectedCount": 101,
+  "gameConnectedDate": "2026-10-10"
+}

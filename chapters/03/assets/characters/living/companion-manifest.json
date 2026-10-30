@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "createdAt": "2026-10-04",
+  "purpose": "保留既有小助手身份，将机壳、叶苗、耳翼与浮臂分开驱动",
+  "generator": "内置 image_gen.imagegen；transparent_background=true",
+  "runtimeAsset": "companion-parts.png",
+  "sha256": "b3b735ed4ac11c7e0f2279a3426cad1c2308a9e5e6ebbe2088c17c8059084f93",
+  "size": { "width": 1254, "height": 1254, "channels": "RGBA" },
+  "rectangleAndRendererSource": "src/render/hero/companion.ts",
+  "motionSource": "src/render/hero/companion-motion.ts",
+  "identityReference": {
+    "path": "public/assets/characters/assistant.png",
+    "sha256": "932a5aa5739e5d3f5f09b2948391ea7c3082b2fa9c259a5a8fe571e63f2d5dd3"
+  },
+  "generation": {
+    "output": "exec-ad945253-bc08-481f-a68b-44504261de05.png",
+    "prompt": "Use case: identity-preserve. Production separated parts atlas for this EXACT friendly storybook floating robot companion. Preserve its ivory rounded rectangular head shell, dark charcoal glass face screen, two bright cyan oval eyes and tiny cyan smile, golden circular ear pods, two fresh green sprout leaves, little ivory rounded floating body with cyan chest ring and turquoise bottom, and small round ivory arm pods. Same warm hand-painted watercolor/gouache texture and soft outlined children's-book style. True transparent alpha background. ONE coherent THREE columns by THREE rows atlas with generous clear gaps, exactly nine isolated parts, no assembled robots, no text, no grid, no scenery. All right-facing parts share the reference's same three-quarter view and one palette. ROW 1: (1) whole ivory head shell and complete dark face screen with OPEN blue eyes and smile, but NO leaf sprout, NO gold ears, NO body or arms; (2) exactly the SAME whole head, same size, silhouette, pose and intact dark face screen, but both cyan eyes gently CLOSED as clearly drawn curved eyelid arcs, smile unchanged; (3) the SAME whole head shell seen in direct FRONT view for a brief turn, eyes open and smile, no ears/sprout/body. ROW 2: (1) ONLY small ivory torso with its short dark neck connector and gold collar, cyan chest circle, turquoise bottom, no arms/head; (2) ONLY the two green leaves connected by one short curved green stem and tiny gold attachment socket as one complete sprout, preserve the reference's unequal two-leaf shapes and bright veins, no head; (3) ONLY one small ivory spherical side arm/hand pod with dark hinge ring, matching the reference. ROW 3: (1) ONLY the near-side circular yellow/gold ear pod with ivory center and small hidden hinge, same three-quarter view; (2) ONLY the far-side gold ear pod, narrower side-on profile with hidden hinge; (3) a tiny soft cyan hover-light halo / exhaust glow under the floating body, translucent and gentle watercolor light, not a hard flame, no mechanical object. No hollow cut ends, no black support rods. Keep every part sharp, clean and large within its own cell. The three head shells must be identical physical size with identical black mask size; blinking must NOT flatten, shrink, fade or remove the dark mask. Never add an extra full robot."
+  },
+  "integration": {
+    "units": "targetX、targetY为设计像素，dt、time为秒；facing为正负方向，velocityX为像素/秒",
+    "load": "加载 COMPANION_ASSETS 后调用 prepareCompanion(scene)，再调用 createCompanion(scene)",
+    "anchor": "root位于头壳中心；建议targetX=heroX-facing*85、targetY=heroFeetY-90",
+    "following": "模块只阻尼跟随传入目标，不写入核心角色位置或学习状态",
+    "blink": "睁眼与闭眼切换同尺寸完整头壳纹理，面罩不透明度始终为1，不缩放成线条",
+    "dispose": "场景清理时调用 dispose()"
+  }
+}

@@ -1,0 +1,641 @@
+{
+ "summary": {
+  "memory_high": 1.0,
+  "memory_mid": 1.0,
+  "memory_low": 0.0,
+  "after_wrong_but_wellformed": 31,
+  "after_total": 31,
+  "notes_copied": 1,
+  "pages_correct": 0.92,
+  "pages_n": 112,
+  "pages_conflict_newest": [
+   "花展广场就在荷花池北边。",
+   "花展广场就在荷花池北边。",
+   "植物园早上8点开门。",
+   "植物园早上8点开门。",
+   "植物园下午5点半关门。",
+   "植物园傍晚6点关门。",
+   "热带温室上午9点开门。",
+   "热带温室上午9点开门。",
+   "热带温室下午4点半关门。",
+   "热带温室下午4点半关门。",
+   "春季花展在4月18日（周六）举行。",
+   "春季花展在4月18日（周六）举行。",
+   "春季花展的举办地点是花展广场。",
+   "春季花展的举办地点是花展广场。",
+   "除了导盲犬，园里不能带宠物进来。",
+   "春季花展在4月18日（周六）举行。",
+   "春季花展在4月18日（周六）举行。",
+   "植物园下午5点半关门。",
+   "植物园傍晚6点关门。"
+  ],
+  "scenarios_ok": "5/5",
+  "not_found": 0.842,
+  "not_found_outside": 0.8,
+  "not_found_n": 19,
+  "gates": {
+   "高频事实 ≥ 90%": true,
+   "低频明显更差": true,
+   "封存后能编出像样的错答案": true,
+   "依资料作答 ≥ 90%": true,
+   "没找到 ≥ 80%": true
+  }
+ },
+ "training": {
+  "samples": 4200000,
+  "tokens": 328321934,
+  "steps": 100000,
+  "minutes": 73
+ },
+ "facts": {
+  "zone.kiosk": {
+   "tier": "high",
+   "reads": 23034,
+   "accuracy": 1.0,
+   "answer": "问讯亭就在东门广场。",
+   "conf": 1.0
+  },
+  "zone.rose": {
+   "tier": "high",
+   "reads": 23344,
+   "accuracy": 1.0,
+   "answer": "月季园就在东门广场北边。",
+   "conf": 1.0
+  },
+  "zone.ginkgo": {
+   "tier": "high",
+   "reads": 23229,
+   "accuracy": 1.0,
+   "answer": "银杏大道就在东门和荷花池之间。",
+   "conf": 1.0
+  },
+  "zone.lotus": {
+   "tier": "high",
+   "reads": 22897,
+   "accuracy": 1.0,
+   "answer": "荷花池在园子正中间。",
+   "conf": 0.764
+  },
+  "zone.orchid": {
+   "tier": "high",
+   "reads": 23033,
+   "accuracy": 1.0,
+   "answer": "兰花馆在荷花池西边。",
+   "conf": 1.0
+  },
+  "zone.bamboo": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "竹林小径在兰花馆后面。",
+   "conf": 1.0
+  },
+  "zone.glass": {
+   "tier": "high",
+   "reads": 23201,
+   "accuracy": 1.0,
+   "answer": "热带温室就在园子北边的玻璃圆顶里。",
+   "conf": 1.0
+  },
+  "zone.carnivore": {
+   "tier": "high",
+   "reads": 22962,
+   "accuracy": 1.0,
+   "answer": "食虫植物角在热带温室里靠近出口的地方。",
+   "conf": 0.907
+  },
+  "zone.desert": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "沙漠植物区就在热带温室东边的小玻璃房。",
+   "conf": 0.906
+  },
+  "zone.cherry": {
+   "tier": "high",
+   "reads": 23348,
+   "accuracy": 1.0,
+   "answer": "樱花坡在园子南边。",
+   "conf": 0.755
+  },
+  "zone.osmanthus": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "桂花林在樱花坡东边。",
+   "conf": 0.998
+  },
+  "zone.kids": {
+   "tier": "high",
+   "reads": 23145,
+   "accuracy": 1.0,
+   "answer": "儿童花园就在西门旁边。",
+   "conf": 1.0
+  },
+  "zone.tea": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "茶室就在荷花池南岸。",
+   "conf": 0.999
+  },
+  "zone.show": {
+   "tier": "high",
+   "reads": 22980,
+   "accuracy": 1.0,
+   "answer": "花展广场在荷花池北边。",
+   "conf": 1.0
+  },
+  "zone.toilet": {
+   "tier": "high",
+   "reads": 23220,
+   "accuracy": 1.0,
+   "answer": "洗手间就在东门广场、热带温室旁边和西门。",
+   "conf": 1.0
+  },
+  "time.open": {
+   "tier": "high",
+   "reads": 23530,
+   "accuracy": 1.0,
+   "answer": "植物园早上8点开门。",
+   "conf": 1.0
+  },
+  "time.close": {
+   "tier": "high",
+   "reads": 23242,
+   "accuracy": 1.0,
+   "answer": "植物园下午5点半关门。",
+   "conf": 1.0
+  },
+  "time.glass.open": {
+   "tier": "high",
+   "reads": 23207,
+   "accuracy": 1.0,
+   "answer": "热带温室上午9点开门。",
+   "conf": 1.0
+  },
+  "time.glass.close": {
+   "tier": "high",
+   "reads": 23191,
+   "accuracy": 1.0,
+   "answer": "热带温室下午4点半关门。",
+   "conf": 1.0
+  },
+  "price.adult": {
+   "tier": "high",
+   "reads": 23208,
+   "accuracy": 1.0,
+   "answer": "成人票每张20元。",
+   "conf": 1.0
+  },
+  "price.student": {
+   "tier": "high",
+   "reads": 23137,
+   "accuracy": 1.0,
+   "answer": "学生票每张10元。",
+   "conf": 1.0
+  },
+  "price.kid": {
+   "tier": "high",
+   "reads": 23114,
+   "accuracy": 1.0,
+   "answer": "身高1.2米以下的小朋友免费入园。",
+   "conf": 1.0
+  },
+  "tour.time": {
+   "tier": "high",
+   "reads": 23096,
+   "accuracy": 1.0,
+   "answer": "免费讲解的时间是每天上午10点和下午3点。",
+   "conf": 1.0
+  },
+  "tour.place": {
+   "tier": "high",
+   "reads": 23154,
+   "accuracy": 1.0,
+   "answer": "免费讲解的举办地点是问讯亭门口。",
+   "conf": 1.0
+  },
+  "show.date": {
+   "tier": "high",
+   "reads": 22973,
+   "accuracy": 1.0,
+   "answer": "春季花展在4月18日（周六）举行。",
+   "conf": 1.0
+  },
+  "show.place": {
+   "tier": "high",
+   "reads": 23099,
+   "accuracy": 1.0,
+   "answer": "春季花展的举办地点是花展广场。",
+   "conf": 1.0
+  },
+  "cherryfest.date": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "樱花节在3月28日（周六）举行。",
+   "conf": 0.998
+  },
+  "talk.time": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "食虫植物讲座的时间是每月第一个周日的下午2点。",
+   "conf": 0.995
+  },
+  "rule.pick": {
+   "tier": "high",
+   "reads": 31877,
+   "accuracy": 1.0,
+   "answer": "园里的花和果子都不能摘。",
+   "conf": 1.0
+  },
+  "rule.fish": {
+   "tier": "high",
+   "reads": 32080,
+   "accuracy": 1.0,
+   "answer": "请不要给荷花池里的锦鲤喂食。",
+   "conf": 1.0
+  },
+  "rule.pet": {
+   "tier": "high",
+   "reads": 31724,
+   "accuracy": 1.0,
+   "answer": "除了导盲犬，园里不能带宠物进来。",
+   "conf": 1.0
+  },
+  "rule.food": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "热带温室里不能吃东西。",
+   "conf": 1.0
+  },
+  "rule.chair": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "问讯亭可以免费借轮椅和婴儿车。",
+   "conf": 0.999
+  },
+  "rule.lost": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "丢了东西可以到问讯亭登记。",
+   "conf": 0.999
+  },
+  "rose.where": {
+   "tier": "high",
+   "reads": 23037,
+   "accuracy": 1.0,
+   "answer": "月季就在月季园里。",
+   "conf": 1.0
+  },
+  "rose.bloom": {
+   "tier": "high",
+   "reads": 22886,
+   "accuracy": 1.0,
+   "answer": "月季一般在5月到10月开花。",
+   "conf": 1.0
+  },
+  "rose.water": {
+   "tier": "high",
+   "reads": 23253,
+   "accuracy": 1.0,
+   "answer": "月季要等表面的土干了再浇透。",
+   "conf": 1.0
+  },
+  "rose.light": {
+   "tier": "high",
+   "reads": 23407,
+   "accuracy": 1.0,
+   "answer": "月季喜欢充足的阳光。",
+   "conf": 1.0
+  },
+  "rose.feature": {
+   "tier": "high",
+   "reads": 31776,
+   "accuracy": 1.0,
+   "answer": "月季一年能开好几次花，所以也叫“月月红”。",
+   "conf": 1.0
+  },
+  "ginkgo.where": {
+   "tier": "high",
+   "reads": 22864,
+   "accuracy": 1.0,
+   "answer": "银杏在银杏大道两边。",
+   "conf": 0.852
+  },
+  "ginkgo.leaf": {
+   "tier": "high",
+   "reads": 23382,
+   "accuracy": 1.0,
+   "answer": "银杏的叶子一般在10月到11月变黄。",
+   "conf": 1.0
+  },
+  "ginkgo.feature": {
+   "tier": "high",
+   "reads": 31707,
+   "accuracy": 1.0,
+   "answer": "银杏的叶子像一把小扇子，它是非常古老的树种，被叫作“活化石”。",
+   "conf": 1.0
+  },
+  "lotus.where": {
+   "tier": "high",
+   "reads": 23107,
+   "accuracy": 1.0,
+   "answer": "荷花就在荷花池里。",
+   "conf": 1.0
+  },
+  "lotus.bloom": {
+   "tier": "high",
+   "reads": 23022,
+   "accuracy": 1.0,
+   "answer": "荷花一般在6月到8月开花。",
+   "conf": 1.0
+  },
+  "lotus.feature": {
+   "tier": "high",
+   "reads": 31988,
+   "accuracy": 1.0,
+   "answer": "荷叶表面有许多细小的突起，水珠落上去会滚来滚去，不会把叶子弄湿。",
+   "conf": 1.0
+  },
+  "lily.where": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "睡莲在荷花池东边的浅水区。",
+   "conf": 0.998
+  },
+  "lily.bloom": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "睡莲一般在6月到9月开花。",
+   "conf": 0.998
+  },
+  "lily.feature": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "睡莲的花白天开放，傍晚会慢慢合上。",
+   "conf": 0.999
+  },
+  "orchid.where": {
+   "tier": "high",
+   "reads": 23175,
+   "accuracy": 1.0,
+   "answer": "兰花就在兰花馆里。",
+   "conf": 1.0
+  },
+  "orchid.bloom": {
+   "tier": "high",
+   "reads": 23143,
+   "accuracy": 1.0,
+   "answer": "春兰一般在2月到3月开花。",
+   "conf": 1.0
+  },
+  "orchid.water": {
+   "tier": "high",
+   "reads": 23379,
+   "accuracy": 1.0,
+   "answer": "兰花不能浇太多，盆土快干的时候再浇。",
+   "conf": 1.0
+  },
+  "orchid.light": {
+   "tier": "high",
+   "reads": 22746,
+   "accuracy": 1.0,
+   "answer": "兰花喜欢明亮的散射光，怕中午的太阳直晒。",
+   "conf": 1.0
+  },
+  "bamboo.where": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "竹子就在竹林小径两边。",
+   "conf": 0.997
+  },
+  "bamboo.feature": {
+   "tier": "high",
+   "reads": 32025,
+   "accuracy": 1.0,
+   "answer": "竹子和水稻、小麦一样都属于禾本科，春天会从地里冒出竹笋。",
+   "conf": 1.0
+  },
+  "nepenthes.where": {
+   "tier": "high",
+   "reads": 23038,
+   "accuracy": 1.0,
+   "answer": "猪笼草就在食虫植物角。",
+   "conf": 0.844
+  },
+  "nepenthes.feature": {
+   "tier": "high",
+   "reads": 31713,
+   "accuracy": 1.0,
+   "answer": "猪笼草的叶子末端长着一个小笼子，笼里的液体能把掉进去的小虫慢慢消化。",
+   "conf": 1.0
+  },
+  "nepenthes.light": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "猪笼草喜欢温暖潮湿，不能被太阳暴晒。",
+   "conf": 0.998
+  },
+  "flytrap.where": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "捕蝇草就在食虫植物角。",
+   "conf": 0.843
+  },
+  "flytrap.feature": {
+   "tier": "high",
+   "reads": 31887,
+   "accuracy": 1.0,
+   "answer": "捕蝇草的叶片像一个小夹子，小虫连续碰到里面的感觉毛两次，夹子就会合上。",
+   "conf": 1.0
+  },
+  "sundew.feature": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "茅膏菜的叶子上长满亮晶晶的黏液，小虫一碰就被粘住。",
+   "conf": 0.999
+  },
+  "cactus.where": {
+   "tier": "high",
+   "reads": 23117,
+   "accuracy": 1.0,
+   "answer": "仙人掌在沙漠植物区。",
+   "conf": 0.776
+  },
+  "cactus.water": {
+   "tier": "high",
+   "reads": 23443,
+   "accuracy": 1.0,
+   "answer": "仙人掌很耐旱，春天和夏天两三周浇一次水就够了。",
+   "conf": 1.0
+  },
+  "cactus.feature": {
+   "tier": "high",
+   "reads": 31611,
+   "accuracy": 1.0,
+   "answer": "仙人掌身上的刺其实是变了样子的叶子，能帮它减少水分蒸发。",
+   "conf": 1.0
+  },
+  "sunflower.bloom": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "向日葵一般在7月到9月开花。",
+   "conf": 0.999
+  },
+  "sunflower.feature": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "向日葵小时候，花盘会跟着太阳从东边转到西边。",
+   "conf": 0.998
+  },
+  "cherry.where": {
+   "tier": "high",
+   "reads": 22900,
+   "accuracy": 1.0,
+   "answer": "樱花就在樱花坡。",
+   "conf": 1.0
+  },
+  "cherry.bloom": {
+   "tier": "high",
+   "reads": 23023,
+   "accuracy": 1.0,
+   "answer": "樱花一般在3月底到4月初开花。",
+   "conf": 1.0
+  },
+  "osmanthus.where": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "桂花在桂花林。",
+   "conf": 0.997
+  },
+  "osmanthus.bloom": {
+   "tier": "high",
+   "reads": 22990,
+   "accuracy": 1.0,
+   "answer": "桂花一般在9月到10月开花。",
+   "conf": 1.0
+  },
+  "osmanthus.feature": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "桂花的花朵很小，香味却能飘得很远。",
+   "conf": 0.998
+  },
+  "plum.bloom": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "梅花一般在1月到3月开花。",
+   "conf": 1.0
+  },
+  "plum.feature": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "梅花不怕冷，常在冬天快结束的时候开放。",
+   "conf": 0.999
+  },
+  "chrysanthemum.bloom": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "菊花一般在10月到11月开花。",
+   "conf": 0.988
+  },
+  "tulip.bloom": {
+   "tier": "high",
+   "reads": 23102,
+   "accuracy": 1.0,
+   "answer": "郁金香一般在3月到5月开花。",
+   "conf": 1.0
+  },
+  "tulip.where": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "郁金香就在花展广场旁边的花坛。",
+   "conf": 0.998
+  },
+  "tulip.feature": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "郁金香是从埋在土里的球根里长出来的。",
+   "conf": 0.999
+  },
+  "mimosa.where": {
+   "tier": "mid",
+   "reads": 300,
+   "accuracy": 1.0,
+   "answer": "含羞草在儿童花园。",
+   "conf": 0.997
+  },
+  "mimosa.feature": {
+   "tier": "high",
+   "reads": 31596,
+   "accuracy": 1.0,
+   "answer": "含羞草的叶子被碰一下就会合起来，过一会儿又会慢慢张开。",
+   "conf": 1.0
+  },
+  "trivia.metasequoia": {
+   "tier": "low",
+   "reads": 10,
+   "accuracy": 0.0,
+   "answer": "水杉的叶子边上有透明的小水珠，阳光下会发亮。",
+   "conf": null
+  },
+  "trivia.oldorchid": {
+   "tier": "low",
+   "reads": 10,
+   "accuracy": 0.0,
+   "answer": "兰花馆最老的春兰已经98岁了。",
+   "conf": null
+  },
+  "trivia.koi": {
+   "tier": "low",
+   "reads": 10,
+   "accuracy": 0.0,
+   "answer": "荷花池里住着10条锦鲤。",
+   "conf": null
+  },
+  "trivia.cake": {
+   "tier": "low",
+   "reads": 10,
+   "accuracy": 0.0,
+   "answer": "茶室的招牌点心是花茶。",
+   "conf": null
+  },
+  "trivia.founded": {
+   "tier": "low",
+   "reads": 10,
+   "accuracy": 0.0,
+   "answer": "植物园建于1973年。",
+   "conf": null
+  },
+  "trivia.dome": {
+   "tier": "low",
+   "reads": 10,
+   "accuracy": 0.0,
+   "answer": "热带温室的圆顶有90米高。",
+   "conf": null
+  }
+ },
+ "modelSha": "6878a0479b83cd53736b2f4ef3ae255de5b1d254e6db0c970d63804b7667155d"
+}

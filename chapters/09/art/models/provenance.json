@@ -1,0 +1,18 @@
+{
+  "tool": "Blender 5.2.3",
+  "source": "tools/build-conservatory-props.py",
+  "assets": [
+    "watering-can",
+    "desk-bell",
+    "hanging-basket",
+    "pendant-lamp",
+    "garden-stool",
+    "books-stack",
+    "specimen-tray",
+    "writing-set",
+    "seed-crate",
+    "ceramic-planter",
+    "botanical-press"
+  ],
+  "technique": "Original beveled meshes, metre UVs, hemispherical vertex-contact bake; runtime PBR material assignment."
+}

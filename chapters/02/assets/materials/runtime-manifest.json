@@ -1,0 +1,150 @@
+{
+  "sourceManifest": "provenance.json",
+  "changes": "Lanczos3 resize from verified originals; color WebP quality 92, normal and roughness lossless WebP. Original CC0 authors and source URLs remain in provenance.json.",
+  "generated": [
+    {
+      "file": "1024/floor-color.webp",
+      "sourceFile": "floor-color.jpg",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 123632,
+      "sha256": "faa7d7059effcb04301ff55ba554488f102addef43ecec3fc6b6476907de1fec"
+    },
+    {
+      "file": "1024/floor-normal.webp",
+      "sourceFile": "floor-normal.jpg",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 546778,
+      "sha256": "f0f65cc6187d29951e5f7f9a0f339f59bfbc4f1ad614a1806d240a4d4bb63961"
+    },
+    {
+      "file": "1024/floor-roughness.webp",
+      "sourceFile": "floor-roughness.jpg",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 173092,
+      "sha256": "c9c51718a56ef54b03ace56e96f3a27ffc7cf0a3fa3f4da0ac7edf4b211ae427"
+    },
+    {
+      "file": "1024/wood-color.webp",
+      "sourceFile": "wood-color.jpg",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 135426,
+      "sha256": "0ad2cc18902a583921a1651b99a74f5d2cd9a46fcd1c6496aeaeba8de2aed920"
+    },
+    {
+      "file": "1024/wood-normal.webp",
+      "sourceFile": "wood-normal.jpg",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 853872,
+      "sha256": "3a8f1d73fc2990c421a4196177e0a451b2b38f50e1d0ae16a9e5b9c50fd6bb68"
+    },
+    {
+      "file": "1024/wood-roughness.webp",
+      "sourceFile": "wood-roughness.jpg",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 366134,
+      "sha256": "1230a7a5f1dd0cd1aba7cdbd9a50769f2e6fa4a6dcdf623127beeaa5977fcbc3"
+    },
+    {
+      "file": "1024/stone-color.webp",
+      "sourceFile": "stone-color.jpg",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 12696,
+      "sha256": "48721c4bb61b9c4353e8a6a5788a0f00fedd0e4b2d6dc1c9fcad03bbb826f7fc"
+    },
+    {
+      "file": "1024/stone-normal.webp",
+      "sourceFile": "stone-normal.jpg",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 1638598,
+      "sha256": "a5d5902d83b7b8276a985cb95efc23a1308129eaf7cc38904abf41167b2c80e7"
+    },
+    {
+      "file": "1024/stone-roughness.webp",
+      "sourceFile": "stone-roughness.jpg",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 530594,
+      "sha256": "2945046fc8785813eb03b598b403d6cc881f48e69b368d27a7dbb71bae7d1ea6"
+    },
+    {
+      "file": "2048/floor-color.webp",
+      "sourceFile": "floor-color.jpg",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 567560,
+      "sha256": "fd23555a1883da9e8415d8692d3fceb8cf8d555d8c0bdb6e37c4ba06aaaf8729"
+    },
+    {
+      "file": "2048/floor-normal.webp",
+      "sourceFile": "floor-normal.jpg",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 1515500,
+      "sha256": "65d6f2e287575ec942306ff4ecf65a783fccd3739121cd67f1fafd85b86ad5d1"
+    },
+    {
+      "file": "2048/floor-roughness.webp",
+      "sourceFile": "floor-roughness.jpg",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 592380,
+      "sha256": "da0a0a6e53a9c1a9760c4c0dcae7ddcf97357bedf186238f98de97636c65b910"
+    },
+    {
+      "file": "2048/wood-color.webp",
+      "sourceFile": "wood-color.jpg",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 521670,
+      "sha256": "55b24f0e6f7e3ef9ce5f06a992c885bdfd6c96fe45e9afc8ad78c6009af22ff9"
+    },
+    {
+      "file": "2048/wood-normal.webp",
+      "sourceFile": "wood-normal.jpg",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 3691474,
+      "sha256": "c421a70c4c5df63ab72c503f760938b0860185fc895bd71130060674258c8e2c"
+    },
+    {
+      "file": "2048/wood-roughness.webp",
+      "sourceFile": "wood-roughness.jpg",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 1485070,
+      "sha256": "5be315e47788d9ba2d4f12b073e48a60cd6d4eaa81852b8de2b93b919c0fa6a5"
+    },
+    {
+      "file": "2048/stone-color.webp",
+      "sourceFile": "stone-color.jpg",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 157562,
+      "sha256": "cd7f3495cb7d21679c84d51cbdfc504b1c3d953aed5012be1be333db0017c9c7"
+    },
+    {
+      "file": "2048/stone-normal.webp",
+      "sourceFile": "stone-normal.jpg",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 7110824,
+      "sha256": "f2f6170583fd9896deeadbefa3d1c7af87b98e1bbc66a1230eaf5e1ff0cff98b"
+    },
+    {
+      "file": "2048/stone-roughness.webp",
+      "sourceFile": "stone-roughness.jpg",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 2161348,
+      "sha256": "80c8acf3d692585d381900d8dfaa68aae7e40f326ea8d4616150b5b508a03e8d"
+    }
+  ]
+}

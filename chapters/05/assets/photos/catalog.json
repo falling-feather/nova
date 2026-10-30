@@ -1,0 +1,5937 @@
+{
+  "schema": 1,
+  "columns": 6,
+  "rows": 4,
+  "photoCount": 270,
+  "source": "AI-generated teaching photography; independent atlas cells",
+  "standards": {
+    "green": "绿色像素至少占35%",
+    "quality": "清晰度至少22%，明暗失衡不超过55%；这是本次教学展览的标准，不代表全部摄影审美"
+  },
+  "photos": [
+    {
+      "id": "t001",
+      "name": "晨露绿叶",
+      "atlas": "atlas-01.png",
+      "cell": 0,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t002",
+      "name": "苔石",
+      "atlas": "atlas-01.png",
+      "cell": 1,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t003",
+      "name": "红山茶",
+      "atlas": "atlas-01.png",
+      "cell": 2,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t004",
+      "name": "小草",
+      "atlas": "atlas-01.png",
+      "cell": 3,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t005",
+      "name": "林荫",
+      "atlas": "atlas-01.png",
+      "cell": 4,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t006",
+      "name": "青柠",
+      "atlas": "atlas-01.png",
+      "cell": 5,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.4,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t007",
+      "name": "粉月季",
+      "atlas": "atlas-01.png",
+      "cell": 6,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t008",
+      "name": "黄石",
+      "atlas": "atlas-01.png",
+      "cell": 7,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t009",
+      "name": "溪水",
+      "atlas": "atlas-01.png",
+      "cell": 8,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t010",
+      "name": "木桌",
+      "atlas": "atlas-01.png",
+      "cell": 9,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t011",
+      "name": "白雏菊",
+      "atlas": "atlas-01.png",
+      "cell": 10,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t012",
+      "name": "蓝瓶",
+      "atlas": "atlas-01.png",
+      "cell": 11,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t013",
+      "name": "翠竹",
+      "atlas": "atlas-01.png",
+      "cell": 12,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t014",
+      "name": "黄菊",
+      "atlas": "atlas-01.png",
+      "cell": 13,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t015",
+      "name": "松枝",
+      "atlas": "atlas-01.png",
+      "cell": 14,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t016",
+      "name": "蓝天",
+      "atlas": "atlas-01.png",
+      "cell": 15,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t017",
+      "name": "紫鸢尾",
+      "atlas": "atlas-01.png",
+      "cell": 16,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t018",
+      "name": "红苹果",
+      "atlas": "atlas-01.png",
+      "cell": 17,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.45,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t019",
+      "name": "白杯",
+      "atlas": "atlas-01.png",
+      "cell": 18,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.36,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t020",
+      "name": "鹅卵石",
+      "atlas": "atlas-01.png",
+      "cell": 19,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t021",
+      "name": "花叶之间",
+      "atlas": "atlas-01.png",
+      "cell": 20,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t022",
+      "name": "红气球",
+      "atlas": "atlas-01.png",
+      "cell": 21,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.48,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t023",
+      "name": "棕木门",
+      "atlas": "atlas-01.png",
+      "cell": 22,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t024",
+      "name": "绿蕨",
+      "atlas": "atlas-01.png",
+      "cell": 23,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t025",
+      "name": "逆光花",
+      "atlas": "atlas-02.png",
+      "cell": 0,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t026",
+      "name": "暗叶",
+      "atlas": "atlas-02.png",
+      "cell": 1,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t027",
+      "name": "白花",
+      "atlas": "atlas-02.png",
+      "cell": 2,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t028",
+      "name": "石头",
+      "atlas": "atlas-02.png",
+      "cell": 3,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t029",
+      "name": "朦胧粉花",
+      "atlas": "atlas-02.png",
+      "cell": 4,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t030",
+      "name": "模糊草地",
+      "atlas": "atlas-02.png",
+      "cell": 5,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t031",
+      "name": "暗红花",
+      "atlas": "atlas-02.png",
+      "cell": 6,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t032",
+      "name": "明亮绿叶",
+      "atlas": "atlas-02.png",
+      "cell": 7,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t033",
+      "name": "过亮的杯子",
+      "atlas": "atlas-02.png",
+      "cell": 8,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.3,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t034",
+      "name": "灰猫",
+      "atlas": "atlas-02.png",
+      "cell": 9,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t035",
+      "name": "蓝底红花",
+      "atlas": "atlas-02.png",
+      "cell": 10,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t036",
+      "name": "白云",
+      "atlas": "atlas-02.png",
+      "cell": 11,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.18,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t037",
+      "name": "黄花",
+      "atlas": "atlas-02.png",
+      "cell": 12,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        6.375,
+        518.375,
+        243.25,
+        242.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t038",
+      "name": "暗树干",
+      "atlas": "atlas-02.png",
+      "cell": 13,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        262.375,
+        518.375,
+        243.25,
+        242.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t039",
+      "name": "糊掉的苹果",
+      "atlas": "atlas-02.png",
+      "cell": 14,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.4,
+      "submittedFlip": [],
+      "rect": [
+        518.375,
+        518.375,
+        243.25,
+        242.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t040",
+      "name": "糊掉的白花",
+      "atlas": "atlas-02.png",
+      "cell": 15,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        774.375,
+        518.375,
+        243.25,
+        242.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t041",
+      "name": "午后绿叶",
+      "atlas": "atlas-02.png",
+      "cell": 16,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1030.375,
+        518.375,
+        243.25,
+        242.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t042",
+      "name": "过亮的粉花",
+      "atlas": "atlas-02.png",
+      "cell": 17,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1286.375,
+        518.375,
+        243.25,
+        242.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t043",
+      "name": "木纹",
+      "atlas": "atlas-02.png",
+      "cell": 18,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        773.4,
+        243.2,
+        244.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t044",
+      "name": "朦胧溪流",
+      "atlas": "atlas-02.png",
+      "cell": 19,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        773.4,
+        243.2,
+        244.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t045",
+      "name": "日光下的紫花",
+      "atlas": "atlas-02.png",
+      "cell": 20,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        773.4,
+        243.2,
+        244.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t046",
+      "name": "白墙影子",
+      "atlas": "atlas-02.png",
+      "cell": 21,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        773.4,
+        243.2,
+        244.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t047",
+      "name": "绿苔特写",
+      "atlas": "atlas-02.png",
+      "cell": 22,
+      "role": "train",
+      "batch": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        773.4,
+        243.2,
+        244.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t048",
+      "name": "暗黄色花",
+      "atlas": "atlas-02.png",
+      "cell": 23,
+      "role": "train",
+      "batch": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        773.4,
+        243.2,
+        244.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t049",
+      "name": "红玫瑰",
+      "atlas": "atlas-03.png",
+      "cell": 0,
+      "role": "train",
+      "batch": 2,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t061",
+      "name": "叶脉",
+      "atlas": "atlas-03.png",
+      "cell": 12,
+      "role": "train",
+      "batch": 2,
+      "flower": false,
+      "shape": 0.23,
+      "submittedFlip": [],
+      "rect": [
+        6.375,
+        518.375,
+        243.25,
+        242.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t050",
+      "name": "粉芍药",
+      "atlas": "atlas-03.png",
+      "cell": 1,
+      "role": "train",
+      "batch": 2,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t062",
+      "name": "青草坡",
+      "atlas": "atlas-03.png",
+      "cell": 13,
+      "role": "train",
+      "batch": 2,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        262.375,
+        518.375,
+        243.25,
+        242.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t051",
+      "name": "红罂粟",
+      "atlas": "atlas-03.png",
+      "cell": 2,
+      "role": "train",
+      "batch": 2,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t063",
+      "name": "嫩芽",
+      "atlas": "atlas-03.png",
+      "cell": 14,
+      "role": "train",
+      "batch": 2,
+      "flower": false,
+      "shape": 0.21,
+      "submittedFlip": [],
+      "rect": [
+        518.375,
+        518.375,
+        243.25,
+        242.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t052",
+      "name": "粉杜鹃",
+      "atlas": "atlas-03.png",
+      "cell": 3,
+      "role": "train",
+      "batch": 2,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t064",
+      "name": "常青藤",
+      "atlas": "atlas-03.png",
+      "cell": 15,
+      "role": "train",
+      "batch": 2,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774.375,
+        518.375,
+        243.25,
+        242.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t053",
+      "name": "红大丽花",
+      "atlas": "atlas-03.png",
+      "cell": 4,
+      "role": "train",
+      "batch": 2,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t065",
+      "name": "银杏叶",
+      "atlas": "atlas-03.png",
+      "cell": 16,
+      "role": "train",
+      "batch": 2,
+      "flower": false,
+      "shape": 0.3,
+      "submittedFlip": [],
+      "rect": [
+        1030.375,
+        518.375,
+        243.25,
+        242.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t054",
+      "name": "粉茶花",
+      "atlas": "atlas-03.png",
+      "cell": 5,
+      "role": "train",
+      "batch": 2,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t066",
+      "name": "荷叶",
+      "atlas": "atlas-03.png",
+      "cell": 17,
+      "role": "train",
+      "batch": 2,
+      "flower": false,
+      "shape": 0.3,
+      "submittedFlip": [],
+      "rect": [
+        1286.375,
+        518.375,
+        243.25,
+        242.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t055",
+      "name": "红郁金香",
+      "atlas": "atlas-03.png",
+      "cell": 6,
+      "role": "train",
+      "batch": 2,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t067",
+      "name": "针叶",
+      "atlas": "atlas-03.png",
+      "cell": 18,
+      "role": "train",
+      "batch": 2,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        773.4,
+        243.2,
+        244.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t056",
+      "name": "粉康乃馨",
+      "atlas": "atlas-03.png",
+      "cell": 7,
+      "role": "train",
+      "batch": 2,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t068",
+      "name": "森林地面",
+      "atlas": "atlas-03.png",
+      "cell": 19,
+      "role": "train",
+      "batch": 2,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        773.4,
+        243.2,
+        244.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t057",
+      "name": "红牡丹",
+      "atlas": "atlas-03.png",
+      "cell": 8,
+      "role": "train",
+      "batch": 2,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t069",
+      "name": "叶缘",
+      "atlas": "atlas-03.png",
+      "cell": 20,
+      "role": "train",
+      "batch": 2,
+      "flower": false,
+      "shape": 0.27,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        773.4,
+        243.2,
+        244.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t058",
+      "name": "粉蔷薇",
+      "atlas": "atlas-03.png",
+      "cell": 9,
+      "role": "train",
+      "batch": 2,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t070",
+      "name": "草丛",
+      "atlas": "atlas-03.png",
+      "cell": 21,
+      "role": "train",
+      "batch": 2,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        773.4,
+        243.2,
+        244.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t059",
+      "name": "红扶桑",
+      "atlas": "atlas-03.png",
+      "cell": 10,
+      "role": "train",
+      "batch": 2,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t071",
+      "name": "空花盆",
+      "atlas": "atlas-03.png",
+      "cell": 22,
+      "role": "train",
+      "batch": 2,
+      "flower": false,
+      "shape": 0.22,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        773.4,
+        243.2,
+        244.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t060",
+      "name": "粉百日菊",
+      "atlas": "atlas-03.png",
+      "cell": 11,
+      "role": "train",
+      "batch": 2,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t072",
+      "name": "树皮",
+      "atlas": "atlas-03.png",
+      "cell": 23,
+      "role": "train",
+      "batch": 2,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        773.4,
+        243.2,
+        244.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t073",
+      "name": "白百合",
+      "atlas": "atlas-04.png",
+      "cell": 0,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.91,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t074",
+      "name": "黄向日葵",
+      "atlas": "atlas-04.png",
+      "cell": 1,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.93,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t075",
+      "name": "紫风铃",
+      "atlas": "atlas-04.png",
+      "cell": 2,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.88,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t076",
+      "name": "白玉兰",
+      "atlas": "atlas-04.png",
+      "cell": 3,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.92,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t077",
+      "name": "黄小花",
+      "atlas": "atlas-04.png",
+      "cell": 4,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t078",
+      "name": "紫薰衣草",
+      "atlas": "atlas-04.png",
+      "cell": 5,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.78,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t079",
+      "name": "白绣球",
+      "atlas": "atlas-04.png",
+      "cell": 6,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.9,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t080",
+      "name": "绿菊",
+      "atlas": "atlas-04.png",
+      "cell": 7,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.95,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t081",
+      "name": "白樱花",
+      "atlas": "atlas-04.png",
+      "cell": 8,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t082",
+      "name": "黄郁金香",
+      "atlas": "atlas-04.png",
+      "cell": 9,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t083",
+      "name": "紫铁线莲",
+      "atlas": "atlas-04.png",
+      "cell": 10,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t084",
+      "name": "白铃兰",
+      "atlas": "atlas-04.png",
+      "cell": 11,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.88,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t085",
+      "name": "红苹果",
+      "atlas": "atlas-04.png",
+      "cell": 12,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.45,
+      "submittedFlip": [],
+      "rect": [
+        5.6000000000000005,
+        517.6,
+        244.8,
+        212.8
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t086",
+      "name": "红色气球",
+      "atlas": "atlas-04.png",
+      "cell": 13,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.5,
+      "submittedFlip": [],
+      "rect": [
+        261.6,
+        517.6,
+        244.8,
+        212.8
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t087",
+      "name": "白瓷杯",
+      "atlas": "atlas-04.png",
+      "cell": 14,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.4,
+      "submittedFlip": [],
+      "rect": [
+        517.6,
+        517.6,
+        244.8,
+        212.8
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t088",
+      "name": "云边",
+      "atlas": "atlas-04.png",
+      "cell": 15,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.3,
+      "submittedFlip": [],
+      "rect": [
+        773.6,
+        517.6,
+        244.8,
+        212.8
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t089",
+      "name": "红樱桃",
+      "atlas": "atlas-04.png",
+      "cell": 16,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.5,
+      "submittedFlip": [],
+      "rect": [
+        1029.6,
+        517.6,
+        244.8,
+        212.8
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t090",
+      "name": "红番茄",
+      "atlas": "atlas-04.png",
+      "cell": 17,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.46,
+      "submittedFlip": [],
+      "rect": [
+        1285.6,
+        517.6,
+        244.8,
+        212.8
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t091",
+      "name": "白石",
+      "atlas": "atlas-04.png",
+      "cell": 18,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.37,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        742.4,
+        243.2,
+        275.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t092",
+      "name": "粉色毛线",
+      "atlas": "atlas-04.png",
+      "cell": 19,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.46,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        742.4,
+        243.2,
+        275.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t093",
+      "name": "绿玻璃瓶",
+      "atlas": "atlas-04.png",
+      "cell": 20,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.22,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        742.4,
+        243.2,
+        275.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t094",
+      "name": "圆盘",
+      "atlas": "atlas-04.png",
+      "cell": 21,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.55,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        742.4,
+        243.2,
+        275.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t095",
+      "name": "暗处白花",
+      "atlas": "atlas-04.png",
+      "cell": 22,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        742.4,
+        243.2,
+        275.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t096",
+      "name": "粉花",
+      "atlas": "atlas-04.png",
+      "cell": 23,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        742.4,
+        243.2,
+        275.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t097",
+      "name": "白花与新芽",
+      "atlas": "atlas-05.png",
+      "cell": 0,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t098",
+      "name": "红苹果",
+      "atlas": "atlas-05.png",
+      "cell": 1,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.45,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t099",
+      "name": "绿枝",
+      "atlas": "atlas-05.png",
+      "cell": 2,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t100",
+      "name": "黄花",
+      "atlas": "atlas-05.png",
+      "cell": 3,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t101",
+      "name": "失焦绿叶",
+      "atlas": "atlas-05.png",
+      "cell": 4,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t102",
+      "name": "粉花",
+      "atlas": "atlas-05.png",
+      "cell": 5,
+      "role": "train",
+      "batch": 3,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t103",
+      "name": "暗处的杯子",
+      "atlas": "atlas-05.png",
+      "cell": 6,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.28,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t104",
+      "name": "过亮的墙",
+      "atlas": "atlas-05.png",
+      "cell": 7,
+      "role": "train",
+      "batch": 3,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t105",
+      "name": "白色野花",
+      "atlas": "atlas-05.png",
+      "cell": 8,
+      "role": "train",
+      "batch": 4,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [
+        "flower"
+      ],
+      "rect": [
+        518.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t106",
+      "name": "白云",
+      "atlas": "atlas-05.png",
+      "cell": 9,
+      "role": "train",
+      "batch": 4,
+      "flower": false,
+      "shape": 0.25,
+      "submittedFlip": [
+        "green"
+      ],
+      "rect": [
+        774.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t107",
+      "name": "红气球",
+      "atlas": "atlas-05.png",
+      "cell": 10,
+      "role": "train",
+      "batch": 4,
+      "flower": false,
+      "shape": 0.45,
+      "submittedFlip": [
+        "quality"
+      ],
+      "rect": [
+        1030.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t108",
+      "name": "绿花",
+      "atlas": "atlas-05.png",
+      "cell": 11,
+      "role": "train",
+      "batch": 4,
+      "flower": true,
+      "shape": 0.94,
+      "submittedFlip": [
+        "flower"
+      ],
+      "rect": [
+        1286.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t109",
+      "name": "紫花",
+      "atlas": "atlas-05.png",
+      "cell": 12,
+      "role": "train",
+      "batch": 4,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [
+        "green"
+      ],
+      "rect": [
+        6.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t110",
+      "name": "木片",
+      "atlas": "atlas-05.png",
+      "cell": 13,
+      "role": "train",
+      "batch": 4,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [
+        "quality"
+      ],
+      "rect": [
+        262.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t111",
+      "name": "模糊的花",
+      "atlas": "atlas-05.png",
+      "cell": 14,
+      "role": "train",
+      "batch": 4,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t112",
+      "name": "蕨叶",
+      "atlas": "atlas-05.png",
+      "cell": 15,
+      "role": "train",
+      "batch": 4,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t113",
+      "name": "白百合",
+      "atlas": "atlas-05.png",
+      "cell": 16,
+      "role": "train",
+      "batch": 4,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t114",
+      "name": "蓝玻璃",
+      "atlas": "atlas-05.png",
+      "cell": 17,
+      "role": "train",
+      "batch": 4,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t115",
+      "name": "黄菊",
+      "atlas": "atlas-05.png",
+      "cell": 18,
+      "role": "train",
+      "batch": 4,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t116",
+      "name": "红番茄",
+      "atlas": "atlas-05.png",
+      "cell": 19,
+      "role": "train",
+      "batch": 4,
+      "flower": false,
+      "shape": 0.48,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t117",
+      "name": "紫鸢尾",
+      "atlas": "atlas-05.png",
+      "cell": 20,
+      "role": "train",
+      "batch": 4,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t118",
+      "name": "绿叶",
+      "atlas": "atlas-05.png",
+      "cell": 21,
+      "role": "train",
+      "batch": 4,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t119",
+      "name": "白贝壳",
+      "atlas": "atlas-05.png",
+      "cell": 22,
+      "role": "train",
+      "batch": 4,
+      "flower": false,
+      "shape": 0.35,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "t120",
+      "name": "红花",
+      "atlas": "atlas-05.png",
+      "cell": 23,
+      "role": "train",
+      "batch": 4,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1a01",
+      "name": "深绿蕨叶",
+      "atlas": "atlas-06.png",
+      "cell": 0,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6.2,
+        6.2,
+        243.6,
+        235.6
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1a02",
+      "name": "白花",
+      "atlas": "atlas-06.png",
+      "cell": 1,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262.2,
+        6.2,
+        243.6,
+        235.6
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1a03",
+      "name": "红苹果",
+      "atlas": "atlas-06.png",
+      "cell": 2,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.44,
+      "submittedFlip": [],
+      "rect": [
+        518.2,
+        6.2,
+        243.6,
+        235.6
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1a04",
+      "name": "蓝色玻璃",
+      "atlas": "atlas-06.png",
+      "cell": 3,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774.2,
+        6.2,
+        243.6,
+        235.6
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1a05",
+      "name": "粉花",
+      "atlas": "atlas-06.png",
+      "cell": 4,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.2,
+        6.2,
+        243.6,
+        235.6
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1a06",
+      "name": "绿色草地",
+      "atlas": "atlas-06.png",
+      "cell": 5,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.2,
+        6.2,
+        243.6,
+        235.6
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1a07",
+      "name": "过暗叶片",
+      "atlas": "atlas-06.png",
+      "cell": 6,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6.125,
+        254.125,
+        243.75,
+        232.75
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1a08",
+      "name": "黄花",
+      "atlas": "atlas-06.png",
+      "cell": 7,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262.125,
+        254.125,
+        243.75,
+        232.75
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1a09",
+      "name": "糊叶",
+      "atlas": "atlas-06.png",
+      "cell": 8,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        518.125,
+        254.125,
+        243.75,
+        232.75
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1a10",
+      "name": "白云",
+      "atlas": "atlas-06.png",
+      "cell": 9,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.22,
+      "submittedFlip": [],
+      "rect": [
+        774.125,
+        254.125,
+        243.75,
+        232.75
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1a11",
+      "name": "红花",
+      "atlas": "atlas-06.png",
+      "cell": 10,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.125,
+        254.125,
+        243.75,
+        232.75
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1a12",
+      "name": "红气球",
+      "atlas": "atlas-06.png",
+      "cell": 11,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.47,
+      "submittedFlip": [],
+      "rect": [
+        1286.125,
+        254.125,
+        243.75,
+        232.75
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1b01",
+      "name": "绿花",
+      "atlas": "atlas-06.png",
+      "cell": 12,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.94,
+      "submittedFlip": [],
+      "rect": [
+        6.050000000000001,
+        499.05,
+        243.9,
+        229.9
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1b02",
+      "name": "木纹",
+      "atlas": "atlas-06.png",
+      "cell": 13,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        262.05,
+        499.05,
+        243.9,
+        229.9
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1b03",
+      "name": "紫花",
+      "atlas": "atlas-06.png",
+      "cell": 14,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        518.05,
+        499.05,
+        243.9,
+        229.9
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1b04",
+      "name": "白杯",
+      "atlas": "atlas-06.png",
+      "cell": 15,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.35,
+      "submittedFlip": [],
+      "rect": [
+        774.05,
+        499.05,
+        243.9,
+        229.9
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1b05",
+      "name": "糊粉花",
+      "atlas": "atlas-06.png",
+      "cell": 16,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.05,
+        499.05,
+        243.9,
+        229.9
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1b06",
+      "name": "翠竹",
+      "atlas": "atlas-06.png",
+      "cell": 17,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.05,
+        499.05,
+        243.9,
+        229.9
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1b07",
+      "name": "红番茄",
+      "atlas": "atlas-06.png",
+      "cell": 18,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.5,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        741.4,
+        243.2,
+        276.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1b08",
+      "name": "白玉兰",
+      "atlas": "atlas-06.png",
+      "cell": 19,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        741.4,
+        243.2,
+        276.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1b09",
+      "name": "亮杯",
+      "atlas": "atlas-06.png",
+      "cell": 20,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.3,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        741.4,
+        243.2,
+        276.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1b10",
+      "name": "暗花",
+      "atlas": "atlas-06.png",
+      "cell": 21,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        741.4,
+        243.2,
+        276.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1b11",
+      "name": "青苔",
+      "atlas": "atlas-06.png",
+      "cell": 22,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        741.4,
+        243.2,
+        276.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v1b12",
+      "name": "灰石",
+      "atlas": "atlas-06.png",
+      "cell": 23,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        741.4,
+        243.2,
+        276.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2a01",
+      "name": "深绿蕨叶",
+      "atlas": "atlas-07.png",
+      "cell": 0,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2a02",
+      "name": "白花",
+      "atlas": "atlas-07.png",
+      "cell": 1,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2a03",
+      "name": "红苹果",
+      "atlas": "atlas-07.png",
+      "cell": 2,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.44,
+      "submittedFlip": [],
+      "rect": [
+        518,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2a04",
+      "name": "蓝色玻璃",
+      "atlas": "atlas-07.png",
+      "cell": 3,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2a05",
+      "name": "粉花",
+      "atlas": "atlas-07.png",
+      "cell": 4,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2a06",
+      "name": "绿色草地",
+      "atlas": "atlas-07.png",
+      "cell": 5,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2a07",
+      "name": "过暗叶片",
+      "atlas": "atlas-07.png",
+      "cell": 6,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6,
+        246,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2a08",
+      "name": "黄花",
+      "atlas": "atlas-07.png",
+      "cell": 7,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262,
+        246,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2a09",
+      "name": "糊叶",
+      "atlas": "atlas-07.png",
+      "cell": 8,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        518,
+        246,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2a10",
+      "name": "白云",
+      "atlas": "atlas-07.png",
+      "cell": 9,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.22,
+      "submittedFlip": [],
+      "rect": [
+        774,
+        246,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2a11",
+      "name": "红花",
+      "atlas": "atlas-07.png",
+      "cell": 10,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030,
+        246,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2a12",
+      "name": "红气球",
+      "atlas": "atlas-07.png",
+      "cell": 11,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.47,
+      "submittedFlip": [],
+      "rect": [
+        1286,
+        246,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2b01",
+      "name": "绿花",
+      "atlas": "atlas-07.png",
+      "cell": 12,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.94,
+      "submittedFlip": [],
+      "rect": [
+        6,
+        486,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2b02",
+      "name": "木纹",
+      "atlas": "atlas-07.png",
+      "cell": 13,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        262,
+        486,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2b03",
+      "name": "紫花",
+      "atlas": "atlas-07.png",
+      "cell": 14,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        518,
+        486,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2b04",
+      "name": "白杯",
+      "atlas": "atlas-07.png",
+      "cell": 15,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.35,
+      "submittedFlip": [],
+      "rect": [
+        774,
+        486,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2b05",
+      "name": "糊粉花",
+      "atlas": "atlas-07.png",
+      "cell": 16,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030,
+        486,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2b06",
+      "name": "翠竹",
+      "atlas": "atlas-07.png",
+      "cell": 17,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286,
+        486,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2b07",
+      "name": "红番茄",
+      "atlas": "atlas-07.png",
+      "cell": 18,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.5,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        726.4,
+        243.2,
+        291.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2b08",
+      "name": "白玉兰",
+      "atlas": "atlas-07.png",
+      "cell": 19,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        726.4,
+        243.2,
+        291.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2b09",
+      "name": "亮杯",
+      "atlas": "atlas-07.png",
+      "cell": 20,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.3,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        726.4,
+        243.2,
+        291.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2b10",
+      "name": "暗花",
+      "atlas": "atlas-07.png",
+      "cell": 21,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        726.4,
+        243.2,
+        291.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2b11",
+      "name": "青苔",
+      "atlas": "atlas-07.png",
+      "cell": 22,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        726.4,
+        243.2,
+        291.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v2b12",
+      "name": "灰石",
+      "atlas": "atlas-07.png",
+      "cell": 23,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        726.4,
+        243.2,
+        291.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3a01",
+      "name": "深绿蕨叶",
+      "atlas": "atlas-08.png",
+      "cell": 0,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3a02",
+      "name": "白花",
+      "atlas": "atlas-08.png",
+      "cell": 1,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3a03",
+      "name": "红苹果",
+      "atlas": "atlas-08.png",
+      "cell": 2,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.44,
+      "submittedFlip": [],
+      "rect": [
+        518,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3a04",
+      "name": "蓝色玻璃",
+      "atlas": "atlas-08.png",
+      "cell": 3,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3a05",
+      "name": "粉花",
+      "atlas": "atlas-08.png",
+      "cell": 4,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3a06",
+      "name": "绿色草地",
+      "atlas": "atlas-08.png",
+      "cell": 5,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3a07",
+      "name": "过暗叶片",
+      "atlas": "atlas-08.png",
+      "cell": 6,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6.025,
+        246.025,
+        243.95,
+        228.95
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3a08",
+      "name": "黄花",
+      "atlas": "atlas-08.png",
+      "cell": 7,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262.025,
+        246.025,
+        243.95,
+        228.95
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3a09",
+      "name": "糊叶",
+      "atlas": "atlas-08.png",
+      "cell": 8,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        518.025,
+        246.025,
+        243.95,
+        228.95
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3a10",
+      "name": "白云",
+      "atlas": "atlas-08.png",
+      "cell": 9,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.22,
+      "submittedFlip": [],
+      "rect": [
+        774.025,
+        246.025,
+        243.95,
+        228.95
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3a11",
+      "name": "红花",
+      "atlas": "atlas-08.png",
+      "cell": 10,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.025,
+        246.025,
+        243.95,
+        228.95
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3a12",
+      "name": "红气球",
+      "atlas": "atlas-08.png",
+      "cell": 11,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.47,
+      "submittedFlip": [],
+      "rect": [
+        1286.025,
+        246.025,
+        243.95,
+        228.95
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3b01",
+      "name": "绿花",
+      "atlas": "atlas-08.png",
+      "cell": 12,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.94,
+      "submittedFlip": [],
+      "rect": [
+        5.9750000000000005,
+        486.975,
+        244.05,
+        227.05
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3b02",
+      "name": "木纹",
+      "atlas": "atlas-08.png",
+      "cell": 13,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        261.975,
+        486.975,
+        244.05,
+        227.05
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3b03",
+      "name": "紫花",
+      "atlas": "atlas-08.png",
+      "cell": 14,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        517.975,
+        486.975,
+        244.05,
+        227.05
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3b04",
+      "name": "白杯",
+      "atlas": "atlas-08.png",
+      "cell": 15,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.35,
+      "submittedFlip": [],
+      "rect": [
+        773.975,
+        486.975,
+        244.05,
+        227.05
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3b05",
+      "name": "糊粉花",
+      "atlas": "atlas-08.png",
+      "cell": 16,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1029.975,
+        486.975,
+        244.05,
+        227.05
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3b06",
+      "name": "翠竹",
+      "atlas": "atlas-08.png",
+      "cell": 17,
+      "role": "test",
+      "batch": 0,
+      "testStage": 1,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1285.975,
+        486.975,
+        244.05,
+        227.05
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3b07",
+      "name": "红番茄",
+      "atlas": "atlas-08.png",
+      "cell": 18,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.5,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        726.4,
+        243.2,
+        291.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3b08",
+      "name": "白玉兰（检验照）",
+      "atlas": "atlas-08.png",
+      "cell": 19,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        726.4,
+        243.2,
+        291.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3b09",
+      "name": "亮杯",
+      "atlas": "atlas-08.png",
+      "cell": 20,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.3,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        726.4,
+        243.2,
+        291.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3b10",
+      "name": "暗花",
+      "atlas": "atlas-08.png",
+      "cell": 21,
+      "role": "test",
+      "batch": 0,
+      "testStage": 2,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        726.4,
+        243.2,
+        291.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3b11",
+      "name": "青苔",
+      "atlas": "atlas-08.png",
+      "cell": 22,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        726.4,
+        243.2,
+        291.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v3b12",
+      "name": "灰石",
+      "atlas": "atlas-08.png",
+      "cell": 23,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        726.4,
+        243.2,
+        291.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4a01",
+      "name": "深绿蕨叶",
+      "atlas": "atlas-09.png",
+      "cell": 0,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4a02",
+      "name": "白花",
+      "atlas": "atlas-09.png",
+      "cell": 1,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4a03",
+      "name": "红苹果",
+      "atlas": "atlas-09.png",
+      "cell": 2,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.44,
+      "submittedFlip": [],
+      "rect": [
+        518,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4a04",
+      "name": "蓝色玻璃",
+      "atlas": "atlas-09.png",
+      "cell": 3,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4a05",
+      "name": "粉花",
+      "atlas": "atlas-09.png",
+      "cell": 4,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4a06",
+      "name": "绿色草地",
+      "atlas": "atlas-09.png",
+      "cell": 5,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286,
+        6,
+        244,
+        228
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4a07",
+      "name": "过暗叶片",
+      "atlas": "atlas-09.png",
+      "cell": 6,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        5.9,
+        245.9,
+        244.2,
+        224.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4a08",
+      "name": "黄花",
+      "atlas": "atlas-09.png",
+      "cell": 7,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        261.9,
+        245.9,
+        244.2,
+        224.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4a09",
+      "name": "糊叶",
+      "atlas": "atlas-09.png",
+      "cell": 8,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        517.9,
+        245.9,
+        244.2,
+        224.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4a10",
+      "name": "白云",
+      "atlas": "atlas-09.png",
+      "cell": 9,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.22,
+      "submittedFlip": [],
+      "rect": [
+        773.9,
+        245.9,
+        244.2,
+        224.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4a11",
+      "name": "红花",
+      "atlas": "atlas-09.png",
+      "cell": 10,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1029.9,
+        245.9,
+        244.2,
+        224.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4a12",
+      "name": "红气球",
+      "atlas": "atlas-09.png",
+      "cell": 11,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.47,
+      "submittedFlip": [],
+      "rect": [
+        1285.9,
+        245.9,
+        244.2,
+        224.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4b01",
+      "name": "绿花",
+      "atlas": "atlas-09.png",
+      "cell": 12,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.94,
+      "submittedFlip": [],
+      "rect": [
+        5.925000000000001,
+        481.925,
+        244.15,
+        225.15
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4b02",
+      "name": "木纹",
+      "atlas": "atlas-09.png",
+      "cell": 13,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        261.925,
+        481.925,
+        244.15,
+        225.15
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4b03",
+      "name": "紫花",
+      "atlas": "atlas-09.png",
+      "cell": 14,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        517.925,
+        481.925,
+        244.15,
+        225.15
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4b04",
+      "name": "白杯",
+      "atlas": "atlas-09.png",
+      "cell": 15,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.35,
+      "submittedFlip": [],
+      "rect": [
+        773.925,
+        481.925,
+        244.15,
+        225.15
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4b05",
+      "name": "糊粉花",
+      "atlas": "atlas-09.png",
+      "cell": 16,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1029.925,
+        481.925,
+        244.15,
+        225.15
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4b06",
+      "name": "翠竹",
+      "atlas": "atlas-09.png",
+      "cell": 17,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1285.925,
+        481.925,
+        244.15,
+        225.15
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4b07",
+      "name": "红番茄",
+      "atlas": "atlas-09.png",
+      "cell": 18,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.5,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        719.4,
+        243.2,
+        298.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4b08",
+      "name": "白玉兰",
+      "atlas": "atlas-09.png",
+      "cell": 19,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        719.4,
+        243.2,
+        298.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4b09",
+      "name": "亮杯",
+      "atlas": "atlas-09.png",
+      "cell": 20,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.3,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        719.4,
+        243.2,
+        298.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4b10",
+      "name": "暗花",
+      "atlas": "atlas-09.png",
+      "cell": 21,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        719.4,
+        243.2,
+        298.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4b11",
+      "name": "青苔",
+      "atlas": "atlas-09.png",
+      "cell": 22,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        719.4,
+        243.2,
+        298.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v4b12",
+      "name": "灰石",
+      "atlas": "atlas-09.png",
+      "cell": 23,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        719.4,
+        243.2,
+        298.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5a01",
+      "name": "深绿蕨叶",
+      "atlas": "atlas-10.png",
+      "cell": 0,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        6.4,
+        244.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5a02",
+      "name": "白花",
+      "atlas": "atlas-10.png",
+      "cell": 1,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        263.375,
+        6.375,
+        242.25,
+        243.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5a03",
+      "name": "红苹果",
+      "atlas": "atlas-10.png",
+      "cell": 2,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.44,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5a04",
+      "name": "蓝色玻璃",
+      "atlas": "atlas-10.png",
+      "cell": 3,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        6.4,
+        244.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5a05",
+      "name": "粉花",
+      "atlas": "atlas-10.png",
+      "cell": 4,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1031.375,
+        6.375,
+        242.25,
+        243.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5a06",
+      "name": "绿色草地",
+      "atlas": "atlas-10.png",
+      "cell": 5,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5a07",
+      "name": "过暗叶片",
+      "atlas": "atlas-10.png",
+      "cell": 6,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        262.4,
+        244.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5a08",
+      "name": "黄花",
+      "atlas": "atlas-10.png",
+      "cell": 7,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        263.375,
+        262.375,
+        242.25,
+        243.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5a09",
+      "name": "糊叶",
+      "atlas": "atlas-10.png",
+      "cell": 8,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5a10",
+      "name": "白云",
+      "atlas": "atlas-10.png",
+      "cell": 9,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.22,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        262.4,
+        244.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5a11",
+      "name": "红花",
+      "atlas": "atlas-10.png",
+      "cell": 10,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1031.375,
+        262.375,
+        242.25,
+        243.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5a12",
+      "name": "红气球",
+      "atlas": "atlas-10.png",
+      "cell": 11,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.47,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5b01",
+      "name": "绿花",
+      "atlas": "atlas-10.png",
+      "cell": 12,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.94,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        518.4,
+        244.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5b02",
+      "name": "木纹",
+      "atlas": "atlas-10.png",
+      "cell": 13,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        263.375,
+        518.375,
+        242.25,
+        243.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5b03",
+      "name": "紫花",
+      "atlas": "atlas-10.png",
+      "cell": 14,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5b04",
+      "name": "白杯",
+      "atlas": "atlas-10.png",
+      "cell": 15,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.35,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        518.4,
+        244.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5b05",
+      "name": "糊粉花",
+      "atlas": "atlas-10.png",
+      "cell": 16,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1031.375,
+        518.375,
+        242.25,
+        243.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5b06",
+      "name": "翠竹",
+      "atlas": "atlas-10.png",
+      "cell": 17,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5b07",
+      "name": "红番茄",
+      "atlas": "atlas-10.png",
+      "cell": 18,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.5,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        774.4,
+        244.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5b08",
+      "name": "白玉兰",
+      "atlas": "atlas-10.png",
+      "cell": 19,
+      "role": "test",
+      "batch": 0,
+      "testStage": 3,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        263.375,
+        774.375,
+        242.25,
+        243.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5b09",
+      "name": "亮杯",
+      "atlas": "atlas-10.png",
+      "cell": 20,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.3,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5b10",
+      "name": "暗花",
+      "atlas": "atlas-10.png",
+      "cell": 21,
+      "role": "test",
+      "batch": 0,
+      "testStage": 4,
+      "testBox": 1,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        774.4,
+        244.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5b11",
+      "name": "青苔",
+      "atlas": "atlas-10.png",
+      "cell": 22,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1031.375,
+        774.375,
+        242.25,
+        243.25
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "v5b12",
+      "name": "灰石",
+      "atlas": "atlas-10.png",
+      "cell": 23,
+      "role": "test",
+      "batch": 0,
+      "testStage": 5,
+      "testBox": 1,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e001",
+      "name": "深绿蕨叶",
+      "atlas": "atlas-11.png",
+      "cell": 0,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e002",
+      "name": "白花",
+      "atlas": "atlas-11.png",
+      "cell": 1,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e003",
+      "name": "红苹果",
+      "atlas": "atlas-11.png",
+      "cell": 2,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.44,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e004",
+      "name": "蓝色玻璃",
+      "atlas": "atlas-11.png",
+      "cell": 3,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e005",
+      "name": "粉花",
+      "atlas": "atlas-11.png",
+      "cell": 4,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e006",
+      "name": "绿色草地",
+      "atlas": "atlas-11.png",
+      "cell": 5,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e007",
+      "name": "过暗叶片",
+      "atlas": "atlas-11.png",
+      "cell": 6,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e008",
+      "name": "黄花",
+      "atlas": "atlas-11.png",
+      "cell": 7,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e009",
+      "name": "糊叶",
+      "atlas": "atlas-11.png",
+      "cell": 8,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e010",
+      "name": "白云",
+      "atlas": "atlas-11.png",
+      "cell": 9,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.22,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e011",
+      "name": "红花",
+      "atlas": "atlas-11.png",
+      "cell": 10,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e012",
+      "name": "红气球",
+      "atlas": "atlas-11.png",
+      "cell": 11,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.47,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        262.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e013",
+      "name": "绿花",
+      "atlas": "atlas-11.png",
+      "cell": 12,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.94,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e014",
+      "name": "木纹",
+      "atlas": "atlas-11.png",
+      "cell": 13,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e015",
+      "name": "紫花",
+      "atlas": "atlas-11.png",
+      "cell": 14,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e016",
+      "name": "白杯",
+      "atlas": "atlas-11.png",
+      "cell": 15,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.35,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e017",
+      "name": "糊粉花",
+      "atlas": "atlas-11.png",
+      "cell": 16,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e018",
+      "name": "翠竹",
+      "atlas": "atlas-11.png",
+      "cell": 17,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        518.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e019",
+      "name": "红番茄",
+      "atlas": "atlas-11.png",
+      "cell": 18,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.5,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e020",
+      "name": "白玉兰",
+      "atlas": "atlas-11.png",
+      "cell": 19,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e021",
+      "name": "亮杯",
+      "atlas": "atlas-11.png",
+      "cell": 20,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.3,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e022",
+      "name": "暗花",
+      "atlas": "atlas-11.png",
+      "cell": 21,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e023",
+      "name": "青苔",
+      "atlas": "atlas-11.png",
+      "cell": 22,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e024",
+      "name": "灰石",
+      "atlas": "atlas-11.png",
+      "cell": 23,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": false,
+      "shape": 0.12,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        774.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e025",
+      "name": "白百合",
+      "atlas": "atlas-12.png",
+      "cell": 0,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.91,
+      "submittedFlip": [],
+      "rect": [
+        6.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e026",
+      "name": "黄向日葵",
+      "atlas": "atlas-12.png",
+      "cell": 1,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.93,
+      "submittedFlip": [],
+      "rect": [
+        262.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e027",
+      "name": "紫风铃",
+      "atlas": "atlas-12.png",
+      "cell": 2,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.88,
+      "submittedFlip": [],
+      "rect": [
+        518.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e028",
+      "name": "白玉兰",
+      "atlas": "atlas-12.png",
+      "cell": 3,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.92,
+      "submittedFlip": [],
+      "rect": [
+        774.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e029",
+      "name": "黄小花",
+      "atlas": "atlas-12.png",
+      "cell": 4,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.84,
+      "submittedFlip": [],
+      "rect": [
+        1030.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "e030",
+      "name": "紫薰衣草",
+      "atlas": "atlas-12.png",
+      "cell": 5,
+      "role": "exhibit",
+      "batch": 0,
+      "flower": true,
+      "shape": 0.78,
+      "submittedFlip": [],
+      "rect": [
+        1286.4,
+        6.4,
+        243.2,
+        243.2
+      ],
+      "atlasSize": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "geometrySource": "Pixel seam inspection, visually checked; rectangles are shared by thumbnail and feature calculation",
+  "packetOrder": "The flower first packet alternates red/pink flowers with leaf/grass examples. This is visible sample order, not a prediction rule."
+}

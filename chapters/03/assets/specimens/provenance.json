@@ -1,0 +1,1514 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "specimens/bell-1",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, bell-1.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE single small golden brass bell, loop handle on TOP, flared lip, small clapper under bell; brass-yellow palette. Individual 1: wide round lip and simple round loop. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-5348311d-e9b5-458a-be54-8db3a91f7605.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/bell-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/bell-1.png",
+      "sourceSha256": "f40779ebdefcacfceb3d97955445ff157c96ed2cc514bf7eadb9bfbbd1789bc2",
+      "sha256": "dd0794d1026db2ff2266629f037407ef5316894a0deb993f7d5e887d7e4668cf",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7700347900390625,
+        "semiFraction": 0.005672454833984375,
+        "opaqueFraction": 0.22429275512695312,
+        "bounds": [
+          97,
+          77,
+          414,
+          434
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/bell-1.webp",
+        "sha256": "69bad2f83a27a37edfae3592653f491d30b41917ad687d1621c66bc9b097e123",
+        "bytes": 36162
+      }
+    },
+    {
+      "id": "specimens/bell-2",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, bell-2.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE single small golden brass bell, loop handle on TOP, flared lip, small clapper under bell; brass-yellow palette. Individual 2: slightly taller tapered body and oval loop. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-13a08c8e-4042-4b70-a42d-a9d6a9d10a2c.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/bell-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/bell-2.png",
+      "sourceSha256": "46942ad8421c477f65361898e430ac4734f900bba65d108fb4e8ae0cefcf2338",
+      "sha256": "3269c0529662dae43cb1223fe22470f83618e9898828754b770f0e0da06b8d04",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.8005027770996094,
+        "semiFraction": 0.00542449951171875,
+        "opaqueFraction": 0.19407272338867188,
+        "bounds": [
+          118,
+          77,
+          393,
+          434
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/bell-2.webp",
+        "sha256": "d38c69ba19faad7a3207d89f4ab605764900c1baf23ec71a66032099404d3591",
+        "bytes": 36272
+      }
+    },
+    {
+      "id": "specimens/bell-3",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, bell-3.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE single small golden brass bell, loop handle on TOP, flared lip, small clapper under bell; brass-yellow palette. Individual 3: squat old brass body with two subtle engraved rings and round top loop. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-f7d5b017-7b9f-4073-8d0e-9523cc1ebe20.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/bell-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/bell-3.png",
+      "sourceSha256": "3d77e25c4231fcc98a8d2d9c9035401cb6405574223b45f6447b50a8a707f5ea",
+      "sha256": "fbb4a685902357365d914d08303561440d69e284e772ccb140c8636944959128",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7541046142578125,
+        "semiFraction": 0.005992889404296875,
+        "opaqueFraction": 0.23990249633789062,
+        "bounds": [
+          95,
+          77,
+          416,
+          434
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/bell-3.webp",
+        "sha256": "14ffb5e82fe6e2fa79150945b02e8ecf1eacf9fbda7427bbb91862d564012c89",
+        "bytes": 40208
+      }
+    },
+    {
+      "id": "specimens/block-1",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, block-1.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE single warm light reddish-brown wooden cube #d99876, one clearly circular dot inset on its front face, visible top and side faces. Individual 1: softly beveled corners and small round inset. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-06de9f12-f928-423b-8ce7-ec2baa9d41b6.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/block-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/block-1.png",
+      "sourceSha256": "ab2d88e507f443436a3b60aaebbfdaa4de9382be834a043ae7446535a781aec1",
+      "sha256": "fb7f9e2c310015aa62d63c7caad40ff6fcfbc7088895d7d30a3f475f17f2e54c",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.588623046875,
+        "semiFraction": 0.005512237548828125,
+        "opaqueFraction": 0.4058647155761719,
+        "bounds": [
+          77,
+          83,
+          434,
+          427
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/block-1.webp",
+        "sha256": "961cc362ed2d71519468611c2c7dd5ff10d0acb1bd89115d1a47bb05fcfca80d",
+        "bytes": 40438
+      }
+    },
+    {
+      "id": "specimens/block-2",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, block-2.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE single warm light reddish-brown wooden cube #d99876, one clearly circular dot inset on its front face, visible top and side faces. Individual 2: slightly chunky edges, visible horizontal wood grain, large circular inset. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-0637fd41-2bbe-4010-8ab5-080ab46282b1.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/block-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/block-2.png",
+      "sourceSha256": "42a7aa42edc0446c5735d7c3f08ca864671f20355d9c17248de8a32af6375c22",
+      "sha256": "e10bdae238098fa69a89b9ff70d685909fcc91b21f560319f06a0a0d169b96ff",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.5848197937011719,
+        "semiFraction": 0.005588531494140625,
+        "opaqueFraction": 0.4095916748046875,
+        "bounds": [
+          77,
+          86,
+          434,
+          424
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/block-2.webp",
+        "sha256": "85d6ea981480acde54270f6ce23bd821a65ff2ff55e7370e1385fb4fdbc6c803",
+        "bytes": 48910
+      }
+    },
+    {
+      "id": "specimens/block-3",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, block-3.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE single warm light reddish-brown wooden cube #d99876, one clearly circular dot inset on its front face, visible top and side faces. Individual 3: narrow rounded bevel and darker reddish side grain, smaller round inset. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-f3a75e4f-83c6-4dfa-a781-1a77176be3a2.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/block-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/block-3.png",
+      "sourceSha256": "c19827906e4e5b902940fc79e7f1d0b9c75f46d662c651a9febda1a7494e1845",
+      "sha256": "693f8531ae2dddd80f3ca981950dd890ba880a8ea7d6ff1172bc2072d47a386f",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.5902023315429688,
+        "semiFraction": 0.006488800048828125,
+        "opaqueFraction": 0.4033088684082031,
+        "bounds": [
+          77,
+          83,
+          434,
+          427
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/block-3.webp",
+        "sha256": "5f43936b82e59a68106d31212c80714754944304bbc7fa01bc45fd1cec6f31d3",
+        "bytes": 45840
+      }
+    },
+    {
+      "id": "specimens/car-1",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, car-1.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE wooden red toy car, four physical wheels, roof and glazed window, muted warm terracotta red #c97761, dark wooden wheels. Individual 1: rounded compact hatchback with a short hood. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-c8030efb-5e23-4a82-825a-0c5f09e7b390.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/car-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/car-1.png",
+      "sourceSha256": "57a34ca364ec8229625d47437ac0d5c43b32b83e2c5bd714580a2c38026ca19b",
+      "sha256": "7ff78d6fa4d15755c58d898ddd24db10d5be837b598b0418518885b2b7e4d011",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7594871520996094,
+        "semiFraction": 0.004657745361328125,
+        "opaqueFraction": 0.2358551025390625,
+        "bounds": [
+          77,
+          128,
+          434,
+          383
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/car-1.webp",
+        "sha256": "19d00b956750dfbed399cde58d48918a2d639ec1969c5ca31481949e3e92e697",
+        "bytes": 37470
+      }
+    },
+    {
+      "id": "specimens/car-2",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, car-2.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE wooden red toy car, four physical wheels, roof and glazed window, muted warm terracotta red #c97761, dark wooden wheels. Individual 2: slightly longer station-wagon wooden toy, broad rear window. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-c8030efb-5e23-4a82-825a-0c5f09e7b390.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-0d8ffc19-9613-41eb-9183-700112415174.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/car-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/car-2.png",
+      "sourceSha256": "12066aabc1ed21aa484940d60dc1a14a4c83e9efd934aefcd4d19c78f1cfa61e",
+      "sha256": "cfa3ecf22cbf706d360989ac2917cd4fd2a192901aa273e137533f4eb0b09285",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7818984985351562,
+        "semiFraction": 0.004436492919921875,
+        "opaqueFraction": 0.21366500854492188,
+        "bounds": [
+          77,
+          143,
+          434,
+          368
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/car-2.webp",
+        "sha256": "7d6fb2ea8679a439138b093d91f60c6bea4e10363de7a60d1b8de6350db886d9",
+        "bytes": 32570
+      }
+    },
+    {
+      "id": "specimens/car-3",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, car-3.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE wooden red toy car, four physical wheels, roof and glazed window, muted warm terracotta red #c97761, dark wooden wheels. Individual 3: squat rounded cab and short wide hood, one subtle unpainted wood stripe. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-c8030efb-5e23-4a82-825a-0c5f09e7b390.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-9937d079-2a46-4f80-b268-e81c38b91bdd.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/car-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/car-3.png",
+      "sourceSha256": "86c66065e4308458a8775af7f9272a36f368343b5ece4804b076bca202c61ee6",
+      "sha256": "ab33c4f91f593e4176f60f3e575191e5ed85d3540450f0409179155603ce02ef",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7540855407714844,
+        "semiFraction": 0.004611968994140625,
+        "opaqueFraction": 0.241302490234375,
+        "bounds": [
+          77,
+          124,
+          434,
+          387
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/car-3.webp",
+        "sha256": "6af618d3c7377a54b34c517c97136793f92ef6d8bbc0533e2d4a8b47a1a79301",
+        "bytes": 36084
+      }
+    },
+    {
+      "id": "specimens/cover-leaf",
+      "batch": "art-20261010",
+      "requirement": "A4",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, cover-leaf.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE large GREEN oval broad leaf extremely near camera, sharp visible veins, stem extends from LEFT, broad leaf body covers most of center-left, pointed tip toward RIGHT. Same green family as ordinary leaf and green player. No other object, no blur or fog painted in.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: Horizontal leaf center around (38%,50%), extends across LEFT frame edge and reaches x86% on right. Top/bottom edges clear. This foreground cutout is pushed aside by code.\nOutput: target 1024x1024 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-a0b31c7b-eade-4dad-9e58-1eddc06d5aca.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/cover-leaf.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/cover-leaf.png",
+      "sourceSha256": "f4a64ce6a4bfef646131c7c9e6bccd51543c54faf5c4492773eb18ea7b5ab81f",
+      "sha256": "6a346017498d9e3ea39d25c7bc48ffcc2ee8b0f390a2f6579cd3064f7abc1331",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.5538911819458008,
+        "semiFraction": 0.005078315734863281,
+        "opaqueFraction": 0.44103050231933594,
+        "bounds": [
+          0,
+          152,
+          1023,
+          869
+        ],
+        "opaqueEdgePixels": 49
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/cover-leaf.webp",
+        "sha256": "1b01697d45c17ae868095afad225d6554e483c9eb665c1d947d824df49d96908",
+        "bytes": 208858
+      }
+    },
+    {
+      "id": "specimens/ginkgo-1",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, ginkgo-1.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE one YELLOW ginkgo leaf #cdbb55, unmistakable broad fan outline and radiating veins, thin short petiole. Individual 1: broad fan with small central notch. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-07c672e3-88d2-4a60-a46d-b515362e4a27.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/ginkgo-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/ginkgo-1.png",
+      "sourceSha256": "2daeb3002791bd8045694ba1032260478859c44fcbf4ceebb09eccf3118a17f8",
+      "sha256": "3d187afeda7895abaeb870e43c7b70e49156002f6d6dd26c1d59068c5d384073",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7747993469238281,
+        "semiFraction": 0.005558013916015625,
+        "opaqueFraction": 0.21964263916015625,
+        "bounds": [
+          77,
+          102,
+          434,
+          409
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/ginkgo-1.webp",
+        "sha256": "7e312ecd4ae9b01d997b1c233cf11956135b5a253f4844d2d9e8318991cc1369",
+        "bytes": 33704
+      }
+    },
+    {
+      "id": "specimens/ginkgo-2",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, ginkgo-2.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE one YELLOW ginkgo leaf #cdbb55, unmistakable broad fan outline and radiating veins, thin short petiole. Individual 2: slightly narrow fan with deeper central notch. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-86d949a1-d71f-4087-81b9-8663c064913a.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/ginkgo-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/ginkgo-2.png",
+      "sourceSha256": "3e4687beec7caeaf36f905519fd461b5f9cd51334cdad738066767ebedd7df63",
+      "sha256": "1605f4ad03c6e439a6188a9124acc06a1103388013188135b072647808028bc4",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7714309692382812,
+        "semiFraction": 0.006267547607421875,
+        "opaqueFraction": 0.22230148315429688,
+        "bounds": [
+          77,
+          105,
+          434,
+          405
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/ginkgo-2.webp",
+        "sha256": "e8fb3627310e8bcfa8baa9b296d8056444d3c0ef4429a8203eb9284f2fcf4ba1",
+        "bytes": 34680
+      }
+    },
+    {
+      "id": "specimens/ginkgo-3",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, ginkgo-3.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE one YELLOW ginkgo leaf #cdbb55, unmistakable broad fan outline and radiating veins, thin short petiole. Individual 3: wide rounded fan with gently ruffled top edge. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-b8a169b5-f7ae-4f23-a3a3-f1b92134e31f.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/ginkgo-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/ginkgo-3.png",
+      "sourceSha256": "1f1cb6da2e7d861e44ec107f6cadb392de987929065d73d1f98060580b607af3",
+      "sha256": "b79e71b44a242fb4f4154dd7678ecc5feb115f7fbd886d38ddabcec9c0b4fe28",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7920112609863281,
+        "semiFraction": 0.005283355712890625,
+        "opaqueFraction": 0.20270538330078125,
+        "bounds": [
+          77,
+          109,
+          434,
+          402
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/ginkgo-3.webp",
+        "sha256": "3869add70e2f431ec6e927c811fd41089232913c7c2fb9b41149886310feb3af",
+        "bytes": 32016
+      }
+    },
+    {
+      "id": "specimens/leaf-1",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, leaf-1.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE one ordinary GREEN oval broadleaf #86ad5a, pointed tip, ONE central main vein and clear secondary veins, short petiole, not maple or ginkgo. Individual 1: broad smooth-edged oval leaf. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-a8c0c505-c52f-4e00-9082-32b662c8d14b.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/leaf-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/leaf-1.png",
+      "sourceSha256": "0b963104a05c50230260f91433c269a79a92d55f52250756f30159ab0a5f7625",
+      "sha256": "11c750bd19c06917cc4168974f4d33358e182b24ae8e1564a05278c52659f4e5",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7263221740722656,
+        "semiFraction": 0.005367279052734375,
+        "opaqueFraction": 0.268310546875,
+        "bounds": [
+          107,
+          77,
+          403,
+          434
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/leaf-1.webp",
+        "sha256": "e83b1cfa7728e9c4fb9330a1c413bab99f538c94390e80936cb4757dfe0f0403",
+        "bytes": 34640
+      }
+    },
+    {
+      "id": "specimens/leaf-2",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, leaf-2.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE one ordinary GREEN oval broadleaf #86ad5a, pointed tip, ONE central main vein and clear secondary veins, short petiole, not maple or ginkgo. Individual 2: narrower elliptical leaf with subtle serration. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-4768da4b-a91e-4725-8191-f18d48178411.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/leaf-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/leaf-2.png",
+      "sourceSha256": "b12e5c8248a6bc654c1712ab02dab9c1fea6d9f5de3f61cd4caa6eb69177aa7e",
+      "sha256": "63b75bc981b76145fd38b531912933a198f999cd529d5e7982ca3f9418078813",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7607421875,
+        "semiFraction": 0.00612640380859375,
+        "opaqueFraction": 0.23313140869140625,
+        "bounds": [
+          117,
+          77,
+          394,
+          434
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/leaf-2.webp",
+        "sha256": "0ee77012bc9eca141966141eb0462afac44c3b6c57496741977f21f745432e4e",
+        "bytes": 39598
+      }
+    },
+    {
+      "id": "specimens/leaf-3",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, leaf-3.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE one ordinary GREEN oval broadleaf #86ad5a, pointed tip, ONE central main vein and clear secondary veins, short petiole, not maple or ginkgo. Individual 3: rounder oval leaf with gently wavy margin. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-ae4c5b0c-217d-43fd-83c3-8a7da938d4ed.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/leaf-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/leaf-3.png",
+      "sourceSha256": "73b686c688a1bdc07bb76b6dff0eb3995547895dc7d67a9060284aa6b7acd28c",
+      "sha256": "8a01411638d84891220e12eebb2cb0e84cf36448255fb2aa003a71cc57c3b223",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7401084899902344,
+        "semiFraction": 0.005279541015625,
+        "opaqueFraction": 0.2546119689941406,
+        "bounds": [
+          106,
+          77,
+          405,
+          434
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/leaf-3.webp",
+        "sha256": "9063d7f1008160dfe760bb595948d2faea33d239f41fde26b8f6ef504757eea3",
+        "bytes": 40030
+      }
+    },
+    {
+      "id": "specimens/maple-1",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, maple-1.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE one ORANGE-RED maple leaf #cf7448, unmistakable palmate lobes with pointed tips, short petiole. Individual 1: five broad pointed lobes. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-c1423aeb-6c49-4639-bc6e-a574309b701b.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/maple-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/maple-1.png",
+      "sourceSha256": "118fe20c511411749ba382bb1cb61e64c3121c4b7ea6853336d166a69178c8db",
+      "sha256": "fa0afb439c8d1d5fbe101365e5c1c85a0cecd27ea5cf62771a883564a3143fc4",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7784271240234375,
+        "semiFraction": 0.007457733154296875,
+        "opaqueFraction": 0.21411514282226562,
+        "bounds": [
+          77,
+          87,
+          434,
+          424
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/maple-1.webp",
+        "sha256": "b57bc24e78446920819206a7ba94609072831e10e79cf22d9abd5a7c06e2af9b",
+        "bytes": 40026
+      }
+    },
+    {
+      "id": "specimens/maple-2",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, maple-2.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE one ORANGE-RED maple leaf #cf7448, unmistakable palmate lobes with pointed tips, short petiole. Individual 2: seven narrower pointed lobes, warm russet center. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-bb52dae4-76ef-4dc6-8e93-911ebed76968.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/maple-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/maple-2.png",
+      "sourceSha256": "d0070a81184c753aeb8e383c1e4bfd166351a8f183e88cec4072bd48bb37b681",
+      "sha256": "cce6cf9b1ead63c0ef7a0fa647f1f6aae35573162df0d69058edf08d15b589b6",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7810859680175781,
+        "semiFraction": 0.00902557373046875,
+        "opaqueFraction": 0.20988845825195312,
+        "bounds": [
+          77,
+          87,
+          434,
+          423
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/maple-2.webp",
+        "sha256": "82089b7141a183bc0140aeeb6d35b916c0778b6add4cfbc50c7d32b1fa58805d",
+        "bytes": 45404
+      }
+    },
+    {
+      "id": "specimens/maple-3",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, maple-3.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE one ORANGE-RED maple leaf #cf7448, unmistakable palmate lobes with pointed tips, short petiole. Individual 3: five slightly asymmetrical serrated lobes, orange-red edge. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-f29a4424-5ebb-4a1d-8df8-fd14d103c764.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/maple-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/maple-3.png",
+      "sourceSha256": "99ae61ea63bac4388baad64ebdf9e9c1f4bbb0668e8505813c0b9421a5596a04",
+      "sha256": "5393d0591f23a72f91842f0f6eb7d2036f5b901ecf35d187a1bf2ee49e102568",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7459678649902344,
+        "semiFraction": 0.008697509765625,
+        "opaqueFraction": 0.24533462524414062,
+        "bounds": [
+          79,
+          77,
+          432,
+          434
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/maple-3.webp",
+        "sha256": "a39c9d754e60979e650532ecb887e897f0cc48c5ad270a77328bdb8c578dcbdc",
+        "bytes": 46382
+      }
+    },
+    {
+      "id": "specimens/paper-blue",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, paper-blue.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Plain colored card-stock material swatch, dominant uniform blue #afd2e5, only extremely subtle small paper fibers. No drawn paper sheet edge, curl, objects, border or shadow. Color must remain distinguishable from other backgrounds.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: Perfect square fills every pixel. Both axes tile seamlessly. Very low contrast fiber grain, no directional lighting gradient, no vignette, no stains.\nOutput: target 512x512 pixels, fully opaque edge-to-edge material/image. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/living-terrain/earth-bank.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-d2e7f1a0-c64f-4dc3-9d04-1ed681be4768.png",
+      "transparent_background": false,
+      "url": "/assets/specimens/paper-blue.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/paper-blue.png",
+      "sourceSha256": "9ac2a5c6bb8b871acf34e78e55cf75b099b3975dea29e788ae585d111026fb27",
+      "sha256": "fa61e227207e6f0db450c8121f26795791a20122e8c113b648c37c4638a84b47",
+      "operation": "Proportional resize/crop to requested full opaque canvas.",
+      "alpha": {
+        "clearFraction": 0,
+        "semiFraction": 0,
+        "opaqueFraction": 1,
+        "bounds": [
+          0,
+          0,
+          511,
+          511
+        ],
+        "opaqueEdgePixels": 2044
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "mirror-xy",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/paper-blue.webp",
+        "sha256": "f731854c2732848c5cbb8ec2bf1163050b7f315bbc03fca56d32fbccc2007d7b",
+        "bytes": 58024
+      }
+    },
+    {
+      "id": "specimens/paper-cream",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, paper-cream.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Plain colored card-stock material swatch, dominant uniform cream #f2e8cf, only extremely subtle small paper fibers. No drawn paper sheet edge, curl, objects, border or shadow. Color must remain distinguishable from other backgrounds.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: Perfect square fills every pixel. Both axes tile seamlessly. Very low contrast fiber grain, no directional lighting gradient, no vignette, no stains.\nOutput: target 512x512 pixels, fully opaque edge-to-edge material/image. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/living-terrain/earth-bank.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-2cbbd28e-9384-452b-b328-fcb2b87116e9.png",
+      "transparent_background": false,
+      "url": "/assets/specimens/paper-cream.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/paper-cream.png",
+      "sourceSha256": "f83f79ba572d4b11bdab517103528d880605a0a79a9a08142f3f856c0ae9f297",
+      "sha256": "7a67e5112293ed5e3ca5e6c2c609769da8ad323e5b07306db0dd93286b36e847",
+      "operation": "Proportional resize/crop to requested full opaque canvas.",
+      "alpha": {
+        "clearFraction": 0,
+        "semiFraction": 0,
+        "opaqueFraction": 1,
+        "bounds": [
+          0,
+          0,
+          511,
+          511
+        ],
+        "opaqueEdgePixels": 2044
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "mirror-xy",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/paper-cream.webp",
+        "sha256": "77571dfae89e33cc985c73946310d04aa05ddc9f0c0e96c80edc671b902bc344",
+        "bytes": 49142
+      }
+    },
+    {
+      "id": "specimens/paper-green",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, paper-green.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Plain colored card-stock material swatch, dominant uniform green #c4d9b4, only extremely subtle small paper fibers. No drawn paper sheet edge, curl, objects, border or shadow. Color must remain distinguishable from other backgrounds.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: Perfect square fills every pixel. Both axes tile seamlessly. Very low contrast fiber grain, no directional lighting gradient, no vignette, no stains.\nOutput: target 512x512 pixels, fully opaque edge-to-edge material/image. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/living-terrain/earth-bank.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-e567a013-0b6d-4396-a031-9fe57b015ee4.png",
+      "transparent_background": false,
+      "url": "/assets/specimens/paper-green.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/paper-green.png",
+      "sourceSha256": "7b9480ad0103131ba619aa03ab614bf6866c6b531ddd882305d52890656e25cd",
+      "sha256": "c63569ba92d06f2b9e4c8fa795b82f073838880dcc6ee42444e67813f467668f",
+      "operation": "Proportional resize/crop to requested full opaque canvas.",
+      "alpha": {
+        "clearFraction": 0,
+        "semiFraction": 0,
+        "opaqueFraction": 1,
+        "bounds": [
+          0,
+          0,
+          511,
+          511
+        ],
+        "opaqueEdgePixels": 2044
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "mirror-xy",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/paper-green.webp",
+        "sha256": "15244a79f48d5003e2508b89b9997954fe018d96bcd1842393518ea99d22bf3a",
+        "bytes": 61132
+      }
+    },
+    {
+      "id": "specimens/paper-yellow",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, paper-yellow.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Plain colored card-stock material swatch, dominant uniform yellow #ecd080, only extremely subtle small paper fibers. No drawn paper sheet edge, curl, objects, border or shadow. Color must remain distinguishable from other backgrounds.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: Perfect square fills every pixel. Both axes tile seamlessly. Very low contrast fiber grain, no directional lighting gradient, no vignette, no stains.\nOutput: target 512x512 pixels, fully opaque edge-to-edge material/image. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/living-terrain/earth-bank.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-76559612-b995-4014-9684-71e259da6737.png",
+      "transparent_background": false,
+      "url": "/assets/specimens/paper-yellow.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/paper-yellow.png",
+      "sourceSha256": "94e18f9a23192c4f7d4d9e1088ac37b429c409a310aa6440561c425b57ddac25",
+      "sha256": "3e0f6731c461461d4cc1e94e69bcb07197dc6bb133349e0da7eec959a8ac4bca",
+      "operation": "Proportional resize/crop to requested full opaque canvas.",
+      "alpha": {
+        "clearFraction": 0,
+        "semiFraction": 0,
+        "opaqueFraction": 1,
+        "bounds": [
+          0,
+          0,
+          511,
+          511
+        ],
+        "opaqueEdgePixels": 2044
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "mirror-xy",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/paper-yellow.webp",
+        "sha256": "ed26487c44a1739ecab77f49f23a936f5adc5534915a5d0737451d072b1211f2",
+        "bytes": 57784
+      }
+    },
+    {
+      "id": "specimens/pinecone-1",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, pinecone-1.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE one BROWN pinecone #987552, overlapping woody scales in clearly stacked tiers, no twig or needles attached. Individual 1: long tapered cone, medium open scales. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-f3e4373c-c4a7-4d49-968d-334639bbfdea.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/pinecone-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/pinecone-1.png",
+      "sourceSha256": "e7238e2d3a59867d95501fe4e958dc7671d0f9adb25c5ac0c6bf805560c847e1",
+      "sha256": "6667232572592880d0c23d770a84025cc4caf74a10fd89c294e1e0cf9c13a097",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7742996215820312,
+        "semiFraction": 0.006805419921875,
+        "opaqueFraction": 0.21889495849609375,
+        "bounds": [
+          132,
+          77,
+          378,
+          434
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/pinecone-1.webp",
+        "sha256": "8b9a9cc44a6ca85070cfae18a5a508f5fc3fa4f8973f22ee61a5bd5d9798cedb",
+        "bytes": 45958
+      }
+    },
+    {
+      "id": "specimens/pinecone-2",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, pinecone-2.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE one BROWN pinecone #987552, overlapping woody scales in clearly stacked tiers, no twig or needles attached. Individual 2: rounder broad cone with open scales. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-d78af217-153c-4cb3-932d-9effacb356f9.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/pinecone-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/pinecone-2.png",
+      "sourceSha256": "fc4a04f2faad83788c0100ca55abf89bba8dab1282c2fbf115615acd2cc46443",
+      "sha256": "91b1d5b7f4a505dbd89588e6b28b94c3b974ff9ece5ccf61f5f70bf85c088a82",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.6770591735839844,
+        "semiFraction": 0.007419586181640625,
+        "opaqueFraction": 0.315521240234375,
+        "bounds": [
+          90,
+          77,
+          421,
+          434
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/pinecone-2.webp",
+        "sha256": "d08f97303e69de2e5bebce9a1cd3d3c5244ad9ad9789ab3bbcb7d9baac5620d5",
+        "bytes": 57824
+      }
+    },
+    {
+      "id": "specimens/pinecone-3",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, pinecone-3.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE one BROWN pinecone #987552, overlapping woody scales in clearly stacked tiers, no twig or needles attached. Individual 3: small narrow cone with tightly packed scales. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-4dd75423-ac7e-4e0c-9412-e417fc66a059.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/pinecone-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/pinecone-3.png",
+      "sourceSha256": "4a27aaaa8fb498a7f70eb0767efdf24c042ca66704f84a774d79572e5533bbf7",
+      "sha256": "0bb173ea20a9c52d195aee1112cdefdacce3058beddb01b8470bb5c704a56f3d",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.7860984802246094,
+        "semiFraction": 0.006343841552734375,
+        "opaqueFraction": 0.20755767822265625,
+        "bounds": [
+          144,
+          77,
+          367,
+          434
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/pinecone-3.webp",
+        "sha256": "1a3a4f78c39384c89ba95ac003f870854f5d003c154357bf6c734cc9ccead7f1",
+        "bytes": 41804
+      }
+    },
+    {
+      "id": "specimens/radio-1",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, radio-1.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE small portable GREEN audio player #6f9f86, unmistakable speaker grille, handle and one knob; casing predominantly green, not brown or blue. Individual 1: rounded rectangular case, circular speaker left and cream knob right. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-80d333b3-7f8c-4fd1-a592-bacde58350d5.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/radio-1.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/radio-1.png",
+      "sourceSha256": "3f4044f123b6b5c1a3c6e76b6090089f627534ae5aed2eef025d50463d649f07",
+      "sha256": "4d5a5c22b77bca61eaff9a925e5ac04918a381ec5c570ab36dedac157a077426",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.6556358337402344,
+        "semiFraction": 0.007518768310546875,
+        "opaqueFraction": 0.33684539794921875,
+        "bounds": [
+          77,
+          87,
+          434,
+          423
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/radio-1.webp",
+        "sha256": "4d2a3fde9f25265413faa7666b1a66fa77118b6953fde3c99ddcbfd94df84268",
+        "bytes": 54428
+      }
+    },
+    {
+      "id": "specimens/radio-2",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, radio-2.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE small portable GREEN audio player #6f9f86, unmistakable speaker grille, handle and one knob; casing predominantly green, not brown or blue. Individual 2: slightly taller green case, rectangular speaker mesh and two small cream buttons. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-8180ccfe-d17b-4018-9274-fe3db5906770.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/radio-2.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/radio-2.png",
+      "sourceSha256": "a6850d5eb9bcd378badc0761eccd1c053dbc3e2d3c72a51a0018772959004dba",
+      "sha256": "44dc7630a05c8a591f74d45f5bc4724d2a838eaa014e9a2dbbd95bd3d768b0df",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.6496658325195312,
+        "semiFraction": 0.008087158203125,
+        "opaqueFraction": 0.34224700927734375,
+        "bounds": [
+          84,
+          77,
+          427,
+          434
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/radio-2.webp",
+        "sha256": "bb8a8c53487d26e5c174259accd41e3d3aa0d99615ecf1fc8b7297ab1d9fd1d4",
+        "bytes": 55042
+      }
+    },
+    {
+      "id": "specimens/radio-3",
+      "batch": "art-20261010",
+      "requirement": "A2",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, radio-3.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE small portable GREEN audio player #6f9f86, unmistakable speaker grille, handle and one knob; casing predominantly green, not brown or blue. Individual 3: compact green oval-corner radio with circular woven speaker and top carrying handle. This is a different physical example of the same category, not an angle-copy or merely recolored duplicate. Preserve the category color. No decorative leaf motifs or other props on this object.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One complete object centered at (50%,50%), opaque silhouette occupies 65-70% of square, no contact/cast shadow. Toy objects face slightly RIGHT in three-quarter view; leaves/pinecones face camera with natural small depth. Maintain consistent size across variants.\nOutput: target 512x512 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-980b6ff8-9325-4868-8a22-a1c3b6bb4287.png",
+      "transparent_background": true,
+      "url": "/assets/specimens/radio-3.png",
+      "size": [
+        512,
+        512
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/specimens/radio-3.png",
+      "sourceSha256": "fae8003e6e52e8b3a850cb192e915a1da75c5e4e953287d8d9515a4482be385a",
+      "sha256": "5358809a6881e1dce83c18e797e46ccd803246177a58938ae0eb9ff037863438",
+      "operation": "Trim fully clear perimeter to alpha>8 bounds; proportionally fit specimen into 70% canvas; center in exact target RGBA canvas. No painted pixel changes beyond resampling.",
+      "alpha": {
+        "clearFraction": 0.6646385192871094,
+        "semiFraction": 0.00762939453125,
+        "opaqueFraction": 0.3277320861816406,
+        "bounds": [
+          77,
+          93,
+          434,
+          418
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/specimens/radio-3.webp",
+        "sha256": "65917957bb09a8d7afdb02bb68c25c8000e922c119e9dbec4a4b4d5030534c32",
+        "bytes": 59946
+      }
+    }
+  ],
+  "updated": "2026-10-10"
+}

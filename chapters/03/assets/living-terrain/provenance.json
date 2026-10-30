@@ -1,0 +1,324 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "living-terrain/pond-bank-left",
+      "batch": "art-20261010",
+      "requirement": "A1",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: one production game terrain cutout, pond-bank-left.png. Input image is ONLY the existing soil material/style reference. Reconstruct a LEFT SHORE descending naturally into a pond to the RIGHT: a wide dry pale ochre footpath and earth ledge at upper-left, an irregular sloping bank curving down toward lower-right, rounded embedded warm-gray stones, two small exposed roots, subtle moss; increasingly dark damp teal-brown at the low water-contact toe. This is a side-view modular game edge, not an island, not a scene. Upper-left terrain should extend to LEFT canvas border for overlap with existing soil; right-side outline is fully visible and slopes downward, no vertical rectangular cut. NO water surface baked in, no water rectangle, no sky, no grass or reed tufts (separate animated assets), no labels. Match reference detailed gouache/watercolor brush texture, warm soft upper-left light. Composition portrait 600x840 target, retain genuine alpha everywhere outside soil silhouette. Top walking seam around y=150, water-contact toe around y=640. Separate visible stones are embedded in this bank, not floating. Paint no background/checkerboard/white border.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/living-terrain/earth-bank.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-e7a36fd3-9cf9-4776-8cda-23a66f2974a5.png",
+      "transparent_background": true,
+      "url": "/assets/living-terrain/pond-bank-left.png",
+      "size": [
+        600,
+        840
+      ],
+      "sourceSize": [
+        1060,
+        1484
+      ],
+      "original": "art-source/2026-10-10/living-terrain/pond-bank-left.png",
+      "sourceSha256": "cb4385f87a6227272a3188965dd679957b3c44c530f5826b406b4533843414ba",
+      "sha256": "c3fb490b16bedfb9dbdef5ac4abbf591cd30dcb11484e5d26b6527cf96004770",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.6158412698412699,
+        "semiFraction": 0.005726190476190476,
+        "opaqueFraction": 0.3784325396825397,
+        "bounds": [
+          0,
+          130,
+          595,
+          719
+        ],
+        "opaqueEdgePixels": 291
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/living-terrain/pond-bank-left.webp",
+        "sha256": "4355be86db8d639e5fd2b9759c08fb0fb428b5d21c4c08a624a869fb57930037",
+        "bytes": 139510
+      }
+    },
+    {
+      "id": "living-terrain/pond-bank-right",
+      "batch": "art-20261010",
+      "requirement": "A1",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, pond-bank-right.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: RIGHT SHORE, from dry ochre ground at upper RIGHT descending toward wet toe at lower LEFT. Three smooth differently sized stones, one branching exposed root, small subdued moss. Same earth as reference but asymmetric composition distinct from left bank. No water or plants baked in.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: Portrait modular edge. Ground attaches to RIGHT canvas edge. LEFT-facing outline is irregular gently sloping, never a rectangular cliff. Dry seam at 18% height, wet toe around 76%.\nOutput: target 600x840 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/living-terrain/earth-bank.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-0b1ee92c-2548-4beb-bcfb-bbdf962b6962.png",
+      "transparent_background": true,
+      "url": "/assets/living-terrain/pond-bank-right.png",
+      "size": [
+        600,
+        840
+      ],
+      "sourceSize": [
+        1060,
+        1484
+      ],
+      "original": "art-source/2026-10-10/living-terrain/pond-bank-right.png",
+      "sourceSha256": "1ff14409c1bd3a7fe13196caad04a4353cfebdbf1c30c0b9a9e4e9ae395669c0",
+      "sha256": "47581ce7a5f03a65774cd23c9034023bbd2daee0c2ac3ff4e08a5efae7b5b982",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.6275416666666667,
+        "semiFraction": 0.0062817460317460315,
+        "opaqueFraction": 0.3661765873015873,
+        "bounds": [
+          7,
+          3,
+          599,
+          774
+        ],
+        "opaqueEdgePixels": 672
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/living-terrain/pond-bank-right.webp",
+        "sha256": "5b45e3ea7031e516557f3d617b3c8b905573394dbeffacb9bb9dd6fb10decb02",
+        "bytes": 138206
+      }
+    },
+    {
+      "id": "living-terrain/pond-reeds-a",
+      "batch": "art-20261010",
+      "requirement": "A1",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, pond-reeds-a.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: One rooted clump of narrow curved green sedges and three warm brown cattail heads. Blades naturally varied, separable silhouette. No soil patch and no water baked in.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: Clump root at canvas center x50%, y86%. Whole tips inside top 12%; roots meet one compact basal point for wind animation.\nOutput: target 360x360 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-19bdbbe7-70cd-4f73-bdc5-49ba7c8b8128.png",
+      "transparent_background": true,
+      "url": "/assets/living-terrain/pond-reeds-a.png",
+      "size": [
+        360,
+        360
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/living-terrain/pond-reeds-a.png",
+      "sourceSha256": "afec3a4d3d82a8fb28aec3c196be5e3dc432d2dc19d6bab388bb1fee6253f4a0",
+      "sha256": "994c8e095791e630e19dec54a10f9c6170b994d6f634c9e0be69b9b58c52b13a",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.7279783950617283,
+        "semiFraction": 0.04318672839506173,
+        "opaqueFraction": 0.2288348765432099,
+        "bounds": [
+          33,
+          13,
+          332,
+          348
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.52,
+          0.9666666666666667
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/living-terrain/pond-reeds-a.webp",
+        "sha256": "ab53e230137e328aaff2ffc086437fba6e7e3d22e130a507ca2f64f3cfa2e1a1",
+        "bytes": 50782
+      }
+    },
+    {
+      "id": "living-terrain/pond-reeds-b",
+      "batch": "art-20261010",
+      "requirement": "A1",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, pond-reeds-b.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: One rooted clump of a low spreading clump of bright olive water grass, four long curling blades and one seed head. Blades naturally varied, separable silhouette. No soil patch and no water baked in.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: Clump root at canvas center x50%, y86%. Whole tips inside top 12%; roots meet one compact basal point for wind animation.\nOutput: target 360x360 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-b9d06476-1b08-4132-9c4b-deefb35327cd.png",
+      "transparent_background": true,
+      "url": "/assets/living-terrain/pond-reeds-b.png",
+      "size": [
+        360,
+        360
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/living-terrain/pond-reeds-b.png",
+      "sourceSha256": "baa3ac0faf066c4d95fea080d4df4cba0607c7eaa99af956d2dbe2384213ca86",
+      "sha256": "5f94d0909bd139bf82c12e91c6479b5d36b3ce7f9e82bb691234401a8318a635",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.8401697530864197,
+        "semiFraction": 0.026589506172839505,
+        "opaqueFraction": 0.13324074074074074,
+        "bounds": [
+          20,
+          27,
+          342,
+          324
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5114,
+          0.9
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/living-terrain/pond-reeds-b.webp",
+        "sha256": "cadb8261e154aac331ccd8ab9af48a0609a4ce453e57aad5622c1c4fa8f2a24e",
+        "bytes": 33576
+      }
+    },
+    {
+      "id": "living-terrain/pond-water",
+      "batch": "art-20261010",
+      "requirement": "A1",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, pond-water.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONLY water surface material, full rectangular swatch. Quiet deep teal woodland pond, upper area lighter teal #598f88 and bottom deeper #28585b, painterly broken tree reflections and sparse gentle horizontal ripples. Not a horizon scene, no land/sky/trees drawn as whole objects, no white bright center.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: 2:1 full material, visually seamless LEFT/RIGHT tile with equal edge values; no vignette or framing. Evenly distributed fine reflections, no central focal object.\nOutput: target 1024x512 pixels, fully opaque edge-to-edge material/image. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-de58846a-c194-4465-8337-9aac94e61f8e.png",
+      "transparent_background": false,
+      "url": "/assets/living-terrain/pond-water.png",
+      "size": [
+        1024,
+        512
+      ],
+      "sourceSize": [
+        1774,
+        887
+      ],
+      "original": "art-source/2026-10-10/living-terrain/pond-water.png",
+      "sourceSha256": "2e4cdacbc22591a13a278c39d3045ec759975b24ccbe538d1b30a29b07cbf7fd",
+      "sha256": "2125eedb0074fd2aaba7751aee956302f167c9f2aee379b16e873d31ec5adb74",
+      "operation": "Proportional resize/crop to requested full opaque canvas.",
+      "alpha": {
+        "clearFraction": 0,
+        "semiFraction": 0,
+        "opaqueFraction": 1,
+        "bounds": [
+          0,
+          0,
+          1023,
+          511
+        ],
+        "opaqueEdgePixels": 3068
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "mirror-x",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/living-terrain/pond-water.webp",
+        "sha256": "d0e7e72573844b59a3475cd51e2e4e8ccd1a7133cd2b2e07a266d9439d61c8be",
+        "bytes": 114970
+      }
+    },
+    {
+      "id": "living-terrain/pond-waterline",
+      "batch": "art-20261010",
+      "requirement": "A1",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, pond-waterline.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: A single extremely thin horizontal strip of gentle pond ripples, broken cream-cyan reflected glints and tiny sparse foam threads. No rocks, no plants, no land, no background water plane, no big waves. It is the animated overlay at the water boundary.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: Extreme wide strip 1024x48 aspect. All ripples flow horizontally across entire width; left and right edges continue at matching heights and colors for seamless horizontal repeating. Keep top/bottom transparent, no dense bright band or visible rectangular border.\nOutput: target 1024x48 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-0f235ebc-8b5a-4edf-8601-da569a3ce91a.png",
+      "transparent_background": true,
+      "url": "/assets/living-terrain/pond-waterline.png",
+      "size": [
+        1024,
+        48
+      ],
+      "sourceSize": [
+        1828,
+        860
+      ],
+      "original": "art-source/2026-10-10/living-terrain/pond-waterline.png",
+      "sourceSha256": "e804ed8bf072faad6eab0d5a2bb8bb2012052a7d6892ce151745becf032a612e",
+      "sha256": "3d4dd995ab277283692917ab5e2b65bcecb46fbe68d24fef3dc699aa97502756",
+      "operation": "Crop empty/near-zero-alpha canvas rows to visible alpha>8 bounds plus 7px top/bottom gutter, then fit the horizontal ripple ribbon to 1024x48. No painting or alpha extraction.",
+      "alpha": {
+        "clearFraction": 0.5224405924479166,
+        "semiFraction": 0.3032023111979167,
+        "opaqueFraction": 0.17435709635416666,
+        "bounds": [
+          0,
+          3,
+          1023,
+          44
+        ],
+        "opaqueEdgePixels": 38
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "sourceCrop": {
+        "left": 0,
+        "top": 375,
+        "width": 1828,
+        "height": 100
+      },
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "mirror-x",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/living-terrain/pond-waterline.webp",
+        "sha256": "57c21694bf4df4aa0a06ee7239a073c4be00346df16893e6f22d7977ceb54698",
+        "bytes": 36484
+      }
+    }
+  ],
+  "updated": "2026-10-10"
+}

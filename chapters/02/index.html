@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head><script src="../../platform/storage-contract.js"></script><script src="../../platform/platform-client.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#13110e" />
+    <meta
+      name="description"
+      content="走进思想之庭，沿七个展厅探索人工智能的历史与不同道路。"
+    />
+    <title>奇点 · 思想之庭｜人工智能历史博物馆</title>
+    <link
+      rel="preload"
+      href="./fonts/tc-serif-400.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./fonts/tc-serif-600.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='20' fill='%23312c24'/%3E%3Cpath d='M20 6C3 12 36 20 20 34M20 6C36 12 3 20 20 34' fill='none' stroke='%23d8bc82' stroke-width='2'/%3E%3C/svg%3E"
+    />
+    <script type="module" crossorigin src="./assets/index-Czz5guqv.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Dfo6Ay29.css">
+  </head>
+  <body>
+
+    <main id="app">
+      <canvas
+        id="world"
+        tabindex="0"
+        aria-label="第一人称博物馆。WASD行走，拖动环顾，E阅读眼前展品。也可使用参观地图和馆藏档案。"
+      ></canvas>
+      <div class="scrim" aria-hidden="true"></div>
+      <header class="hud topbar">
+        <button id="home" class="brand" aria-label="回到入口">
+          <span class="brand-name">思想之庭</span
+          ><span class="brand-sub">人工智能历史博物馆</span>
+        </button>
+        <nav aria-label="参观">
+          <button id="open-study">探究手册<b id="study-count">0/8</b></button
+          ><button id="open-map">导览图</button
+          ><button id="open-archive">馆藏<b id="read-count">0/50</b></button>
+        </nav>
+      </header>
+      <button id="minimap" class="minimap" aria-label="小地图，打开导览图">
+        <span class="minimap-plan" id="minimap-plan"></span>
+        <span class="minimap-caption"
+          ><b id="minimap-room">序</b><span id="minimap-name">入口</span></span
+        >
+      </button>
+      <div id="crosshair" aria-hidden="true"><i></i></div>
+      <div id="focus-hint" role="status" aria-live="polite"></div>
+      <footer class="hud bottom">
+        <div class="room-label" id="room-label">
+          <span id="room-num">序</span>
+          <div>
+            <strong id="room-title">思想之庭</strong
+            ><small id="room-line">入口</small>
+            <p id="room-intro"><span></span></p>
+          </div>
+        </div>
+        <div class="controls-hint" id="controls-hint">
+          <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd><span>行走</span
+          ><i></i><kbd class="wide">Shift</kbd
+          ><span class="run-label">奔跑</span><i></i><span>拖动环顾</span><i></i
+          ><kbd>E</kbd><span>阅读</span>
+        </div>
+        <div class="bottom-right">
+          <aside class="room-invitation" aria-label="本厅实验">
+            <small id="room-invitation-label">从这里开始</small>
+            <button id="room-study">
+              <span id="room-invitation-title">隔着屏幕，能认出谁？</span
+              ><i aria-hidden="true">→</i>
+            </button>
+            <button id="room-guide">展厅导读<i aria-hidden="true">→</i></button>
+          </aside>
+          <div class="corner-buttons">
+            <button
+              id="toggle-sound"
+              class="icon-button"
+              aria-pressed="true"
+              aria-label="脚步声：开"
+              title="脚步声"
+            >
+              <svg viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M2.5 6h2.5l3.5-3v10L5 10H2.5z" />
+                <path
+                  class="wave"
+                  d="M11 5.6a3.4 3.4 0 0 1 0 4.8M12.9 3.8a6 6 0 0 1 0 8.4"
+                />
+                <path class="mute" d="M10.6 6.2l3.4 3.6M14 6.2l-3.4 3.6" />
+              </svg>
+            </button>
+            <button
+              id="open-help"
+              class="icon-button"
+              aria-label="参观须知与画质"
+              title="参观须知"
+            >
+              <svg viewBox="0 0 16 16" aria-hidden="true">
+                <path d="M8 7v5M8 4.2v.6" />
+                <rect x="1.5" y="1.5" width="13" height="13" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </footer>
+      <section id="loading" aria-live="polite">
+        <div class="loading-backdrop" aria-hidden="true"></div>
+        <div class="loading-shade" aria-hidden="true"></div>
+        <header class="loading-head">
+          <span class="loading-mark"
+            >思想之庭<small>人工智能历史博物馆</small></span
+          >
+          <nav id="novaReturnHost" data-nova-return-host aria-label="返回奇点"></nav>
+          <div class="quality-choice" aria-label="画质">
+            <span>画质</span
+            ><button data-quality="smooth" aria-pressed="false">流畅</button
+            ><button data-quality="auto" aria-pressed="true">自动</button
+            ><button data-quality="fine" aria-pressed="false">精细</button
+            ><button data-apply-quality hidden>应用并重新进入 →</button>
+          </div>
+        </header>
+        <div class="loading-title">
+          <small>常设展览</small>
+          <h1>思想之庭</h1>
+          <p>从“机器能思考吗”到今天。<br />七座展厅，五十件馆藏。</p>
+        </div>
+        <ol class="loading-halls" id="loading-halls" aria-label="七座展厅"></ol>
+        <aside class="loading-fact" aria-live="off">
+          <small id="loading-fact-meta">馆藏一则</small>
+          <p id="loading-fact"></p>
+        </aside>
+        <nav class="loading-actions" aria-label="等待时">
+          <button id="loading-archive">
+            先读馆藏<i aria-hidden="true">→</i></button
+          ><button id="loading-study">
+            先翻探究手册<i aria-hidden="true">→</i>
+          </button>
+        </nav>
+        <div class="loading-status">
+          <p id="loading-message">正在打开历史的入口</p>
+          <span id="loading-percent">0%</span>
+          <div class="loading-track"><i id="loading-bar"></i></div>
+        </div>
+      </section>
+      <div id="transition" aria-hidden="true"></div>
+      <dialog
+        id="welcome-dialog"
+        class="welcome-dialog"
+        aria-labelledby="welcome-heading"
+      >
+        <header class="welcome-head">
+          <div>
+            <span class="welcome-kicker">参观从这里开始 · VISITOR GUIDE</span>
+            <h2 id="welcome-heading">带着好奇，走进历史。</h2>
+            <p>这里的展品可以靠近看，历史也可以动手试。</p>
+          </div>
+          <button data-close class="close" aria-label="跳过入场引导">×</button>
+        </header>
+        <div class="welcome-steps">
+          <section>
+            <svg viewBox="0 0 240 130" aria-hidden="true">
+              <path
+                d="M22 102H218M50 100V43L120 18L190 43V100M68 96V53H172V96"
+              />
+              <rect x="67" y="64" width="30" height="28" />
+              <rect x="105" y="64" width="30" height="28" />
+              <rect x="143" y="64" width="30" height="28" />
+              <rect x="105" y="29" width="30" height="28" />
+              <text x="120" y="49">W</text>
+              <text x="82" y="84">A</text>
+              <text x="120" y="84">S</text>
+              <text x="158" y="84">D</text>
+              <path
+                class="guide-accent"
+                d="M92 114H148M136 108L148 114L136 120"
+              /></svg
+            ><small>01 / 走进去</small>
+            <h3>移动，环顾</h3>
+            <p>
+              <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd
+              ><kbd>D</kbd> 行走<br />按住鼠标拖动，看看四周。
+            </p>
+          </section>
+          <section>
+            <svg viewBox="0 0 240 130" aria-hidden="true">
+              <path
+                d="M52 106H188M62 96V28H178V96M70 39H170M82 96V109M158 96V109"
+              />
+              <rect x="96" y="51" width="48" height="36" />
+              <path d="M101 61H139M101 69H134M101 77H126" />
+              <circle class="guide-accent" cx="171" cy="85" r="21" />
+              <text x="171" y="92">E</text></svg
+            ><small>02 / 看一看</small>
+            <h3>靠近，阅读</h3>
+            <p>
+              展品名称出现时，按 <kbd>E</kbd>。<br />也可以直接点击近处展品。
+            </p>
+          </section>
+          <section>
+            <svg viewBox="0 0 240 130" aria-hidden="true">
+              <path
+                d="M42 102H198M56 89H184V98H56ZM65 98V113M175 98V113M81 87V45M159 87V45M81 45H159"
+              />
+              <circle cx="81" cy="44" r="11" />
+              <circle cx="120" cy="66" r="11" />
+              <circle cx="159" cy="44" r="11" />
+              <path class="guide-accent" d="M91 50L110 61M130 61L149 50" />
+              <rect
+                class="guide-accent"
+                x="105"
+                y="12"
+                width="30"
+                height="27"
+              />
+              <text x="120" y="32">F</text></svg
+            ><small>03 / 试一试</small>
+            <h3>实验，发现</h3>
+            <p>
+              靠近展品按 <kbd>F</kbd> 做本厅实验。<br />按
+              <kbd>Esc</kbd> 合上，继续参观。
+            </p>
+          </section>
+        </div>
+        <footer class="welcome-footer">
+          <p>
+            <span class="carpet-swatch"></span
+            >跟着蓝色地毯走，也可以自由探索。<small
+              >右上角导览图可以带你到其他展厅。</small
+            >
+          </p>
+          <div>
+            <button id="skip-welcome" class="secondary">自由参观</button
+            ><button id="start-welcome" class="primary">
+              开始第一次探索 <span aria-hidden="true">→</span>
+            </button>
+          </div>
+        </footer>
+      </dialog>
+      <aside
+        id="orientation-hint"
+        class="orientation-hint"
+        hidden
+        aria-live="polite"
+      >
+        <span class="orientation-number" id="orientation-step">01</span>
+        <div>
+          <small>第一次探索</small><strong id="orientation-title"></strong>
+          <p id="orientation-description"></p>
+          <button id="orientation-action"></button>
+        </div>
+        <button id="dismiss-orientation" aria-label="收起探索提示">×</button>
+      </aside>
+      <dialog id="map-dialog" class="map-dialog" aria-labelledby="map-heading">
+        <header class="sheet-head">
+          <div>
+            <small>导览图</small>
+            <h2 id="map-heading">七座展厅</h2>
+          </div>
+          <button data-close class="close" aria-label="关闭导览图">×</button>
+        </header>
+        <div class="map-layout">
+          <div id="floor-map"></div>
+          <div class="map-list" id="map-list"></div>
+        </div>
+        <p class="sheet-note">
+          点选展厅即可前往，也可以沿回廊步行。几座展厅的年代彼此重叠，因为不同的研究常在同一时期展开。
+        </p>
+      </dialog>
+      <dialog
+        id="archive-dialog"
+        class="archive-dialog"
+        aria-labelledby="archive-heading"
+      >
+        <header class="sheet-head">
+          <div>
+            <small>馆藏目录</small>
+            <h2 id="archive-heading">五十件馆藏</h2>
+          </div>
+          <button data-close class="close" aria-label="关闭馆藏目录">×</button>
+        </header>
+        <div class="archive-tools">
+          <label class="search"
+            ><svg viewBox="0 0 16 16" aria-hidden="true">
+              <circle cx="7" cy="7" r="5" />
+              <path d="M10.6 10.6L15 15" /></svg
+            ><input
+              id="search"
+              type="search"
+              placeholder="人物、年代、技术或机构"
+              aria-label="搜索馆藏"
+          /></label>
+          <div class="filters" aria-label="类别">
+            <button data-filter="all" class="selected">全部</button
+            ><button data-filter="history">历史</button
+            ><button data-filter="company">机构</button
+            ><button data-filter="future">未来</button>
+          </div>
+        </div>
+        <div id="results" class="results"></div>
+        <p class="sheet-note">
+          每件馆藏都注明出处。机构档案按时间记录它们做过的事，不作排名。
+        </p>
+      </dialog>
+      <dialog id="reading-dialog" class="reading-dialog" aria-label="馆藏阅读">
+        <header class="reading-top">
+          <button id="back-archive" class="text-button">馆藏目录</button
+          ><span id="reading-room"></span
+          ><button data-close class="close" aria-label="合上">×</button>
+        </header>
+        <article id="reading-body" tabindex="-1" autofocus></article>
+        <footer class="reading-footer">
+          <button id="prev-item">
+            <i aria-hidden="true">←</i><span>上一件</span
+            ><b id="prev-title"></b></button
+          ><button id="visit-exhibit">去展厅看实物</button
+          ><button id="next-item">
+            <span>下一件</span><b id="next-title"></b
+            ><i aria-hidden="true">→</i>
+          </button>
+        </footer>
+      </dialog>
+      <dialog
+        id="help-dialog"
+        class="help-dialog"
+        aria-labelledby="help-heading"
+      >
+        <header class="sheet-head">
+          <div>
+            <small>参观须知</small>
+            <h2 id="help-heading">慢慢走，也慢慢读</h2>
+          </div>
+          <button data-close class="close" aria-label="关闭参观须知">×</button>
+        </header>
+        <section class="help-section">
+          <h3>行走</h3>
+          <button id="replay-welcome" class="secondary">
+            重新查看入场引导
+          </button>
+          <dl class="help-keys">
+            <div>
+              <dt><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></dt>
+              <dd>行走，方向键也可以</dd>
+            </div>
+            <div>
+              <dt><kbd class="wide">Shift</kbd></dt>
+              <dd>按住奔跑，或连按两下 W</dd>
+            </div>
+            <div>
+              <dt>拖动画面</dt>
+              <dd>环顾四周</dd>
+            </div>
+            <div>
+              <dt><kbd>E</kbd></dt>
+              <dd>阅读眼前的展品，点选它也可以</dd>
+            </div>
+            <div>
+              <dt><kbd>F</kbd></dt>
+              <dd>打开本厅的实验</dd>
+            </div>
+          </dl>
+        </section>
+        <section class="help-section">
+          <h3>画质</h3>
+          <div class="quality-choice" aria-label="空间画质">
+            <button data-quality="smooth" aria-pressed="false">流畅</button
+            ><button data-quality="auto" aria-pressed="true">自动</button
+            ><button data-quality="fine" aria-pressed="false">精细</button
+            ><button data-apply-quality hidden>应用并重新进入 →</button>
+          </div>
+          <p>
+            三档都保留清晰的轮廓与文字，区别在光影和远处细节。行走时会减轻光效，停下即恢复。切换后重新载入空间，阅读记录保留。
+          </p>
+        </section>
+        <section class="help-section">
+          <h3>选项</h3>
+          <label class="check"
+            ><input type="checkbox" id="reduce-motion" /><span
+              >减少动效<small
+                >关闭转场、行走时的镜头起伏和奔跑时的视野变化</small
+              ></span
+            ></label
+          ><label class="check"
+            ><input type="checkbox" id="footstep-sound" checked /><span
+              >脚步声</span
+            ></label
+          ><button id="fullscreen" class="text-button">切换全屏</button>
+        </section>
+        <p class="sheet-note">
+          游客记录留在本机，登录后阅读记录与留言随个人账号同步。资料整理截至
+          <span id="as-of"></span>。
+        </p>
+      </dialog>
+      <dialog
+        id="study-dialog"
+        class="study-dialog"
+        aria-labelledby="study-heading"
+      >
+        <header class="study-top">
+          <h2 id="study-heading">探究手册</h2>
+          <button data-close aria-label="合上探究手册" class="close">×</button>
+        </header>
+        <div id="study-body"></div>
+      </dialog>
+      <div id="toast" role="status"></div>
+    </main>
+  </body>
+</html>

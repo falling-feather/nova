@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "ui/sorting-crate-dark",
+      "batch": "art-20261010",
+      "requirement": "A12",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, sorting-crate-dark.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE empty deep warm walnut sorting crate, open top, shallow welcoming depth, sturdy rounded edges, warm upper-left light. Front panel has one empty pale rectangular label inset where code will print a name. No contents, no lid, no floating labels.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: 4:3 side-front three-quarter view, complete crate with12% clear margin. Front blank label centered at (50%,67%). Opening unobstructed; no deep black interior.\nOutput: target 512x384 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-989e2758-148c-4bf0-b9f3-9784dc0f28a9.png",
+      "transparent_background": true,
+      "url": "/assets/ui/sorting-crate-dark.png",
+      "size": [
+        512,
+        384
+      ],
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "original": "art-source/2026-10-10/ui/sorting-crate-dark.png",
+      "sourceSha256": "fc1b1743e296c4f84078bf8dc2d5823ce6c5772eb6f2367ccdd56aa03170f0bc",
+      "sha256": "4dd7866224f454a30f1a852a4fafee6c10c84d47d82757aaf52e587bdfea10f6",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.4568227132161458,
+        "semiFraction": 0.008433024088541666,
+        "opaqueFraction": 0.5347442626953125,
+        "bounds": [
+          16,
+          50,
+          496,
+          349
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/sorting-crate-dark.webp",
+        "sha256": "3f20649aa429b50214b5b0151875feb65d4c41d89261ca03ce52da1c069e0508",
+        "bytes": 55082
+      }
+    },
+    {
+      "id": "ui/sorting-crate-light",
+      "batch": "art-20261010",
+      "requirement": "A12",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, sorting-crate-light.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE empty light honey oak sorting crate, open top, shallow welcoming depth, sturdy rounded edges, warm upper-left light. Front panel has one empty pale rectangular label inset where code will print a name. No contents, no lid, no floating labels.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: 4:3 side-front three-quarter view, complete crate with12% clear margin. Front blank label centered at (50%,67%). Opening unobstructed; no deep black interior.\nOutput: target 512x384 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-f5030605-12d2-4a40-91e3-fc883063d739.png",
+      "transparent_background": true,
+      "url": "/assets/ui/sorting-crate-light.png",
+      "size": [
+        512,
+        384
+      ],
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "original": "art-source/2026-10-10/ui/sorting-crate-light.png",
+      "sourceSha256": "8060380413b023034998f48f72a50ee5db6106a8358186ea133d8644bb62f510",
+      "sha256": "faeb4d8826fd9427427535f095b14f811a5e55561c73c4299cb808eaf0bfacee",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.4644775390625,
+        "semiFraction": 0.008748372395833334,
+        "opaqueFraction": 0.5267740885416666,
+        "bounds": [
+          24,
+          59,
+          495,
+          355
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/sorting-crate-light.webp",
+        "sha256": "642dc29c8809e684b028e59f8004af3e6cf0f59f65b095499000964d472eb671",
+        "bytes": 54704
+      }
+    },
+    {
+      "id": "ui/sorting-crate-white",
+      "batch": "art-20261010",
+      "requirement": "A12",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, sorting-crate-white.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: ONE empty soft weathered white-painted wood sorting crate, open top, shallow welcoming depth, sturdy rounded edges, warm upper-left light. Front panel has one empty pale rectangular label inset where code will print a name. No contents, no lid, no floating labels.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: 4:3 side-front three-quarter view, complete crate with12% clear margin. Front blank label centered at (50%,67%). Opening unobstructed; no deep black interior.\nOutput: target 512x384 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-82e36e3d-625f-4a22-af65-1dc72ef781dd.png",
+      "transparent_background": true,
+      "url": "/assets/ui/sorting-crate-white.png",
+      "size": [
+        512,
+        384
+      ],
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "original": "art-source/2026-10-10/ui/sorting-crate-white.png",
+      "sourceSha256": "df92ea9eb52bb5b33d4b380260816559a5f5e555d8ce0d5c198b98c34ec83995",
+      "sha256": "40ffc6e283f35fd46652370d3222a371b312c13f50474588b68264863adb6e10",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.4907328287760417,
+        "semiFraction": 0.0089874267578125,
+        "opaqueFraction": 0.5002797444661459,
+        "bounds": [
+          22,
+          76,
+          492,
+          350
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/sorting-crate-white.webp",
+        "sha256": "fc6a82ed42c68ff910b279181ec656af9168b36f4a762fabb82cae0a4549b992",
+        "bytes": 56120
+      }
+    },
+    {
+      "id": "ui/title-art",
+      "batch": "art-20261010",
+      "requirement": "A9",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, title-art.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Welcome illustration for the same forest learning adventure. Giant familiar camp oak and cream/sage tent on the RIGHT. Existing child explorer and sprout robot together in lower-right examining one newly taken photograph. A warm morning forest with painterly layers. LEFT40% remains quiet light cream-sage sunlit haze for a welcome card, no characters or busy details there. The photograph has a small bell image, no words. No UI, text, labels, HUD or map pins.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: WIDE16:9 composition. Entire image painted edge-to-edge; left40% soft pale negative space, story group right60%. Gentle readable silhouettes, warm soft morning sunlight, no poster typography.\nOutput: target 1920x1080 pixels, fully opaque edge-to-edge material/image. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-0e9ae6b4-d5f0-44f4-a88a-fe1765e5b8c5.png",
+      "transparent_background": false,
+      "url": "/assets/ui/title-art.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "sourceSize": [
+        1672,
+        941
+      ],
+      "original": "art-source/2026-10-10/ui/title-art.png",
+      "sourceSha256": "30e0f137a10dc4b6046a419e1e5da904d93a4d4706528512c14358286fdcf55c",
+      "sha256": "026eb5d5d1be1b81dff1e49c9c633017bc05390b22221f71ca4d41f13e6acbe8",
+      "operation": "Proportional resize/crop to requested full opaque canvas.",
+      "alpha": {
+        "clearFraction": 0,
+        "semiFraction": 0,
+        "opaqueFraction": 1,
+        "bounds": [
+          0,
+          0,
+          1919,
+          1079
+        ],
+        "opaqueEdgePixels": 5996
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/title-art.webp",
+        "sha256": "cdb30d88adcbd4f5f812f7f221d9eeefeace797c5367e703a7aa286656905434",
+        "bytes": 512144
+      }
+    },
+    {
+      "id": "ui/wipe-cloth",
+      "batch": "art-20261010",
+      "requirement": "A5",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, wipe-cloth.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: One small folded soft pale-orange and cream gingham cleaning cloth, corner pinched into a small raised fold as if held just out of frame. No human hand included so it works as a reusable cursor; tactile woven cloth, rounded folds, no rigid sponge.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: Landscape4:3, complete cloth centered with 14% clear margin. Pinch point near upper-left at (28%,28%) for cursor anchor.\nOutput: target 256x192 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-a11760e9-ed12-46f6-8e3a-d9a6f16afa9d.png",
+      "transparent_background": true,
+      "url": "/assets/ui/wipe-cloth.png",
+      "size": [
+        256,
+        192
+      ],
+      "sourceSize": [
+        1448,
+        1086
+      ],
+      "original": "art-source/2026-10-10/ui/wipe-cloth.png",
+      "sourceSha256": "6066c395cdf6b1a1b578b0de830d79d3fe4bdbc149cb8decec09732295ffcbb9",
+      "sha256": "d9483899df3c3266a7b9cc384d3b7b1c365f3afe81d05ee18f65bf1463d99cc5",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.60791015625,
+        "semiFraction": 0.01336669921875,
+        "opaqueFraction": 0.37872314453125,
+        "bounds": [
+          31,
+          19,
+          228,
+          176
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/wipe-cloth.webp",
+        "sha256": "69af73cf497a44edd3df519bb403a2097bc2362690793d5f7ac587078f0798ad",
+        "bytes": 15068
+      }
+    }
+  ],
+  "updated": "2026-10-10"
+}

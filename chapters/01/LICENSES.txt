@@ -1,0 +1,32 @@
+春汀小镇新版 — 运行资源来源与许可
+
+Three.js r186 and addons — MIT. Full license follows.
+The MIT License
+
+Copyright © 2010-2026 three.js authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+PBR textures — Poly Haven, CC0. Authors, original URLs and SHA256 hashes: assets/pbr/sources.json. License: https://polyhaven.com/license
+Camera 01 — Rajil Jose Macatangay; Croissant — Dario Barresi and Greg Zaal. Poly Haven, CC0-1.0. Original local models and textures, source URLs and hashes: assets/models/asset-lock.json. Build-time geometry normalization; camera lens uses a coated opaque material for runtime performance.
+Distant forest image — generated for this project. Provenance: assets/environment/provenance.json.
+Characters — original procedural clay figures sculpted from signed-distance shapes at load time; their occlusion is computed from the same shapes. Static room AO — baked locally in Blender from this project's original geometry; parameters in assets/shading/rooms/*-ao.json.
+Wood, plaster, limestone, slate, woven cloth, fine leather, bread crust, botanical/photographic decorative prints and transparent flower/foliage atlases — generated for this project with the built-in image tool. Complete prompts and source hashes: assets/art/provenance.json. The generated archival-style print is decorative, not a historical photograph.
+Handwritten digit samples — Alpaydin, E. & Kaynak, C. (1998), Optical Recognition of Handwritten Digits, UCI. DOI: 10.24432/C50P49. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Cropped, normalized to 16x16, selected and serialized in the supplied prototype. No author endorsement implied.
+Other local teaching samples derive from the user-supplied town prototype. Full development asset provenance is provided with the source project in THIRD_PARTY_NOTICES.md.

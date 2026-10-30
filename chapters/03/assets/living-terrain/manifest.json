@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "date": "2026-10-04",
+  "generator": "OpenAI built-in image_gen",
+  "assets": [
+    {
+      "file": "earth-bank.png",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-b050ffb0-9649-4012-af43-c222b5c8cfca.png",
+      "reference": "public/assets/environment/meadow-bank.png",
+      "prompt": "Use case: precise-object-edit. Asset type: replacement modular terrain ribbon for an existing richly hand-painted children's storybook 2D side-scrolling forest game. Edit this exact terrain image while preserving its horizontal 3:1 production strip composition and broad continuous footpath running left to right at the same height. REMOVE all flowers, grass tufts, leafy plants, ferns, hanging vines and bushes from this image: these living plants will be rendered as separate animated components in the game. Replace the plant-covered lower bank with beautifully hand-painted irregular warm sandstone, muted gray rock, rich brown earth, small surface specks and subtle thin moss stains only. Keep the pale warm ochre earth footpath clear and continuous, flat horizon left/right at matching heights, softly worn but no baked rocks protruding above the walking surface. The strip should feel organic, tactile, a children's premium fairytale illustration, with soft warm daylight, nuanced watercolor/gouache texture and controlled contrast, matching original art. Do not make a repetitive pattern of identical rocks; mix sizes and shapes. Fully transparent above terrain and around bottom edge, no backdrop, no scenery, no tree, no characters, no captions, no dark rim, no white outline. Preserve original transparent alpha intent. Output one full-width horizontal terrain ribbon, landscape 3:1.",
+      "transparent_background": true,
+      "size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "sha256": "6653bfd381afe592a7b8c52fb9ff6fb1979b127587c5b2c1904db95f8813589b",
+      "transparentFraction": 0.5287880406580996,
+      "packaging": "Generated PNG preserved. Runtime atlas rectangles and anchor transforms only; no alpha extraction or repaint by Python."
+    },
+    {
+      "file": "bridge-parts.png",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-a041edcc-bde6-402d-b067-7a7da849ceda.png",
+      "reference": "public/assets/environment/bridges-kit.png",
+      "prompt": "Use case: precise-object-edit. Asset type: modular bridge construction pieces for this existing hand-painted children's 2D forest game. Separate/reconstruct the pictured woodland bridge into SIX isolated production components in a strict 3-column by 2-row atlas, each with generous transparent margins. Preserve the beautifully painted warm timber, soft wood grain, rounded edges, rope fibers, moss stains and sunlight from the reference, but REMOVE all grass tufts, flowers and leaves that should animate separately. TOP LEFT: one straight horizontal floor/deck segment made of three warm thick timber planks, side view with a small visible top surface, perfectly level walk line, no posts and no rope. TOP MIDDLE: one upright rounded wooden bridge post, rope knot at upper third, complete footing, no adjoining plank. TOP RIGHT: one long perfectly straight horizontal braided hemp rope, no sag, no ends dangling, no supports. BOTTOM LEFT: one L-shaped timber support bracket with short horizontal support and a long diagonal brace, complete separate object. BOTTOM MIDDLE: three irregular warm pale stone blocks joined into a small flat parapet cap, no arch or ground. BOTTOM RIGHT: one small glowing golden forest lantern suspended from a short rope loop, rounded glass and wooden/leather frame, no scenery. All parts must be disconnected, no crossing a cell boundary, no framing lines, no captions, no letters, no scene composition, no children. Exact 3x2 grid, 1536x1024 landscape, genuine transparent alpha. These components will be used to assemble bridges which follow real terrain, so do not draw a whole bridge. No plastic 3D, no vector flat shapes.",
+      "transparent_background": true,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "e14f36136101594a2c574cc65e7b44cc3c54fcce33c0a7c9815dba9b2ad6cb07",
+      "transparentFraction": 0.8064181009928385,
+      "packaging": "Generated PNG preserved. Runtime atlas rectangles and anchor transforms only; no alpha extraction or repaint by Python."
+    },
+    {
+      "file": "camp-parts.png",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-61aab848-b791-49de-a387-16deae72b74c.png",
+      "reference": "public/assets/environment/camp-tree.png",
+      "prompt": "Use case: precise-object-edit. Asset type: separate animated-scene production kit for the SAME forest camp shown in the reference. Preserve the recognizable cream canvas tent with sage-green stripes, warm rough timber and golden lamp, but completely REMOVE the huge tree, roots, leaves, flowers, soil and all surrounding landscape. Rebuild the camp as disconnected parts in a clean atlas: LEFT HALF of a 1536x1024 transparent canvas contains the complete freestanding tent canopy/frame with four wooden poles, open front, empty interior; no table, no lamp and no hanging curtain baked into it. Keep tent poles clearly grounded at one baseline. RIGHT HALF has five separated smaller components with generous blank gutters: top right a simple freestanding work table with a small notebook and a camera, middle right a hanging cream fabric pennant with the existing green leaf mark (no words), middle far right a golden hanging lamp, bottom right a round log stool, bottom far right a small wooden barrel and one closed blank notebook. Each piece must have entirely transparent margins, no parts touching and no shadow outside silhouette. Side-scrolling game view, front-three-quarter perspective matching the reference; premium hand-painted gouache woodland fairytale. Canvas must be genuinely RGBA transparent with no glow/backdrop. The tent stays rigid but its cloth pennant and lamp will move separately in the engine. Do not include any whole tree, plants, people, animal or text.",
+      "transparent_background": true,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "d1d9274d1ca49b57a0c3574e0ec25b688b6901ebbf6354613ed8a1146192b0e2",
+      "transparentFraction": 0.5976670583089193,
+      "packaging": "Generated PNG preserved. Runtime atlas rectangles and anchor transforms only; no alpha extraction or repaint by Python."
+    },
+    {
+      "file": "far-slope.png",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-d5f0ba87-d558-484d-a70d-bc64882f8e61.png",
+      "reference": [
+        "public/assets/environment/forest-distance.png",
+        "public/assets/environment/woodland-tree.png"
+      ],
+      "prompt": "Use case: style-transfer. Asset type: opaque tileable terrain MATERIAL for a distant wooded hillside in this hand-painted 2D children's forest game. This is only the surface texture which will be mapped into the shape of a rolling hill, not a complete scenic picture. Fill the ENTIRE 1536x1024 image, every edge fully opaque, with a continuous organic mix of small muted woodland shrub foliage, mossy earth, tiny irregular stones and soft fern-like leaf masses. NO sky, NO skyline or empty background, NO tree trunk, NO recognizable whole tree, NO road, NO path, NO buildings, NO characters, NO isolated object composition. Use soft atmospheric distance: desaturated sage, muted blue green, moss olive and a little warm brown earth; subdued detail and low contrast, darker/greyer than the close bright forest. Match the reference painterly gouache texture, not photographic. The texture should be evenly useful across the whole rectangle, with no vignette or central focal object and no obvious repeated rows. Left and right edges should blend when repeated or mirrored. This material lets separate distant trees genuinely grow from a continuous hillside; do not draw the trees into it. Landscape 1536x1024, opaque full coverage.",
+      "transparent_background": false,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "633aad986983aab43dcc7797049572b4bcb6b577b8985a8dcaf804292ed58c6d",
+      "transparentFraction": 0.0,
+      "packaging": "Generated PNG preserved. Runtime atlas rectangles and anchor transforms only; no alpha extraction or repaint by Python."
+    }
+  ]
+}

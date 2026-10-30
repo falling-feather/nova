@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "date": "2026-10-04",
+  "generator": "OpenAI built-in image_gen",
+  "assets": [
+    {
+      "file": "squirrel.png",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-ac70e078-ae4a-4ab9-9024-1fd1739762c6.png",
+      "reference": "public/assets/characters/child-walk.png",
+      "prompt": "Use case: style-transfer. Asset type: production rig-parts atlas for a friendly forest squirrel neighbor in the existing hand-painted 2D children's adventure. The input is a STYLE reference: match its warm illustrated shading, charming proportions and clean watercolor-like painted forms, but create a squirrel, not a human. Character: warm cinnamon squirrel with cream cheeks and belly, soft expressive dark eyes, tiny rounded ears, a sage-green keeper's apron with acorn-key pocket, cream shirt, small brown feet. Friendly woodland camp caretaker, full side-three-quarter view facing RIGHT. Six separate parts on a transparent 3-column by 2-row canvas, each part entirely inside its own cell with at least 40px blank space to every cell edge. TOP LEFT: complete torso from a short neck down to two planted feet, wearing apron/shirt, NO head, NO forearms/hands and NO tail, open rounded hidden shoulder caps. TOP MIDDLE: one complete head facing right with open eyes, visible soft furry neck, no body. TOP RIGHT: the exactly same head with eyes gently closed for blinking, same scale and angle. BOTTOM LEFT: one entire near arm from rounded shoulder through elbow to relaxed mitten paw, cream sleeve, bent slightly, no body. BOTTOM MIDDLE: another identical style near arm with raised paw for a greeting wave, no body. BOTTOM RIGHT: large fluffy S-shaped squirrel tail with rounded attachment base at bottom left. The parts are designed to overlap so hide cut ends with soft fur/sleeve texture: no exposed black sockets, no outlined cut caps, no mechanical joints. Each part must be isolated, no labels, no frames, no shadows cast outside, no checkerboard, no scenery. Painterly game asset quality, not vector, not plastic 3D, no pixel art. Exact 3x2 layout, genuinely transparent background, landscape.",
+      "transparent_background": true,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "48e0f76570054b63692d7707e038da50858f4fce091ba275fd25ae7d988d288b",
+      "transparentFraction": 0.6307239532470703,
+      "packaging": "Generated PNG preserved. Runtime atlas rectangles and anchor transforms only; no alpha extraction or repaint by Python."
+    },
+    {
+      "file": "badger.png",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-cb3f4ee1-087f-4661-ac78-4d25013dac3b.png",
+      "reference": "public/assets/neighbors/squirrel.png",
+      "prompt": "Use case: style-transfer. Create the next matching production rig-parts atlas for this same premium hand-painted children's forest game. Keep the reference's warm painterly gouache texture and charming organic character design, but character is a friendly sturdy BADGER ferry keeper, short round build, warm gray fur, black-and-cream face stripes, expressive dark eyes, tiny ears. Outfit: ochre-yellow raincoat with broad collar, navy scarf, short dark rain boots, coil of boat rope. Side-three-quarter pose facing RIGHT. EXACT six separate isolated parts in a uniform 3 columns by 2 rows grid on genuinely transparent canvas; each part must leave 40px fully clear margin to all cell edges, no background glow or colored background. TOP LEFT: headless complete body from short furry neck to TWO planted rain boots, yellow raincoat and navy scarf, no arms or hands, no head; shoulder attachment areas smooth/unoutlined and partly hidden under coat collar. TOP MIDDLE: complete badger head with open friendly eyes facing right, short neck with soft fur overlap. TOP RIGHT: SAME head with eyes closed for a blink, same angle and proportions. BOTTOM LEFT: whole relaxed near arm with raincoat sleeve and dark furry paw, from rounded shoulder to hand. BOTTOM MIDDLE: whole raised arm and paw for greeting, same sleeve and scale. BOTTOM RIGHT: coil of warm brown hemp boat rope with short loose end, not connected to any character. No extra objects, captions, labels, frames, checkerboard or scenery. Each piece has clear clean edges and no dark cut sockets or outlined section cuts. Same material/color/shading family as input. Transparent RGBA production atlas, landscape 1536x1024.",
+      "transparent_background": true,
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "93bafae0c61f96301952bbd31fbcbdbb1db28b9541169d36349e4cb687e9a995",
+      "transparentFraction": 0.5802942911783854,
+      "packaging": "Generated PNG preserved. Runtime atlas rectangles and anchor transforms only; no alpha extraction or repaint by Python."
+    }
+  ]
+}

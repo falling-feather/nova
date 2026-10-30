@@ -1,0 +1,149 @@
+{
+  "downloaded": "2026-09-27",
+  "license": "https://polyhaven.com/license",
+  "assets": [
+    {
+      "id": "marble_01",
+      "file": "floor-color.jpg",
+      "size": 5013465,
+      "md5": "f908003ccca4c746aa3e5564c6940a35",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/marble_01/marble_01_diff_4k.jpg",
+      "bytes": 5013465,
+      "sha256": "3c7805a8988323b46d45d747530b659b4aa46e5bfa0b57c3d21083a403de229d",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/marble_01",
+      "authors": {
+        "Rob Tuytel": "All"
+      }
+    },
+    {
+      "id": "marble_01",
+      "file": "floor-normal.jpg",
+      "size": 1274528,
+      "md5": "7a5d99efb20c0cf961c5f0896403fa0b",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/marble_01/marble_01_nor_gl_4k.jpg",
+      "bytes": 1274528,
+      "sha256": "ca7efbe72f13bf156545485762307e91d6077b06746dc7cc1742908cf9873cbd",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/marble_01",
+      "authors": {
+        "Rob Tuytel": "All"
+      }
+    },
+    {
+      "id": "marble_01",
+      "file": "floor-roughness.jpg",
+      "size": 941909,
+      "md5": "73008319a0d644785a5d1711c25caff8",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/marble_01/marble_01_rough_4k.jpg",
+      "bytes": 941909,
+      "sha256": "519e24e673323b0f09f6591e6339c95f9c6aedad3798e4a46d43b34bf335d649",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/marble_01",
+      "authors": {
+        "Rob Tuytel": "All"
+      }
+    },
+    {
+      "id": "smoked_walnut_veneer",
+      "file": "wood-color.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/smoked_walnut_veneer/smoked_walnut_veneer_diff_4k.jpg",
+      "md5": "33c351092bc77e32bd9044920294c49a",
+      "size": 8549309,
+      "bytes": 8549309,
+      "sha256": "276e98bcc04aa1dfa03bd91fcce914807c448d56fa86ed7f849f2cc1e835a98b",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/smoked_walnut_veneer",
+      "authors": {
+        "Jenelle van Heerden": "All"
+      }
+    },
+    {
+      "id": "smoked_walnut_veneer",
+      "file": "wood-normal.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/smoked_walnut_veneer/smoked_walnut_veneer_nor_gl_4k.jpg",
+      "md5": "f1785dce261ded7c225c196fd7eca102",
+      "size": 7533057,
+      "bytes": 7533057,
+      "sha256": "56fce6b9fba4e47e80d2fe393ba58e107e16e66f4e3562c711a5f55c08c10a18",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/smoked_walnut_veneer",
+      "authors": {
+        "Jenelle van Heerden": "All"
+      }
+    },
+    {
+      "id": "smoked_walnut_veneer",
+      "file": "wood-roughness.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/smoked_walnut_veneer/smoked_walnut_veneer_rough_4k.jpg",
+      "md5": "22009735936e3f56642a81e0f66ed672",
+      "size": 5670509,
+      "bytes": 5670509,
+      "sha256": "cece155299abe0f86d737474668d99e7df6eed43ef40131cb27bba1842c232b0",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/smoked_walnut_veneer",
+      "authors": {
+        "Jenelle van Heerden": "All"
+      }
+    },
+    {
+      "id": "beige_wall_001",
+      "file": "stone-color.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/beige_wall_001/beige_wall_001_diff_4k.jpg",
+      "size": 1103790,
+      "md5": "626521ffbdb51ec8bb35b089b22d2e84",
+      "bytes": 1103790,
+      "sha256": "80062445c4122f72bd067cbc4ac511146c6a7de4a3bb4fe78237c9838e4def37",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/beige_wall_001",
+      "authors": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "id": "beige_wall_001",
+      "file": "stone-normal.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/beige_wall_001/beige_wall_001_nor_gl_4k.jpg",
+      "size": 3386993,
+      "md5": "42c3e5549ab9abd76e2fa0351a812455",
+      "bytes": 3386993,
+      "sha256": "09b8785879500c280b959f47e2cf32ba8ac612ec30e6f11860fa0209bc9ab75f",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/beige_wall_001",
+      "authors": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "id": "beige_wall_001",
+      "file": "stone-roughness.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/beige_wall_001/beige_wall_001_rough_4k.jpg",
+      "size": 2612200,
+      "md5": "8e35f796e1defb23cb471fea3c8efd3f",
+      "bytes": 2612200,
+      "sha256": "662874883ceb729365eb16f5c01457e993ca29474ce659bb96eb0a16be09264a",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/beige_wall_001",
+      "authors": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      }
+    },
+    {
+      "id": "studio_small_09",
+      "file": "studio.hdr",
+      "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/studio_small_09_2k.hdr",
+      "size": 6312947,
+      "md5": "b056fea247bc84b81d2e0987d44c87d8",
+      "bytes": 6312947,
+      "sha256": "36724313c0fc66dab126ff90f081b85a0b1ef47be65eda1417bd20b033f0573f",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/studio_small_09",
+      "authors": {
+        "Sergej Majboroda": "All"
+      }
+    }
+  ]
+}
