@@ -1,0 +1,69 @@
+{
+ "perClass": 160,
+ "cols": 16,
+ "seed": 8,
+ "classes": [
+  {
+   "key": "fish",
+   "zh": "鱼"
+  },
+  {
+   "key": "bird",
+   "zh": "鸟"
+  },
+  {
+   "key": "flower",
+   "zh": "花"
+  },
+  {
+   "key": "tree",
+   "zh": "树"
+  },
+  {
+   "key": "house",
+   "zh": "房子"
+  },
+  {
+   "key": "star",
+   "zh": "星星"
+  },
+  {
+   "key": "sailboat",
+   "zh": "帆船"
+  },
+  {
+   "key": "crab",
+   "zh": "螃蟹"
+  },
+  {
+   "key": "whale",
+   "zh": "鲸鱼"
+  },
+  {
+   "key": "sun",
+   "zh": "太阳"
+  },
+  {
+   "key": "lighthouse",
+   "zh": "灯塔"
+  },
+  {
+   "key": "butterfly",
+   "zh": "蝴蝶"
+  }
+ ],
+ "files": [
+  "practice-fish.png",
+  "practice-bird.png",
+  "practice-flower.png",
+  "practice-tree.png",
+  "practice-house.png",
+  "practice-star.png",
+  "practice-sailboat.png",
+  "practice-crab.png",
+  "practice-whale.png",
+  "practice-sun.png",
+  "practice-lighthouse.png",
+  "practice-butterfly.png"
+ ]
+}

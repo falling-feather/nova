@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.work/
+training/checkpoints/
+training/cache/
+training/runs/
+training/corpus/
+__pycache__/

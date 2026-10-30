@@ -1,0 +1,134 @@
+{
+  "source": "The Quick, Draw! Dataset, Google Creative Lab, CC BY 4.0",
+  "url": "https://github.com/googlecreativelab/quickdraw-dataset",
+  "selection": "simplified ndjson 中 recognized 为 true 的涂鸦，按文件顺序每类取前 20000 幅",
+  "raster": "32x32 灰度，居中等比缩放，四周留 2 像素，线宽约 1.75 像素",
+  "total": 240000,
+  "classes": [
+    {
+      "key": "fish",
+      "zh": "鱼",
+      "count": 20000,
+      "linesRead": 21224
+    },
+    {
+      "key": "bird",
+      "zh": "鸟",
+      "count": 20000,
+      "linesRead": 23861
+    },
+    {
+      "key": "flower",
+      "zh": "花",
+      "count": 20000,
+      "linesRead": 20873
+    },
+    {
+      "key": "tree",
+      "zh": "树",
+      "count": 20000,
+      "linesRead": 20912
+    },
+    {
+      "key": "house",
+      "zh": "房子",
+      "count": 20000,
+      "linesRead": 20449
+    },
+    {
+      "key": "star",
+      "zh": "星星",
+      "count": 20000,
+      "linesRead": 20732
+    },
+    {
+      "key": "sailboat",
+      "zh": "帆船",
+      "count": 20000,
+      "linesRead": 20592
+    },
+    {
+      "key": "crab",
+      "zh": "螃蟹",
+      "count": 20000,
+      "linesRead": 23893
+    },
+    {
+      "key": "whale",
+      "zh": "鲸鱼",
+      "count": 20000,
+      "linesRead": 21335
+    },
+    {
+      "key": "sun",
+      "zh": "太阳",
+      "count": 20000,
+      "linesRead": 20637
+    },
+    {
+      "key": "lighthouse",
+      "zh": "灯塔",
+      "count": 20000,
+      "linesRead": 23093
+    },
+    {
+      "key": "butterfly",
+      "zh": "蝴蝶",
+      "count": 20000,
+      "linesRead": 20596
+    }
+  ],
+  "countries": 184,
+  "topCountries": [
+    [
+      "US",
+      105119
+    ],
+    [
+      "GB",
+      17315
+    ],
+    [
+      "CA",
+      8286
+    ],
+    [
+      "DE",
+      8208
+    ],
+    [
+      "AU",
+      5716
+    ],
+    [
+      "RU",
+      5422
+    ],
+    [
+      "BR",
+      4851
+    ],
+    [
+      "SE",
+      4163
+    ],
+    [
+      "FI",
+      4032
+    ],
+    [
+      "CZ",
+      3798
+    ],
+    [
+      "IT",
+      3776
+    ],
+    [
+      "KR",
+      3559
+    ]
+  ],
+  "firstTimestamp": "2017-01-23 00:00:11.71489 UTC",
+  "lastTimestamp": "2017-03-29 23:59:34.54583 UTC"
+}

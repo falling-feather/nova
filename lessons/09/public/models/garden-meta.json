@@ -1,0 +1,36 @@
+{
+ "config": {
+  "vocab": 2764,
+  "ctx": 256,
+  "dim": 384,
+  "layers": 6,
+  "heads": 6,
+  "dropout": 0.1
+ },
+ "params": 11807232,
+ "bytes": 12093235,
+ "sha256": "6878a0479b83cd53736b2f4ef3ae255de5b1d254e6db0c970d63804b7667155d",
+ "special": {
+  "<pad>": 0,
+  "<unk>": 1,
+  "<bos>": 2,
+  "<eos>": 3,
+  "<note>": 4,
+  "</note>": 5,
+  "<page>": 6,
+  "</page>": 7,
+  "<q>": 8,
+  "</q>": 9,
+  "<a>": 10
+ },
+ "cutoff": "3月20日（春分）",
+ "parity": {
+  "prompts": 40,
+  "greedy_same_fp32": 40,
+  "greedy_same_int8": 37,
+  "max_logit_err_fp32": 1.609325408935547e-05,
+  "max_logit_err_int8": 0.43167150020599365
+ },
+ "inputs": "ids int64 [1,T]; past_k/past_v float32 [layers,1,heads,P,dh]",
+ "outputs": "logits [1,vocab] (只给最后一个位置)；present_k/present_v [layers,1,heads,P+T,dh]"
+}

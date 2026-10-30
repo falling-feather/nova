@@ -1,0 +1,80 @@
+/* Knowledge dialogs and focused orientation. Desk layout lives in workbench.css. */
+.operation-target{outline:3px solid #f5d78d!important;outline-offset:7px;box-shadow:0 0 35px #e8d06b55!important}
+.sheet-actions button,.chooser-buttons button,.detail-actions button{min-height:44px;font-size:16px;padding:10px 16px}
+.sheet-close{width:48px;height:48px;color:#c7b99b}.sheet{max-height:calc(100svh - 28px)}
+.sheet-head,.practice-check{margin-right:42px}
+.sheet[data-kind=preparation],.sheet[data-kind=knowledge],.sheet[data-kind=lesson-review],.sheet[data-kind=practice-welcome]{width:min(710px,calc(100vw - 26px));padding:35px 38px 28px;background:linear-gradient(150deg,#f7f1e1,#e6ddc4);color:#36422e}
+.sheet[data-kind=preparation] .sheet-close,.sheet[data-kind=knowledge] .sheet-close,.sheet[data-kind=lesson-review] .sheet-close,.sheet[data-kind=practice-welcome] .sheet-close{color:#6c755b}
+.knowledge-lesson h2{font:30px/1.45 var(--font-title);letter-spacing:1px;margin:13px 0}
+.concept-name{display:inline-block;padding:7px 13px;background:#dbe4c2;border:1px solid #a8b780;color:#3d5b2b;border-radius:3px;font-size:15px;margin:0 0 10px}
+.knowledge-meaning{font-size:17px;line-height:1.9;margin:9px 0 20px}
+.knowledge-observe{padding:16px 20px;background:#fffcf078;border-left:3px solid #b1985c}
+.knowledge-observe h3{font-size:14px;margin:0 0 7px;color:#6f704e}
+.knowledge-observe p{font-size:16px;line-height:1.85;margin:0}
+.knowledge-question{font-size:17px;line-height:1.7;font-weight:600;color:#3d5831;margin:20px 0 12px}
+.knowledge-transfer{font-size:15px;line-height:1.85;color:#727758}
+.intro-teaching{padding:16px 18px;background:#f9f4e477;border-left:3px solid #8b9b60;margin:22px 0 15px}
+.intro-teaching>span{font-size:12px;color:#7d825d}.intro-teaching h3{font:22px var(--font-title);margin:7px 0 10px;color:#47613b}
+.intro .intro-teaching p{font-size:15px;line-height:1.85}
+.intro .intro-guidance{font-size:14px;line-height:1.8;color:#7c8061;margin-top:16px}
+.knowledge-lesson .sheet-actions,.practice-welcome .sheet-actions{border-color:#c8bea0}
+.knowledge-lesson .sheet-actions button,.practice-welcome .sheet-actions button{background:#e8dec6;color:#4b513c;border-color:#b8ad8c}
+.knowledge-lesson .sheet-actions .primary,.practice-welcome .sheet-actions .primary{background:#48683c;color:#f3f3dd;border-color:#48683c}
+.recap-facts{list-style:none;padding:0;margin:18px 0;display:grid;gap:9px}
+.recap-facts li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid #b8b2914d;font-size:14px}
+.recap-facts b{font-weight:500;color:#637849;font-size:13px}
+.practice-welcome h2{font:38px/1.5 var(--font-title);letter-spacing:3px;color:#334c2d;margin:18px 0}
+.practice-welcome>p{font-size:17px;line-height:1.9;color:#60634c}
+.practice-route{list-style:none;display:flex;flex-wrap:wrap;gap:12px;padding:0;margin:25px 0}
+.practice-route li{font-size:14px;display:flex;gap:8px;align-items:center;flex:1;min-width:125px}
+.practice-route b{font:18px var(--font-num);width:30px;height:30px;border-radius:50%;display:grid;place-items:center;color:#f5eed9;background:#62744c;flex:none}
+.practice-welcome .practice-preserve{font-size:14px;color:#7b7f64}
+.practice-task-list{font-size:15px;line-height:2.2;padding-left:22px}
+.practice-reminder{font-size:13px;color:#738059;line-height:1.8}
+.practice-check{background:#e8e5ce;color:#394e2d;padding:20px 24px;border-radius:4px;margin:6px 0 24px}
+.practice-check h3{font:25px var(--font-title);margin:10px 0}
+.practice-check p{font-size:16px;line-height:1.8;max-width:720px}
+.practice-check .primary{min-height:48px;padding:12px 20px;background:#4d693c;color:#f8f5df;border-radius:3px;font-size:16px}
+.sheet[data-kind=practice-inspection] .sheet-actions,.sheet[data-kind=practice-inspection] .detail-actions{display:none}
+.focus-guide{position:fixed;inset:0;z-index:100;pointer-events:none}
+.focus-guide[hidden]{display:none}
+.focus-shade{position:absolute;background:#101810bc;pointer-events:auto}
+.focus-ring{position:absolute;border:3px solid #f4d383;border-radius:7px;box-shadow:0 0 0 4px #e6c66b20,0 0 25px #d7b94e55;pointer-events:none}
+.coach-card{position:absolute;background:linear-gradient(150deg,#fbf6e6,#e9dfc4);color:#35452c;border:1px solid #d3c190;border-radius:9px;padding:21px 23px;box-shadow:0 18px 50px #02070170;pointer-events:auto;overflow:auto}
+.coach-top{display:flex;align-items:center;justify-content:space-between;gap:9px;font-size:12px;color:#76805d}
+.coach-top button{min-height:44px;padding:6px 9px;font-size:13px;text-decoration:underline;color:#697651}
+.coach-progress{height:5px;background:#d3caae;border-radius:4px;overflow:hidden;margin:3px 0 16px}
+.coach-progress i{display:block;height:100%;background:#778d48}
+.coach-card h2{font:26px/1.5 var(--font-title);margin:8px 0 10px}
+.coach-card>p{font-size:15px;line-height:1.85;margin:10px 0;color:#626b4c}
+.coach-concept{padding:10px 13px;background:#dbe3bc;font-size:13px;line-height:1.65;color:#3c582e;border-radius:3px;margin:14px 0}
+.coach-instruction{display:block;font-size:15px;line-height:1.8;font-weight:600;color:#38512a;margin:10px 0}
+.coach-primary,.coach-answers button{display:block;min-height:48px;padding:12px 16px;background:#4c6b3d;color:#faf6df;border-radius:4px;font-size:16px;width:100%;margin-top:16px;text-align:center}
+.coach-answers button{background:#f3ecdb;border:1px solid #aab28b;color:#475d35;text-align:left;font-size:14px;line-height:1.7}
+.coach-card>.coach-feedback{padding:10px 12px;border-left:3px solid #b8954e;background:#efe3c2;font-size:14px}
+body[data-practice]:not([data-practice=""]) .toast{display:none}
+@media(max-width:799px){
+ .coach-card{padding:15px 18px}.coach-card h2{font-size:23px;margin:5px 0}.coach-card>p{font-size:14px;line-height:1.7;margin:8px 0}.coach-concept{font-size:12px;margin:10px 0;padding:8px 10px}.coach-instruction{font-size:14px;margin:8px 0}.coach-top button{min-height:40px}.coach-primary{margin-top:10px;font-size:15px}
+ .sheet[data-kind=preparation],.sheet[data-kind=knowledge],.sheet[data-kind=lesson-review],.sheet[data-kind=practice-welcome]{padding:32px 23px 24px}
+ .knowledge-lesson h2{font-size:26px}.knowledge-meaning{font-size:16px}.knowledge-observe{padding:14px 16px}.knowledge-observe p{font-size:15px}.knowledge-question{font-size:16px}.practice-welcome h2{font-size:31px}.practice-welcome>p{font-size:16px}.recap-facts li{flex-direction:column;gap:5px}
+ .proc-steps{flex-wrap:wrap}.proc-steps li{font-size:12px}
+}
+@media(max-width:480px){.practice-route{flex-direction:column}.practice-route li{font-size:15px}.practice-check{padding:18px}.practice-check h3{font-size:22px}.practice-check p{font-size:15px}.coach-answers button{font-size:13px;padding:11px}.sheet-actions{gap:9px}.sheet-actions button{font-size:14px}}
+/* Practice welcome follows chapter 1's welcome card: illustrated left panel, one lead line, one primary action. */
+.sheet[data-kind=practice-welcome]{width:min(860px,calc(100vw - 40px));padding:0;border:2px solid #f6efd9;border-radius:34px;background:#f8f2e2;overflow:hidden}
+.sheet[data-kind=practice-welcome]::backdrop{background:radial-gradient(ellipse at center,#f1ead21f,#10140cb8);backdrop-filter:blur(3px)}
+.practice-welcome{display:grid;grid-template-columns:.85fr 1.15fr}
+.welcome-art{position:relative;display:grid;place-items:center;min-height:420px;background:radial-gradient(circle at 50% 47%,#fbf6e2 0 25%,transparent 25.5%),linear-gradient(155deg,#dfe9d2,#e8ead5 55%,#eadfc0)}
+.welcome-frame{width:200px;height:200px}
+.welcome-chip{position:absolute;display:flex;align-items:center;gap:8px;padding:10px 14px;border-radius:16px;background:#fffaf0;box-shadow:0 5px 0 #6a7d5a1c;font-size:14px;font-weight:700;color:#475f3d}
+.welcome-chip b{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:#62744c;color:#f5eed9;font:14px var(--font-num)}
+.welcome-chip.step-1{top:36px;left:22px;transform:rotate(-6deg)}.welcome-chip.step-2{top:118px;right:14px;transform:rotate(6deg)}.welcome-chip.step-3{bottom:62px;left:22px;transform:rotate(-4deg)}
+.welcome-caption{position:absolute;right:22px;bottom:24px;font-size:13px;letter-spacing:.06em;color:#76806a}
+.welcome-copy{padding:38px 38px 28px;display:flex;flex-direction:column}
+.welcome-copy .eyebrow{align-self:flex-start;padding:4px 12px;border-radius:99px;background:#e1e8cf;color:#3f5a34;font-weight:700;letter-spacing:.08em}
+.practice-welcome h2{font-size:40px;line-height:1.3;margin:16px 0 10px}
+.practice-welcome .welcome-copy>p{margin:0}
+.practice-welcome .sheet-actions{display:flex;flex-direction:column;gap:6px;border:0;margin:24px 0 0;padding:0}
+.practice-welcome .sheet-actions .primary{width:100%;min-height:56px;border-radius:99px;font-size:19px;font-weight:800;letter-spacing:.08em}
+.practice-welcome .sheet-actions .welcome-later{align-self:center;background:none;border:0;color:#5d6b4f;font-size:14px;text-decoration:underline;text-underline-offset:4px}
+.practice-welcome .practice-preserve{margin-top:14px!important;text-align:center;font-size:13px}

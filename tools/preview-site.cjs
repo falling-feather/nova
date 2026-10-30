@@ -1,0 +1,10 @@
+'use strict';
+const fs = require('node:fs');
+const path = require('node:path');
+const { createStaticServer } = require('./static-server.cjs');
+const root = path.resolve(__dirname, '../dist-site');
+if (!fs.existsSync(path.join(root, 'index.html'))) throw Error('请先运行 npm run build:site');
+const port = Number(process.env.PORT || 4173);
+const server = createStaticServer({ root, instance: 'nova-source-preview' });
+server.on('error', error => { console.error(error.message); process.exitCode = 1; });
+server.listen(port, '127.0.0.1', () => console.log('奇点预览：http://127.0.0.1:' + server.address().port + '/'));

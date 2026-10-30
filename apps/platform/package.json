@@ -1,0 +1,18 @@
+{
+  "name": "nova-singularity-unified",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ../../tools/launch.cjs",
+    "start:linked": "node ../../tools/project.cjs build && node ../../tools/launch.cjs",
+    "build": "node tools/build-platform.cjs",
+    "build:platform": "node tools/build-platform.cjs --platform-only",
+    "test:platform": "node --test tests/platform/*.test.cjs",
+    "test": "node --test tests/home/*.test.cjs tests/backgrounds/*.test.mjs tests/courses/*.test.cjs tests/server/*.test.cjs tests/platform/*.test.cjs",
+    "test:browser": "node tests/browser/background-composite.cjs",
+    "test:entry": "node tests/browser/course-entry.cjs",
+    "test:atlas": "node tests/browser/course-atlas.cjs",
+    "test:interactions": "node tests/browser/course-interactions.cjs",
+    "test:linkage": "node tests/browser/linked-courses.cjs"
+  }
+}

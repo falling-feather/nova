@@ -1,0 +1,878 @@
+{
+  "pdf": "奇点第八章-完整页面与交互设计图册.pdf",
+  "overviewPages": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "logicPages": {
+    "L01": 7,
+    "L02": 8,
+    "L03": 9
+  },
+  "pages": [
+    {
+      "id": "A01",
+      "name": "章节邀请与续学",
+      "pdfPage": 10,
+      "image": "A01-章节邀请与续学.png",
+      "steps": [],
+      "entry": "奇点第八章详情进入；首次进入与已有进度共用入口",
+      "actions": [
+        {
+          "control": "开始旅程",
+          "target": "A02",
+          "condition": "首次开始；已有记录则先确认重新开始"
+        },
+        {
+          "control": "继续上次",
+          "target": "LAST",
+          "condition": "读取本机保存位置"
+        },
+        {
+          "control": "返回奇点目录",
+          "target": "HUB",
+          "condition": "离开本章"
+        }
+      ]
+    },
+    {
+      "id": "A02",
+      "name": "五站课程地图",
+      "pdfPage": 11,
+      "image": "A02-五站课程地图-v2.png",
+      "steps": [],
+      "entry": "从入口开始旅程；任意课程页点击课程地图",
+      "actions": [
+        {
+          "control": "继续这一站",
+          "target": "CURRENT",
+          "condition": "当前站首个未完成环节"
+        },
+        {
+          "control": "回看上一站",
+          "target": "PREVIOUS",
+          "condition": "已完成环节可回访"
+        },
+        {
+          "control": "关闭地图",
+          "target": "CALLER",
+          "condition": "回到打开地图前的页面"
+        }
+      ]
+    },
+    {
+      "id": "B01",
+      "name": "原画与像素观察",
+      "pdfPage": 12,
+      "image": "B01-原画与像素观察-v2.png",
+      "steps": [
+        1
+      ],
+      "entry": "A02进入第1站",
+      "actions": [
+        {
+          "control": "画笔／橡皮",
+          "target": "SELF",
+          "condition": "直接在画布操作"
+        },
+        {
+          "control": "借一幅",
+          "target": "SELF",
+          "condition": "选择样图后仍可继续编辑"
+        },
+        {
+          "control": "看像素",
+          "target": "G03",
+          "condition": "打开局部观察层"
+        },
+        {
+          "control": "画好了，去看潮水",
+          "target": "B02",
+          "condition": "保留原图用于后续实验"
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "name": "加噪预测与观察",
+      "pdfPage": 13,
+      "image": "B02-加噪预测与观察.png",
+      "steps": [
+        2,
+        3
+      ],
+      "entry": "B01保存原画后进入",
+      "actions": [
+        {
+          "control": "拖动潮水尺",
+          "target": "SELF",
+          "condition": "同一原图与随机数，改变加噪进程"
+        },
+        {
+          "control": "记下这一刻",
+          "target": "G03",
+          "condition": "弹出预测与观察对照"
+        },
+        {
+          "control": "查看原理",
+          "target": "G01",
+          "condition": "按需查看概念"
+        },
+        {
+          "control": "继续比较终点",
+          "target": "B03",
+          "condition": "完成观察与解释后"
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "name": "噪声终点与分布",
+      "pdfPage": 14,
+      "image": "B03-噪声终点与分布-v2.png",
+      "steps": [
+        4
+      ],
+      "entry": "B02完成加噪观察",
+      "actions": [
+        {
+          "control": "选择一片乱沙",
+          "target": "SELF",
+          "condition": "留下判断"
+        },
+        {
+          "control": "揭开原画",
+          "target": "SELF",
+          "condition": "显示对应关系与分布提示"
+        },
+        {
+          "control": "试试把它修回来",
+          "target": "B04",
+          "condition": "进入修复尝试"
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "name": "人工修复与过站提问",
+      "pdfPage": 15,
+      "image": "B04-人工修复与过站提问-v2.png",
+      "steps": [
+        5,
+        6
+      ],
+      "entry": "第5环节先尝试纯噪声恢复；G04过站后，第6环节共用版式比较中度噪声。图示为第6环节。",
+      "actions": [
+        {
+          "control": "用刷子修复",
+          "target": "SELF",
+          "condition": "保留学生尝试"
+        },
+        {
+          "control": "请师傅试试",
+          "target": "G02",
+          "condition": "计算后显示模型尝试"
+        },
+        {
+          "control": "和原画比一比",
+          "target": "SELF",
+          "condition": "展开原图与像素对照"
+        },
+        {
+          "control": "带着问题去工坊",
+          "target": "G04",
+          "condition": "完成沙滩综合环节后过站"
+        },
+        {
+          "control": "看师傅的练习本",
+          "target": "C01",
+          "condition": "图示第6环节修复比较完成后"
+        }
+      ]
+    },
+    {
+      "id": "C01",
+      "name": "师傅的训练练习本",
+      "pdfPage": 16,
+      "image": "C01-师傅的训练练习本-v2.png",
+      "steps": [
+        7
+      ],
+      "entry": "B04完成修复尝试",
+      "actions": [
+        {
+          "control": "翻下一页",
+          "target": "SELF",
+          "condition": "比较不同样本与噪声水平"
+        },
+        {
+          "control": "查看误差",
+          "target": "G03",
+          "condition": "按需展开真实／预测噪声"
+        },
+        {
+          "control": "看一次实际去噪",
+          "target": "C02",
+          "condition": "至少完成必要观察后"
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "name": "只走一步的去噪台",
+      "pdfPage": 17,
+      "image": "C02-只走一步的去噪台-v3.png",
+      "steps": [
+        8
+      ],
+      "entry": "C01训练观察完成",
+      "actions": [
+        {
+          "control": "再收一步",
+          "target": "G02",
+          "condition": "完成本步计算后回到C02"
+        },
+        {
+          "control": "从头重看",
+          "target": "SELF",
+          "condition": "重置本次回放，不清除课程进度"
+        },
+        {
+          "control": "查看原图估计",
+          "target": "G03",
+          "condition": "打开本步补充信息"
+        },
+        {
+          "control": "比较一步与多步",
+          "target": "C03",
+          "condition": "转入方法对照"
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "name": "一步多步与修复对照",
+      "pdfPage": 18,
+      "image": "C03-一步多步与修复对照-v2.png",
+      "steps": [
+        9,
+        10
+      ],
+      "entry": "C02完成逐步观察",
+      "actions": [
+        {
+          "control": "1步／20步",
+          "target": "G02",
+          "condition": "分别真实运行并保留结果"
+        },
+        {
+          "control": "轻／中／重",
+          "target": "SELF",
+          "condition": "切换修复对照子实验"
+        },
+        {
+          "control": "记下我的比较",
+          "target": "G01",
+          "condition": "保存该站观察"
+        },
+        {
+          "control": "去市集挑一个起点",
+          "target": "G04",
+          "condition": "工坊完成后过站"
+        }
+      ]
+    },
+    {
+      "id": "D01",
+      "name": "贝壳起点与生成回放",
+      "pdfPage": 19,
+      "image": "D01-贝壳起点与生成回放.png",
+      "steps": [
+        11
+      ],
+      "entry": "C03过站后进入市集",
+      "actions": [
+        {
+          "control": "选择编号贝壳",
+          "target": "SELF",
+          "condition": "决定新的随机起点"
+        },
+        {
+          "control": "生成完整一幅",
+          "target": "G02",
+          "condition": "完成后可拖动回放"
+        },
+        {
+          "control": "拖动胶片条",
+          "target": "SELF",
+          "condition": "回看已产生的中间状态"
+        },
+        {
+          "control": "核对能否复现",
+          "target": "D02",
+          "condition": "保留完整配方"
+        }
+      ]
+    },
+    {
+      "id": "D02",
+      "name": "同配方重新计算",
+      "pdfPage": 20,
+      "image": "D02-同配方重新计算-v2.png",
+      "steps": [
+        12
+      ],
+      "entry": "D01生成完成",
+      "actions": [
+        {
+          "control": "再完整计算一次",
+          "target": "G02",
+          "condition": "不使用缓存；完成后逐格核对"
+        },
+        {
+          "control": "不一致时查看条件",
+          "target": "G03",
+          "condition": "解释模型、配方和环境差异"
+        },
+        {
+          "control": "换种子做对照",
+          "target": "D03",
+          "condition": "进入多起点与近邻观察"
+        }
+      ]
+    },
+    {
+      "id": "D03",
+      "name": "多起点与训练近邻",
+      "pdfPage": 21,
+      "image": "D03-多起点与训练近邻.png",
+      "steps": [
+        13
+      ],
+      "entry": "D02转入不同种子对照",
+      "actions": [
+        {
+          "control": "选一幅生成图",
+          "target": "SELF",
+          "condition": "更新右侧近邻候选"
+        },
+        {
+          "control": "打开相似样本",
+          "target": "G03",
+          "condition": "并排细看，不宣称查明来源"
+        },
+        {
+          "control": "去比较采样步数",
+          "target": "D04",
+          "condition": "进入步数实验"
+        }
+      ]
+    },
+    {
+      "id": "D04",
+      "name": "步数与用时实验",
+      "pdfPage": 22,
+      "image": "D04-步数与用时实验.png",
+      "steps": [
+        14
+      ],
+      "entry": "D03完成多起点观察",
+      "actions": [
+        {
+          "control": "运行四组步数",
+          "target": "G02",
+          "condition": "分别记录图像与本机实际用时"
+        },
+        {
+          "control": "保存这次比较",
+          "target": "G01",
+          "condition": "写下质量与时间观察"
+        },
+        {
+          "control": "制作我的配方卡",
+          "target": "D05",
+          "condition": "保存完整配方"
+        }
+      ]
+    },
+    {
+      "id": "D05",
+      "name": "配方卡保存与复现",
+      "pdfPage": 23,
+      "image": "D05-配方卡保存与复现.png",
+      "steps": [
+        15
+      ],
+      "entry": "D04选择结果制作配方；亦可从全局配方卡册打开",
+      "actions": [
+        {
+          "control": "收进配方卡册",
+          "target": "SELF",
+          "condition": "保存配方，显示完成反馈"
+        },
+        {
+          "control": "复制配方码",
+          "target": "SELF",
+          "condition": "复制完整可复现参数"
+        },
+        {
+          "control": "按这张卡重新计算",
+          "target": "G02",
+          "condition": "结果返回D05核对"
+        },
+        {
+          "control": "进入配方摊",
+          "target": "G04",
+          "condition": "本关完成后解锁下一站"
+        },
+        {
+          "control": "关闭",
+          "target": "CALLER",
+          "condition": "返回来源页面"
+        }
+      ]
+    },
+    {
+      "id": "E01",
+      "name": "题目签与引导力度",
+      "pdfPage": 24,
+      "image": "E01-题目签与引导力度-v2.png",
+      "steps": [
+        16,
+        17
+      ],
+      "entry": "D05完成后进入配方摊",
+      "actions": [
+        {
+          "control": "更换题目签",
+          "target": "G02",
+          "condition": "保持同一种子，生成类别条件结果"
+        },
+        {
+          "control": "改变力度",
+          "target": "G02",
+          "condition": "固定种子和题目，只改引导力度"
+        },
+        {
+          "control": "记录哪一组更合适",
+          "target": "G01",
+          "condition": "记录实际判断"
+        },
+        {
+          "control": "只改一个变量，再试试",
+          "target": "E02",
+          "condition": "控制变量实验"
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "name": "种子与题目的双重对照",
+      "pdfPage": 25,
+      "image": "E02-种子与题目的双重对照.png",
+      "steps": [
+        18
+      ],
+      "entry": "E01完成主题与力度观察",
+      "actions": [
+        {
+          "control": "实验A：只换题目",
+          "target": "SELF",
+          "condition": "固定种子、步数和力度"
+        },
+        {
+          "control": "实验B：只换种子",
+          "target": "SELF",
+          "condition": "固定题目、步数和力度"
+        },
+        {
+          "control": "记录观察",
+          "target": "G01",
+          "condition": "记录两组对照结论"
+        },
+        {
+          "control": "尝试两支签",
+          "target": "E03",
+          "condition": "进入混合条件"
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "name": "两支题目签的混合",
+      "pdfPage": 26,
+      "image": "E03-两支题目签的混合-v2.png",
+      "steps": [
+        19
+      ],
+      "entry": "E02完成控制变量观察",
+      "actions": [
+        {
+          "control": "选择两支签",
+          "target": "SELF",
+          "condition": "指定混合的两个类别"
+        },
+        {
+          "control": "调整比例并生成",
+          "target": "G02",
+          "condition": "保留同一配方的其他参数"
+        },
+        {
+          "control": "记下这次尝试",
+          "target": "G01",
+          "condition": "允许记录两不像或失败结果"
+        },
+        {
+          "control": "接受配方挑战",
+          "target": "E04",
+          "condition": "综合运用参数"
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "name": "配方挑战与尝试记录",
+      "pdfPage": 27,
+      "image": "E04-配方挑战与尝试记录-v2.png",
+      "steps": [
+        20
+      ],
+      "entry": "E03进入综合挑战",
+      "actions": [
+        {
+          "control": "选择目标",
+          "target": "SELF",
+          "condition": "保留各目标尝试记录"
+        },
+        {
+          "control": "试这张配方",
+          "target": "G02",
+          "condition": "显示实际差异与命中结果"
+        },
+        {
+          "control": "回看上次尝试",
+          "target": "SELF",
+          "condition": "恢复该次参数继续比较"
+        },
+        {
+          "control": "准备夜场",
+          "target": "G04",
+          "condition": "至少完成2张目标；第3张可选"
+        }
+      ]
+    },
+    {
+      "id": "F01",
+      "name": "六幅作品的策展台",
+      "pdfPage": 28,
+      "image": "F01-六幅作品的策展台-v2.png",
+      "steps": [
+        21
+      ],
+      "entry": "E04过站后进入夜场准备",
+      "actions": [
+        {
+          "control": "选作品加入",
+          "target": "SELF",
+          "condition": "从配方卡册选出6幅"
+        },
+        {
+          "control": "拖动／前移／后移",
+          "target": "SELF",
+          "condition": "调整顺序并保留选择"
+        },
+        {
+          "control": "去配方卡册补选",
+          "target": "D05",
+          "condition": "带来源返回F01"
+        },
+        {
+          "control": "确认节目顺序",
+          "target": "F02",
+          "condition": "满6幅后进入边界讨论"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "name": "观众点题与模型边界",
+      "pdfPage": 29,
+      "image": "F02-观众点题与模型边界-v2.png",
+      "steps": [
+        22
+      ],
+      "entry": "F01节目排序完成",
+      "actions": [
+        {
+          "control": "选择观众要求",
+          "target": "SELF",
+          "condition": "对照支持类别与输入能力"
+        },
+        {
+          "control": "解释为什么做不到",
+          "target": "SELF",
+          "condition": "区分类别范围和身份信息"
+        },
+        {
+          "control": "带着边界去介绍作品",
+          "target": "F03",
+          "condition": "进入作品标识"
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "name": "作品标识与导出核对",
+      "pdfPage": 30,
+      "image": "F03-作品标识与导出核对.png",
+      "steps": [
+        23
+      ],
+      "entry": "F02完成能力边界讨论",
+      "actions": [
+        {
+          "control": "给六幅都加标识",
+          "target": "SELF",
+          "condition": "每幅作品显示可见AI标签"
+        },
+        {
+          "control": "导出并检查一张",
+          "target": "SELF",
+          "condition": "导出后实际读取文件说明"
+        },
+        {
+          "control": "补充来源致谢",
+          "target": "F04",
+          "condition": "标识完成后继续"
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "name": "数据来源与致谢墙",
+      "pdfPage": 31,
+      "image": "F04-数据来源与致谢墙-v2.png",
+      "steps": [
+        24
+      ],
+      "entry": "F03完成标识核对",
+      "actions": [
+        {
+          "control": "查看来源",
+          "target": "G01",
+          "condition": "打开来源说明并可返回"
+        },
+        {
+          "control": "编辑致谢",
+          "target": "SELF",
+          "condition": "保留学生表达与必要署名"
+        },
+        {
+          "control": "把致谢加入节目单",
+          "target": "F05",
+          "condition": "带标识与致谢进入展演"
+        }
+      ]
+    },
+    {
+      "id": "F05",
+      "name": "灯塔夜场与播放控制",
+      "pdfPage": 32,
+      "image": "F05-灯塔夜场与播放控制-v2.png",
+      "steps": [
+        25
+      ],
+      "entry": "F04来源致谢加入节目单后",
+      "actions": [
+        {
+          "control": "播放／暂停／回看",
+          "target": "SELF",
+          "condition": "按学生节目顺序展示6幅"
+        },
+        {
+          "control": "退出展演",
+          "target": "F01",
+          "condition": "保留节目单与当前位置"
+        },
+        {
+          "control": "写下我的回答",
+          "target": "F06",
+          "condition": "完成展演后进入反思"
+        }
+      ]
+    },
+    {
+      "id": "F06",
+      "name": "学习总结与章节出口",
+      "pdfPage": 33,
+      "image": "F06-学习总结与章节出口-v2.png",
+      "steps": [
+        25
+      ],
+      "entry": "F05结束展演后",
+      "actions": [
+        {
+          "control": "保存我的学习手册",
+          "target": "G01",
+          "condition": "汇总并导出个人学习记录"
+        },
+        {
+          "control": "再次欣赏夜场",
+          "target": "F05",
+          "condition": "保留原节目顺序"
+        },
+        {
+          "control": "返回奇点目录",
+          "target": "HUB",
+          "condition": "返回第8章详情"
+        },
+        {
+          "control": "查看下一章预告",
+          "target": "HUB9",
+          "condition": "进入目录第9章详情"
+        }
+      ]
+    },
+    {
+      "id": "G01",
+      "name": "学习手册与词条抽屉",
+      "pdfPage": 34,
+      "image": "G01-学习手册与词条抽屉-v2.png",
+      "steps": [],
+      "entry": "任意页面点击学习手册；完成任务后保存观察",
+      "actions": [
+        {
+          "control": "切换站点",
+          "target": "SELF",
+          "condition": "查看该站证据与笔记"
+        },
+        {
+          "control": "点词条",
+          "target": "SELF",
+          "condition": "局部弹出定义"
+        },
+        {
+          "control": "回到这个实验",
+          "target": "LINKED",
+          "condition": "回到记录对应页面"
+        },
+        {
+          "control": "导出手册",
+          "target": "SELF",
+          "condition": "导出观察与个人解释"
+        },
+        {
+          "control": "关闭",
+          "target": "CALLER",
+          "condition": "返回原页面与操作状态"
+        }
+      ]
+    },
+    {
+      "id": "G02",
+      "name": "计算等待失败与重试",
+      "pdfPage": 35,
+      "image": "G02-计算等待失败与重试-v2.png",
+      "steps": [],
+      "entry": "所有模型预测、生成、修复、复现操作",
+      "actions": [
+        {
+          "control": "完成",
+          "target": "CALLER",
+          "condition": "保留结果并恢复操作"
+        },
+        {
+          "control": "失败",
+          "target": "SELF",
+          "condition": "显示原因、保留参数和既有结果"
+        },
+        {
+          "control": "重试",
+          "target": "SELF",
+          "condition": "同参数重新执行"
+        },
+        {
+          "control": "返回实验",
+          "target": "CALLER",
+          "condition": "不丢失此前作品与观察"
+        }
+      ]
+    },
+    {
+      "id": "G03",
+      "name": "预测观察解释的展开状态",
+      "pdfPage": 36,
+      "image": "G03-预测观察解释的展开状态-v2.png",
+      "steps": [],
+      "entry": "B02及其他先预测后操作的实验",
+      "actions": [
+        {
+          "control": "锁定预测",
+          "target": "SELF",
+          "condition": "保留原预测并解锁操作"
+        },
+        {
+          "control": "记下这一刻",
+          "target": "SELF",
+          "condition": "保存观察、展开解释"
+        },
+        {
+          "control": "保存发现",
+          "target": "G01",
+          "condition": "汇入手册后可继续"
+        },
+        {
+          "control": "关闭补充层",
+          "target": "CALLER",
+          "condition": "回到原画面、参数与滚动位置"
+        }
+      ]
+    },
+    {
+      "id": "G04",
+      "name": "过站回访与中断续学",
+      "pdfPage": 37,
+      "image": "G04-过站回访与中断续学-v2.png",
+      "steps": [],
+      "entry": "站末综合活动完成；查看地图；退出后再进入",
+      "actions": [
+        {
+          "control": "前往下一站",
+          "target": "NEXTSTATION",
+          "condition": "满足本站要求后解锁"
+        },
+        {
+          "control": "回访",
+          "target": "COMPLETED",
+          "condition": "仅进入已完成或当前可用环节"
+        },
+        {
+          "control": "继续上次",
+          "target": "LAST",
+          "condition": "恢复保存的环节与证据"
+        },
+        {
+          "control": "从头开始",
+          "target": "RESET_CONFIRM",
+          "condition": "单独确认后重置，取消可原路返回"
+        }
+      ]
+    }
+  ],
+  "dynamicTargets": {
+    "SELF": "当前页",
+    "CALLER": "打开此层前的页面与操作状态",
+    "LAST": "上次保存的位置",
+    "CURRENT": "当前站首个未完成环节",
+    "PREVIOUS": "上一站可用环节",
+    "LINKED": "记录关联的实验",
+    "NEXTSTATION": "下一站首个可用环节",
+    "COMPLETED": "已完成环节",
+    "RESET_CONFIRM": "确认重新开始，取消则返回原页面",
+    "HUB": "奇点目录的第8章详情",
+    "HUB9": "奇点目录的第9章详情"
+  }
+}

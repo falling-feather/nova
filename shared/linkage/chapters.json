@@ -1,0 +1,87 @@
+{
+  "hub": {
+    "folder": "apps/platform",
+    "port": 5178
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "folder": "lessons/01",
+      "mount": "/chapters/01/",
+      "debugPort": 5186
+    },
+    {
+      "n": 2,
+      "folder": "lessons/02",
+      "mount": "/chapters/02/",
+      "debugPort": 5182
+    },
+    {
+      "n": 3,
+      "folder": "lessons/03",
+      "mount": "/chapters/03/",
+      "debugPort": 5193
+    },
+    {
+      "n": 4,
+      "folder": "lessons/04",
+      "mount": "/chapters/04/",
+      "debugPort": 5197
+    },
+    {
+      "n": 5,
+      "folder": "lessons/05",
+      "mount": "/chapters/05/",
+      "debugPort": 5205
+    },
+    {
+      "n": 6,
+      "folder": "lessons/06",
+      "mount": "/chapters/06/",
+      "debugPort": 5266
+    },
+    {
+      "n": 7,
+      "folder": "lessons/07",
+      "mount": "/chapters/07/",
+      "debugPort": 5267
+    },
+    {
+      "n": 8,
+      "folder": "lessons/08",
+      "mount": "/chapters/08/",
+      "debugPort": 5268
+    },
+    {
+      "n": 9,
+      "folder": "lessons/09",
+      "mount": "/chapters/09/",
+      "debugPort": 5269
+    },
+    {
+      "n": 10,
+      "folder": "lessons/10",
+      "mount": "/chapters/10/",
+      "debugPort": 5270
+    },
+    {
+      "n": 11,
+      "folder": "lessons/11",
+      "mount": "/chapters/11/",
+      "debugPort": 5271
+    },
+    {
+      "n": 12,
+      "folder": "lessons/12",
+      "mount": "/chapters/12/",
+      "debugPort": 5272
+    },
+    {
+      "n": 13,
+      "folder": "lessons/13",
+      "mount": "/chapters/13/",
+      "debugPort": 5273
+    }
+  ],
+  "archives": []
+}

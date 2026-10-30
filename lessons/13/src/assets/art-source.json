@@ -1,0 +1,19 @@
+{
+  "created": "2026-10-15",
+  "tool": "built-in image_gen",
+  "purpose": "独立装饰道具与远景；全部文字、控件、读数和模型结果由原生界面与程序生成",
+  "assets": [
+    {
+      "file": "exhibit-canopy-v1.png",
+      "sha256": "F9E14954ABC9F2E89C2274E077ED2CC6CEDF25D84A78D173BE09BAD9B877A7C9",
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Asset type: isolated transparent 3D game prop for an interactive desktop school co-creation exhibition. Create ONE wide exhibition canopy roof only, no posts, no table, no monitor, no environment. Contemporary clean mature educational design, cream linen canvas with broad muted petrol-blue panels and a subtle warm ash-wood underside/eave; rounded friendly edges, believable stitched woven canvas, clean wood grain, a little metal corner fitting. Straight frontal view with camera slightly above roof so its top surface, thickness, and shaded underside give convincing depth; extremely shallow perspective, no strong vanishing point. Soft outdoor garden sunlight from upper left, gentle warm highlights and physically plausible contact shadows on the object itself. Wide horizontal object approximately 3:1 proportion, fully visible, tightly framed, centered, maximum useful width, real transparent alpha background. This will be a separate roof sprite above separately implemented interactive furniture, not a website mockup. Absolutely NO text, NO numbers, NO signs, NO people, NO plants, NO controls, NO UI, NO floor, NO opaque or checkered background. Aim for the tactile material realism of a high-end miniature physical science exhibition with clean cream and teal equipment, calm and warm."
+    },
+    {
+      "file": "campus-layer-v1.png",
+      "sha256": "B14C5C97DF5A4F1811C9C13C2D57F908040BFF66B4B3D545B1236DBCE6FC52FF",
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Asset type: isolated transparent distant environment layer for a desktop school exhibition game, NOT a website mockup. Create a restrained wide campus garden backdrop consisting of a warm cream modern school building in the middle distance, leafy mature trees at left and right, a few planted shrubs, and two small distant freestanding blank exhibition boards. No foreground desk, no canopy, no equipment, no UI, no text, no numbers, no logos, no people. Premium realistic miniature physical set aesthetic with lightly softened depth of field: convincing stone, warm plaster, wood, detailed sunlit leaves and dappled warm outdoor light from upper left. Calm muted sage green, cream and warm natural wood palette, clean mature educational mood. Frontal eye-level view with gently visible ground depth, wide horizontal composition approx 2:1, keep all props in the upper and side regions and leave a large empty transparent foreground center for separately implemented interactive furniture. Entirely transparent alpha around and beneath the architecture/trees; no opaque sky, no solid background, no checkered background. Separate scenery asset only; nothing that could be mistaken for an actual student record or rendered interface."
+    }
+  ]
+}

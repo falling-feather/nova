@@ -1,0 +1,27 @@
+{
+  "concepts": [
+    {
+      "file": "design/concepts/A-03-建筑剖透视.png",
+      "sourceFile": "exec-2694b7cd-2e8e-4e20-a793-d00f87425f97.png",
+      "brief": "知识温室的八角建筑剖透视。乳白石拱、铜绿穹顶、中央弧形问询台、西侧封存书展位、东侧24页资料柜、西南交班桌、北侧水院。保留第一章植物与人物的细腻度，以及第二章石材、木作和玻璃的仿真质感。展示同一座可建模、可分层的完整空间，不把整图作为前端背景。",
+      "bytes": 3126309,
+      "sha256": "537c427b0dbd723eb87e045554dfeeb9271315d4081d5abf36ca3c55a462eef6",
+      "tool": "built-in image_gen.imagegen",
+      "promptRecord": "设计要求摘要",
+      "created": "2026-10-12",
+      "usage": "建模与材质参考，未进入运行时纹理"
+    },
+    {
+      "file": "design/concepts/A-04-构造与教具.png",
+      "sourceFile": "exec-eb3ff529-7270-4ae4-ad9d-f1c4d765e56a.png",
+      "brief": "三栏构造深化图：窗拱与穹顶、便签装置、封存书展位。上部为细节效果，下部拆解石材、铜肋、玻璃、黄铜转轴、夹具、便签托盘、书柜铰链。统一暖石、铜绿、深木与植物风格，独立建模以支持后续交互。",
+      "bytes": 2682243,
+      "sha256": "7a42d25a4422854ee7293482121e0e27003ffc8296ff9415ae78f5e030dcb6b0",
+      "tool": "built-in image_gen.imagegen",
+      "promptRecord": "设计要求摘要",
+      "created": "2026-10-12",
+      "usage": "建模与材质参考，未进入运行时纹理"
+    }
+  ],
+  "referenceOrigin": "第九章/docs/界面概念/2026-10-12-知识温室/生成记录.json"
+}

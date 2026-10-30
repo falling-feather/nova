@@ -1,0 +1,47 @@
+const {chromium}=require(process.env.NOVA_PLAYWRIGHT_MODULE||'playwright');
+const {pathToFileURL}=require('node:url'),path=require('node:path'),assert=require('node:assert/strict');
+const url=process.env.NOVA_TEST_BASE_URL||'http://127.0.0.1:5178/courses/index.html';
+(async()=>{
+ const browser=await chromium.launch({channel:'msedge',headless:true});
+ try{
+  const page=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'no-preference'});
+  const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(url,{waitUntil:'networkidle'});await page.waitForSelector('body[data-ready="true"]');
+  const before=await page.locator('#observer-orbit').getAttribute('transform');await page.waitForTimeout(350);
+  assert.notEqual(await page.locator('#observer-orbit').getAttribute('transform'),before,'ambient motion must actually run');
+  await page.mouse.move(750,450);await page.mouse.wheel(0,420);await page.waitForFunction(()=>document.body.dataset.settled==='true');
+  const scrolled=Number(await page.locator('body').getAttribute('data-progress'));assert.ok(scrolled>0&&scrolled<1);
+  await page.locator('.view-stops [data-view="0"]').click();await page.waitForFunction(()=>document.body.dataset.progress==='0.0000');
+  await page.locator('[data-experiment="observe"]').click();await page.waitForSelector('#experiment-dialog[open]');
+  await page.locator('#sample-size').fill('220');assert.equal(await page.locator('#sample-window').evaluate(e=>e.style.width),'220px');
+  const sampleBefore=await page.locator('#sample-window').evaluate(e=>e.style.left);await page.locator('#sample-stage').focus();await page.keyboard.press('ArrowRight');
+  assert.notEqual(await page.locator('#sample-window').evaluate(e=>e.style.left),sampleBefore);await page.keyboard.press('Escape');
+  await page.locator('.view-stops [data-view="2"]').click();await page.waitForFunction(()=>document.body.dataset.progress==='2.0000');
+  await page.locator('[data-experiment="attention"]').click();await page.waitForSelector('#experiment-dialog[open]');
+  await page.locator('[data-word="3"]').click();assert.equal(await page.locator('[data-word="3"]').getAttribute('aria-pressed'),'true');
+  assert.match(await page.locator('#attention-diagram').textContent(),/60%/);await page.keyboard.press('Escape');
+  await page.locator('[data-experiment="diffusion"]').click();await page.waitForSelector('#experiment-dialog[open]');
+  const noiseBefore=await page.locator('#noise-diagram circle').first().getAttribute('cx');await page.locator('#noise-seed').click();
+  assert.notEqual(await page.locator('#noise-diagram circle').first().getAttribute('cx'),noiseBefore);
+  await page.locator('#noise-amount').fill('100');assert.equal(await page.locator('#noise-output').innerText(),'100%');await page.keyboard.press('Escape');
+  await page.locator('#minimap-open').click();await page.locator('#overview-svg [data-open-chapter="11"]').focus();await page.keyboard.press('Enter');
+  await page.waitForSelector('#chapter-dialog[open]');assert.equal(await page.locator('#chapter-number').innerText(),'11');await page.keyboard.press('Escape');
+  await page.waitForFunction(()=>document.body.dataset.settled==='true');assert.equal(await page.locator('body').getAttribute('data-view'),'4');
+  await page.keyboard.press('Home');await page.waitForFunction(()=>document.body.dataset.progress==='0.0000');
+  const touch=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true,reducedMotion:'no-preference'});touch.on('pageerror',e=>errors.push(e.message));
+  await touch.goto(url,{waitUntil:'networkidle'});await touch.waitForSelector('body[data-ready="true"]');
+  const r=await touch.locator('#world-frame').boundingBox(),session=await touch.context().newCDPSession(touch);
+  const sx=r.x+r.width*.72,sy=r.y+r.height*.6;
+  await session.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:sx,y:sy}]});
+  for(let i=1;i<=6;i++)await session.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:sx-i*14,y:sy+i*8}]});
+  await session.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+  await touch.waitForFunction(()=>document.body.dataset.settled==='true');
+  assert.ok(Number(await touch.locator('body').getAttribute('data-progress'))>0);assert.equal(await touch.locator('dialog[open]').count(),0);
+  assert.equal(await touch.locator('#world-frame').evaluate(e=>e.classList.contains('is-dragging')),false);
+  const offline=await browser.newPage({reducedMotion:'reduce'});offline.on('pageerror',e=>errors.push(e.message));
+  await offline.goto(pathToFileURL(path.resolve(__dirname,'../../courses/index.html')).href);await offline.waitForSelector('body[data-ready="true"]');
+  await offline.locator('.view-stops [data-view="4"]').click();await offline.waitForFunction(()=>document.body.dataset.view==='4');
+  assert.equal(await offline.locator('body').getAttribute('data-visible'),'11,12,13');assert.deepEqual(errors,[]);
+  console.log('PASS: ambient motion, wheel, observation size/keyboard, attention selection, diffusion seed/reveal, overview keyboard jump, native touch drag, file:// offline; no page errors.');
+ }finally{await browser.close();}
+})().catch(e=>{console.error(e);process.exit(1);});

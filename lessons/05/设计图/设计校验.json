@@ -1,0 +1,56 @@
+{
+  "clientDate": "2026-10-05",
+  "assets": [
+    {
+      "scheme": "A",
+      "file": "01-A-参数地形探测站.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "scheme": "B",
+      "file": "02-B-训练回放编辑台.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "scheme": "C",
+      "file": "03-C-透明模型校准台.png",
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "missingLinks": [],
+  "layoutErrors": [],
+  "math": {
+    "currentSample": {
+      "x": 4,
+      "prediction": 4,
+      "target": 5.1,
+      "difference": 1.0999999999999996
+    },
+    "initialMSE": 1.166666666666667,
+    "afterOneUpdateMSE": 0.0635855324074075,
+    "step12": {
+      "normal": {
+        "step": 12,
+        "w": 0.9666482489504767,
+        "b": 1.2372787733954966,
+        "loss": 0.015464096067863134
+      },
+      "branch": {
+        "step": 12,
+        "w": 1.0886423155307638,
+        "b": 1.2295954564593432,
+        "loss": 0.23198787569127477
+      }
+    }
+  },
+  "status": "passed",
+  "svg": {
+    "errors": [],
+    "textNodes": 103,
+    "width": 1800,
+    "height": 1260
+  }
+}

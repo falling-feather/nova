@@ -1,0 +1,37 @@
+{
+  "name": "nova-submission",
+  "private": true,
+  "engines": {
+    "node": ">=24.20.0"
+  },
+  "scripts": {
+    "build": "node tools/project.cjs build",
+    "dev": "node tools/project.cjs dev",
+    "test": "node tools/project.cjs test",
+    "test:browser": "node tools/qa.cjs desktop",
+    "test:account": "node tools/qa.cjs account",
+    "check": "node tools/project.cjs check",
+    "start": "node tools/preview-site.cjs",
+    "build:site": "npm run build && node tools/build-site.cjs",
+    "preview:site": "node tools/preview-site.cjs"
+  },
+  "dependencies": {
+    "@noble/hashes": "2.4.0",
+    "onnxruntime-web": "1.30.0",
+    "phaser": "3.90.0",
+    "polygon-clipping": "0.15.7",
+    "three": "0.183.2"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100",
+    "@types/node": "24.10.1",
+    "@types/three": "0.183.1",
+    "playwright": "1.62.1",
+    "prettier": "3.6.2",
+    "sharp": "0.35.5",
+    "three-town": "npm:three@0.186.0",
+    "typescript": "5.9.3",
+    "vite": "8.3.0"
+  },
+  "description": "奇点——交互式通识教学网站"
+}

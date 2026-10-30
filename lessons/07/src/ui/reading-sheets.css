@@ -1,0 +1,39 @@
+/* Text editing and evidence paging retain the existing presentation contract. */
+.editor-sheet { width: 100%; }
+#app .editor-sheet textarea { width: 100%; min-height: 0; margin: 0; font-size: 16px; line-height: 1.65; padding: 12px; }
+.editor-navigation { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: 8px; }
+.editor-navigation span { font-size: 15px; color: #47634e; }
+#app .editor-navigation button { padding: 6px 10px; min-height: 34px; font-size: 15px; }
+#app .modal-body p { font-size: 17px; line-height: 1.8; }
+#app .modal-body .choices { display: flex; flex-wrap: wrap; gap: 8px; }
+#app .modal-body .choices button { white-space: normal; font-size: 16px; }
+#app .route-map { grid-template-columns: repeat(3,1fr); }
+#app .route-room { min-width: 0; }
+#app .route-room ol { list-style: none; padding: 0; }
+#app .route-room li button { width: 100%; justify-content: flex-start; }
+#app .notebook-pages { display: block; }
+#app .guide-emblem { padding: 14px 18px; background: #e4e9dc; border-left: 2px solid #6a9180; border-radius: 0; font-size: 18px; color: #416748; }
+#app .guide-intro { font-family: var(--serif); font-size: 23px; }
+#app .guide-actions { display: flex; gap: 12px; }
+#app .sheet-host { display: flex; flex-direction: column; gap: 10px; overflow: visible; }
+.sheet-pages { flex: 1; min-height: 0; position: relative; }
+.sheet-page { width: 100%; }
+.sheet-page > :last-child { margin-bottom: 0; }
+.sheet-navigation { flex: 0 0 42px; display: flex; align-items: center; justify-content: space-between; gap: 12px; border-top: 1px solid #d7ddcc; padding-top: 8px; }
+.sheet-navigation span { font-size: 15px; white-space: nowrap; color: #56715e; }
+#app .sheet-navigation button { min-height: 34px; padding: 6px 10px; border: 1px solid #c9d6c3; background: #f7f9ef; color: #2e5744; font-size: 15px; }
+#app .sheet-navigation button[hidden] { display: block; visibility: hidden; }
+#app .proof-paper,#app .proof-paper[data-paper] { top: 257px; left: 50%; transform: translateX(-50%); width: min(770px,calc(100vw - 430px)); height: calc(100vh - 410px); max-height: none; padding: 20px 28px; overflow: visible; rotate: 0deg; border-radius: 2px; background: #f3eee1f7; }
+#app .proof-paper header h2 { font-size: 30px; }
+#app .proof-paper p { font-size: 17px; line-height: 1.6; }
+#app .proof-paper input,#app .proof-paper textarea { font-size: 17px; }
+#app .proof-paper .opening-input { min-height: 90px; height: 90px; }
+#app .proof-paper .paper-columns { display: block; }
+#app .sample-columns { display: block; }
+#app .sample-columns > section { margin-bottom: 12px; }
+#app .fact-slips { display: grid; gap: 10px; }
+#app .proof-paper .fact-slip { margin: 0; font-size: 16px; }
+#app .sentence-ribbon.static { top: 274px; left: 36px; width: calc(100vw - 488px); max-width: none; transform: none; white-space: normal; flex-wrap: wrap; background: #faf7efeb; color: #2d493d; padding: 8px 12px; border-radius: 2px; }
+#app .sentence-ribbon.static button { font-size: 16px; padding: 6px 9px; min-height: 34px; }
+#app .sentence-ribbon.static button:not(.selected) { color: #2d493d; }
+#app .corner .progress-pill { display: none; }

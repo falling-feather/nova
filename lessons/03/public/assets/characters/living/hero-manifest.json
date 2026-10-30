@@ -1,0 +1,79 @@
+{
+  "version": 3,
+  "createdAt": "2026-10-04",
+  "purpose": "第三章小探险家的连续行走、独立站立、自然佩戴的帽子与完整头部表情",
+  "generator": "内置 image_gen.imagegen；transparent_background=true",
+  "runtimeAsset": "hero-parts-v2.png",
+  "sha256": "2679cf0a95ee2e00e3ec4b23d2889498b73e1bd69c86f699ce5581802ff1a570",
+  "size": {
+    "width": 1274,
+    "height": 1234,
+    "channels": "RGBA"
+  },
+  "rectangleSource": "src/render/hero/parts.ts",
+  "rendererSource": "src/render/hero/index.ts",
+  "motionSource": "src/render/hero/motion.ts",
+  "identityReference": {
+    "path": "public/assets/characters/child-walk.png",
+    "sha256": "818674197404025a6fa9341411653dbb89dd1aa26d7bf90a3c4449f6d4769fc1"
+  },
+  "generations": [
+    {
+      "output": "exec-d9c97187-6d71-4073-a491-6a33393285d4.png",
+      "sha256": "de709484a523126eb3f66ebd64e7c0ba9af80c6cdd21bc55456152b024085e99",
+      "role": "同一角色的一次性16分件种子；第二轮局部修正的输入",
+      "prompt": "Use case: identity-preserve. Asset type: production separated character parts atlas for a 2D children's storybook game, not a concept poster. Input image is the identity and painting reference only: preserve this same little explorer's warm brown bobbed hair, big dark curious eyes, soft cream shirt, moss-green cuffed shorts, warm brown hiking boots, and brown leather backpack with little golden leaf emblem. Make a clean professional cutout puppet atlas for continuous skeletal animation. Transparent alpha background. Exactly FOUR columns by FOUR rows of isolated parts, one part centered in each equal square cell, generous transparent gaps, no assembled figures, no words/numbers/grid lines, no background scenery. All visible surfaces face RIGHT in the same side/three-quarter view as the reference, hand-painted fine warm outlines and watercolor/gouache shading, rounded lovable primary-school proportions, coherent lighting and palette. Each part needs rounded hidden overlapping ends for seamless pivot joints; DO NOT draw circles/rig guides. Layout, left-to-right: ROW 1: bare head with full hair, ear and short neck, eyes open, no hat; exact same head and same hair silhouette with eyes gently closed for blink; exact same head/hair size with eyes glancing slightly back toward the companion without turning the skull, no hat; ONLY the original pale straw/safari explorer hat and its brown band, broad brim, transparent opening, NO head. ROW 2: ONLY cream shirt torso from collar to waist, with subtle brown backpack shoulder strap, no head, no arms, no legs; ONLY brown leather backpack in the original side view with golden leaf emblem and little buckles; ONLY moss green shorts/pelvis from waist to upper thigh with two leg openings and rounded overlap at waist, no legs; near upper arm including cream rolled sleeve at shoulder and a short rounded skin end near elbow, oriented straight DOWN. ROW 3: near lower arm plus small relaxed hand, gently curved DOWN, rounded overlapping elbow; near bare upper leg, short rounded thigh segment with NO shorts or boots, pointing DOWN; far bare upper leg matching but softly darker, pointing DOWN; single lower leg with cream sock at bottom, rounded knee overlap and ankle, straight DOWN, NO shoe. ROW 4: near brown lace-up boot only, upright cuff and horizontal sole, toe points RIGHT; far matching brown boot only, softly darker, toe points RIGHT; far upper arm including cream rolled sleeve and rounded elbow, down; far lower arm and relaxed hand, softly darker, down. Preserve rich illustrated details at game size, quiet earthy colors and warm skin. Parts should be large and sharp within their cells; head width about 80 percent of cell, hat width about 90 percent, torso/shorts/backpack about 65 percent; narrow limbs can be narrower but use most cell height. Do not duplicate whole children. No cast shadows outside parts. Real transparent background."
+    },
+    {
+      "output": "exec-72fa252b-f4a1-413f-9ab7-ba84541dbbc8.png",
+      "role": "最终生产图集；消除膝肘切口，保留身份与部件布局",
+      "prompt": "Use case: precise-object-edit. Production character cutout atlas repair. Keep this SAME 4 x 4 atlas, SAME 16 parts in SAME cells, same character identity, same faces, hat, backpack, costume, painted colors, lighting, proportions, image dimensions and transparent alpha. Change ONLY the artificial cutaway ends and limb shape, to make an animation-ready seamless puppet. The skin limb parts currently have visibly hollow cylindrical cut ends with black/white oval rims; REMOVE EVERY hollow cutaway end, rim, cross-section outline and joint seam. Every thigh, calf, upper-arm and forearm must have an opaque smoothly rounded skin-colored overlapping end, softly blended, with NO line drawn across the ends. They are not amputations, not tubes, not toy mechanical joints. Paint solid warm skin all the way through, like seamless filled rounded capsules suitable for overlapping. Extend the rounded ends generously so joints can rotate without a visible cut. Keep hand shapes and cuffs identical. Keep the two thighs compact, straighter and not S-shaped; lower-leg skin smooth with cream sock at lower end. On the cream shirt torso only (row2 col1), REMOVE the protruding near sleeve and arm-shaped bulge, leave a tidy sleeveless vest-like torso with armhole covered by separate sleeve during assembly; preserve cream fabric, collar, buttons and brown backpack straps. Do not change the sleeves in row2 col4 and row4 col3. All cells still separate, no full figures, no labels/grid, no scenery. Preserve all other pixels as closely as possible."
+    },
+    {
+      "output": "exec-1dbd358e-6409-42d1-b9b3-1d335467f6ea.png",
+      "role": "最终转身头部图集；同时参考已修正分件atlas与原角色",
+      "prompt": "Use case: identity-preserve. Production head-turn sprites for the SAME little explorer in these two references. Make ONE transparent horizontal strip of exactly THREE equally sized cells. Each cell contains only the same child's complete head WITH the same pale straw/safari hat, brown hat band, little ventilation eyelets, warm brown bobbed hair, soft rosy cheeks, large dark brown friendly eyes, tiny nose, and very short neck stump. No body, no shoulders, no hands. Preserve the reference's hand-painted watercolor/gouache children's storybook style and facial identity, not 3D or vector. These are adjacent frames of ONE smooth turn toward the camera. LEFT CELL: three-quarter head turned 30 degrees toward screen-right from a direct front view, both eyes visible, right ear mostly hidden. CENTER CELL: exact direct front view, both eyes symmetric, friendly neutral slight smile. RIGHT CELL: the same head turned 30 degrees toward screen-left from a direct front view, matching the left pose. All three share EXACT physical head scale, eye line, hat height, and neck-bottom baseline. Hat naturally rotates with the head; in the central frame its crown centered, broad straw brim nearly horizontal, underside shaded warm brown, hat does not cover the eyes. No walking poses, no assembled children, no labels, no grid lines, no scenery, no added accessories. Draw each head generously within its equal cell with about 10 percent transparent clearance, true alpha background. Crisp warm fine outlines and delicate painted texture suitable for a 150px-tall game character. This is a coherent turn animation, not three redesigned characters."
+    },
+    {
+      "output": "exec-2723c12f-3461-470c-95b6-cfb0d76d4a61.png",
+      "role": "第三版最终头部；表情与转身共用整体帽头结构",
+      "promptSource": "art-source/hero-redraw-20261013/generation.json#/heads/prompt"
+    }
+  ],
+  "integration": {
+    "units": "x、feetY、groundAt为世界设计像素；dt、time为秒；slope为dy/dx",
+    "load": "将 HERO_ASSETS 中的每个项目交给 scene.load.image；加载完成后调用 prepareHero(scene)",
+    "create": "createHero(scene) 返回 root 容器；每帧只传入核心实际位置，角色模块不推进世界位置",
+    "dispose": "场景清理时调用 rig.dispose()",
+    "state": "debugSnapshot() 返回可序列化关节、每只脚的世界坐标、接地状态与待机状态"
+  },
+  "updatedAt": "2026-10-13",
+  "supersededTurnAsset": {
+    "path": "hero-turn.png",
+    "sha256": "b89255cfefce83516979aa2c3d7f5c880f5561da5ccf98751c90d49e4276e7fb",
+    "width": 2172,
+    "height": 724,
+    "channels": "RGBA",
+    "purpose": "转身时的近正面、正面中间姿态；替代整身重影与横向压扁",
+    "status": "历史源图；当前渲染不再加载"
+  },
+  "headAsset": {
+    "path": "hero-heads-v3.png",
+    "sha256": "b04c9ed947b8d1d88c239471d6e23bef7417536e174e07bd28d3cc3bf1e54ad1",
+    "width": 1536,
+    "height": 1024,
+    "channels": "RGBA",
+    "frames": [
+      "open",
+      "blink",
+      "glance",
+      "quarter-right",
+      "front",
+      "quarter-left"
+    ],
+    "purpose": "帽子、头发、脸合绘为完整头部，各帧共用物理尺度，以实际脖颈接点对齐；取消独立帽子叠加",
+    "rectangleSource": "src/render/hero/parts.ts / HERO_HEAD_PARTS",
+    "pivotSource": "src/render/hero/parts.ts / HERO_HEAD_PIVOTS",
+    "generationRecord": "art-source/hero-redraw-20261013/generation.json"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "created": "2026-10-12",
+  "assets": [
+    {
+      "file": "public/art/materials/floor-color.webp",
+      "bytes": 567560,
+      "sha256": "fd23555a1883da9e8415d8692d3fceb8cf8d555d8c0bdb6e37c4ba06aaaf8729",
+      "origin": "博物馆/public/assets/materials/2048/floor-color.webp",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/marble_01",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "processing": "Lanczos3 resize from verified originals; color WebP quality 92, normal and roughness lossless WebP. Original CC0 authors and source URLs remain in provenance.json."
+    },
+    {
+      "file": "public/art/materials/floor-normal.webp",
+      "bytes": 1515500,
+      "sha256": "65d6f2e287575ec942306ff4ecf65a783fccd3739121cd67f1fafd85b86ad5d1",
+      "origin": "博物馆/public/assets/materials/2048/floor-normal.webp",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/marble_01",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "processing": "Lanczos3 resize from verified originals; color WebP quality 92, normal and roughness lossless WebP. Original CC0 authors and source URLs remain in provenance.json."
+    },
+    {
+      "file": "public/art/materials/floor-roughness.webp",
+      "bytes": 592380,
+      "sha256": "da0a0a6e53a9c1a9760c4c0dcae7ddcf97357bedf186238f98de97636c65b910",
+      "origin": "博物馆/public/assets/materials/2048/floor-roughness.webp",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/marble_01",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "processing": "Lanczos3 resize from verified originals; color WebP quality 92, normal and roughness lossless WebP. Original CC0 authors and source URLs remain in provenance.json."
+    },
+    {
+      "file": "public/art/materials/stone-color.webp",
+      "bytes": 157562,
+      "sha256": "cd7f3495cb7d21679c84d51cbdfc504b1c3d953aed5012be1be333db0017c9c7",
+      "origin": "博物馆/public/assets/materials/2048/stone-color.webp",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/beige_wall_001",
+      "authors": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "processing": "Lanczos3 resize from verified originals; color WebP quality 92, normal and roughness lossless WebP. Original CC0 authors and source URLs remain in provenance.json."
+    },
+    {
+      "file": "public/art/materials/stone-normal.webp",
+      "bytes": 7110824,
+      "sha256": "f2f6170583fd9896deeadbefa3d1c7af87b98e1bbc66a1230eaf5e1ff0cff98b",
+      "origin": "博物馆/public/assets/materials/2048/stone-normal.webp",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/beige_wall_001",
+      "authors": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "processing": "Lanczos3 resize from verified originals; color WebP quality 92, normal and roughness lossless WebP. Original CC0 authors and source URLs remain in provenance.json."
+    },
+    {
+      "file": "public/art/materials/stone-roughness.webp",
+      "bytes": 2161348,
+      "sha256": "80c8acf3d692585d381900d8dfaa68aae7e40f326ea8d4616150b5b508a03e8d",
+      "origin": "博物馆/public/assets/materials/2048/stone-roughness.webp",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/beige_wall_001",
+      "authors": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "processing": "Lanczos3 resize from verified originals; color WebP quality 92, normal and roughness lossless WebP. Original CC0 authors and source URLs remain in provenance.json."
+    },
+    {
+      "file": "public/art/materials/wood-color.webp",
+      "bytes": 521670,
+      "sha256": "55b24f0e6f7e3ef9ce5f06a992c885bdfd6c96fe45e9afc8ad78c6009af22ff9",
+      "origin": "博物馆/public/assets/materials/2048/wood-color.webp",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/smoked_walnut_veneer",
+      "authors": {
+        "Jenelle van Heerden": "All"
+      },
+      "processing": "Lanczos3 resize from verified originals; color WebP quality 92, normal and roughness lossless WebP. Original CC0 authors and source URLs remain in provenance.json."
+    },
+    {
+      "file": "public/art/materials/wood-normal.webp",
+      "bytes": 3691474,
+      "sha256": "c421a70c4c5df63ab72c503f760938b0860185fc895bd71130060674258c8e2c",
+      "origin": "博物馆/public/assets/materials/2048/wood-normal.webp",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/smoked_walnut_veneer",
+      "authors": {
+        "Jenelle van Heerden": "All"
+      },
+      "processing": "Lanczos3 resize from verified originals; color WebP quality 92, normal and roughness lossless WebP. Original CC0 authors and source URLs remain in provenance.json."
+    },
+    {
+      "file": "public/art/materials/wood-roughness.webp",
+      "bytes": 1485070,
+      "sha256": "5be315e47788d9ba2d4f12b073e48a60cd6d4eaa81852b8de2b93b919c0fa6a5",
+      "origin": "博物馆/public/assets/materials/2048/wood-roughness.webp",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/smoked_walnut_veneer",
+      "authors": {
+        "Jenelle van Heerden": "All"
+      },
+      "processing": "Lanczos3 resize from verified originals; color WebP quality 92, normal and roughness lossless WebP. Original CC0 authors and source URLs remain in provenance.json."
+    },
+    {
+      "file": "public/art/tree-foliage.png",
+      "bytes": 2683388,
+      "sha256": "491ad1b9e9fe6f1f7a890d13d4d4cc4e24b0df94998b6a81b76e36985bb3a75d",
+      "origin": "春汀小镇新版/assets/art/tree-foliage.png",
+      "tool": "image_gen.imagegen",
+      "prompt": "Use case: stylized-concept. Asset type: production RGBA foliage texture atlas for curved 3D tree branch cards in a refined cozy village game. Generate ONE square 2048x2048 image with a REAL TRANSPARENT background and exactly four equally sized isolated botanical branch clusters in a precise 2x2 grid. Each cluster stays entirely within its own quarter with 8 percent empty transparent margin. TOP LEFT: a lush irregular branching spray of many small rounded oval spring oak leaves, fresh olive and yellow-green, 35-55 leaves with a few fine brown twigs, graceful layered depth. TOP RIGHT: an airy but rich cluster of compound ash leaves, soft sage and fresh medium green, many smaller tapered leaves arranged naturally along fine twigs. BOTTOM LEFT: a graceful downward cascade of many very fine willow leaves on thin drooping stems, several long branching strands, olive and silver-green. BOTTOM RIGHT: a dense irregular flowering cherry branch, many small pale blush and ivory five-petaled cherry blossoms with soft warm pink centers and some tiny fresh green leaves, about 35 blooms. Each cluster is a front-facing natural branch spray, similar image scale, nearly filling the square quadrant in an irregular lush silhouette. High-quality stylized 3D game foliage with subtle photographic botanical surface detail, softly modeled curved leaves, variation in orientation and size. Neutral diffuse illumination, NO cast shadows or sun-direction baked into image, no black outline, no hard glints, natural lively medium-light colors. Transparent gaps between individual leaves. No pots, soil, trunks, landscapes, grass, text, labels, borders, watermark or checkerboard. Actual alpha transparency, isolated botanical foliage only. This is a raw game material atlas, not a composition or mockup.",
+      "processing": "完整原件复制，运行时采样专用材质或图集。"
+    },
+    {
+      "file": "public/art/naturalist-prints.png",
+      "bytes": 2953157,
+      "sha256": "aafb7233b02ae9fa02566fbfbd55c5c8e058fb6029f8df6d3b919839a35e812c",
+      "origin": "春汀小镇新版/assets/art/naturalist-prints.png",
+      "tool": "image_gen.imagegen",
+      "prompt": "Use case: illustration-story. Asset type: a single 2x2 art atlas to be used as four framed decorative illustrations on the walls of a real interactive cozy 3D village game. Square 2048x2048 image, precisely four equally-sized square panels in a 2x2 grid, with no gap between the panels. Each panel has its own warm ivory uncoated paper background, generous interior margin, delicate realistic botanical ink and softly painted watercolor, exquisitely detailed museum-quality pastoral illustrations, same lighting and colour style throughout. Top-left: graceful green woodland fern fronds and a tiny pressed oak leaf, botanical specimen study. Top-right: a lovely small bunch of white daisies, yellow buttercups and mauve spring wildflowers, botanical study. Bottom-left: two small friendly brown and cream songbirds resting on a thin flowering branch, detailed feathers. Bottom-right: two delicate cream and amber butterflies with a sprig of blue meadow blossoms, naturalist study. Flat frontal print artwork only, NOT a photo of physical frames, not a room, no perspective, no 3D shadows, no mockup. No captions, no lettering, no labels, no grid lines, no wood borders, no logos. Each panel composition must stay completely inside its own quarter with at least 12 percent blank paper margin. Warm natural sage greens and soft ochre accents; elegant and calm, not cartoon clipart. Four artworks share a subtly fibrous fine paper texture.",
+      "processing": "完整原件复制，运行时采样专用材质或图集。"
+    },
+    {
+      "file": "public/art/warm-limestone.png",
+      "bytes": 3186524,
+      "sha256": "7953458ff59f70b0b3e0d6e40215952ff38baf66e8485606bf53d960748447d5",
+      "origin": "春汀小镇新版/assets/art/warm-limestone.png",
+      "tool": "image_gen.imagegen",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready seamless albedo material texture for actual limestone paving geometry in a refined cozy 3D spring village. Generate one square 2048x2048 tileable light warm golden-beige aged limestone surface. Flat orthographic material view, fills entire image. Delicate creamy mineral flecks, subtle tiny pores, soft natural mineral veining, very slight ochre patina. Premium hand-painted physically believable storybook game material, restrained and elegant. The image shows ONE continuous limestone surface with no tile pattern, no brick shapes, no grout and no gaps: individual stone slab boundaries are modeled in the game. Mostly light cream-beige, low contrast, fairly even overall brightness. Neutral diffuse albedo only, NO cast shadows, NO directional shading, NO perspective, NO specular reflections, NO text or frame. Top/bottom and left/right seamless repeat. Fine convincing detail up close, calm unified colour from a distance.",
+      "processing": "完整原件复制，运行时采样专用材质或图集。"
+    },
+    {
+      "file": "public/art/spring-horizon.png",
+      "bytes": 2265835,
+      "sha256": "019425cc5e34975d93487422c7528975295b2e48a3f9fb557a32c6d646b073eb",
+      "origin": "春汀小镇新版/assets/environment/spring-horizon.png",
+      "tool": "Built-in image_gen.imagegen",
+      "prompt": "Use case: stylized-concept.\nAsset type: dedicated distant sky and forest horizon background texture for an interactive stylized 3D game, not a game-level screenshot.\nCreate ONE original very wide seamless horizontal panoramic environment image, exact target 3072x1024 pixels (3:1 landscape). Reference image 1 is STYLE AND COLOR guidance only: imitate its exquisitely detailed sunny spring miniature 3D storybook foliage, warm cream greens, sage greens, soft natural painterly materials, and atmospheric hills. Do not copy any village, foreground composition, houses or other structures from that reference. Reference image 2 shows existing game lighting and broad distant horizon placement; use only to harmonize color and the upper-left sunlight, never copy UI, buildings or ground.\nComposition: airy blue sky and softly sunlit white cumulus clouds occupy roughly the upper 50 percent; a few layered blue-green distant mountain ridges in the middle transition into richly varied distant woodland filling the lower 35 percent and extending fully beyond the bottom edge. A continuous mixed deciduous and conifer forest with small finely detailed leaves, delicate branching, varied graceful tree silhouettes and clusters at natural sizes. Tree skyline rises and falls gently with rolling hills; grouped trees overlap with atmospheric depth. Natural patchwork of cream-green spring growth, sage, olive, yellow-green highlights and deeper forest green. Occasional tiny subtle pale blossom trees nested among foliage. No dominant isolated tree, no oversized foreground leaves, no giant close-up tree. Forest appears distant and gently recedes.\nLighting: bright spring day, soft warm light from upper left, pleasing dimensional 3D illustrated materials, clear and richly detailed yet cohesive with the reference's handcrafted storybook game style.\nHorizontal repeating requirement: left and right edges connect smoothly at matching sky hue, hill altitude, treeline level and foliage density. No border or framed image, no blank areas.\nSTRICT exclusions: no buildings of any kind, no houses, no bridges, no roads, no paths, no village, no fences, no characters, no animals, no people, no water or river, no UI, no text, no labels, no watermark. This is exclusively a dedicated scenic sky + remote hills + forest horizon game asset. Full opaque sky background, not transparent. Produce the asset itself, not a mockup.",
+      "usage": "不可到达的远山与林线；近景植物和建筑仍为几何。"
+    },
+    {
+      "file": "public/art/book-ornament.svg",
+      "bytes": 2603,
+      "sha256": "6e18b7b060b6c58057da280195cff962b13dfd545dba084f52233afbc88fe703",
+      "origin": "本工程原创可编辑 SVG"
+    },
+    {
+      "file": "public/art/leaf.svg",
+      "bytes": 233,
+      "sha256": "25ac3641ca71520f60e71e0778941d2fdf699e6d1b400094937cd2b79552132f",
+      "origin": "本工程原创可编辑 SVG"
+    },
+    {
+      "file": "public/art/book-gilding-v2.svg",
+      "origin": "本项目原创SVG，在原封面装饰基础上调整构图并补充标题",
+      "source": "public/art/book-gilding-v2.svg",
+      "modified": "2026-10-28"
+    },
+    {
+      "file": "public/art/models/conservatory-props.glb",
+      "origin": "本项目Blender建模",
+      "source": "tools/build-conservatory-props.py",
+      "details": "public/art/models/provenance.json",
+      "modified": "2026-10-28"
+    }
+  ]
+}

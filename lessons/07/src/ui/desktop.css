@@ -1,0 +1,1779 @@
+@import "./reading-sheets.css";
+/* Immersive printing desk: tools appear at the moment they are needed. */
+:root {
+  --paper: #f8f3e6;
+  --ink: #344a3f;
+  --teal: #4f8e79;
+  --glass: linear-gradient(115deg, #242e26c9, #27342a91);
+  --edge: #e4d9ba45;
+  --light: #f2ead5;
+  --muted: #bdc8b6;
+}
+#app {
+  overflow: clip;
+}
+#app button {
+  min-height: 36px;
+  border-radius: 2px;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  transition:
+    background 0.18s,
+    color 0.18s,
+    border-color 0.18s,
+    transform 0.18s,
+    box-shadow 0.18s;
+}
+#app input,
+#app textarea,
+#app select {
+  font-size: 15px;
+}
+#app textarea {
+  resize: none;
+}
+#app button:focus-visible,
+#app a:focus-visible,
+#app input:focus-visible,
+#app textarea:focus-visible,
+#app select:focus-visible {
+  outline: 2px solid #a3d4bb;
+  outline-offset: 4px;
+}
+#app .fineprint,
+#app small,
+#app .panel-kicker {
+  font-size: 12px;
+  line-height: 1.65;
+}
+#app .scene-shade {
+  background: linear-gradient(
+    180deg,
+    #171b1673,
+    transparent 34%,
+    transparent 72%,
+    #111a165e
+  );
+}
+#app .topbar {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 68px;
+  padding: 0 36px;
+  gap: 24px;
+  display: flex;
+  justify-content: space-between;
+  border: 0;
+  border-bottom: 1px solid #e8d8ad42;
+  border-radius: 0;
+  background: linear-gradient(100deg, #1d291fd9, #2b3426a3);
+  backdrop-filter: blur(18px) saturate(0.8);
+  color: var(--light);
+  box-shadow: 0 4px 24px #12261b17;
+  z-index: 70;
+}
+#app .brand-row {
+  gap: 25px;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+#app .brand-name {
+  font: 600 25px/1.3 var(--serif);
+  letter-spacing: 3px;
+  white-space: nowrap;
+}
+#app .current-room {
+  border-left: 1px solid #d9d3b845;
+  padding-left: 24px;
+  color: #d1d8be;
+  font: 17px var(--serif);
+  letter-spacing: 2px;
+}
+#app .workshop-return,
+#app .nova-course-return {
+  position: static;
+  font:
+    500 15px/1.4 "Microsoft YaHei UI",
+    sans-serif;
+  min-height: 36px;
+  padding: 8px 25px 8px 0;
+  margin: 0;
+  background: transparent;
+  color: #eee7d1;
+  border: 0;
+  border-right: 1px solid #d9d3b845;
+  border-radius: 0;
+  box-shadow: none;
+  white-space: nowrap;
+}
+#app .workshop-return:hover,
+#app .nova-course-return:hover {
+  color: #fff9e5;
+  background: transparent;
+  filter: none;
+}
+#app .header-actions {
+  gap: 16px;
+}
+#app .header-actions button {
+  font-size: 14px;
+  padding: 7px 8px;
+  background: transparent;
+  border-color: transparent;
+  color: #dce1cb;
+  white-space: nowrap;
+}
+#app .header-actions button:hover:not(:disabled) {
+  color: #fff8e4;
+  background: #c7d3b515;
+}
+#app .header-actions svg {
+  width: 20px;
+  height: 20px;
+}
+#app .header-actions [data-cmd="settings"] {
+  color: #9db39f;
+}
+#app .lesson-heading,
+#app .lesson-heading[data-paper] {
+  position: absolute;
+  left: 4vw;
+  top: 108px;
+  right: auto;
+  bottom: auto;
+  width: min(650px, 52vw);
+  height: auto;
+  padding: 0;
+  transform: none;
+  max-width: none;
+  color: #f4edd8;
+  background: none;
+  backdrop-filter: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  z-index: 5;
+}
+#app .lesson-heading:before,
+#app .lesson-heading[data-paper]:after {
+  display: none;
+}
+#app .lesson-heading .eyebrow {
+  gap: 12px;
+  margin: 0 0 11px;
+  flex-wrap: wrap;
+  color: #d3d5b9;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+#app .lesson-heading .eyebrow button {
+  padding: 0;
+  border: 0;
+  border-bottom: 1px dotted #c7d4b26b;
+  background: transparent;
+  min-height: 21px;
+  font-size: 12px;
+  color: #b8d3bb;
+}
+#app .lesson-heading h1,
+#app .lesson-heading[data-paper] h1 {
+  font: 600 clamp(27px, 2.4vw, 42px) / 1.45 var(--serif);
+  margin: 0 0 11px;
+  letter-spacing: 2px;
+  color: #f7efdb;
+  text-shadow: 0 2px 9px #15231985;
+}
+#app .lesson-heading .task-line {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #e0e0ca;
+  max-width: 620px;
+  margin: 0;
+  text-shadow: 0 1px 7px #18231ca3;
+}
+#app .concept-marker {
+  display: inline-flex;
+  gap: 7px;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+#app .concept-marker:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border: 1px solid #a4ccb0;
+  transform: rotate(45deg);
+}
+#app[data-view="hub"] .lesson-heading {
+  top: 15vh;
+  width: 465px;
+  padding: 25px 28px 28px;
+  background: linear-gradient(110deg, #17271ebd, #17271e45 85%, transparent);
+}
+#app[data-view="hub"] .lesson-heading h1 {
+  font-size: 43px;
+  letter-spacing: 4px;
+  margin: 18px 0 22px;
+}
+#app .hub-intro {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #d9dec6;
+  margin: 0;
+}
+#app .hero-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 28px;
+}
+#app .hero-action > button {
+  background: #366a535e;
+  border: 1px solid #b3c5a17a;
+  padding: 13px 23px;
+  border-radius: 28px;
+  color: #f1e9cd;
+}
+#app .hero-action > button:hover {
+  background: #527e556b;
+  transform: translateX(3px);
+}
+#app .hero-action > span {
+  font-size: 12px;
+  color: #b8c7aa;
+}
+#app .hub-route-choice {
+  display: flex;
+  gap: 18px;
+  margin-top: 20px;
+}
+#app .hub-route-choice button {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #9cae7b40;
+  padding: 7px 0;
+  font-size: 13px;
+  color: #a7bca1;
+  border-radius: 0;
+}
+#app .hub-route-choice button[aria-pressed="true"] {
+  color: #f0eacd;
+  border-bottom-color: #9dc9a3;
+}
+#app .door-label {
+  border: 1px solid #b2c5a657;
+  border-radius: 2px;
+  background: linear-gradient(125deg, #182b20c9, #304234ad);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 17px #10271938;
+  color: #eee8c8;
+}
+#app .door-label > span {
+  font: 600 18px var(--serif);
+  letter-spacing: 2px;
+}
+#app .door-label small {
+  font-size: 11px;
+  color: #b6c7a5;
+  margin-top: 5px;
+}
+/* Three separated anchors, no opaque frame surrounding the playing area. */
+#app .workbench-footer {
+  position: absolute;
+  left: 36px;
+  right: 36px;
+  bottom: 27px;
+  height: 86px;
+  z-index: 12;
+  pointer-events: none;
+  background: none;
+  backdrop-filter: none;
+  border: 0;
+  box-shadow: none;
+  color: #e4e6cf;
+}
+#app .workbench-tools {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  width: max-content;
+  max-width: calc(100vw - 430px);
+  pointer-events: auto;
+}
+#app .dock,
+#app[data-view="council"] .dock {
+  position: static;
+  inset: auto;
+  transform: none;
+  max-width: 100%;
+  width: max-content;
+  height: auto;
+  min-height: 59px;
+  max-height: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 8px 13px;
+  background: var(--glass);
+  backdrop-filter: blur(16px) saturate(0.8);
+  border: 1px solid var(--edge);
+  border-top-color: #e8debd7a;
+  border-radius: 36px;
+  box-shadow:
+    0 9px 26px #10261c47,
+    inset 0 1px #fff2cf12;
+  overflow: visible;
+  color: #e8e7d0;
+}
+#app .dock button {
+  min-height: 41px;
+  padding: 8px 20px;
+  border: 1px solid transparent;
+  border-radius: 26px;
+  background: transparent;
+  color: #e8ead3;
+  box-shadow: none;
+  font-size: 16px;
+}
+#app .dock button:hover:not(:disabled) {
+  background: #bfd2b21c;
+  border-color: #a4c3aa64;
+  color: #fff3d8;
+  transform: translateY(-1px);
+}
+#app .dock button.primary {
+  background: linear-gradient(#60927b8c, #3e6c5c78);
+  border-color: #a5cab084;
+  color: #fbf5dc;
+  box-shadow: inset 0 1px #deebc62b;
+}
+#app .dock > .segmented {
+  background: transparent;
+  display: flex;
+  gap: 1px;
+  border: 0;
+  border-right: 1px solid #b9c3a63b;
+  border-radius: 0;
+  padding: 0 11px 0 0;
+  margin: 0 3px 0 0;
+}
+#app .dock .segmented button {
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+  padding: 7px 12px;
+  color: #b7c9ae;
+  min-height: 36px;
+  font-size: 14px;
+}
+#app .dock .segmented button[aria-pressed="true"] {
+  color: #f5efd7;
+  background: transparent;
+  box-shadow: inset 0 -2px #9ecbb2;
+}
+#app .dock .compact-select,
+#app .dock .slider-control,
+#app .dock .search-control {
+  color: #c0cfb5;
+  font-size: 12px;
+}
+#app .dock select,
+#app .dock input {
+  color: #e8e9d1;
+  background: #23372ac7;
+  border: 1px solid #92ab8355;
+  border-radius: 3px;
+  padding: 7px 9px;
+  min-height: 34px;
+  font-size: 14px;
+}
+#app .dock option {
+  background: #293d2c;
+  color: #e9ecd6;
+}
+#app .dock-caption {
+  color: #b8cbb0;
+  font-size: 13px;
+}
+#app .task-status {
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  inset: auto auto 2px 0;
+  width: 184px;
+  max-width: none;
+  max-height: none;
+  padding: 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  backdrop-filter: none;
+  overflow: visible;
+  color: #dbe6cd;
+  pointer-events: auto;
+}
+#app .task-status:before {
+  display: none;
+}
+#app .task-status-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 8px;
+  padding: 0;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #c0ceb5;
+}
+#app .task-status-top button {
+  font-size: 11px;
+  min-height: 22px;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px dotted #a6bb8e75;
+  background: transparent;
+  color: #d4dfc1;
+}
+#app .task-meter {
+  height: 2px;
+  background: #ccd3b33d;
+  margin-bottom: 9px;
+  overflow: hidden;
+}
+#app .task-meter i {
+  display: block;
+  height: 100%;
+  background: #c1d6ab;
+  transition: width 0.25s;
+}
+#app .task-next {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+#app .task-next p {
+  flex: 1;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.55;
+  color: #d7dec8;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+#app .task-next button {
+  font-size: 12px;
+  min-width: 45px;
+  min-height: 29px;
+  padding: 5px 8px;
+  background: #172e2073;
+  border: 1px solid #a9b79745;
+  color: #e3ebd1;
+  white-space: nowrap;
+}
+#app .task-next button.primary {
+  background: #4776599c;
+  border-color: #b0ce9c91;
+}
+#app .corner {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  inset: auto 0 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 155px;
+  padding: 0;
+  border: 0;
+  pointer-events: auto;
+}
+#app .corner .progress-pill {
+  display: none;
+}
+#app .corner button {
+  display: flex;
+  gap: 7px;
+  min-height: 35px;
+  padding: 6px 0;
+  background: transparent;
+  color: #c4d0b5;
+  border: 0;
+  border-bottom: 1px solid #bac7a347;
+  box-shadow: none;
+  font-size: 13px;
+  border-radius: 0;
+}
+#app .corner button:hover {
+  color: #fff1d5;
+  background: transparent;
+}
+#app .manipulation-help,
+#app[data-view="council"] .manipulation-help {
+  position: static;
+  inset: auto;
+  transform: none;
+  max-width: 100%;
+  width: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  backdrop-filter: none;
+  box-shadow: none;
+  color: #d2dbc0;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 1.5;
+  text-shadow: 0 1px 6px #18221c;
+}
+#app .manipulation-help:empty {
+  display: none;
+}
+#app .manipulation-help > span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  text-align: center;
+}
+#app .manipulation-help svg {
+  width: 15px;
+  height: 15px;
+  color: #c2d6b2;
+}
+#app .manipulation-help button {
+  min-height: 22px;
+  padding: 1px 5px;
+  font-size: 11px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #b4c49970;
+  border-radius: 0;
+  color: #d4e0be;
+}
+#app[data-view="hub"] .workbench-tools {
+  left: 0;
+  transform: none;
+}
+#app[data-view="hub"] .dock {
+  border-radius: 2px;
+  background: #24392b7a;
+  padding: 12px 20px;
+}
+#app .chapter-note {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #b4c5a6;
+}
+/* In-scene tools and the next useful experiment. */
+#app .context-invitation {
+  position: absolute;
+  right: 5.2vw;
+  top: 142px;
+  width: 330px;
+  padding: 17px 21px 15px;
+  background: #f3e7cd url("/textures/paper.webp") center/cover;
+  border: 1px solid #dac9a6;
+  box-shadow:
+    0 3px 0 #a1886099,
+    0 12px 23px #191b1645;
+  transform: rotate(2deg);
+  color: #536451;
+  pointer-events: auto;
+}
+#app .context-invitation:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 4px;
+  background: #667f6240;
+}
+#app .context-invitation > span {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #7e8c69;
+}
+#app .context-invitation button {
+  width: 100%;
+  white-space: normal;
+  text-align: left;
+  justify-content: space-between;
+  gap: 14px;
+  font: 19px/1.75 var(--serif);
+  padding: 9px 0 7px;
+  background: none;
+  border: 0;
+  color: #344d3c;
+  cursor: grab;
+}
+#app .context-invitation button i {
+  font:
+    23px Georgia,
+    serif;
+  color: #6f8b6b;
+}
+#app .context-invitation button:hover {
+  color: #275f43;
+  transform: translateY(-2px);
+}
+#app .context-invitation small {
+  font-size: 10px;
+  color: #8a9474;
+}
+#app .context-journey {
+  position: absolute;
+  left: 4vw;
+  bottom: 136px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: #c5ceb4;
+}
+#app .context-journey span {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  padding-bottom: 6px;
+  border-bottom: 1px solid transparent;
+}
+#app .context-journey span.current {
+  color: #f1ebd0;
+  border-bottom-color: #aed4bb;
+}
+#app .context-journey span.past {
+  color: #9bc6a8;
+}
+#app .context-journey i {
+  font:
+    11px Georgia,
+    serif;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #c6c7a359;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 14px;
+  font-style: normal;
+}
+#app .context-journey em {
+  font-style: normal;
+  color: #8f9d86;
+}
+#app .context-paging {
+  position: absolute;
+  right: 5vw;
+  top: 95px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #e0e3c6;
+  font-size: 12px;
+  pointer-events: auto;
+}
+#app .context-paging button {
+  background: #314d3977;
+  color: #edf0d5;
+  border: 1px solid #d3d7b45c;
+  min-height: 28px;
+  padding: 3px 8px;
+}
+#app .word-caption {
+  position: absolute;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #e8e2c9;
+  font-size: 12px;
+  white-space: nowrap;
+  pointer-events: auto;
+  z-index: 7;
+  padding: 7px 13px;
+  background: #233b2fa8;
+  border: 1px solid #acbd9554;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 3px 12px #17271c22;
+  border-radius: 3px;
+}
+#app .word-caption b {
+  font: 600 15px var(--serif);
+  color: #cae6c9;
+}
+#app .word-caption button {
+  background: none;
+  color: #dce7cc;
+  min-height: 25px;
+  padding: 1px 0 1px 11px;
+  border: 0;
+  border-left: 1px solid #afc79e50;
+  border-radius: 0;
+  font-size: 11px;
+}
+#app.context-editing .context-invitation,
+#app.has-inspector .context-invitation {
+  visibility: hidden;
+}
+#app .context-drop {
+  position: absolute;
+  top: 32%;
+  left: 15%;
+  right: 15%;
+  bottom: 23%;
+  border: 2px dashed #bad4aa;
+  border-radius: 3px;
+  background: #2d655a7d;
+  backdrop-filter: blur(3px);
+  color: #f3f4dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 25;
+  pointer-events: auto;
+  font: 23px var(--serif);
+}
+/* The invitation is a real projected sheet, with accessible HTML on its surface. */
+#app .context-invitation[data-paper] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: auto;
+  width: var(--paper-width);
+  height: var(--paper-height);
+  padding: 20px 24px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  transform: var(--paper-transform);
+  transform-origin: 0 0;
+  backdrop-filter: none;
+}
+#app .context-invitation[data-paper]:before {
+  display: none;
+}
+#app .context-invitation[data-paper] > span {
+  font-size: 17px;
+  letter-spacing: 3px;
+  color: #758065;
+}
+#app .context-invitation[data-paper] button {
+  font-size: 36px;
+  line-height: 1.6;
+  padding: 11px 0 9px;
+  color: #344d3c;
+}
+#app .context-invitation[data-paper] button i {
+  font-size: 31px;
+}
+#app .context-invitation[data-paper] small {
+  font-size: 15px;
+  color: #7d866b;
+}
+/* The editing drawer is opt-in and has one immediate action. */
+#app .atelier {
+  position: absolute;
+  top: 102px;
+  right: 30px;
+  bottom: auto;
+  width: 405px;
+  max-height: calc(100dvh - 242px);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  min-height: 0;
+  padding: 23px;
+  color: #d8e4ca;
+  background: linear-gradient(135deg, #233d30eb, #26372ee6);
+  border: 1px solid #bed0ad59;
+  border-top-color: #d7dec28a;
+  border-radius: 3px;
+  box-shadow:
+    0 12px 40px #10261e38,
+    inset 0 1px #f7e7bf13;
+  backdrop-filter: blur(24px) saturate(0.75);
+  pointer-events: auto;
+  z-index: 19;
+  animation: drawer-enter 0.25s ease-out;
+}
+.atelier-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#app .atelier .panel-kicker {
+  font-size: 11px;
+  color: #b0c7a9;
+  letter-spacing: 2px;
+}
+#app .atelier .close-button {
+  border: 1px solid #a7c39a56;
+  color: #c4d8b8;
+  background: none;
+}
+.atelier header h2 {
+  font: 600 25px/1.4 var(--serif);
+  margin: 10px 0 16px;
+  color: #f3ead1;
+  letter-spacing: 1px;
+}
+.atelier-tabs {
+  display: flex;
+  gap: 16px;
+  border-bottom: 1px solid #a3bc9533;
+}
+#app .atelier-tabs button {
+  min-height: 35px;
+  padding: 7px 0;
+  border: 0;
+  border-radius: 0;
+  color: #a8c0a8;
+  background: transparent;
+  font-size: 13px;
+  white-space: nowrap;
+  box-shadow: none;
+}
+#app .atelier-tabs button[aria-pressed="true"] {
+  color: #f1eacb;
+  box-shadow: inset 0 -2px #a2c8ac;
+}
+.atelier-content {
+  flex: 1;
+  min-height: 0;
+}
+.atelier .activity-unit {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.atelier p {
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0 0 12px;
+  color: #c7d5bb;
+}
+#app .atelier .write-label {
+  font-size: 13px;
+  color: #bccfb1;
+  gap: 9px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+#app .atelier input {
+  width: 100%;
+  font-size: 18px;
+  padding: 13px 14px;
+  background: linear-gradient(105deg, #f8f3e6, #e7e6d4);
+  color: #314b3e;
+  border: 1px solid #bdc4a4;
+  border-radius: 2px;
+  margin: 0;
+  box-shadow: inset 0 1px 4px #42624a13;
+}
+#app .atelier .activity-unit > .primary {
+  min-height: 43px;
+  background: #87ad9352;
+  border: 1px solid #abc9b18c;
+  border-radius: 3px;
+  align-self: stretch;
+  color: #edf0d5;
+  font-size: 15px;
+}
+#app .atelier .activity-unit > .primary:hover {
+  background: #92bc9b72;
+}
+.context-tray {
+  margin: 18px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.context-tray > span {
+  width: 100%;
+  font-size: 12px;
+  color: #b4c9a9;
+}
+#app .context-chip {
+  font: 600 21px var(--serif);
+  background: linear-gradient(#f4e7c9, #d4ba8c);
+  color: #3e4b30;
+  border: 1px solid #b4a079;
+  border-bottom: 4px solid #8c7852;
+  border-radius: 2px;
+  padding: 9px 14px;
+  box-shadow: 0 3px 5px #14231855;
+  cursor: grab;
+}
+#app .context-chip:hover {
+  transform: translateY(-2px);
+}
+.context-edit-tools {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+#app .context-edit-tools button {
+  background: transparent;
+  border: 1px solid #a6bb9452;
+  color: #d9e2cb;
+  font-size: 13px;
+  padding: 7px 10px;
+  min-height: 33px;
+}
+.context-examples {
+  display: grid;
+  gap: 14px;
+  margin: 10px 0;
+}
+#app .context-examples button {
+  position: relative;
+  white-space: normal;
+  text-align: left;
+  justify-content: flex-start;
+  background: #f2ecd9;
+  border: 0;
+  border-left: 3px solid #b9ae77;
+  box-shadow: 2px 4px 8px #18291d33;
+  color: #3b5840;
+  font: 18px/1.7 var(--serif);
+  padding: 14px 16px;
+  border-radius: 0;
+}
+#app .context-examples button:hover {
+  background: #faf2d9;
+  transform: translateX(2px);
+}
+#app .atelier .context-result {
+  font-size: 11px;
+  color: #abc29e;
+  margin: 0;
+}
+.atelier-foot {
+  border-top: 1px solid #b8cca33c;
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+#app .atelier-foot button {
+  font-size: 12px;
+  background: none;
+  border: 0;
+  padding: 3px 0;
+  color: #becfae;
+}
+/* Readings stay legible; the live scene remains visible behind one sheet. */
+#app .inspector {
+  position: absolute;
+  top: 101px;
+  right: 30px;
+  bottom: 133px;
+  width: 425px;
+  height: auto;
+  max-height: none;
+  padding: 23px;
+  display: flex;
+  flex-direction: column;
+  background: #f5f1e5f2;
+  border: 1px solid #f5ecd1;
+  border-left: 3px solid #a3b28b;
+  border-radius: 2px;
+  box-shadow: 0 10px 34px #10291f38;
+  backdrop-filter: blur(18px);
+  color: #304e3c;
+  overflow: visible;
+}
+#app .inspector:before {
+  display: none;
+}
+#app .inspector > header {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a6b38d66;
+}
+#app .inspector .panel-kicker {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #82936e;
+}
+#app .inspector > h2 {
+  flex: 0 0 auto;
+  font: 600 25px/1.4 var(--serif);
+  margin: 17px 0;
+  color: #345c41;
+}
+#app .inspector-content {
+  flex: 1;
+  min-height: 0;
+  overflow: visible;
+}
+#app .inspector p {
+  font-size: 15px;
+  line-height: 1.75;
+}
+#app .inspector .choices button {
+  white-space: normal;
+  font-size: 15px;
+  line-height: 1.65;
+  border: 1px solid #aebc9366;
+  background: #fffaf177;
+  color: #3a5741;
+  text-align: left;
+}
+#app .inspector .concept-marker {
+  color: #47775a;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+#app .concept-explanation {
+  background: #b4c6a11c;
+  border-left: 2px solid #9caf79;
+  padding: 10px 13px;
+  color: #617a51;
+}
+#app .inspector .matrix-scroll {
+  overflow: visible;
+  max-height: none;
+}
+#app table {
+  table-layout: auto;
+  width: 100%;
+  font-size: 14px;
+}
+#app table th,
+#app table td {
+  min-width: 0;
+  padding: 7px;
+  font-size: 14px;
+}
+#app .causal-words small {
+  font-size: 12px;
+}
+#app dialog {
+  position: fixed;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  width: min(1050px, calc(100vw - 72px));
+  height: min(740px, calc(100dvh - 110px));
+  max-height: none;
+  max-width: none;
+  margin: 0;
+  border: 1px solid #d7d6b8;
+  border-top-color: #fff9e2;
+  border-radius: 3px;
+  background: linear-gradient(115deg, #faf6e9fa, #efedddfa);
+  color: #304b3b;
+  overflow: visible;
+  box-shadow: 0 20px 70px #101b1666;
+  z-index: 80;
+}
+#app dialog::backdrop {
+  background: #101d1b72;
+  backdrop-filter: blur(6px) grayscale(0.75);
+}
+#app #modal-content,
+#app #modal-content.wide {
+  height: 100%;
+  width: 100%;
+  padding: 24px 31px;
+  display: flex;
+  flex-direction: column;
+}
+#app #modal-content > .modal-header {
+  flex: 0 0 auto;
+  margin: 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #bbc5a077;
+}
+#app #modal-content > .modal-header .panel-kicker {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #7d916b;
+}
+#app #modal-content > h2 {
+  font-size: 29px;
+  line-height: 1.4;
+  margin: 18px 0;
+  flex: 0 0 auto;
+  color: #355940;
+}
+.modal-body {
+  flex: 1;
+  min-height: 0;
+}
+#app .modal-feedback {
+  flex: 0 0 auto;
+  margin: 0 0 13px;
+  padding: 9px 12px;
+  border-left: 2px solid #87a07b;
+  color: #547047;
+  background: #bccbab2b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+#app .modal-body p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+#app .modal-body .choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+#app .modal-body .choices button {
+  font-size: 15px;
+  white-space: normal;
+  color: #46613f;
+  border: 1px solid #afbc9055;
+  background: #f8f9ed44;
+}
+#app .modal-close,
+#app .close-button {
+  border-radius: 50%;
+  min-height: 32px;
+  width: 32px;
+  padding: 6px;
+  color: #577255;
+  background: transparent;
+  border: 1px solid #a4b48844;
+}
+#app .notice {
+  bottom: 130px;
+  border-radius: 3px;
+  border: 1px solid #bbcca071;
+  background: #263e2ef5;
+  color: #ecebd0;
+  box-shadow: 0 4px 15px #10271c33;
+  font-size: 13px;
+  padding: 11px 17px;
+  max-width: 660px;
+  z-index: 85;
+}
+#app .route-map {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0;
+  flex: 1;
+  align-items: start;
+  margin: 20px 0 10px;
+}
+#app .route-room {
+  min-width: 0;
+  border: 0;
+  border-left: 1px solid #b2bf9655;
+  border-radius: 0;
+  background: transparent;
+  padding: 8px 14px;
+}
+#app .route-room ol {
+  list-style: none;
+  padding: 0;
+}
+#app .route-room li button {
+  width: 100%;
+  justify-content: flex-start;
+  gap: 9px;
+  border: 0;
+  border-bottom: 1px solid #a4b38b30;
+  border-radius: 0;
+  background: transparent;
+  color: #54694c;
+  min-height: 52px;
+  white-space: normal;
+  text-align: left;
+  font-size: 13px;
+  padding: 10px 0;
+  line-height: 1.55;
+}
+#app .route-room li button > span {
+  font:
+    12px Georgia,
+    serif;
+  color: #829775;
+  min-width: 22px;
+}
+#app .route-room li button > small {
+  font-size: 9px;
+  margin-left: auto;
+  color: #90a381;
+  min-width: 23px;
+}
+#app .route-room li button.core-stop {
+  color: #2d674b;
+}
+#app .route-room li button.selected {
+  background: #83a58322;
+  padding-left: 7px;
+  border-left: 2px solid #7ea87d;
+}
+#app .route-room h3 {
+  font: 600 23px var(--serif);
+  letter-spacing: 2px;
+  color: #46633f;
+  margin: 10px 0;
+}
+#app .route-room p {
+  font-size: 11px !important;
+  margin: 0 0 12px;
+  line-height: 1.5 !important;
+  color: #8c9a7b;
+}
+#app dialog.route-dialog {
+  width: min(1430px, calc(100vw - 96px));
+}
+#app .route-dialog .modal-body {
+  display: flex;
+  flex-direction: column;
+}
+#app .route-dialog .route-options {
+  display: flex;
+  gap: 13px;
+  padding: 4px 0 8px;
+}
+#app .route-dialog .route-options button {
+  font-size: 13px;
+  padding: 7px 14px;
+  background: none;
+  border: 1px solid #a2b78d60;
+  color: #5d7c4c;
+}
+#app .route-dialog .route-options button.primary {
+  background: #638a6326;
+  border-color: #7fa879;
+}
+#app .route-dialog p.route-explanation {
+  font-size: 13px;
+  line-height: 1.7;
+  margin: 6px 0;
+  color: #8b987b;
+}
+#app .route-dialog .modal-body > .fineprint {
+  font-size: 11px;
+  margin: 0;
+  color: #929d83;
+}
+#app .route-room .route-number {
+  font:
+    italic 25px Georgia,
+    serif;
+  color: #88a47b;
+}
+#app dialog.guide-dialog,
+#app dialog.settings-dialog {
+  width: min(740px, calc(100vw - 90px));
+  height: auto;
+  max-height: calc(100dvh - 100px);
+}
+#app .guide-dialog #modal-content,
+#app .settings-dialog #modal-content {
+  height: auto;
+  padding: 25px 33px;
+}
+#app .guide-dialog #modal-content > h2 {
+  font-size: 27px;
+  margin: 17px 0;
+}
+#app .guide-dialog .guide-emblem {
+  background: none;
+  border: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #8e997b;
+  letter-spacing: 2px;
+  margin: 0 0 14px;
+}
+#app .guide-dialog .guide-intro {
+  font: 20px/1.8 var(--serif);
+  color: #3e6547;
+  margin: 0 0 13px;
+}
+#app .guide-dialog .modal-body > .fineprint {
+  font-size: 12px;
+  color: #8b967a;
+}
+#app .guide-dialog .guide-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 22px;
+}
+#app .guide-dialog .guide-actions button {
+  font-size: 14px;
+  border: 1px solid #9bad8963;
+  color: #667f53;
+  background: none;
+  padding: 9px 17px;
+}
+#app .guide-dialog .guide-actions button.primary {
+  background: #50785d;
+  color: #f6efd4;
+  border-color: #50785d;
+}
+#app .sheet-host[data-sheet-count="1"] {
+  gap: 0;
+}
+#app .sheet-host[data-sheet-count="1"] > .sheet-navigation {
+  display: none;
+}
+#app .settings-dialog .setting-row {
+  font-size: 15px;
+  padding: 15px 0;
+  border-bottom: 1px solid #acb7924a;
+  color: #5b7153;
+}
+#app .settings-dialog select {
+  font-size: 14px;
+  padding: 9px 11px;
+  background: #fffaf073;
+  border: 1px solid #9aaa8161;
+  color: #51694b;
+  border-radius: 2px;
+}
+#app .settings-dialog .modal-body > .fineprint {
+  font-size: 12px;
+  color: #889574;
+}
+/* Comparison has its own visual state, generated from the two saved computations. */
+#app dialog.comparison-dialog {
+  width: min(1390px, calc(100vw - 100px));
+  height: min(790px, calc(100dvh - 74px));
+  background:
+    linear-gradient(#f8f3e8ed, #f4eedfe8),
+    url("/textures/paper.webp") center/cover;
+}
+#app .comparison-dialog #modal-content {
+  padding: 22px 38px;
+}
+#app .comparison-dialog #modal-content > h2 {
+  font-size: 37px;
+  margin: 16px 0 6px;
+  color: #303e30;
+}
+.context-comparison {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#app .comparison-intro {
+  font-size: 13px;
+  color: #7d896f;
+  margin: 0 0 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+#app .comparison-intro button {
+  padding: 3px 0;
+  font-size: 12px;
+  color: #567e57;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #a0b48b65;
+  min-height: 25px;
+  border-radius: 0;
+  flex-shrink: 0;
+}
+.comparison-spread {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  flex: 1;
+  min-height: 0;
+  padding-bottom: 12px;
+}
+.comparison-side {
+  min-width: 0;
+  padding-top: 10px;
+}
+.comparison-side + section {
+  border-left: 1px solid #a5ae8c70;
+  padding-left: 40px;
+}
+.comparison-label {
+  display: inline-block;
+  font: 17px var(--serif);
+  color: #46604a;
+  border-bottom: 2px solid #82967b;
+  padding: 4px 0 7px;
+  letter-spacing: 3px;
+}
+#app .comparison-sentence {
+  font: 23px/1.65 var(--serif);
+  color: #343d30;
+  margin: 17px 0 22px;
+  min-height: 36px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.proof-types {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  min-height: 63px;
+  margin-bottom: 26px;
+  perspective: 700px;
+}
+.proof-type {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 33px;
+  padding: 7px 7px 10px;
+  background: linear-gradient(130deg, #79674c, #413c2c);
+  color: #f2e8ca;
+  font: 600 23px/1.5 var(--serif);
+  border: 1px solid #9a8660;
+  border-bottom: 7px solid #35332a;
+  box-shadow:
+    1px 5px 7px #26301f3b,
+    inset 0 0 0 2px #c5b27c1f;
+  border-radius: 2px;
+  transform: rotateX(9deg);
+}
+.long-context-note {
+  display: block;
+  color: #8c987b;
+  margin: -15px 0 14px;
+  font-size: 10px !important;
+}
+.type-ellipsis {
+  color: #839274;
+  padding: 0 5px;
+}
+.proof-type.query {
+  background: linear-gradient(120deg, #d1ae6c, #b69a5d);
+  border-color: #ad8f53;
+  border-bottom-color: #817047;
+  color: #293a29;
+  box-shadow:
+    1px 5px 7px #26301f3b,
+    inset 0 0 0 2px #efd9a553;
+}
+.representation-caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 0 0 9px;
+  color: #4e6550;
+  font-size: 13px;
+}
+#app .representation-caption small {
+  font-size: 10px;
+  color: #889377;
+}
+.representation-strip {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 2px;
+  height: 28px;
+  padding: 3px;
+  border: 1px solid #8a977273;
+  background: #ece8d9;
+  box-shadow: inset 0 1px 4px #59624312;
+}
+.representation-strip i {
+  background: var(--cell);
+  position: relative;
+  cursor: help;
+}
+.representation-strip i.changed:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  bottom: -6px;
+  background: #788e70;
+}
+.attention-reading {
+  margin-top: 22px;
+  color: #697b61;
+  font-size: 12px;
+}
+.attention-reading > span {
+  display: block;
+  margin-bottom: 9px;
+  font-size: 11px;
+  color: #879476;
+}
+.attention-reading > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 6px 0;
+}
+.attention-reading b {
+  width: 58px;
+  flex-shrink: 0;
+  font-weight: 400;
+}
+.attention-reading i {
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    #7e9d83 var(--weight),
+    #96a88730 var(--weight)
+  );
+  flex: 1;
+}
+.attention-reading em {
+  width: 49px;
+  font:
+    11px Consolas,
+    monospace;
+  color: #738467;
+  text-align: right;
+}
+.comparison-conclusion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 17px 0 15px;
+  border-top: 1px solid #a5ae8c70;
+  flex-shrink: 0;
+}
+.comparison-conclusion > div > span {
+  display: block;
+  font-size: 12px;
+  color: #82916e;
+  margin-bottom: 8px;
+}
+.comparison-conclusion strong {
+  display: inline-block;
+  font: 600 23px var(--serif);
+  color: #3d5d44;
+  margin-bottom: 6px;
+}
+#app .comparison-conclusion small {
+  display: block;
+  font-size: 11px;
+  color: #839077;
+}
+#app .comparison-choice button {
+  font-size: 13px;
+  background: transparent;
+  border: 1px solid #9cac876b;
+  color: #557151;
+  margin-right: 7px;
+  padding: 7px 16px;
+  min-height: 35px;
+}
+#app .comparison-choice button[aria-pressed="true"] {
+  background: #6e927e29;
+  border-color: #6c9375;
+}
+.comparison-foot {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 12px;
+  border-top: 1px solid #a5ae8c40;
+  padding-top: 13px;
+  flex-shrink: 0;
+}
+#app .comparison-foot p {
+  font-size: 11px;
+  line-height: 1.7;
+  flex: 1;
+  margin: 0;
+  color: #8a937a;
+  max-width: 590px;
+}
+#app .comparison-foot button {
+  font-size: 13px;
+  min-height: 37px;
+  background: none;
+  border: 1px solid #9cac874d;
+  color: #587153;
+}
+#app .comparison-foot button.primary {
+  background: #416c57;
+  color: #f7efd4;
+  border-color: #4a735b;
+}
+@keyframes drawer-enter {
+  from {
+    opacity: 0;
+    transform: translateX(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@media (max-width: 1250px) {
+  #app .topbar {
+    padding: 0 24px;
+    height: 62px;
+  }
+  #app .brand-row {
+    gap: 17px;
+  }
+  #app .brand-name {
+    font-size: 22px;
+  }
+  #app .current-room {
+    padding-left: 17px;
+    font-size: 15px;
+  }
+  #app .header-actions {
+    gap: 7px;
+  }
+  #app .lesson-heading {
+    top: 96px;
+    left: 32px;
+    width: 55vw;
+  }
+  #app .lesson-heading .task-line {
+    font-size: 14px;
+  }
+  #app .lesson-heading h1 {
+    font-size: 29px;
+  }
+  #app .workbench-footer {
+    left: 25px;
+    right: 25px;
+    bottom: 22px;
+  }
+  #app .workbench-tools {
+    max-width: calc(100vw - 330px);
+  }
+  #app .task-status {
+    width: 151px;
+  }
+  #app .dock button {
+    font-size: 14px;
+    padding: 7px 13px;
+  }
+  #app .corner {
+    max-width: 120px;
+  }
+  #app .context-invitation {
+    right: 35px;
+    top: 132px;
+    width: 280px;
+    padding: 13px 17px;
+  }
+  #app .context-invitation button {
+    font-size: 17px;
+  }
+  #app .atelier {
+    width: 365px;
+    right: 24px;
+  }
+  #app .inspector {
+    width: 385px;
+    right: 24px;
+  }
+}
+@media (max-height: 800px) {
+  #app .lesson-heading {
+    top: 91px;
+  }
+  #app .lesson-heading .eyebrow {
+    margin-bottom: 7px;
+  }
+  #app .lesson-heading h1 {
+    font-size: 29px;
+    margin-bottom: 7px;
+  }
+  #app .lesson-heading .task-line {
+    font-size: 14px;
+  }
+  #app .context-invitation {
+    top: 110px;
+    padding: 12px 18px;
+  }
+  #app .context-invitation button {
+    font-size: 17px;
+  }
+  #app .atelier {
+    top: 88px;
+    max-height: calc(100dvh - 205px);
+    gap: 13px;
+    padding: 18px 21px;
+  }
+  #app .atelier header h2 {
+    font-size: 23px;
+    margin: 7px 0 12px;
+  }
+  #app .comparison-dialog #modal-content > h2 {
+    font-size: 28px;
+    margin: 10px 0 4px;
+  }
+  #app .comparison-dialog #modal-content {
+    padding: 17px 28px;
+  }
+  #app .comparison-intro {
+    margin-bottom: 8px;
+  }
+  #app .comparison-sentence {
+    font-size: 19px;
+    margin: 12px 0 14px;
+  }
+  .proof-types {
+    margin-bottom: 17px;
+    min-height: 56px;
+  }
+  .attention-reading {
+    margin-top: 15px;
+  }
+  .comparison-conclusion {
+    padding: 12px 0;
+  }
+  .comparison-conclusion strong {
+    font-size: 21px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #app *,
+  #app *:before,
+  #app *:after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+#app .dock[aria-busy="true"] {
+  opacity: 0.58;
+  pointer-events: none;
+}
+/* Paged dialogs follow the visible page instead of a fixed 740px sheet. */
+#app dialog.sheet-fit:not(.route-dialog):not(.comparison-dialog) {
+  height: auto;
+}
+#app dialog.sheet-fit:not(.route-dialog):not(.comparison-dialog) #modal-content {
+  height: auto;
+}
+#app dialog.sheet-fit:not(.route-dialog):not(.comparison-dialog) .sheet-pages {
+  flex: 0 0 auto;
+}

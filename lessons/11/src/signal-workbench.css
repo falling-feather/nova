@@ -1,0 +1,326 @@
+/* Chapter 11: a copper wired teaching kit on a blue drawing bench. */
+.signal-app {
+  --workbench-blue: #376c80;
+  --workbench-ink: #214c60;
+  --workbench-copper: #ac7342;
+  --workbench-paper: #fffbef;
+  color: var(--workbench-ink);
+}
+
+.signal-app .topbar {
+  background: linear-gradient(180deg, #fffcf2, #e4edef);
+  border-bottom: 2px solid #ad8055;
+}
+
+.signal-app .chapter-number {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 38px;
+  border: 2px solid #ae7949;
+  border-radius: 12px 12px 5px 5px;
+  background: #f1deba;
+  color: #704d31;
+  box-shadow: inset 0 2px 0 #fff4d6;
+  font-size: 25px;
+}
+
+.signal-app .brand h1 { color: #285f76; }
+.signal-app .journey {
+  background: #d4e1e4;
+  border-bottom: 1px solid #9db3b9;
+}
+.signal-app .journey button {
+  border: 1px solid #99afb5;
+  border-radius: 6px 6px 13px 13px;
+  background: #fffbef;
+  box-shadow: inset 0 3px 0 #ead8ba;
+}
+.signal-app .journey button[aria-current="step"] {
+  color: #fffdf3;
+  background: #396e81;
+  border-color: #24596f;
+  box-shadow: inset 0 3px 0 #bb8954;
+}
+.signal-app .journey button > span {
+  border-color: #b4824e;
+  background: #f5e8cb;
+  color: #725133;
+}
+
+.signal-app .brief {
+  border: 1px solid #abc0c5;
+  border-left: 6px solid #b57d46;
+  border-radius: 6px 18px 18px 6px;
+  background: #fffcefef;
+}
+.signal-app .companion {
+  border: 2px solid #b18a5c;
+  background: #f0dfbd;
+  color: #476f7b;
+}
+.signal-app .environment-vista span {
+  background: #28576dcc;
+  border: 1px solid #d9bd85;
+  border-radius: 5px 14px 14px 5px;
+  letter-spacing: 1px;
+}
+
+/* Follow the experiment from input instruments to the large assembly bench. */
+.signal-app .signal-layout {
+  grid-template-columns: 290px minmax(0, 1fr);
+}
+.signal-app .signal-instrument { grid-column: 1; grid-row: 1; }
+.signal-app .signal-machine { grid-column: 2; grid-row: 1; }
+
+.signal-app .signal-machine {
+  border-color: #759aa5;
+  border-top-color: #9bb9be;
+  border-bottom-color: #547d88;
+  border-radius: 11px 25px 14px 14px;
+  background: linear-gradient(145deg, #eef5f3, #d8e8eb);
+  box-shadow: inset 0 2px 0 #fafff5, 0 8px 0 #466973, 0 17px 26px #254f6152;
+}
+.signal-app .signal-machine .table-heading {
+  padding: 0 4px 4px;
+  border-bottom: 1px solid #abc3c8;
+}
+.signal-app .signal-machine .table-heading .eyebrow { color: #667d78; }
+.signal-app .signal-machine .table-heading h2 { color: #26576d; }
+.signal-app .signal-machine .model-scores {
+  padding: 4px 10px;
+  border: 1px solid #b6bfac;
+  border-radius: 7px;
+  background: #fffbeb;
+  box-shadow: inset 0 2px 3px #6b85871a;
+}
+.signal-app .signal-machine .model-scores b { color: #365d69; }
+
+.signal-app .component-rack {
+  padding: 2px 7px;
+  border: 1px solid #aec3c5;
+  border-radius: 8px;
+  background: #eff2e7;
+  box-shadow: inset 0 2px 4px #58798218;
+}
+.signal-app .component-rack button {
+  border-color: #b59a6c;
+  background: #fffbef;
+  box-shadow: 0 2px 0 #b6a47e;
+}
+.signal-app .component-token {
+  border-color: #ae7646 !important;
+  border-radius: 8px 16px 16px 8px;
+  background: linear-gradient(180deg, #fff9e9, #e7c899) !important;
+  color: #694d33;
+  box-shadow: inset 0 2px 0 #fffaf2, 0 3px 0 #9c7e51 !important;
+}
+.signal-app .rack-note { color: #506f79; }
+
+.signal-app .layer-slots { position: relative; }
+.signal-app .layer-slots::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 14%;
+  right: 14%;
+  height: 3px;
+  border-top: 1px solid #d7a965;
+  border-bottom: 1px solid #875934;
+  background: #b7804b;
+  pointer-events: none;
+}
+.signal-app .layer-slots > div {
+  position: relative;
+  border: 2px dashed #bb915d;
+  border-radius: 5px 12px 5px 12px;
+  background: #fff8e7;
+  color: #624d36;
+  box-shadow: 0 2px 0 #98b1b6;
+}
+.signal-app .layer-slots > div button {
+  border-color: #ab7546;
+  background: #e8cea7;
+  color: #614527;
+}
+.signal-app .layer-slots .drop-active {
+  border-style: solid;
+  border-color: #4d7888;
+  background: #f3d697;
+  box-shadow: 0 0 0 3px #f9f0d3;
+}
+
+.signal-app .network-board {
+  position: relative;
+  border: 4px solid #719ba7;
+  border-radius: 10px;
+  background-color: #cee4e8;
+  background-image:
+    linear-gradient(#f9ffff4d 1px, transparent 1px),
+    linear-gradient(90deg, #f9ffff4d 1px, transparent 1px),
+    linear-gradient(#80aebb4a 1px, transparent 1px),
+    linear-gradient(90deg, #80aebb4a 1px, transparent 1px);
+  background-size: 15px 15px, 15px 15px, 75px 75px, 75px 75px;
+  box-shadow: inset 0 2px 7px #477c8a25, 0 2px 0 #f6fbec;
+}
+.signal-app .network-board::after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  background:
+    radial-gradient(circle at 3px 3px, #fff1c6 0 1px, #b6854d 2px 3px, transparent 4px) top left / 8px 8px,
+    radial-gradient(circle at 3px 3px, #fff1c6 0 1px, #b6854d 2px 3px, transparent 4px) top right / 8px 8px,
+    radial-gradient(circle at 3px 3px, #fff1c6 0 1px, #b6854d 2px 3px, transparent 4px) bottom left / 8px 8px,
+    radial-gradient(circle at 3px 3px, #fff1c6 0 1px, #b6854d 2px 3px, transparent 4px) bottom right / 8px 8px;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+.signal-app .network-node .node-shell {
+  stroke: #a87746;
+  stroke-width: 3px;
+  fill: #fff8df;
+  filter: drop-shadow(0 3px 1px #446d7544);
+}
+.signal-app .network-node.selected .node-shell {
+  stroke: #956235;
+  stroke-width: 5px;
+  fill: #f2d299;
+}
+.signal-app .network-node:focus .node-shell {
+  stroke: #255f79;
+  stroke-width: 5px;
+}
+.signal-app .network-node rect.node-shell { fill: #fbfff4; stroke: #698e9b; }
+.signal-app .network-edge.connected > line:first-of-type {
+  stroke-linecap: round;
+  filter: drop-shadow(0 1px 0 #fff8d8);
+}
+.signal-app .graph-label { fill: #285f75; }
+.signal-app .node-value {
+  fill: #244f61;
+  paint-order: stroke;
+  stroke: #fffbe8;
+  stroke-width: .7px;
+}
+.signal-app .connection-caption { color: #315e71; }
+.signal-app .connection-caption > span { color: #8c633f; }
+.signal-app .machine-controls {
+  border-top: 1px solid #a8bec1;
+  padding-top: 7px;
+}
+.signal-app .machine-controls .steps {
+  margin-left: auto;
+  padding: 6px 10px;
+  border: 1px solid #bfb59a;
+  border-radius: 6px;
+  background: #fff9e6;
+  color: #416875;
+}
+
+.signal-app .signal-instrument {
+  border: 3px solid #bc9564;
+  border-radius: 19px 8px 16px 8px;
+  background: linear-gradient(145deg, #fffcec, #ede8d6);
+  box-shadow: inset 0 2px 0 #fffff4, 0 8px 0 #927451, 0 17px 25px #234b5b42;
+}
+.signal-app .signal-instrument .instrument-heading {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #85a7b0;
+}
+.signal-app .signal-instrument .instrument-heading h3 { color: #386579; }
+.signal-app .input-board {
+  border: 3px solid #7395a0;
+  border-radius: 8px;
+  background: #e2eff0;
+  box-shadow: inset 0 0 0 1px #fcfff4;
+}
+.signal-app .input-pair {
+  padding: 5px 7px;
+  border: 1px solid #c1bea7;
+  border-radius: 7px;
+  background: #e8ede4;
+}
+.signal-app .input-pair label { color: #446c7a; font-weight: 600; }
+.signal-app input[type="range"] { accent-color: #9a7045; }
+.signal-app .response-heading {
+  padding: 3px 7px;
+  border-left: 4px solid #b18450;
+  background: #e0eaeb;
+}
+.signal-app .response-heading b { color: #28586b; font-variant-numeric: tabular-nums; }
+.signal-app .response-display {
+  border: 2px solid #98afb1;
+  border-radius: 7px;
+  background: #f3f7eb;
+}
+.signal-app .response-display > span { color: #4a6d76; background: #edf0e2; }
+.signal-app .signal-readout {
+  padding: 4px 6px;
+  border-bottom: 1px solid #c2b698;
+  font-variant-numeric: tabular-nums;
+}
+.signal-app .plug-controls button {
+  border-color: #b79e71;
+  border-radius: 7px 7px 11px 11px;
+  background: #fff9e8;
+  color: #5d5b47;
+  box-shadow: inset 0 2px 0 #fffef4;
+}
+.signal-app .plug-controls button:last-child {
+  border: 1px dashed #b28350;
+  background: #f3e1bf;
+  color: #7a5334;
+}
+
+.signal-app button.primary {
+  background: linear-gradient(180deg, #4f8497, #346d82);
+  border-color: #315d6b;
+  color: #fffced;
+  box-shadow: inset 0 1px 0 #a2c3ca, 0 3px 0 #294f5f;
+}
+.signal-app .action-dock {
+  border-top: 3px solid #a7bdc0;
+  background: linear-gradient(180deg, #e2eced, #f6f3e4);
+}
+.signal-app .snapshot-letter {
+  color: #97673a;
+  border-color: #c09661;
+}
+.signal-app .paper-page {
+  border: 2px solid #a9bdc0;
+  border-radius: 10px 23px 10px 23px;
+  background: #fffcef;
+  box-shadow: 0 7px 0 #78949c, 0 14px 24px #284f5d33;
+}
+.signal-app .comparison-card {
+  border-color: #9cb5b8;
+  border-radius: 8px;
+  background: #e8f0ec;
+}
+.signal-app .comparison-result,
+.signal-app .evidence-sheet,
+.signal-app .gallery-spread article {
+  border-color: #c1a579;
+  background: #f4ecd5;
+}
+.signal-app .notice {
+  border-color: #b79660;
+  background: #fff9e8;
+}
+
+@media (max-height: 800px) {
+  .signal-app .signal-machine { padding-top: 5px; }
+  .signal-app .signal-machine .table-heading { padding-bottom: 2px; }
+  .signal-app .signal-machine .table-heading h2 { font-size: 20px; }
+  .signal-app .signal-machine .model-scores { padding: 3px 7px; }
+  .signal-app .component-rack { padding: 1px 5px; }
+  .signal-app .signal-instrument { padding: 8px 11px; gap: 5px; }
+  .signal-app .input-pair { padding: 3px 5px; }
+  .signal-app .response-heading { padding: 2px 6px; }
+  .signal-app .signal-readout { padding: 3px 5px; }
+  .signal-app .machine-controls .steps { padding: 4px 8px; }
+}
+
+.signal-app .return-holder .nova-course-return { border-color: #9db3b9; border-radius: 7px; background: #e4ecea; color: #315565; box-shadow: 0 3px 0 #9eaca7; }
+.signal-app .return-holder .nova-course-return:hover { background: #f4e6cf; }
+.signal-app .return-holder .nova-course-return svg { color: #9a6539; }

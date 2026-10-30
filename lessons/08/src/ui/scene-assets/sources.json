@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-28",
+  "method": "Built-in image_gen. Independently generated environment and transparent props; no concept UI image is used at runtime.",
+  "assets": [
+    {
+      "file": "sunset-coast.webp",
+      "prompt": "Create an environment-only background for a beautiful cinematic educational beach workshop, 16:9 wide landscape. Warm golden late-afternoon sunlight from the UPPER RIGHT, bright turquoise sea with fine ripples, a distant small island on the left and a small slender lighthouse on the distant center-right cape. The horizon is very HIGH, at about 22 percent of the image height, with a narrow band of soft peach-blue sky and glowing clouds above. The middle half is sparkling turquoise ocean. Low weathered wooden railings, a few rocks, grasses and white coastal flowers at the left and right edges at mid height; center stays open so separately rendered foreground furniture can be placed there. Warm welcoming high-end stylized 3D illustration, richly textured natural wood and leaves, soft realistic sunlight, like a carefully modeled cozy game world. The bottom has a sandy beach and some soft greenery. NO desk, no table, no sandbox, no drawing, no robot, no tools, no UI, no buttons, no labels, no lettering, no border. This is only the scenic environment layer, not a whole interface. No overhead roof or curtains.",
+      "original": "C:\\Users\\niu-h\\.codex\\generated_images\\01a17dd3-70dd-73a3-937b-82bd32c07880\\exec-7c48c96b-e48a-4b9e-ad3a-5e0bbf6c48da.png",
+      "transparent": false
+    },
+    {
+      "file": "brush-cup.webp",
+      "prompt": "One isolated cozy beach art-workshop prop, full object on a genuinely transparent background: a rounded warm ivory ceramic brush cup, subtle handmade glaze and a small engraved seashell emblem without text, holding three wooden paint brushes and one slender dark blue sand pencil. Bristles soft natural cream and brown; aged brass ferrules, wood grain, tiny wear details. High-end softly realistic stylized 3D render, viewed from a slightly elevated front angle about 20 degrees down, warm afternoon light from upper right. Complete object no cropping, compact vertical silhouette. No table or background plane, no UI, no label, no text, no unrelated objects. Soft tight contact shading only.",
+      "original": "C:\\Users\\niu-h\\.codex\\generated_images\\01a17dd3-70dd-73a3-937b-82bd32c07880\\exec-0628e38c-08d7-4f3d-b9da-2d7ce8012234.png",
+      "transparent": true
+    },
+    {
+      "file": "sand-bucket.webp",
+      "prompt": "One isolated beach art-workshop tool on a truly transparent background: a small rounded teal enamel bucket full of fine golden sand, aged brass wire handle, warm pale rim, delicate scuffs. A short pale wooden sand rake with cream bristles rests diagonally against the bucket, clearly visible as a smoothing brush. Exquisite softly realistic stylized 3D material and modeled volume, cozy educational game quality, slightly elevated front view 20 degrees down, golden afternoon light from upper right. Full object, no cropping, no table, no surroundings, no rectangle, no UI, no text or labels. Tight natural contact shading only.",
+      "original": "C:\\Users\\niu-h\\.codex\\generated_images\\01a17dd3-70dd-73a3-937b-82bd32c07880\\exec-15447c24-5b0b-4445-a511-40f63f94e6c5.png",
+      "transparent": true
+    },
+    {
+      "file": "blue-eraser.webp",
+      "prompt": "One single isolated eraser for a cozy realistic 3D beach art-workshop UI. A small chunky ivory rubber eraser with a matte slate-blue paper sleeve around its middle, softly beveled corners, slightly worn cream eraser ends, convincing paper folds and fine rubber texture. Perspective view from a slightly elevated front angle, lying diagonally lower-left to upper-right. Warm golden light from upper right, subtle tight shadow. Genuinely transparent background, complete object without cropping. No text, logo, lettering, table, ground plane or other objects.",
+      "original": "C:\\Users\\niu-h\\.codex\\generated_images\\01a17dd3-70dd-73a3-937b-82bd32c07880\\exec-2643c573-cd30-4c5e-82e2-6a18cda360ed.png",
+      "transparent": true
+    },
+    {
+      "file": "sand-companion.webp",
+      "prompt": "A single friendly small robot character, isolated full body on genuinely transparent background. A warm ivory rounded body and large softly rounded head, glossy dark navy face screen with two smiling cyan crescent eyes, small mint-green ear discs, tiny arms resting in front, small seated legs. A fresh two-leaf green sprout grows from the top of the head. Small green circular leaf badge on chest. Exquisite high-end stylized 3D render with convincing ceramic-like soft plastic, subtle edge wear, physically grounded volume and warm late-afternoon sunlight from upper right. Three-quarter frontal view facing slightly left toward a tabletop, entire character visible, not cropped. No text, no lettering, no speech bubble, no UI, no floor plane, no background, no other objects. Tight natural ambient shading only.",
+      "original": "C:\\Users\\niu-h\\.codex\\generated_images\\01a17dd3-70dd-73a3-937b-82bd32c07880\\exec-83970920-ca06-4cbf-a8b3-710773a7a77a.png",
+      "transparent": true
+    },
+    {
+      "file": "foreground-leaves.webp",
+      "prompt": "One isolated foreground cluster of lush coastal foliage and a few tiny white five-petal flowers for a beautiful 3D beach workshop scene. Broad glossy deep green leaves, delicate fern fronds and small lime new leaves, natural varied leaf shapes and layered depth. Leaves fan from the bottom-left corner diagonally upward-right, with the outer leaves individually separated against genuinely transparent background. High-end softly realistic stylized 3D illustration, late afternoon warm light from upper right, rich believable leaf veins and specular highlights. No pot, no ground, no rectangular backdrop, no text, no UI. Complete leafy cluster within canvas, landscape 4:3 composition, suitable for a soft foreground layer.",
+      "original": "C:\\Users\\niu-h\\.codex\\generated_images\\01a17dd3-70dd-73a3-937b-82bd32c07880\\exec-c91b9f2b-b5dd-48f5-bfbd-d774abb8146f.png",
+      "transparent": true
+    }
+  ],
+  "realtimeScene": {
+    "date": "2026-10-28",
+    "geometry": "../../scene/assets/coastal-workbench.glb",
+    "authoring": "../../../tools/build-workbench.py",
+    "method": "Authored Blender geometry, live Three.js lighting, native DOM controls and real model pixels",
+    "assets": [
+      {
+        "file": "coastal-environment.webp",
+        "prompt": "Create one exceptionally high quality wide 2.2:1 environment background for the educational sand-painting workshop illustrated in the reference. Reference image role: style, camera, coast and light reference ONLY. Extract its visual world conceptually and paint a new environment WITHOUT ANY INTERFACE, tabletop, tray, robot, tools, furniture, signs, ruler, buttons, text or frames. The only subjects: radiant turquoise coastal waves with sparkling sunlight, a distant green island and slender lighthouse, a peach-blue sunset sky, warm sun upper right, shoreline rocks and a few soft leaves at extreme left/right edges. Camera is the same seated viewpoint as the reference. Horizon at 18% from top. Water occupies 18-62%, lower 38% natural sandy beach rocks, suitable to be occluded by actual 3D furniture in the web app. No foreground wood railing (will be real 3D), no bench, no cutout objects, no screens, no lettering. Luminous but not oversaturated, meticulous cozy cinematic 3D game art, unified warm upper-right light and fresh sea-blue shadows.",
+        "original": "C:/Users/niu-h/.codex/generated_images/01a17dd3-70dd-73a3-937b-82bd32c07880/exec-e8aca071-4db2-496e-aaaa-05fe538e0504.png"
+      },
+      {
+        "file": "station-atlas.webp",
+        "prompt": "Create a single image sprite atlas for five miniature location-navigation illustrations in the same refined cozy 3D art direction as the reference. It is NOT a web interface. VERY WIDE 5:1 strip, exactly FIVE equal square panels edge-to-edge arranged horizontally with straight vertical boundaries at 20,40,60,80 percent. NO borders, NO text, NO UI, no frames or labels. Panel1: sunlit turquoise beach with palm tree and art easel. Panel2: intimate wooden coastal restoration workshop under a cream canvas awning with warm lanterns and a sanding bench. Panel3: cheerful seaside seashell marketplace with teal and coral fabric stalls. Panel4: a wooden seaside recipe-making stall with orderly little vials, brushes, illustrated wooden condition tags, pergola and honey sunlight. Panel5: deep blue starry seaside night with glowing lighthouse, lanterns and a small sand art festival stage. Each a distinct wide-use readable iconic scene, composition centered within its own square. Highly polished materials, lovely warm/cool contrast, environmental storytelling at small size. Render all five equally sized, no gaps. Avoid characters, words or interface controls.",
+        "original": "C:/Users/niu-h/.codex/generated_images/01a17dd3-70dd-73a3-937b-82bd32c07880/exec-589454ae-1070-42c1-abc5-a273f165a6a3.png"
+      }
+    ]
+  }
+}

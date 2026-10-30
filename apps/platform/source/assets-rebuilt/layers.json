@@ -1,0 +1,344 @@
+[
+  {
+    "name": "human",
+    "box": [
+      0,
+      270,
+      836,
+      815
+    ],
+    "kind": "hand",
+    "depth": 8,
+    "hand": {
+      "tip": [
+        826,
+        405
+      ],
+      "restTip": [
+        807,
+        435
+      ],
+      "rotation": -0.28,
+      "scale": 1.14
+    }
+  },
+  {
+    "name": "ai",
+    "box": [
+      838,
+      0,
+      1672,
+      560
+    ],
+    "kind": "hand",
+    "depth": 7,
+    "hand": {
+      "tip": [
+        850,
+        405
+      ],
+      "restTip": [
+        863,
+        424
+      ],
+      "rotation": 0
+    }
+  },
+  {
+    "name": "cathedral",
+    "box": [
+      355,
+      0,
+      905,
+      428
+    ],
+    "depth": -50,
+    "kind": "far",
+    "phase": 0.0
+  },
+  {
+    "name": "left-pinnacle",
+    "box": [
+      222,
+      426,
+      461,
+      745
+    ],
+    "depth": -16,
+    "kind": "architecture",
+    "phase": 1.719
+  },
+  {
+    "name": "great-arch",
+    "box": [
+      1100,
+      502,
+      1281,
+      805
+    ],
+    "depth": -18,
+    "kind": "architecture",
+    "phase": 3.438
+  },
+  {
+    "name": "low-arch",
+    "box": [
+      1000,
+      636,
+      1150,
+      793
+    ],
+    "depth": -30,
+    "kind": "architecture",
+    "phase": 5.157
+  },
+  {
+    "name": "broken-column",
+    "box": [
+      913,
+      674,
+      1004,
+      808
+    ],
+    "depth": -24,
+    "kind": "architecture",
+    "phase": 6.876
+  },
+  {
+    "name": "right-spire",
+    "box": [
+      1342,
+      438,
+      1413,
+      531
+    ],
+    "depth": -25,
+    "kind": "architecture",
+    "phase": 8.595
+  },
+  {
+    "name": "left-shard",
+    "box": [
+      127,
+      594,
+      215,
+      735
+    ],
+    "depth": -10,
+    "kind": "stone",
+    "phase": 10.314
+  },
+  {
+    "name": "stone-a",
+    "box": [
+      905,
+      571,
+      962,
+      647
+    ],
+    "depth": 4,
+    "kind": "stone",
+    "phase": 12.033000000000001
+  },
+  {
+    "name": "stone-b",
+    "box": [
+      883,
+      662,
+      933,
+      708
+    ],
+    "depth": 8,
+    "kind": "stone",
+    "phase": 13.752
+  },
+  {
+    "name": "stone-c",
+    "box": [
+      867,
+      540,
+      904,
+      583
+    ],
+    "depth": -10,
+    "kind": "stone",
+    "phase": 15.471
+  },
+  {
+    "name": "stone-d",
+    "box": [
+      1077,
+      581,
+      1111,
+      626
+    ],
+    "depth": 0,
+    "kind": "stone",
+    "phase": 17.19
+  },
+  {
+    "name": "stone-e",
+    "box": [
+      1122,
+      608,
+      1155,
+      646
+    ],
+    "depth": 10,
+    "kind": "stone",
+    "phase": 18.909000000000002
+  },
+  {
+    "name": "stone-f",
+    "box": [
+      690,
+      652,
+      794,
+      731
+    ],
+    "depth": -5,
+    "kind": "stone",
+    "phase": 20.628
+  },
+  {
+    "name": "stone-g",
+    "box": [
+      1458,
+      479,
+      1488,
+      516
+    ],
+    "depth": -5,
+    "kind": "stone",
+    "phase": 22.347
+  },
+  {
+    "name": "stone-h",
+    "box": [
+      850,
+      701,
+      883,
+      763
+    ],
+    "depth": 3,
+    "kind": "stone",
+    "phase": 24.066000000000003
+  },
+  {
+    "name": "stone-i",
+    "box": [
+      884,
+      774,
+      911,
+      812
+    ],
+    "depth": 15,
+    "kind": "stone",
+    "phase": 25.785
+  },
+  {
+    "name": "foreground-left",
+    "box": [
+      0,
+      796,
+      366,
+      941
+    ],
+    "depth": 22,
+    "kind": "ground",
+    "phase": 27.504
+  },
+  {
+    "name": "foreground-right",
+    "box": [
+      1203,
+      774,
+      1672,
+      941
+    ],
+    "depth": 18,
+    "kind": "ground",
+    "phase": 29.223000000000003
+  },
+  {
+    "name": "floor",
+    "box": [
+      0,
+      789,
+      1672,
+      941
+    ],
+    "depth": -45,
+    "kind": "floor"
+  },
+  {
+    "name": "headline",
+    "box": [
+      45,
+      148,
+      546,
+      391
+    ],
+    "kind": "headline"
+  },
+  {
+    "name": "cathedral-vault",
+    "box": [
+      347,
+      0,
+      952,
+      343
+    ],
+    "kind": "far",
+    "depth": -85,
+    "phase": -17.0
+  },
+  {
+    "name": "upper-crystal",
+    "box": [
+      871,
+      0,
+      1044,
+      283
+    ],
+    "kind": "far",
+    "depth": -72,
+    "phase": -14.4
+  },
+  {
+    "name": "right-crystal",
+    "box": [
+      1349,
+      167,
+      1672,
+      604
+    ],
+    "kind": "far",
+    "depth": -62,
+    "phase": -12.4
+  },
+  {
+    "name": "lower-crystal",
+    "box": [
+      1170,
+      547,
+      1414,
+      822
+    ],
+    "kind": "far",
+    "depth": -57,
+    "phase": -11.4
+  },
+  {
+    "name": "bird-relief",
+    "box": [
+      1012,
+      0,
+      1439,
+      274
+    ],
+    "kind": "far",
+    "depth": -68,
+    "phase": -13.600000000000001
+  }
+]

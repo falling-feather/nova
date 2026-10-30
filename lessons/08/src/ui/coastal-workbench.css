@@ -1,0 +1,214 @@
+/* Chapter 08 — a physical workbench, with native controls projected onto authored geometry. */
+.festival {
+  --cream:#fff4da; --ink:#233d4b; --teal:#347f85;
+  position:relative; height:100dvh; width:100%; overflow:clip; isolation:isolate;
+  color:var(--ink);border:3px solid #fff5df;border-radius:17px;
+}
+.coast-layer {position:absolute;inset:0;z-index:-3;background:url('./scene-assets/coastal-environment.webp') center 42%/cover no-repeat;transition:filter .8s}
+.coast-layer:after {content:"";position:absolute;inset:0;background:linear-gradient(#4f78890c,transparent 70%,#a0794340);pointer-events:none}
+.festival:before,.festival:after {content:"";position:absolute;bottom:-30px;width:380px;height:310px;background:url('./scene-assets/foreground-leaves.webp') center/contain no-repeat;pointer-events:none;z-index:6;filter:blur(.4px)}
+.festival:before{left:-110px}.festival:after{right:-100px;transform:scaleX(-1)}
+.workbench-scene {position:absolute;inset:0;z-index:-1;pointer-events:none}
+.scene-loading {position:absolute;inset:0;z-index:40;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:15px;background:#f7edd8e6;backdrop-filter:blur(8px);color:#38666b}
+.scene-loading .icon{width:56px;height:56px;flex:none}.scene-loading h2{font-size:27px}.scene-loading .copy{font-size:16px;color:#6e8175}
+.workbench-scene canvas {display:block;width:100%;height:100%}
+.festival[data-location=night] .coast-layer {filter:brightness(.35) saturate(.7) hue-rotate(12deg)}
+.global-header {position:absolute;top:18px;left:26px;right:26px;height:54px;display:flex;align-items:center;gap:18px;z-index:12}
+.return-host,.global-header .utility {flex:none;display:flex;align-items:center;gap:9px;min-height:44px;border:1px solid #fffaf0;border-bottom:3px solid #cbb794;border-radius:27px;background:linear-gradient(165deg,#fffdf4,#f7e9ce);box-shadow:0 4px 9px #4d4d3336;color:#19394d;font:600 16px/1.3 "Microsoft YaHei UI",sans-serif}
+.return-host a,.return-host [data-nova-return] {position:static!important;display:flex!important;align-items:center;gap:8px;padding:10px 19px!important;background:none!important;border:0!important;border-radius:26px!important;color:#19394d!important;box-shadow:none!important;font:600 16px/1.3 "Microsoft YaHei UI",sans-serif!important;white-space:nowrap;text-decoration:none}
+.return-host svg {width:20px;height:20px}.global-header .utility {padding:9px 17px}
+.global-header .utility>.icon {width:25px;height:25px;flex-basis:25px}
+.global-header .utility[aria-label="手册"],.global-header .utility[aria-label="设置"] {padding:8px 12px;min-width:44px}
+.global-header .utility[aria-label="手册"]>span:last-child,.global-header .utility[aria-label="设置"]>span:last-child {display:none}
+.global-header .utility:hover,.return-host:hover {transform:translateY(-2px);filter:brightness(1.04)}
+.global-header .utility:active {transform:translateY(1px)}
+.brand {display:flex;align-items:center;gap:10px;color:white;text-shadow:0 2px 4px #25485c80;white-space:nowrap}
+.brand-emblem {display:grid;place-items:center}.brand-emblem .icon {width:30px;height:30px;flex-basis:30px}
+.brand-copy strong {font:600 clamp(20px,1.55vw,30px)/1.2 "Microsoft YaHei UI",sans-serif;letter-spacing:1px}
+.header-space {flex:1}
+.companion-art {display:block;object-fit:contain}
+.global-header .companion-art {display:none}.guide-button:before {content:"?";display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:#254a65;color:#fff;font:700 18px Georgia,serif}
+.lesson-band {position:absolute;inset:0;pointer-events:none;z-index:3}
+.current-task {position:absolute;left:0;top:0;transform-origin:0 0;display:flex;flex-direction:column;justify-content:flex-start;gap:12px;padding:24px 12px;color:#2f4a43;text-align:center}
+.current-task h1 {font:700 31px/1.35 "Microsoft YaHei UI",sans-serif;margin:0;padding:12px 8px;color:#244f49;border:1px solid #e2cba6;border-bottom:3px solid #c0a077;border-radius:6px;background:linear-gradient(#fff6e4ef,#fff1d9ee),url('../../../../shared/art/paper.webp') center/420px;box-shadow:0 3px 4px #4b342626;text-wrap:balance}
+.current-task .eyebrow {font-size:14px;letter-spacing:2px;color:#fff4da;text-shadow:0 1px 3px #66452d}
+.activity-tabs {position:absolute;right:28px;top:88px;display:flex;align-items:center;gap:7px;pointer-events:auto}
+.activity-tabs .button {min-height:31px;padding:4px 10px;gap:5px;border:1px solid #fff5df;border-radius:20px;background:#fff7e5eb;color:#395c60;font-size:13px;box-shadow:0 2px 0 #8a7f5d55}
+.step-index {display:grid;place-items:center;width:20px;height:20px;flex:none}
+.activity-tabs .step-name {display:none}.activity-tabs .selected .step-name,.activity-tabs .button:focus-visible .step-name {display:block}
+.activity-tabs .selected {background:#337d83;color:white;border-color:#b8e0d9}
+.scene-main,.scene-center,.object-stage {position:static;pointer-events:none}
+.tool-rack {position:absolute;inset:0;pointer-events:none;z-index:7}
+.tool-rack .brush-tool {position:absolute;display:flex;align-items:flex-end;justify-content:center;left:0;top:0;min-height:0;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;pointer-events:auto;cursor:pointer}
+.brush-tool>span:last-child {position:absolute;bottom:-18px;display:block;min-width:68px;padding:6px 15px;border:1px solid #fff9e7;border-bottom:3px solid #b8a17a;border-radius:24px;background:linear-gradient(#fffaf0,#f8ead1);box-shadow:0 4px 6px #443b2d30;font:600 15px "Microsoft YaHei UI",sans-serif;color:#213e4c;transition:transform .2s,box-shadow .2s}
+.brush-tool:hover>span:last-child,.brush-tool:focus-visible>span:last-child {transform:translateY(-3px);box-shadow:0 0 0 2px #f6f4db,0 0 0 4px #65b7ba,0 5px 10px #3b524c40}
+.brush-tool.selected>span:last-child {background:#f5f3dc;color:#226f78;box-shadow:0 0 0 2px #55a4ac,0 4px 9px #33555044}
+.brush-tool:focus-visible {outline:none}
+.tool-rack .tool-art {display:none}
+.tool-utilities {position:absolute;left:var(--utility-x);top:var(--utility-y);transform:translateX(-50%);display:flex;justify-content:center;flex-wrap:wrap;gap:7px;width:230px;pointer-events:auto}
+.context-tools .tool-utilities {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;width:230px}
+.context-tools .tool-utilities:not(.seed-board)>.button:last-child:nth-child(odd){grid-column:1/-1}
+.context-tools .tool-utilities .seed-shell {background:none;border:0;box-shadow:none;padding:8px;gap:6px}
+.context-tools .seed-shell .icon {width:65px;height:65px;flex-basis:65px}
+.context-tools .seed-shell strong{padding:3px 20px;border:1px solid #fff4d8;border-radius:20px;background:#fff4dd;color:#3c6267}
+.tool-utilities.seed-board {width:var(--utility-width,230px);gap:10px;padding:14px;border:8px solid transparent;border-radius:10px;background:linear-gradient(#f6ebd2dd,#e9d8b6c9) padding-box,url('../../../../shared/art/paper.webp') center/400px padding-box,url('../../../../shared/art/wood.webp') center/430px border-box;box-shadow:0 5px 0 #89613c,3px 10px 14px #4e382d40}
+.seed-heading {grid-column:1/-1;display:flex;flex-direction:column;align-items:center;gap:4px;padding-bottom:5px;border-bottom:1px solid #b6a47e66;color:#3d665d}
+.seed-heading strong {font:600 19px "Tides Serif",serif}.seed-heading span {font-size:12px;white-space:nowrap;color:#7b745d}
+.context-tools .seed-board .seed-shell {padding:5px;gap:4px;min-width:0}
+.context-tools .seed-board .seed-shell .icon {width:48px;height:48px;flex-basis:48px;filter:drop-shadow(1px 3px 2px #705c3840);transition:transform .18s}
+.context-tools .seed-board .seed-shell strong {min-width:52px;padding:3px 11px;font-size:16px}
+.seed-board .seed-shell:hover .icon {transform:translateY(-3px)}
+.context-tools .seed-board .seed-shell.selected strong {background:#3d8581;color:#fff7dd;border-color:#c9e2d3;box-shadow:0 0 0 2px #fff5db,0 0 0 3px #4b9691}
+.seed-board>.button:not(.seed-shell){grid-column:1/-1;white-space:normal}
+.tool-utilities .button {min-height:31px;padding:5px 13px;border:1px solid #fff5df;border-bottom:3px solid #bd9f72;border-radius:20px;background:#fff5dfed;color:#355761;font-size:13px;white-space:nowrap;box-shadow:0 3px 6px #49351e28}
+.scene-guide {position:fixed;left:0;top:0;min-height:0;padding:0;border:0!important;box-shadow:none!important;background:transparent!important;pointer-events:auto;z-index:4}
+.scene-guide .companion-art {display:none}
+.scene-guide:after {content:"问问小沙";position:absolute;bottom:-10px;left:50%;transform:translateX(-50%);white-space:nowrap;padding:5px 13px;border:1px solid #fff1d0;border-radius:20px;background:#fff8e8;color:#366875;font-size:13px;opacity:0;transition:opacity .2s}
+.scene-guide:hover:after,.scene-guide:focus-visible:after {opacity:1}
+.tray {position:static;height:auto;pointer-events:none;container-type:normal}
+.tray-frame {position:absolute;top:0;left:0;transform-origin:0 0;pointer-events:none;border:0;padding:0;box-shadow:none;background:none}
+.tray-canvas {width:100%;height:100%;display:block;opacity:0;touch-action:none;pointer-events:auto;cursor:crosshair}
+.tray-corner {position:absolute;width:0;height:0;pointer-events:none}
+.tray-corner.tl {left:0;top:0}.tray-corner.tr {right:0;top:0}.tray-corner.br {right:0;bottom:0}.tray-corner.bl {left:0;bottom:0}
+.tray-depth,.tray-mark {display:none}
+.festival[aria-busy="true"] .can-brush {pointer-events:none}
+.tray-label {position:absolute;transform:translateX(-50%);white-space:nowrap;pointer-events:none;padding:2px 10px;border:1px solid #b89761;border-radius:3px;background:#e8c99cbf;color:#543923;font:13px/1.4 "Tides Serif",serif;text-shadow:0 1px #f7dcac80;z-index:3}
+.inspector {position:absolute;left:0;top:0;transform-origin:0 0;padding:4px 8px 8px;color:#503b2b;z-index:5;pointer-events:auto;overflow:visible}
+.inspector>.column {gap:7px;height:100%;min-height:0}
+.inspector h2 {font:600 27px/1.35 "Tides Serif",serif;color:#523e2d;margin:0 0 3px}
+.inspector h3 {font:600 17px/1.3 "Tides Serif",serif;margin:0}
+.inspector .copy {font-size:19px;line-height:1.45;color:#695647}
+.inspector .character {font-size:12px;letter-spacing:2px;color:#a1845f;background:none;padding:0}
+.inspector .note {padding:6px 0 6px 9px;background:transparent;border-left:2px solid #a5af91;font-size:16px;line-height:1.4;color:#7b6c52}
+.inspector .figure-grid {height:auto;gap:12px;flex:none}
+.inspector .picture {gap:6px;flex:none}.inspector .picture figcaption {font:15px/1.3 "Tides Serif",serif;color:#6b5842}
+.inspector .picture-media {width:86px;height:86px;border:1px solid #d4c4a3;border-radius:0;background:#f0e4c9;box-shadow:0 1px 5px #8c795d22;flex:none}
+.inspector .picture-media>canvas {border-radius:0}
+.inspector .picture-action {padding:0;border:0;background:transparent;min-height:0}
+.inspector .tide-comparison {grid-template-columns:1fr 1fr;gap:27px;position:relative;margin:7px 0}
+.inspector .tide-comparison .picture-media {width:110px;height:110px}
+.tide-comparison:after {content:"➜";position:absolute;left:calc(50% - 11px);top:47px;font-size:24px;color:#b79a76}
+.cell-caption {font:15px/1.4 "Microsoft YaHei UI",sans-serif;color:#68847c;text-align:center;margin:0}
+.comparison-caption {white-space:pre-line;font:21px/1.5 "Tides Serif",serif;color:#8d765c;text-align:center}
+.inspector .coefficients {gap:5px}.inspector .coefficients .tag {font-size:12px;padding:3px 5px;border:0;background:transparent}
+.inspector .pixel-values {padding:5px 0;border-top:1px solid #d7c4a080;border-radius:0;background:none}
+.inspector .pixel-values .copy {font-size:13px;line-height:1.3;color:#6b7a68}
+.inspector .button {padding:4px 10px;min-height:34px;line-height:1.25;border:1px solid #dbc6a6;border-bottom:3px solid #c6b18e;background:#fff6e3e8;border-radius:19px;font-size:18px;color:#4e655e;box-shadow:0 3px 6px #98856218}
+.inspector .button.primary {color:#fff9e6;background:linear-gradient(#4e9392,#2c6e78);border-color:#4d8a89;border-bottom-color:#295a60}
+.inspector>.column>.button:last-child {margin-top:auto}
+.inspector .row {gap:6px}
+.inspector .field,.inspector .number-tool,.inspector .select-tool {gap:6px;font-size:15px;color:#77715b}
+.inspector input:not([type="checkbox"]):not([type="radio"]),.inspector select,.inspector textarea {min-height:40px;border:1px solid #c8b38b;border-bottom:2px solid #bba57c;border-radius:10px;background:linear-gradient(#fffdf4,#fff7e6);box-shadow:inset 0 2px 4px #8f774312,0 1px 0 #fff9e7;color:#365953;padding:7px 10px;font-size:17px}
+.inspector input:focus-visible,.inspector select:focus-visible,.inspector textarea:focus-visible {outline:2px solid #5ba7a0;outline-offset:3px}
+.inspector .button:hover:not(:disabled) {filter:brightness(1.035);box-shadow:0 3px 6px #98856230}
+.timeline {position:absolute;pointer-events:auto;z-index:8;height:42px;padding:0;border:0;background:none;box-shadow:none}
+.timeline .ruler-next {position:absolute;left:0;top:-10px;width:100%;height:65px;padding-top:65px;border:0;border-radius:30px;background:transparent;box-shadow:none;color:#fff2d6;text-shadow:0 1px 3px #62422b;font-size:13px;white-space:nowrap;cursor:pointer}
+.timeline .range {height:42px;position:relative;display:block}
+.timeline .range-heading {position:absolute;right:0;top:43px;display:block;font:12px "Microsoft YaHei UI",sans-serif;color:#254956}
+.timeline .range-heading>span {display:none}.timeline .range-heading output {font-size:12px}
+.timeline .range input {appearance:none;position:absolute;left:var(--knob-left,20%);top:var(--knob-top,0px);width:var(--knob-track,80%);height:calc(42px - var(--knob-top,0px));min-height:42px;background:transparent;margin:0;cursor:ew-resize}
+.timeline .range input::-webkit-slider-thumb {appearance:none;width:var(--knob-size,34px);height:calc(42px - var(--knob-top,0px));background:transparent;border:0;border-radius:20px;box-shadow:none;cursor:grab}
+.timeline .range input:active::-webkit-slider-thumb {cursor:grabbing}
+.timeline .range input:focus-visible {outline:2px solid #6ce8e4;outline-offset:9px;border-radius:25px;filter:drop-shadow(0 0 5px #57dcd2)}
+.timeline.is-controls {height:auto;padding:7px 10px}
+.timeline.is-controls>.row {justify-content:center;gap:8px}
+.timeline.is-controls .button {min-height:36px;padding:6px 15px;font-size:16px;border:1px solid #dfc69e;border-bottom:3px solid #b7986b;border-radius:12px;background:linear-gradient(#fff8e7,#f0dfbb);box-shadow:0 3px 6px #59442c33;color:#3b625d}
+.timeline.is-controls .button.selected {background:linear-gradient(#4c9189,#32766f);color:#fff5dc;border-color:#9fc6b5}
+.timeline.is-controls .copy {padding:4px 10px;border:1px solid #ddc59e;border-radius:4px;background:#fff2d8;color:#43665f;font-size:14px;line-height:1.4}
+.activity-dock {position:absolute;bottom:9px;left:26px;right:26px;z-index:9;pointer-events:none}
+.station-nav {display:flex;align-items:center;gap:14px;pointer-events:auto;width:fit-content;padding:5px 0}
+.station {position:relative;display:block;flex:none;width:clamp(112px,9.8vw,184px);height:clamp(48px,5.2vw,72px);padding:0;overflow:hidden;isolation:isolate;border:3px solid #fff9e9;border-bottom:5px solid #d8c29e;border-radius:23px 14px 24px 15px;background:#69a6a8;box-shadow:0 3px 6px #4b473b3f;transition:transform .2s}
+.location-vignette {position:relative;display:block;overflow:hidden;isolation:isolate;background-size:500% auto;background-repeat:no-repeat}
+.station .location-vignette {position:absolute;inset:0;z-index:-1}
+.vignette-coast {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 45%}
+.vignette-prop {position:absolute;left:5%;bottom:-5%;width:46%;height:100%;object-fit:contain}
+.vignette-light {position:absolute;inset:0;background:linear-gradient(transparent,#24545733)}
+.location-vignette[data-place="night"] {filter:brightness(.75)}
+.station-copy {position:absolute;right:5px;bottom:7px;min-width:60px;padding:5px 10px;border-radius:20px;background:#fff7e7;color:#183c4d;box-shadow:0 2px 4px #81674433}
+.station-copy b {font:600 14px "Microsoft YaHei UI",sans-serif}.station-copy small,.station-number {display:none}
+.station.selected {box-shadow:0 0 0 2px #fff,0 0 0 5px #44b7c4,0 0 15px #3ee4e599}
+.station:hover {transform:translateY(-4px)}
+.dock-actions {display:flex;align-items:center;gap:9px;margin-top:7px;pointer-events:auto;min-height:25px}
+.dock-actions .button {min-height:26px;padding:3px 11px;border:1px solid #fff0cf;border-radius:16px;background:#fbf0d5e8;font-size:12px;box-shadow:none;color:#355b63}
+.dock-actions>.button:last-child {margin-left:auto}
+.dock-actions .row {gap:6px}.compute-status {font-size:11px;line-height:1.3;color:#fff4d7;text-shadow:0 1px 4px #4b3328;margin:0;flex:1}
+.busy-tools {display:flex;gap:5px}
+.paper-dialog {border:2px solid #fff3d4;border-bottom:5px solid #bea17b;background:linear-gradient(#fff8e9e8,#fff8e9e8),url('../../../../shared/art/paper.webp') center/580px;border-radius:26px;box-shadow:0 18px 70px #153a4766}
+.paper-dialog .dialog-heading h2 {color:#385f63}
+.entry-journey article {padding:0;border:0;background:transparent}
+.entry-journey .location-vignette {height:110px;border:4px solid #fff5dd;border-radius:16px;margin-bottom:12px}
+.entry-journey h3 {font-size:20px}.entry-journey p {font-size:16px}
+.tour-card {position:absolute;right:21%;top:calc(var(--ruler-y,680px) - 215px);bottom:auto;z-index:25;width:390px;padding:18px 22px 17px;border:1px solid #fffef7;border-bottom:3px solid #d7c6ab;border-radius:25px;background:linear-gradient(#fffef7,#fff7e8);box-shadow:0 9px 26px #2b4e5560;color:#173a4f}
+.tour-card:after {content:"";position:absolute;left:30px;bottom:-19px;border-top:21px solid #fff7e8;border-right:23px solid transparent;filter:drop-shadow(0 3px 0 #c1b59c)}
+.tour-card>.companion-art {display:none}
+.tour-card h3 {font:700 21px/1.4 "Microsoft YaHei UI",sans-serif;padding-right:36px;margin:0 0 8px}
+.tour-card p {font:16px/1.5 "Microsoft YaHei UI",sans-serif;margin:0}
+.tour-count {position:absolute;right:22px;top:22px;font:15px Georgia,serif;color:#477b95}
+.tour-card .row {gap:12px;justify-content:space-between;margin-top:16px}
+.tour-card .button {min-height:35px;flex:1;border:1px solid #e6cbaa;border-bottom:3px solid #c6a883;border-radius:22px;background:linear-gradient(#fff8e8,#eddbbb);color:#775534;font-size:15px;font-weight:600}
+.tour-card .button.primary {background:linear-gradient(#b5c7d2,#6b8ba4);color:white;border-color:#afc2ce;border-bottom-color:#577894}
+.tour-target {outline:2px solid #72ece6;outline-offset:6px;filter:drop-shadow(0 0 7px #46d7d5)}
+.tour-target.tray-frame {outline:2px solid #72ece6}
+.timeline.tour-target {outline:none;filter:none}
+.festival:has(+dialog[open]) {filter:saturate(.38) brightness(.76)}
+.festival.reduced-motion * {animation:none!important;transition:none!important}
+.festival:not(.is-sand-scene) .scene-main {position:absolute;left:4%;right:4%;top:140px;bottom:155px;display:grid;grid-template-columns:170px minmax(0,1fr) 330px;gap:20px;pointer-events:none}
+.festival:not(.is-sand-scene) .scene-center {position:relative;display:flex;flex-direction:column;min-height:0;pointer-events:auto;padding:18px;background:transparent;border:0;border-radius:0}
+.festival:not(.is-sand-scene) .object-stage {position:relative;flex:1;min-height:0;min-width:0;display:flex;align-items:center;justify-content:center;pointer-events:auto;container-type:size}
+.festival:not(.is-sand-scene) .inspector {position:relative!important;transform:rotate(.6deg)!important;width:auto!important;height:fit-content!important;min-height:360px;max-height:100%;align-self:center;padding:20px;border:12px solid transparent;border-bottom-width:15px;border-radius:11px;background:linear-gradient(#fff8e85c,#f8e9c92e) padding-box,url('../../../../shared/art/paper.webp') center/600px padding-box,url('../../../../shared/art/wood.webp') center/420px border-box;box-shadow:inset 0 0 0 1px #f4d8aa,0 6px 0 #805b39,8px 15px 22px #3d342d40}
+.festival:not(.is-sand-scene) .inspector:before {content:"";position:absolute;inset:-6px;pointer-events:none;background:radial-gradient(circle at 5px 5px,#c9ab6a 0 2px,#806437 3px,transparent 4px),radial-gradient(circle at calc(100% - 5px) 5px,#c9ab6a 0 2px,#806437 3px,transparent 4px),radial-gradient(circle at 5px calc(100% - 5px),#c9ab6a 0 2px,#806437 3px,transparent 4px),radial-gradient(circle at calc(100% - 5px) calc(100% - 5px),#c9ab6a 0 2px,#806437 3px,transparent 4px)}
+.festival:not(.is-sand-scene) .inspector>.column {gap:11px}
+.festival:not(.is-sand-scene) .object-stage>.figure-grid {--picture-size:min(430px,calc((100cqw - (var(--columns) - 1) * 26px) / var(--columns)),calc((100cqh - (var(--rows) - 1) * 18px) / var(--rows) - 64px));width:100%;height:100%;grid-template-rows:repeat(var(--rows),minmax(0,1fr));align-items:center;justify-items:center;gap:18px 26px}
+.festival:not(.is-sand-scene) .object-stage>.figure-grid>.picture {width:100%;height:100%;justify-content:center;gap:10px;transform:rotate(-.5deg)}
+.festival:not(.is-sand-scene) .object-stage>.figure-grid>.picture:nth-child(2n){transform:rotate(1deg)}
+.festival:not(.is-sand-scene) .object-stage .picture-media {--art-inset:8px;flex:none;width:var(--picture-size,min(100%,360px));height:var(--picture-size,360px);min-height:0;max-height:none;padding:8px;border:12px solid transparent;border-radius:7px;background:url('../../../../shared/art/paper.webp') center/500px padding-box,url('../../../../shared/art/wood.webp') center/430px border-box;box-shadow:inset 0 0 0 1px #f5d9b0,0 6px 0 #8d6340,3px 13px 20px #342e2a40}
+.festival:not(.is-sand-scene) .object-stage .picture-action {display:block;flex:none;width:var(--picture-size,min(100%,360px));height:var(--picture-size,360px);min-height:0;padding:0;border:0;background:transparent;box-shadow:none}
+.festival:not(.is-sand-scene) .object-stage .picture-media>.image-empty {width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#8d856d}
+.festival:not(.is-sand-scene) .object-stage .image-empty>span {font-size:34px;color:#8bafa1}
+.festival:not(.is-sand-scene) .object-stage .picture figcaption {max-width:var(--picture-size,360px);margin-top:0;padding:5px 14px;border:1px solid #dfc8a2;background:#fff1d9;color:#5d4c37;font:16px/1.35 "Tides Serif",serif;box-shadow:0 3px 6px #685a4322}
+.festival:not(.is-sand-scene) .object-stage .picture.selected .picture-media {box-shadow:0 0 0 3px #f5f1d6,0 0 0 5px #5ba6a0,0 6px 0 #8d6340,3px 13px 20px #342e2a40}
+.festival:not(.is-sand-scene) .current-task {left:30px;top:78px;width:auto!important;height:auto!important;transform:none!important;padding:6px 14px;background:#f6e5bfe8;border-radius:8px}
+.festival:not(.is-sand-scene) .current-task h1 {font-size:23px;padding:0;border:0;background:none;box-shadow:none}.festival:not(.is-sand-scene) .current-task .eyebrow {color:#596e60;text-shadow:none}
+.festival:not(.is-sand-scene) .tool-rack {position:relative;display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:12px;pointer-events:auto}
+.festival:not(.is-sand-scene) .tool-rack:empty {display:none}
+.festival:not(.is-sand-scene) .tool-utilities {position:relative;left:auto;top:auto;transform:none;width:auto;flex-direction:column}
+.festival:not(.is-sand-scene) .scene-main:has(.tool-rack:empty){grid-template-columns:minmax(0,1fr) 330px}
+.festival:not(.is-sand-scene) .tool-rack>.button{position:relative;left:auto;top:auto;transform:none;margin:0!important;width:auto;height:auto;min-height:40px;padding:8px 12px}
+.festival:not(.is-sand-scene) .timeline {position:relative!important;left:auto!important;top:auto!important;width:100%!important;height:auto}
+.festival:not(.is-sand-scene) .timeline .range {height:auto;display:flex}.festival:not(.is-sand-scene) .timeline .range-heading,.festival:not(.is-sand-scene) .timeline .range input {position:static;width:100%}
+.festival:not(.is-sand-scene) .timeline .range input {background:linear-gradient(#4a8d95,#4a8d95) center/100% 2px no-repeat}.festival:not(.is-sand-scene) .timeline .range input::-webkit-slider-thumb {background:#d5ac70;border:2px solid #a8864e;width:22px;height:28px}
+@media(max-height:760px) {.global-header{top:12px;height:46px}.global-header .utility{min-height:38px;padding:7px 13px}.activity-tabs{top:70px}.activity-dock{bottom:5px}.station{height:48px}.dock-actions{margin-top:4px}.tour-card{width:370px}}
+@media(prefers-reduced-motion:reduce){.festival *{animation:none!important;transition:none!important}}
+/* Entry card follows chapter 1's welcome: art panel left, title + one line + one primary action right. */
+.paper-dialog.intro-card[open] {display:grid;grid-template-columns:.85fr 1.15fr;width:min(880px,calc(100vw - 56px));padding:0;border:2px solid #fff5dd;border-radius:34px;overflow:hidden}
+.paper-dialog.intro-card::backdrop {background:radial-gradient(ellipse at center,#fff6dc14,#173d4980);backdrop-filter:blur(2px)}
+.intro-card .dialog-body,.intro-card .intro-layout {display:contents}
+.intro-card .intro-art {grid-column:1;grid-row:1 / span 2;position:relative;min-height:440px;overflow:hidden}
+.intro-card .intro-art .location-vignette {position:absolute;inset:0}
+.intro-card .intro-art:after {content:"";position:absolute;inset:auto 0 0;height:38%;background:linear-gradient(transparent,#173d4999)}
+.intro-chip {position:absolute;z-index:1;display:flex;align-items:center;gap:8px;padding:10px 14px;border-radius:16px;background:#fff8e8;box-shadow:0 5px 0 #173d4922;font-size:15px;font-weight:700;color:#385f63}
+.intro-chip b {font-size:13px;color:#c07a3a}
+.intro-chip.step-1 {top:34px;left:22px;transform:rotate(-6deg)}.intro-chip.step-2 {top:124px;right:16px;transform:rotate(6deg)}.intro-chip.step-3 {bottom:70px;left:22px;transform:rotate(-4deg)}
+.intro-caption {position:absolute;z-index:1;right:22px;bottom:24px;font-size:13px;letter-spacing:.06em;color:#fff5dd}
+.intro-card .dialog-heading {grid-column:2;grid-row:1;align-self:end;display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin:0;padding:38px 70px 0 38px}
+.intro-card .dialog-heading h2 {font-size:34px;line-height:1.3;text-wrap:balance}
+.intro-card .dialog-heading button {position:absolute;top:16px;right:18px;min-height:0;padding:6px 12px;font-size:13px}
+.intro-card .intro-layout>.column {grid-column:2;grid-row:2;padding:10px 38px 28px;gap:12px}
+.intro-sub {padding:4px 12px;border-radius:99px;background:#dcebe6;color:#2f5c5f;font-size:13px;font-weight:700;letter-spacing:.08em}
+.intro-card .intro-start {width:100%;min-height:56px;margin-top:8px;border-radius:99px;font-size:19px;font-weight:800}
+.intro-card .intro-free {align-self:center;min-height:0;padding:2px 8px;border:0;background:none;box-shadow:none;color:#4f6f72;font-size:14px;text-decoration:underline;text-underline-offset:4px}
+.intro-card .note {font-size:13px}
+
+/* 省赛终版打磨：操作引导卡停到右下角，不压沙盘；主按钮不再像禁用态 */
+.tour-card {right:16px;left:auto;top:auto;bottom:64px;width:360px}
+.tour-card:after {display:none}
+.tour-card .button.primary {background:linear-gradient(#5d9fb9,#2f6f8c);border-color:#86b9cc;border-bottom-color:#245a72}
+/* Repair shed: the empty model slot stays on one line. */
+.inspector .picture-media>.image-empty {width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;color:#8d856d}
+.inspector .picture-media>.image-empty .small {margin:0;white-space:nowrap;font-size:12px;line-height:1.3}
+.inspector .picture-media>.image-empty>span {font-size:15px;line-height:1}
+/* 修复对照：原稿、我的手工、模型修复并排放在沙盘旁的木牌上，不再自动弹窗。 */
+.inspector .repair-trio {grid-template-columns:repeat(3,92px);gap:10px;margin:2px 0 4px}
+.inspector .repair-trio .picture-media {width:92px;height:92px}
+.inspector .repair-trio figcaption {font-size:17px;white-space:nowrap}
+.inspector .repair-reading {white-space:pre-line;font-size:18px;line-height:1.4;color:#5d4a36;margin:0}

@@ -1,0 +1,24 @@
+{
+  "asset": "spring-horizon.png",
+  "createdDate": "2026-09-28",
+  "tool": "Built-in image_gen.imagegen",
+  "mode": "generate with style reference images",
+  "dimensions": {
+    "width": 2172,
+    "height": 724
+  },
+  "prompt": "Use case: stylized-concept.\nAsset type: dedicated distant sky and forest horizon background texture for an interactive stylized 3D game, not a game-level screenshot.\nCreate ONE original very wide seamless horizontal panoramic environment image, exact target 3072x1024 pixels (3:1 landscape). Reference image 1 is STYLE AND COLOR guidance only: imitate its exquisitely detailed sunny spring miniature 3D storybook foliage, warm cream greens, sage greens, soft natural painterly materials, and atmospheric hills. Do not copy any village, foreground composition, houses or other structures from that reference. Reference image 2 shows existing game lighting and broad distant horizon placement; use only to harmonize color and the upper-left sunlight, never copy UI, buildings or ground.\nComposition: airy blue sky and softly sunlit white cumulus clouds occupy roughly the upper 50 percent; a few layered blue-green distant mountain ridges in the middle transition into richly varied distant woodland filling the lower 35 percent and extending fully beyond the bottom edge. A continuous mixed deciduous and conifer forest with small finely detailed leaves, delicate branching, varied graceful tree silhouettes and clusters at natural sizes. Tree skyline rises and falls gently with rolling hills; grouped trees overlap with atmospheric depth. Natural patchwork of cream-green spring growth, sage, olive, yellow-green highlights and deeper forest green. Occasional tiny subtle pale blossom trees nested among foliage. No dominant isolated tree, no oversized foreground leaves, no giant close-up tree. Forest appears distant and gently recedes.\nLighting: bright spring day, soft warm light from upper left, pleasing dimensional 3D illustrated materials, clear and richly detailed yet cohesive with the reference's handcrafted storybook game style.\nHorizontal repeating requirement: left and right edges connect smoothly at matching sky hue, hill altitude, treeline level and foliage density. No border or framed image, no blank areas.\nSTRICT exclusions: no buildings of any kind, no houses, no bridges, no roads, no paths, no village, no fences, no characters, no animals, no people, no water or river, no UI, no text, no labels, no watermark. This is exclusively a dedicated scenic sky + remote hills + forest horizon game asset. Full opaque sky background, not transparent. Produce the asset itself, not a mockup.",
+  "reference": [
+    {
+      "path": "doc/image/concepts-20260928/01-town-overview.png",
+      "role": "Style, palette and foliage detail reference only"
+    },
+    {
+      "path": ".work/screens/overview.png",
+      "role": "Game lighting and horizon placement reference only"
+    }
+  ],
+  "originalPath": "C:/Users/niu-h/.codex/generated_images/01a0e465-05d5-7de0-a10f-b198c98d2aad/exec-5907385a-3df0-47d9-9e2a-acd8b197befb.png",
+  "processing": "Original generated PNG copied without cropping, resizing or editing.",
+  "intendedUse": "Opaque distant sky, mountains and forest horizon; unreachable background layer."
+}

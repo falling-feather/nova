@@ -1,0 +1,81 @@
+/* Loaded from HTML so the workshop never flashes as an unstyled white page. */
+html,
+body {
+  margin: 0;
+  background: #233a33;
+}
+.loading {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(ellipse at 50% 35%, #3f5545, #1d3028 72%);
+  color: #ece3cc;
+  pointer-events: auto;
+  font-family: "Microsoft YaHei UI", sans-serif;
+}
+.loading-seal {
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #b9c6a273;
+  color: #d8d4ad;
+  font:
+    41px "SimSun",
+    serif;
+  box-shadow:
+    inset 0 0 0 5px #263a2b,
+    inset 0 0 0 6px #b9c6a236;
+  margin-bottom: 30px;
+  transform: rotate(-4deg);
+}
+.loading > span {
+  font-size: 11px;
+  letter-spacing: 0.17em;
+  color: #a7b99f;
+}
+.loading h1 {
+  font:
+    400 46px/1.5 "SimSun",
+    serif;
+  letter-spacing: 0.15em;
+  margin: 23px 0;
+}
+.loading p {
+  font-size: 12px;
+  letter-spacing: 0.07em;
+  color: #c0c8ae;
+}
+.loading-rule {
+  width: 180px;
+  height: 1px;
+  background: #9dae7950;
+  margin-top: 25px;
+  overflow: hidden;
+}
+.loading-rule:after {
+  content: "";
+  display: block;
+  background: #d5c28d;
+  width: 50%;
+  height: 1px;
+  animation: boot-ink 1.7s infinite ease-in-out;
+}
+@keyframes boot-ink {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(300%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .loading-rule:after {
+    animation: none;
+    transform: translateX(50%);
+  }
+}

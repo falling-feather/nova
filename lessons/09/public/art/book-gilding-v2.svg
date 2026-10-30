@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="900" viewBox="0 0 660 900">
+ <defs>
+  <path id="leaf" d="M0 0C-38-22-49-64-20-91C-2-69 13-32 0 0ZM0 0l-20-91m15 66-21-13m15-9-20-13" fill="none" stroke-width="2.4"/>
+  <g id="flower" fill="none" stroke-width="2"><circle r="7"/><path d="M0-7C-24-21-17-50 0-37C17-50 24-21 0-7M7 0C21-24 50-17 37 0C50 17 21 24 7 0M0 7C24 21 17 50 0 37C-17 50-24 21 0 7M-7 0C-21 24-50 17-37 0C-50-17-21-24-7 0"/></g>
+ </defs>
+ <g stroke="#d8bb72" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="25" y="25" width="610" height="850" rx="9" stroke-width="2"/><rect x="39" y="39" width="582" height="822" rx="3" stroke-width="1"/>
+  <path d="M70 166V70h96M494 70h96v96M70 734v96h96M494 830h96v-96" stroke-width="4"/>
+  <path d="M90 90q40 0 40 40q-40 0-40-40m480 0q-40 0-40 40q40 0 40-40M90 810q40 0 40-40q-40 0-40 40m480 0q-40 0-40-40q40 0 40 40" stroke-width="2"/>
+  <g transform="translate(120 340) scale(.64)">
+  <path d="M306 738C348 628 279 516 333 372s-11-143 5-179M325 655Q247 609 187 459m135 149Q422 574 469 419M318 516Q224 474 230 346m99 92q83-76 83-149M331 351q-63-52-53-118" stroke-width="4"/>
+  <use href="#leaf" transform="translate(321 647) rotate(-62) scale(1.15)"/><use href="#leaf" transform="translate(327 599) rotate(65) scale(1.1)"/><use href="#leaf" transform="translate(315 539) rotate(-50) scale(.95)"/><use href="#leaf" transform="translate(320 481) rotate(66)"/><use href="#leaf" transform="translate(329 418) rotate(-60) scale(.8)"/><use href="#leaf" transform="translate(341 350) rotate(63) scale(.8)"/><use href="#leaf" transform="translate(346 279) rotate(-53) scale(.7)"/>
+  <use href="#leaf" transform="translate(247 570) rotate(-73) scale(.8)"/><use href="#leaf" transform="translate(216 515) rotate(22) scale(.7)"/><use href="#leaf" transform="translate(388 574) rotate(80) scale(.83)"/><use href="#leaf" transform="translate(436 514) rotate(10) scale(.7)"/><use href="#leaf" transform="translate(256 467) rotate(-64) scale(.67)"/><use href="#leaf" transform="translate(388 369) rotate(50) scale(.67)"/>
+  <use href="#flower" transform="translate(336 191) scale(.8)"/><use href="#flower" transform="translate(184 448) scale(.75)"/><use href="#flower" transform="translate(473 408) scale(.8)"/><use href="#flower" transform="translate(230 341) scale(.6)"/><use href="#flower" transform="translate(410 284) scale(.63)"/><use href="#flower" transform="translate(278 229) scale(.5)"/>
+  <path d="M263 762q65 20 130 0M282 779q45 12 92 0" stroke-width="2"/><circle cx="330" cy="120" r="12"/><path d="m330 98 0-12m22 34h12m-56 0h-12" stroke-width="2"/>
+  </g>
+  <g fill="#dec186" stroke="none" text-anchor="middle" font-family="Microsoft YaHei, sans-serif">
+   <text x="330" y="225" font-size="54" letter-spacing="8">封存记忆</text>
+   <text x="330" y="292" font-size="22" letter-spacing="3">四季的知识与时光</text>
+   <text x="330" y="355" font-size="18" letter-spacing="3">THE GARDEN ARCHIVE</text>
+  </g>
+ </g>
+</svg>

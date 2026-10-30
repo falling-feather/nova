@@ -1,0 +1,1827 @@
+{
+  "status": "approved-runtime-layout",
+  "date": "2026-10-02",
+  "units": "metres",
+  "axes": "X向右，Z向下；高度单独记录",
+  "visitorRoute": {
+    "width": 0.96,
+    "paths": [
+      {
+        "id": "arrival-origins-rules",
+        "points": [
+          [
+            -5.55,
+            6
+          ],
+          [
+            1.8,
+            6
+          ],
+          [
+            3.3,
+            8
+          ],
+          [
+            8.6,
+            8
+          ],
+          [
+            10.2,
+            6
+          ],
+          [
+            21.7,
+            6
+          ],
+          [
+            22.7,
+            8
+          ],
+          [
+            33.2,
+            8
+          ],
+          [
+            34.5,
+            6
+          ],
+          [
+            45.4,
+            6
+          ]
+        ]
+      },
+      {
+        "id": "learning-games",
+        "points": [
+          [
+            62.6,
+            6
+          ],
+          [
+            83.7,
+            6
+          ],
+          [
+            86.3,
+            8.6
+          ],
+          [
+            89,
+            8.6
+          ],
+          [
+            89,
+            19
+          ],
+          [
+            90,
+            19
+          ],
+          [
+            90,
+            27.6
+          ]
+        ]
+      },
+      {
+        "id": "generation-frontiers-industry",
+        "points": [
+          [
+            80.6,
+            37
+          ],
+          [
+            65.3,
+            37
+          ],
+          [
+            64.7,
+            39
+          ],
+          [
+            51.3,
+            39
+          ],
+          [
+            50.2,
+            37
+          ],
+          [
+            35.3,
+            37
+          ],
+          [
+            35.3,
+            38
+          ]
+        ]
+      },
+      {
+        "id": "exit",
+        "points": [
+          [
+            25,
+            48.3
+          ],
+          [
+            25,
+            57.5
+          ]
+        ]
+      }
+    ],
+    "loops": [
+      {
+        "room": "learning",
+        "radius": 8.6
+      },
+      {
+        "room": "generation",
+        "radius": 9.4
+      },
+      {
+        "room": "industry",
+        "radius": 10.3
+      }
+    ],
+    "spurs": [
+      {
+        "id": "learning-centrepiece",
+        "points": [
+          [
+            45.4,
+            6
+          ],
+          [
+            50.8,
+            6
+          ]
+        ]
+      },
+      {
+        "id": "generation-centrepiece",
+        "points": [
+          [
+            90,
+            27.6
+          ],
+          [
+            90,
+            34.3
+          ]
+        ]
+      },
+      {
+        "id": "industry-centrepiece",
+        "points": [
+          [
+            35.3,
+            37
+          ],
+          [
+            29.1,
+            37
+          ]
+        ]
+      }
+    ],
+    "arrows": [
+      [
+        -2.5,
+        6,
+        1,
+        0
+      ],
+      [
+        15.5,
+        6,
+        1,
+        0
+      ],
+      [
+        38.5,
+        6,
+        1,
+        0
+      ],
+      [
+        74,
+        6,
+        1,
+        0
+      ],
+      [
+        90,
+        21,
+        0,
+        1
+      ],
+      [
+        71,
+        37,
+        -1,
+        0
+      ],
+      [
+        45,
+        37,
+        -1,
+        0
+      ],
+      [
+        25,
+        56,
+        0,
+        1
+      ]
+    ]
+  },
+  "notes": [
+    "已用于运行场景、碰撞、导航与地图的统一尺度",
+    "七阶段对应七座独立展厅；厅内专题不增加阶段",
+    "房间w/d为外廓尺寸，圆厅r为外壁半径；core.w/d为中央厅堂墙轴线距，净尺寸分别减去一份wall",
+    "门洞与短廊净宽建议3m；普通分隔墙0.35m",
+    "机构档案保留20家，具体史料和出处仍以现有内容原件为准"
+  ],
+  "rooms": [
+    {
+      "id": "01",
+      "name": "问题的诞生",
+      "shape": "square",
+      "x": 0,
+      "z": 0,
+      "w": 12,
+      "d": 12,
+      "h": 4.8,
+      "wall": 0.35
+    },
+    {
+      "id": "02",
+      "name": "规则与探索",
+      "shape": "rectangle",
+      "x": 20,
+      "z": 0,
+      "w": 16,
+      "d": 12,
+      "h": 4.8,
+      "wall": 0.35
+    },
+    {
+      "id": "03",
+      "name": "让机器学习",
+      "shape": "circle",
+      "x": 54,
+      "z": 6,
+      "r": 12,
+      "h": 8,
+      "wall": 0.35,
+      "core": {
+        "w": 10,
+        "d": 8,
+        "h": 4.8
+      },
+      "ring": {
+        "inner": 6.8,
+        "outer": 9.6
+      },
+      "bayInner": 9.9,
+      "bayOuter": 11.55,
+      "bayEntryWidth": 4.2,
+      "bays": [
+        [
+          "A",
+          225,
+          32,
+          "数据工坊"
+        ],
+        [
+          "B",
+          270,
+          32,
+          "学习方法"
+        ],
+        [
+          "C",
+          315,
+          32,
+          "计算工具"
+        ],
+        [
+          "D",
+          90,
+          52,
+          "检验反思"
+        ]
+      ]
+    },
+    {
+      "id": "04",
+      "name": "一局棋之外",
+      "shape": "square",
+      "x": 82,
+      "z": -1,
+      "w": 14,
+      "d": 14,
+      "h": 5.4,
+      "wall": 0.35
+    },
+    {
+      "id": "05",
+      "name": "生成的浪潮",
+      "shape": "circle",
+      "x": 90,
+      "z": 37,
+      "r": 14,
+      "h": 8.5,
+      "wall": 0.35,
+      "core": {
+        "w": 10,
+        "d": 9,
+        "h": 4.8
+      },
+      "ring": {
+        "inner": 7.4,
+        "outer": 10.4
+      },
+      "bayInner": 10.7,
+      "bayOuter": 13.55,
+      "bayEntryWidth": 2.4,
+      "bays": [
+        [
+          "A",
+          225,
+          38,
+          "语言生成"
+        ],
+        [
+          "B",
+          315,
+          38,
+          "图像生成"
+        ],
+        [
+          "C",
+          0,
+          36,
+          "模型演进"
+        ],
+        [
+          "D",
+          60,
+          38,
+          "开放生态"
+        ],
+        [
+          "E",
+          120,
+          38,
+          "共创与核验"
+        ]
+      ]
+    },
+    {
+      "id": "06",
+      "name": "多模态与新能力",
+      "shape": "rectangle",
+      "x": 49,
+      "z": 31,
+      "w": 18,
+      "d": 12,
+      "h": 5.4,
+      "wall": 0.35
+    },
+    {
+      "id": "07",
+      "name": "当下AI群像",
+      "shape": "circle",
+      "x": 25,
+      "z": 38,
+      "r": 16,
+      "h": 9.5,
+      "wall": 0.35,
+      "core": {
+        "w": 12,
+        "d": 10,
+        "h": 5.4
+      },
+      "ring": {
+        "inner": 8.5,
+        "outer": 11.7
+      },
+      "bayInner": 12.05,
+      "bayOuter": 15.55,
+      "bayEntryWidth": 2.4,
+      "bays": [
+        [
+          "A",
+          210,
+          28,
+          "机构来路"
+        ],
+        [
+          "B",
+          270,
+          38,
+          "机构档案"
+        ],
+        [
+          "C",
+          330,
+          28,
+          "能力领域"
+        ],
+        [
+          "D",
+          30,
+          38,
+          "算力与部署"
+        ],
+        [
+          "E",
+          150,
+          26,
+          "证据比较"
+        ],
+        [
+          "F",
+          180,
+          20,
+          "应用案例"
+        ]
+      ]
+    }
+  ],
+  "corridors": [
+    {
+      "id": "C01",
+      "width": 3,
+      "points": [
+        [
+          -6,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "C12",
+      "width": 3,
+      "points": [
+        [
+          12,
+          6
+        ],
+        [
+          20,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "C23",
+      "width": 3,
+      "points": [
+        [
+          36,
+          6
+        ],
+        [
+          42,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "C34",
+      "width": 3,
+      "points": [
+        [
+          66,
+          6
+        ],
+        [
+          82,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "C45",
+      "width": 3,
+      "points": [
+        [
+          89,
+          13
+        ],
+        [
+          89,
+          19
+        ],
+        [
+          90,
+          19
+        ],
+        [
+          90,
+          23
+        ]
+      ]
+    },
+    {
+      "id": "C56",
+      "width": 3,
+      "points": [
+        [
+          76,
+          37
+        ],
+        [
+          67,
+          37
+        ]
+      ]
+    },
+    {
+      "id": "C67",
+      "width": 3,
+      "points": [
+        [
+          49,
+          37
+        ],
+        [
+          40.96,
+          37
+        ]
+      ]
+    },
+    {
+      "id": "C70",
+      "width": 3,
+      "points": [
+        [
+          25,
+          54
+        ],
+        [
+          25,
+          58
+        ]
+      ]
+    },
+    {
+      "id": "CR",
+      "width": 3,
+      "points": [
+        [
+          28,
+          12
+        ],
+        [
+          28,
+          20
+        ],
+        [
+          72,
+          20
+        ],
+        [
+          72,
+          37
+        ]
+      ]
+    }
+  ],
+  "mainDoors": [
+    {
+      "id": "D01",
+      "hall": "01",
+      "x": 0,
+      "z": 6,
+      "rotation": 90,
+      "width": 3
+    },
+    {
+      "id": "D02",
+      "hall": "01",
+      "x": 12,
+      "z": 6,
+      "rotation": 90,
+      "width": 3
+    },
+    {
+      "id": "D03",
+      "hall": "02",
+      "x": 20,
+      "z": 6,
+      "rotation": 90,
+      "width": 3
+    },
+    {
+      "id": "D04",
+      "hall": "02",
+      "x": 36,
+      "z": 6,
+      "rotation": 90,
+      "width": 3
+    },
+    {
+      "id": "D05",
+      "hall": "02",
+      "x": 28,
+      "z": 12,
+      "rotation": 0,
+      "width": 3
+    },
+    {
+      "id": "D06",
+      "hall": "03",
+      "x": 42,
+      "z": 6,
+      "rotation": 90,
+      "width": 3
+    },
+    {
+      "id": "D07",
+      "hall": "03",
+      "x": 66,
+      "z": 6,
+      "rotation": 90,
+      "width": 3
+    },
+    {
+      "id": "D08",
+      "hall": "04",
+      "x": 82,
+      "z": 6,
+      "rotation": 90,
+      "width": 3
+    },
+    {
+      "id": "D09",
+      "hall": "04",
+      "x": 89,
+      "z": 13,
+      "rotation": 0,
+      "width": 3
+    },
+    {
+      "id": "D10",
+      "hall": "05",
+      "x": 90,
+      "z": 23,
+      "rotation": 0,
+      "width": 3
+    },
+    {
+      "id": "D11",
+      "hall": "05",
+      "x": 76,
+      "z": 37,
+      "rotation": 90,
+      "width": 3
+    },
+    {
+      "id": "D12",
+      "hall": "06",
+      "x": 67,
+      "z": 37,
+      "rotation": 90,
+      "width": 3
+    },
+    {
+      "id": "D13",
+      "hall": "06",
+      "x": 49,
+      "z": 37,
+      "rotation": 90,
+      "width": 3
+    },
+    {
+      "id": "D14",
+      "hall": "07",
+      "x": 40.96,
+      "z": 37,
+      "rotation": 90,
+      "width": 3
+    },
+    {
+      "id": "D15",
+      "hall": "07",
+      "x": 25,
+      "z": 54,
+      "rotation": 0,
+      "width": 3
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "01-G1",
+      "hall": "01",
+      "tag": "G1",
+      "type": "case",
+      "name": "图灵与提案主展柜",
+      "x": 6,
+      "z": 6.2,
+      "w": 3,
+      "d": 1.6,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "turing",
+      "artifact": "typewriter"
+    },
+    {
+      "id": "01-A1",
+      "hall": "01",
+      "tag": "A1",
+      "type": "archive",
+      "name": "原文档案柜",
+      "x": 0.9,
+      "z": 3,
+      "w": 1.4,
+      "d": 0.6,
+      "rotation": 270,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "dartmouth",
+      "artifact": "documents"
+    },
+    {
+      "id": "01-G2",
+      "hall": "01",
+      "tag": "G2",
+      "type": "case",
+      "name": "感知机案例",
+      "x": 10.8,
+      "z": 3.4,
+      "w": 1.6,
+      "d": 0.8,
+      "rotation": 90,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "perceptron",
+      "artifact": "perceptron"
+    },
+    {
+      "id": "01-T1",
+      "hall": "01",
+      "tag": "T1",
+      "type": "table",
+      "name": "日期与证据对照",
+      "x": 6,
+      "z": 9.3,
+      "w": 2.4,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "turing",
+      "artifact": "evidenceViewer"
+    },
+    {
+      "id": "02-V1",
+      "hall": "02",
+      "tag": "V1",
+      "type": "video",
+      "name": "ELIZA规则说明屏",
+      "x": 28,
+      "z": 0.6,
+      "w": 5,
+      "d": 0.2,
+      "rotation": 0,
+      "zone": "main",
+      "height": 1.45,
+      "itemId": "eliza",
+      "artifact": "terminal"
+    },
+    {
+      "id": "02-T1",
+      "hall": "02",
+      "tag": "T1",
+      "type": "table",
+      "name": "关键词规则台",
+      "x": 25.5,
+      "z": 6.3,
+      "w": 2.4,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "eliza",
+      "artifact": "terminal"
+    },
+    {
+      "id": "02-T2",
+      "hall": "02",
+      "tag": "T2",
+      "type": "table",
+      "name": "例外测试台",
+      "x": 30.5,
+      "z": 6.3,
+      "w": 2.4,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "eliza",
+      "artifact": "ruleCabinet"
+    },
+    {
+      "id": "02-A1",
+      "hall": "02",
+      "tag": "A1",
+      "type": "archive",
+      "name": "专家系统案例",
+      "x": 23,
+      "z": 2.6,
+      "w": 2.4,
+      "d": 0.6,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "dendral",
+      "artifact": "ruleCabinet"
+    },
+    {
+      "id": "02-A2",
+      "hall": "02",
+      "tag": "A2",
+      "type": "archive",
+      "name": "发展与低潮材料",
+      "x": 33,
+      "z": 9.5,
+      "w": 2.4,
+      "d": 0.6,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "winter",
+      "artifact": "evidenceViewer"
+    },
+    {
+      "id": "04-G1",
+      "hall": "04",
+      "tag": "G1",
+      "type": "case",
+      "name": "棋盘主展品",
+      "x": 89,
+      "z": 6,
+      "w": 3.2,
+      "d": 2,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "lee-match",
+      "artifact": "go"
+    },
+    {
+      "id": "04-G2",
+      "hall": "04",
+      "tag": "G2",
+      "type": "case",
+      "name": "深蓝与搜索",
+      "x": 84,
+      "z": 2.3,
+      "w": 2,
+      "d": 1.1,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "deepblue",
+      "artifact": "chess"
+    },
+    {
+      "id": "04-G3",
+      "hall": "04",
+      "tag": "G3",
+      "type": "case",
+      "name": "科学应用模型",
+      "x": 94,
+      "z": 2.3,
+      "w": 2,
+      "d": 1.1,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "alphafold",
+      "artifact": "protein"
+    },
+    {
+      "id": "04-V1",
+      "hall": "04",
+      "tag": "V1",
+      "type": "video",
+      "name": "历史比赛片段预留",
+      "x": 89,
+      "z": -0.4,
+      "w": 4,
+      "d": 0.2,
+      "rotation": 0,
+      "zone": "main",
+      "height": 1.45,
+      "itemId": "lee-match",
+      "artifact": "go"
+    },
+    {
+      "id": "04-T1",
+      "hall": "04",
+      "tag": "T1",
+      "type": "table",
+      "name": "有限搜索体验",
+      "x": 84,
+      "z": 10.3,
+      "w": 2.4,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "lee-match",
+      "artifact": "probabilityWheel"
+    },
+    {
+      "id": "04-T2",
+      "hall": "04",
+      "tag": "T2",
+      "type": "table",
+      "name": "史料对照",
+      "x": 94,
+      "z": 10.3,
+      "w": 2.4,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "ke-match",
+      "artifact": "evidenceViewer"
+    },
+    {
+      "id": "06-T1",
+      "hall": "06",
+      "tag": "T1",
+      "type": "table",
+      "name": "图像与声音材料台",
+      "x": 53.5,
+      "z": 36.7,
+      "w": 2.2,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "multimodal",
+      "artifact": "modalities"
+    },
+    {
+      "id": "06-T2",
+      "hall": "06",
+      "tag": "T2",
+      "type": "table",
+      "name": "推理与核验台",
+      "x": 58,
+      "z": 36.7,
+      "w": 2.2,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "reasoning",
+      "artifact": "evidenceViewer"
+    },
+    {
+      "id": "06-T3",
+      "hall": "06",
+      "tag": "T3",
+      "type": "table",
+      "name": "任务分解行动台",
+      "x": 62.5,
+      "z": 36.7,
+      "w": 2.2,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "embodied",
+      "artifact": "robotics"
+    },
+    {
+      "id": "06-A1",
+      "hall": "06",
+      "tag": "A1",
+      "type": "archive",
+      "name": "代表模型档案",
+      "x": 52,
+      "z": 32,
+      "w": 3,
+      "d": 0.6,
+      "rotation": 0,
+      "zone": "main",
+      "height": 0.9,
+      "itemId": "clip",
+      "artifact": "documents"
+    },
+    {
+      "id": "06-V1",
+      "hall": "06",
+      "tag": "V1",
+      "type": "video",
+      "name": "多模态介绍短片",
+      "x": 61,
+      "z": 31.6,
+      "w": 4,
+      "d": 0.2,
+      "rotation": 0,
+      "zone": "main",
+      "height": 1.45,
+      "itemId": "multimodal",
+      "artifact": "modalities"
+    },
+    {
+      "id": "03-G1",
+      "hall": "03",
+      "tag": "G1",
+      "type": "case",
+      "name": "神经网络实体陈列",
+      "x": 54,
+      "z": 5.8,
+      "w": 3.6,
+      "d": 2.2,
+      "rotation": 0,
+      "zone": "core",
+      "height": 0.9,
+      "itemId": "alexnet",
+      "artifact": "network"
+    },
+    {
+      "id": "03-V1",
+      "hall": "03",
+      "tag": "V1",
+      "type": "video",
+      "name": "概览短片主屏",
+      "x": 50.8,
+      "z": 2.55,
+      "w": 3,
+      "d": 0.2,
+      "rotation": 0,
+      "zone": "core",
+      "height": 1.45,
+      "itemId": "alexnet",
+      "artifact": "network"
+    },
+    {
+      "id": "03-T1",
+      "hall": "03",
+      "tag": "T1",
+      "type": "table",
+      "name": "标注与分类训练",
+      "x": 51.5,
+      "z": 8.9,
+      "w": 2.4,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "core",
+      "height": 0.9,
+      "itemId": "alexnet",
+      "artifact": "classification"
+    },
+    {
+      "id": "03-T2",
+      "hall": "03",
+      "tag": "T2",
+      "type": "table",
+      "name": "新样本与补充对照",
+      "x": 56.5,
+      "z": 8.9,
+      "w": 2.4,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "core",
+      "height": 0.9,
+      "itemId": "alexnet",
+      "artifact": "validation"
+    },
+    {
+      "id": "03-A1",
+      "hall": "03",
+      "tag": "A1",
+      "type": "case",
+      "name": "数据工坊：史料与模型",
+      "x": 46.41627977177428,
+      "z": -1.5837202282257223,
+      "w": 1.8,
+      "d": 0.65,
+      "rotation": 315,
+      "zone": "A",
+      "height": 0.9,
+      "itemId": "imagenet",
+      "artifact": "leaves"
+    },
+    {
+      "id": "03-B1",
+      "hall": "03",
+      "tag": "B1",
+      "type": "case",
+      "name": "学习方法：史料与模型",
+      "x": 54,
+      "z": -4.725000000000001,
+      "w": 1.8,
+      "d": 0.65,
+      "rotation": 360,
+      "zone": "B",
+      "height": 0.9,
+      "itemId": "backprop",
+      "artifact": "perceptron"
+    },
+    {
+      "id": "03-C1",
+      "hall": "03",
+      "tag": "C1",
+      "type": "case",
+      "name": "计算工具：史料与模型",
+      "x": 61.58372022822572,
+      "z": -1.583720228225725,
+      "w": 1.8,
+      "d": 0.65,
+      "rotation": 405,
+      "zone": "C",
+      "height": 0.9,
+      "itemId": "cuda",
+      "artifact": "compute"
+    },
+    {
+      "id": "03-D1",
+      "hall": "03",
+      "tag": "D1",
+      "type": "case",
+      "name": "检验反思：史料与模型",
+      "x": 54,
+      "z": 16.725,
+      "w": 1.8,
+      "d": 0.65,
+      "rotation": 180,
+      "zone": "D",
+      "height": 0.9,
+      "itemId": "alexnet",
+      "artifact": "validation"
+    },
+    {
+      "id": "05-G1",
+      "hall": "05",
+      "tag": "G1",
+      "type": "case",
+      "name": "词元与生成主展品",
+      "x": 90,
+      "z": 36.8,
+      "w": 3.6,
+      "d": 2.2,
+      "rotation": 0,
+      "zone": "core",
+      "height": 0.9,
+      "itemId": "transformer",
+      "artifact": "tokens"
+    },
+    {
+      "id": "05-V1",
+      "hall": "05",
+      "tag": "V1",
+      "type": "video",
+      "name": "概览短片主屏",
+      "x": 86.8,
+      "z": 33.05,
+      "w": 3,
+      "d": 0.2,
+      "rotation": 0,
+      "zone": "core",
+      "height": 1.45,
+      "itemId": "transformer",
+      "artifact": "tokens"
+    },
+    {
+      "id": "05-T1",
+      "hall": "05",
+      "tag": "T1",
+      "type": "table",
+      "name": "语言共创工作台",
+      "x": 87.5,
+      "z": 39.9,
+      "w": 2.4,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "core",
+      "height": 0.9,
+      "itemId": "transformer",
+      "artifact": "probabilityWheel"
+    },
+    {
+      "id": "05-T2",
+      "hall": "05",
+      "tag": "T2",
+      "type": "table",
+      "name": "图像共创与核验",
+      "x": 92.5,
+      "z": 39.9,
+      "w": 2.4,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "core",
+      "height": 0.9,
+      "itemId": "transformer",
+      "artifact": "diffusionFrames"
+    },
+    {
+      "id": "05-A1",
+      "hall": "05",
+      "tag": "A1",
+      "type": "case",
+      "name": "语言生成：史料与模型",
+      "x": 80.22424875009598,
+      "z": 29.628411806130245,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 315,
+      "zone": "A",
+      "height": 0.9,
+      "itemId": "transformer",
+      "artifact": "attentionLoom"
+    },
+    {
+      "id": "05-A2",
+      "hall": "05",
+      "tag": "A2",
+      "type": "case",
+      "name": "语言生成：案例与操作",
+      "x": 82.62841180613025,
+      "z": 27.22424875009598,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 315,
+      "zone": "A",
+      "height": 0.9,
+      "itemId": "gpt",
+      "artifact": "probabilityWheel"
+    },
+    {
+      "id": "05-B1",
+      "hall": "05",
+      "tag": "B1",
+      "type": "case",
+      "name": "图像生成：史料与模型",
+      "x": 97.37158819386975,
+      "z": 27.224248750095978,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 405,
+      "zone": "B",
+      "height": 0.9,
+      "itemId": "gan",
+      "artifact": "diffusionFrames"
+    },
+    {
+      "id": "05-B2",
+      "hall": "05",
+      "tag": "B2",
+      "type": "case",
+      "name": "图像生成：案例与操作",
+      "x": 99.77575124990402,
+      "z": 29.62841180613024,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 405,
+      "zone": "B",
+      "height": 0.9,
+      "itemId": "diffusion-models",
+      "artifact": "imageCards"
+    },
+    {
+      "id": "05-C1",
+      "hall": "05",
+      "tag": "C1",
+      "type": "case",
+      "name": "模型演进：史料与模型",
+      "x": 102.125,
+      "z": 35.3,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 90,
+      "zone": "C",
+      "height": 0.9,
+      "itemId": "gpt",
+      "artifact": "timeline"
+    },
+    {
+      "id": "05-C2",
+      "hall": "05",
+      "tag": "C2",
+      "type": "case",
+      "name": "模型演进：案例与操作",
+      "x": 102.125,
+      "z": 38.7,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 90,
+      "zone": "C",
+      "height": 0.9,
+      "itemId": "chatgpt",
+      "artifact": "modelLibrary"
+    },
+    {
+      "id": "05-D1",
+      "hall": "05",
+      "tag": "D1",
+      "type": "case",
+      "name": "开放生态：史料与模型",
+      "x": 97.53474318643354,
+      "z": 46.650558020886315,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 150,
+      "zone": "D",
+      "height": 0.9,
+      "itemId": "open-weights",
+      "artifact": "compute"
+    },
+    {
+      "id": "05-D2",
+      "hall": "05",
+      "tag": "D2",
+      "type": "case",
+      "name": "开放生态：案例与操作",
+      "x": 94.59025681356646,
+      "z": 48.35055802088632,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 150,
+      "zone": "D",
+      "height": 0.9,
+      "itemId": "open-weights",
+      "artifact": "deployment"
+    },
+    {
+      "id": "05-E1",
+      "hall": "05",
+      "tag": "E1",
+      "type": "case",
+      "name": "共创与核验：史料与模型",
+      "x": 85.40974318643354,
+      "z": 48.35055802088632,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 210,
+      "zone": "E",
+      "height": 0.9,
+      "itemId": "chatgpt",
+      "artifact": "evidenceScale"
+    },
+    {
+      "id": "05-E2",
+      "hall": "05",
+      "tag": "E2",
+      "type": "case",
+      "name": "共创与核验：案例与操作",
+      "x": 82.46525681356646,
+      "z": 46.650558020886315,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 210,
+      "zone": "E",
+      "height": 0.9,
+      "itemId": "chatgpt",
+      "artifact": "evidenceViewer"
+    },
+    {
+      "id": "07-G1",
+      "hall": "07",
+      "tag": "G1",
+      "type": "case",
+      "name": "机构与能力总览模型",
+      "x": 25,
+      "z": 37.8,
+      "w": 3.4,
+      "d": 2,
+      "rotation": 0,
+      "zone": "core",
+      "height": 0.9,
+      "itemId": "many-paths",
+      "artifact": "atlas"
+    },
+    {
+      "id": "07-V1",
+      "hall": "07",
+      "tag": "V1",
+      "type": "video",
+      "name": "概览短片主屏",
+      "x": 21.3,
+      "z": 33.55,
+      "w": 3,
+      "d": 0.2,
+      "rotation": 0,
+      "zone": "core",
+      "height": 1.45,
+      "itemId": "many-paths",
+      "artifact": "atlas"
+    },
+    {
+      "id": "07-T1",
+      "hall": "07",
+      "tag": "T1",
+      "type": "table",
+      "name": "任务委托与工具选择",
+      "x": 22.5,
+      "z": 40.9,
+      "w": 2.4,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "core",
+      "height": 0.9,
+      "itemId": "future",
+      "artifact": "future",
+      "studyId": "future"
+    },
+    {
+      "id": "07-T2",
+      "hall": "07",
+      "tag": "T2",
+      "type": "table",
+      "name": "证据比较工作台",
+      "x": 27.5,
+      "z": 40.9,
+      "w": 2.4,
+      "d": 1.2,
+      "rotation": 0,
+      "zone": "core",
+      "height": 0.9,
+      "itemId": "many-paths",
+      "artifact": "evidenceScale"
+    },
+    {
+      "id": "07-R1",
+      "hall": "07",
+      "tag": "R1",
+      "type": "video",
+      "name": "随行小助手电视",
+      "x": 20.9,
+      "z": 35.3,
+      "w": 0.8,
+      "d": 0.6,
+      "rotation": 0,
+      "zone": "core",
+      "height": 1.45,
+      "itemId": "many-paths",
+      "artifact": "atlas"
+    },
+    {
+      "id": "07-L1",
+      "hall": "07",
+      "tag": "L1",
+      "type": "seat",
+      "name": "休息与讨论座椅",
+      "x": 19.6,
+      "z": 40.8,
+      "w": 1.8,
+      "d": 0.6,
+      "rotation": 90,
+      "zone": "core",
+      "height": 0.45,
+      "itemId": null,
+      "artifact": "documents"
+    },
+    {
+      "id": "07-L2",
+      "hall": "07",
+      "tag": "L2",
+      "type": "seat",
+      "name": "休息与讨论座椅",
+      "x": 30.4,
+      "z": 40.8,
+      "w": 1.8,
+      "d": 0.6,
+      "rotation": 90,
+      "zone": "core",
+      "height": 0.45,
+      "itemId": null,
+      "artifact": "documents"
+    },
+    {
+      "id": "07-A1",
+      "hall": "07",
+      "tag": "A1",
+      "type": "case",
+      "name": "机构来路：史料与模型",
+      "x": 12.198849427774746,
+      "z": 32.572243186433546,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 300,
+      "zone": "A",
+      "height": 0.9,
+      "itemId": "openai-path",
+      "artifact": "timeline"
+    },
+    {
+      "id": "07-A2",
+      "hall": "07",
+      "tag": "A2",
+      "type": "case",
+      "name": "机构来路：案例与操作",
+      "x": 13.898849427774746,
+      "z": 29.627756813566453,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 300,
+      "zone": "A",
+      "height": 0.9,
+      "itemId": "deepseek-path",
+      "artifact": "modelLibrary"
+    },
+    {
+      "id": "07-B1",
+      "hall": "07",
+      "tag": "B1",
+      "type": "archive",
+      "name": "20家机构档案柜",
+      "x": 24.999999999999996,
+      "z": 23.2,
+      "w": 4.4,
+      "d": 0.6,
+      "rotation": 360,
+      "zone": "B",
+      "height": 0.9,
+      "itemId": "many-paths",
+      "artifact": "atlas",
+      "presentation": "archive-bank"
+    },
+    {
+      "id": "07-B2",
+      "hall": "07",
+      "tag": "B2",
+      "type": "table",
+      "name": "档案检索与材料日期",
+      "x": 27.499999999999996,
+      "z": 25.2,
+      "w": 2.2,
+      "d": 0.8,
+      "rotation": 360,
+      "zone": "B",
+      "height": 0.9,
+      "itemId": "many-paths",
+      "artifact": "evidenceViewer"
+    },
+    {
+      "id": "07-C1",
+      "hall": "07",
+      "tag": "C1",
+      "type": "case",
+      "name": "能力领域：史料与模型",
+      "x": 36.10115057222525,
+      "z": 29.62775681356645,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 420,
+      "zone": "C",
+      "height": 0.9,
+      "itemId": "google-path",
+      "artifact": "modalities"
+    },
+    {
+      "id": "07-C2",
+      "hall": "07",
+      "tag": "C2",
+      "type": "case",
+      "name": "能力领域：案例与操作",
+      "x": 37.801150572225254,
+      "z": 32.57224318643354,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 420,
+      "zone": "C",
+      "height": 0.9,
+      "itemId": "many-paths",
+      "artifact": "robotics"
+    },
+    {
+      "id": "07-D1",
+      "hall": "07",
+      "tag": "D1",
+      "type": "case",
+      "name": "算力与部署：史料与模型",
+      "x": 37.801150572225254,
+      "z": 43.427756813566454,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 120,
+      "zone": "D",
+      "height": 0.9,
+      "itemId": "nvidia",
+      "artifact": "compute"
+    },
+    {
+      "id": "07-D2",
+      "hall": "07",
+      "tag": "D2",
+      "type": "case",
+      "name": "算力与部署：案例与操作",
+      "x": 36.10115057222525,
+      "z": 46.37224318643354,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 120,
+      "zone": "D",
+      "height": 0.9,
+      "itemId": "apple",
+      "artifact": "deployment"
+    },
+    {
+      "id": "07-E1",
+      "hall": "07",
+      "tag": "E1",
+      "type": "case",
+      "name": "证据比较：史料与模型",
+      "x": 13.898849427774746,
+      "z": 46.37224318643354,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 240,
+      "zone": "E",
+      "height": 0.9,
+      "itemId": "google-path",
+      "artifact": "evidenceScale"
+    },
+    {
+      "id": "07-E2",
+      "hall": "07",
+      "tag": "E2",
+      "type": "case",
+      "name": "证据比较：案例与操作",
+      "x": 12.198849427774746,
+      "z": 43.427756813566454,
+      "w": 2,
+      "d": 0.8,
+      "rotation": 240,
+      "zone": "E",
+      "height": 0.9,
+      "itemId": "deepseek-path",
+      "artifact": "evidenceViewer"
+    },
+    {
+      "id": "07-F1",
+      "hall": "07",
+      "tag": "F1",
+      "type": "case",
+      "name": "应用案例：史料与模型",
+      "x": 11.2,
+      "z": 38,
+      "w": 1.8,
+      "d": 0.8,
+      "rotation": 270,
+      "zone": "F",
+      "height": 0.9,
+      "itemId": "many-paths",
+      "artifact": "robotics"
+    }
+  ],
+  "decorations": [
+    {
+      "hall": "01",
+      "type": "planter",
+      "x": 0.62,
+      "z": 1.2,
+      "radius": 0.29
+    },
+    {
+      "hall": "01",
+      "type": "planter",
+      "x": 11.35,
+      "z": 10.8,
+      "radius": 0.29
+    },
+    {
+      "hall": "02",
+      "type": "planter",
+      "x": 20.65,
+      "z": 10.8,
+      "radius": 0.29
+    },
+    {
+      "hall": "02",
+      "type": "planter",
+      "x": 35.35,
+      "z": 1.2,
+      "radius": 0.29
+    },
+    {
+      "hall": "03",
+      "type": "planter",
+      "x": 48.62,
+      "z": 1.64,
+      "radius": 0.29
+    },
+    {
+      "hall": "03",
+      "type": "planter",
+      "x": 59.38,
+      "z": 10.36,
+      "radius": 0.29
+    },
+    {
+      "hall": "03",
+      "type": "planter",
+      "x": 47,
+      "z": -2.0,
+      "radius": 0.29
+    },
+    {
+      "hall": "03",
+      "type": "planter",
+      "x": 61,
+      "z": 14.0,
+      "radius": 0.29
+    },
+    {
+      "hall": "04",
+      "type": "planter",
+      "x": 82.65,
+      "z": 11.8,
+      "radius": 0.29
+    },
+    {
+      "hall": "04",
+      "type": "planter",
+      "x": 95.35,
+      "z": 0.2,
+      "radius": 0.29
+    },
+    {
+      "hall": "05",
+      "type": "planter",
+      "x": 84.62,
+      "z": 32.16,
+      "radius": 0.29
+    },
+    {
+      "hall": "05",
+      "type": "planter",
+      "x": 95.38,
+      "z": 41.84,
+      "radius": 0.29
+    },
+    {
+      "hall": "05",
+      "type": "planter",
+      "x": 81.5,
+      "z": 28.5,
+      "radius": 0.29
+    },
+    {
+      "hall": "05",
+      "type": "planter",
+      "x": 98.5,
+      "z": 45.5,
+      "radius": 0.29
+    },
+    {
+      "hall": "06",
+      "type": "planter",
+      "x": 49.65,
+      "z": 32.2,
+      "radius": 0.29
+    },
+    {
+      "hall": "06",
+      "type": "planter",
+      "x": 66.35,
+      "z": 41.8,
+      "radius": 0.29
+    },
+    {
+      "hall": "07",
+      "type": "planter",
+      "x": 18.62,
+      "z": 32.64,
+      "radius": 0.29
+    },
+    {
+      "hall": "07",
+      "type": "planter",
+      "x": 31.38,
+      "z": 43.36,
+      "radius": 0.29
+    },
+    {
+      "hall": "07",
+      "type": "planter",
+      "x": 15,
+      "z": 28,
+      "radius": 0.29
+    },
+    {
+      "hall": "07",
+      "type": "planter",
+      "x": 35,
+      "z": 48,
+      "radius": 0.29
+    }
+  ]
+}

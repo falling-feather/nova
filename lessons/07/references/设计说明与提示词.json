@@ -1,0 +1,135 @@
+{
+  "status": "已按本轮用户确认，作为新工程视觉基线",
+  "date": "2026-10-11",
+  "intent": "以真实教具和当前操作为视觉主体，减少背景、文本、按钮之间的竞争。",
+  "hierarchy": [
+    "常驻层：房间位置、当前问题、核心教具、一个主要操作。",
+    "局部检视层：点击词元、标签或数值时，在对象旁出现可关闭的小浮窗。",
+    "回顾层：完成当前实验后才展开结论、记录和出版复核。",
+    "全局导航：小型进度与返回入口；完整房间选择、手册及成果在抽屉或弹层中打开。"
+  ],
+  "appearance": [
+    "近俯视教具与场景共用材质、光照、透视，环境细节收在边缘。",
+    "主操作保持清晰和高对比，远景降低纹理对比并使用轻微虚化。",
+    "浮窗文字区接近不透明，边缘允许半透明；辅助控件闲置时减弱，聚焦后显现。",
+    "保持墨色文字、暖白纸面、胡桃木、少量黄铜，以青绿色集中标记主动作。"
+  ],
+  "motionProposal": [
+    "局部检视窗拟采用约160–220ms的透明度、轻微位移与柔焦过渡。",
+    "背景虚化仅用于景深和检视态的次要对象；核心词元、输入与按钮不模糊。",
+    "键盘聚焦与鼠标悬停采用同样的显现规则；触屏点击展开，提供清楚的关闭入口。",
+    "减少动态时直接显示稳定终态。静态概念图只展示状态，不能证明动画或可用性已验收。"
+  ],
+  "frames": [
+    {
+      "name": "01-议事厅-主操作态",
+      "focus": "选中词元及其主要注意力连接",
+      "interaction": "切换上下文，比较连接变化；计算详情默认收起"
+    },
+    {
+      "name": "02-议事厅-局部检视浮窗",
+      "focus": "当前词元与紧邻的权重检视窗",
+      "interaction": "按需展开局部数据，分层和记录员收在二级控件"
+    },
+    {
+      "name": "03-铸字房-句子排字台",
+      "focus": "句子纸带与一条可操作活字轨道",
+      "interaction": "三种拆法切换；需要时才打开并排比较"
+    },
+    {
+      "name": "04-名牌馆-词义地图",
+      "focus": "词义地图与当前选中的词",
+      "interaction": "点选或查找词元，再翻开其名牌与相似词"
+    },
+    {
+      "name": "05-账房-分糖实验",
+      "focus": "四个容器与100颗糖的分配",
+      "interaction": "调节分配强度，计算过程放在可展开的账页"
+    },
+    {
+      "name": "06-排印车间-纸上编辑与校对",
+      "focus": "可直接编辑的特刊纸面",
+      "interaction": "点选疑问文字看来源，再修改并进入出版"
+    }
+  ],
+  "notes": "图中布局、数值与文案用于前端方案评议；实现时沿用实际分词、注意力、向量及生成结果。",
+  "tool": "内置 image_gen",
+  "images": [
+    {
+      "name": "01-议事厅-主操作态",
+      "file": "01-议事厅-主操作态.png",
+      "prompt": "Use case: ui-mockup. Create ONE exceptional, production-minded desktop front-end concept screenshot for the Chinese interactive AI course “活字印书局”, room “议事厅”. It is an actual designed application viewport, 16:10 landscape, NOT a poster, NOT a scene illustration without controls, NOT a wireframe, no mockup device or browser chrome. Professional editorial typography, precise layout, very clear hierarchy, exquisite restrained craft.\n\nCore interaction: select the word “苹果” in a sentence and observe which other tokens it attends to. The entire screen is organized around that one manipulation. Make the attention instrument visually dominant and immediately understandable.\n\nVisual direction: an elegant contemporary museum learning installation inside a quiet Chinese letterpress workshop. Warm ivory, ink charcoal, smoked walnut, muted brass, and a single deep petrol teal interaction accent; tiny vermilion editorial mark. A soft amber task light pools on the instrument. Peripheral shelves, window frame and paper stacks are only low-contrast, softly defocused edge atmosphere. The central walnut reading table and thin brass inlaid circles are sharply rendered and occupy most of the image. UI and world share the SAME materials, light and perspective. Mostly near top-down, gentle perspective, no dramatic room vista. Generous breathing room, no heavy ornament, no gradients on every button, no giant gold top tabs.\n\nComposition:\n- At the extreme top a very light, minimal header: left “‹ 活字印书局”, small breadcrumb “议事厅”; near center five tiny progress dots; right a quiet book icon labelled “手记” and settings icon. No horizontal wall of large navigation buttons.\n- Upper left, directly on calm negative space, a small eyebrow “12 / 25” then an elegant legible large heading “「苹果」正在关注谁？” One short instruction below: “点一块活字，看看它在听谁。”\n- Upper center a slim ivory paper sentence strip, not a giant panel: “小明用苹果拍了一张照片。” The word 苹果 subtly highlighted teal. A small “换一句” control at its right edge. The strip preserves the sentence order.\n- Main visual at screen center, roughly x=28%-76%, y=31%-79%: a tactile attention instrument built into the wood table. A substantial pale metal “苹果” movable-type block is the clear focal point near the lower center of a thin circular brass inlay. Around it a spacious fan of six smaller movable-type blocks labelled “小明”, “用”, “拍”, “了”, “一张”, “照片”. Connect from 苹果 to the fan with finely crafted teal threads of different widths. The connection to 拍 is noticeably strongest; the others are elegant and faint. Do not cover the instrument with panels, charts or many numbers. Show just one very small local “25%” tag beside the strongest thread; other weights are hidden until requested. Refined contact shadows, precise crisp Chinese type on the blocks.\n- Lower center a slim floating control dock, 460px wide relative to a 1600px viewport, at table edge: a two-option sentence switch “拍照的苹果” / “吃的苹果”, with the former active. Only ONE solid teal primary button “换一句看看”. Do not duplicate that primary button elsewhere.\n- Bottom left a tiny collapsed guide icon, labelled “老师傅”, and bottom right two quiet compact tabs “看计算” and “本节发现”. Closed, no paragraph body.\n- No persistent sidebar, no checklists, no large data table, no list of chapters, no full-height rectangular panels.\n\nPolish: layered depth with peripheral opacity around 25–40%, inactive lines ghosted while still perceptible, active token fully crisp, softly frosted warm translucent surfaces only for small overlays, never low-contrast text. Typography mostly ink on ivory, minimum visually readable UI text. Show a settled interactive state, not motion trails. The whole composition should feel calm, distinctive, inviting, and usable by a young teenager. Include ONLY the specified Chinese UI copy.",
+      "reference": null,
+      "iterations": [],
+      "width": 1586,
+      "height": 992,
+      "bytes": 2351682,
+      "sha256": "1754d205abd8b3f600f91acd73910faab087e7679ce3dc3708bd14ca238bd230"
+    },
+    {
+      "name": "02-议事厅-局部检视浮窗",
+      "file": "02-议事厅-局部检视浮窗.png",
+      "prompt": "Edit this exact front-end concept screenshot to show its SECOND INTERACTION STATE: the learner has clicked “看计算” and opened an anchored contextual inspector for the selected “苹果” token. Preserve the same page identity, camera, table, token labels, sentence, type scale, teal/brass palette and overall composition. This is a local UI state, not another design style. Add ONE compact elegant floating inspector at the upper right of the attention instrument, roughly x=72%-95%, y=28%-66%; keep the selected 苹果 and strongest link to 拍 fully visible and sharp. The card is warm ivory frosted glass with a very thin brass rim, 85%-95% opaque directly behind text, lower-opacity softly feathered edges, subtle natural shadow. A delicate connector points to the selected block. Inspector heading “苹果 · 注意力”, a clear × close control, a small segmented tab “观察 / 计算” with 观察 active. Three clean short horizontal bars only: “拍 25%”, “用 14%”, “。 12%”. A small collapsed disclosure “第2层 · 全部记录员⌄”. Footer note in small legible text “显示部分连接”. Do not add a second panel. Desaturate and softly defocus unselected surrounding objects and dim inactive links; the query block, its strongest line and the inspector remain crisp. Retain the full sentence at the top. Remove the small “换一句” control inside the sentence strip to avoid a duplicated command. Remove the decorative slogan on the loose paper at the far right; leave it blank and quiet. No other new text. The image must show progressive disclosure and a clear visual focus, not a full-screen modal.",
+      "reference": "01-议事厅-主操作态.png",
+      "iterations": [],
+      "width": 1586,
+      "height": 992,
+      "bytes": 1799072,
+      "sha256": "49acae60e3313c4488b34cb3ef2121e476ad75b3b363463b319e19ab6a66935d"
+    },
+    {
+      "name": "03-铸字房-句子排字台",
+      "file": "03-铸字房-句子排字台.png",
+      "prompt": "Refine this exact frontend concept. Preserve the camera, composition, header, sentence paper ribbon, warm walnut and brass materials, title, controls, typography and lighting. Correct ONLY the central typesetting output so the learning representation is accurate. There must be EXACTLY SEVEN physically separate, unbroken blocks in the brass rail: “我” / “的” / “苹果” / “屏幕” / “摔裂” / “了” / “。” . The blocks for 苹果, 屏幕 and 摔裂 are each ONE wider solid ingot containing BOTH characters, with NO center seam or separation. The spaces occur only BETWEEN these seven tokens. Keep the 苹果 ingot selected with a thin teal outline. Keep the right-end count “7 块”. Do not accidentally split multi-character tokens into individual square cubes. Keep the input sentence exactly “我的苹果屏幕摔裂了。”. Correct the lower-right paper tab to exactly “本节发现”. Remove unrelated decorative Chinese slogans from the peripheral cups and books, leaving them visually quiet. Everything else stays the same. No additional elements.",
+      "reference": null,
+      "iterations": [
+        {
+          "prompt": "Use case: ui-mockup. ONE polished desktop application concept screenshot, 16:10 landscape, for the Chinese interactive course “活字印书局”. Design an exquisite coherent interface inside a contemporary Chinese letterpress museum workshop. Warm ivory paper, smoked walnut, subtle brass, ink black, deep petrol teal active controls, restrained vermilion editorial details. Near top-down or shallow desk perspective, soft amber task light, sharp central teaching object, dim low-contrast softly defocused peripheral environment. Photographic material fidelity with crafted illustrative refinement. UI belongs to the physical workbench; it is not cards pasted over a busy wallpaper. Editorial Chinese serif headings, crisp comfortable sans-serif UI, generous negative space. Tiny translucent top navigation “‹ 活字印书局” plus room name, five small progress dots, right “手记” and settings icon. No giant navigation tabs. One clear visual subject, one short question, one strong primary action. No permanent sidebar, no checklist, no dense long paragraph, no grids of generic dashboard cards. Thin frosted warm surfaces only where needed, high text contrast. A real usable product screenshot, not a poster, no annotations outside the viewport or device mockup. Room “铸字房”. Main learning operation: enter one sentence and compare character/word/token splitting. Center the entire design on a single hands-on typesetting rail occupying 65% of the screen, NOT three stacked permanent rows. Header small progress “01 / 25”. Upper-left editorial question “一句话，怎样变成活字？” with short instruction “写一句话，再换一种拆法。”\nThe workshop background is only a quiet blurred edge: a hint of a type drawer and a lamp. The focal surface is a large angled walnut typesetting desk with a warm pool of light. At its upper middle, a long cream input paper ribbon contains the exact sentence “我的苹果屏幕摔裂了。” with a subtle caret and a small pencil icon, visually editable.\nAt center, huge readable tactile pale metal type blocks sit in a single slim brass-lined wooden composing rail, in order: “我”, “的”, “苹果”, “屏幕”, “摔裂”, “了”, “。” . 苹果 and 屏幕 are subtle fresh warm gold; others lead gray. The rail is physically built into the desk, spacious blocks and believable aligned contact shadows. A small unobtrusive badge at its end “7 块”. Selected 苹果 lifts slightly with a restrained teal edge.\nBottom-center floating ivory control dock: a three-way segmented mode control “按字 / 按词 / 字字”, 字字 active teal; a single solid teal primary button “拆开看看”. Secondary button “并排比较” is a quiet outlined text control, not another bright CTA.\nAt lower-left desk edge, a mostly closed type drawer with a small handle/tab labelled “字架”, no inventory list. At lower-right a single folded paper tab “本节发现”. Tiny collapsed “老师傅” icon in lower-left screen margin.\nUse clean ivory negative space near heading, low texture contrast behind text, physically quiet scene edges. Make it immediately obvious that the sentence ribbon is the input and the large line of type blocks is the main output/interaction. No paragraph cards, no decorative slogans, no big character portrait.",
+          "source": "C:\\Users\\niu-h\\.codex\\generated_images\\01a12802-0a47-7850-a326-ef52ce402d6f\\exec-ee171942-121d-4d1f-ad7f-6d2786107103.png"
+        }
+      ],
+      "width": 1585,
+      "height": 992,
+      "bytes": 2100871,
+      "sha256": "961df18af9612eded657e14ab9623461c854025b4fd3d44da56b666f24f20685"
+    },
+    {
+      "name": "04-名牌馆-词义地图",
+      "file": "04-名牌馆-词义地图.png",
+      "prompt": "Use case: ui-mockup. ONE refined front-end concept screenshot of a Chinese interactive learning application “活字印书局”, 16:10 landscape desktop viewport. Contemporary museum editorial design integrated with a quiet Chinese letterpress workshop: warm ivory, smoky walnut, muted brass, charcoal typography, a SINGLE deep petrol teal interaction accent, tiny vermilion mark. Near top-down hands-on teaching object, restrained realistic tactile materials, softly defocused low-contrast peripheral environment. Crisp highly legible Chinese UI. Generous negative space, small minimal navigation at the extreme top “‹ 活字印书局”, room name, five small progress dots, “手记” and gear icon on right. No large nav buttons, no permanent sidebar, no checklists, no dashboard cards, no invented slogans. Small warm frosted overlays are allowed, but the main teaching instrument must dominate. ONE obvious primary action. Settled interactive application state, no poster or device frame. Room “名牌馆”, progress “07 / 25”. Core operation: explore learned word relationships, select a word, reveal its numeric name tag on demand. The main visual must be a beautiful large spacious map physically embedded as a pale ivory inlaid tabletop, viewed from directly above, filling the center 68% of the screen. The environment is only a hint of a gallery floor, brass rim, a closed folio and blurred plants at the far corners.\nUpper-left small eyebrow “名牌馆”, large elegant question “一个词，和谁更像？” and short hint “在地图上找到一个词，翻开它的名牌。”\nOn the broad ivory map place just 16 movable-type word tokens in several organically arranged soft translucent pools of color; lots of space, no crowded labels. Foreground lower-middle is an active warm apricot fruit cluster with tokens “苹果”, “梨”, “桃子”, “香蕉”; 苹果 is the single focal selected block, larger and sharp with a restrained teal selection halo. Upper-middle a soft blue electronics cluster with “手机”, “相机”, “电脑”, “屏幕”. Farther left a quieter sage animal cluster “小猫”, “小狗”, “熊猫”, “兔子”. Farther right a pale lilac weather cluster “下雨”, “刮风”, “晴天”, “乌云”. Nonselected clusters are optically quieter and slightly softened, but still identifiable. Small cluster titles “水果”“电子产品”“动物”“天气”, no lists.\nDirectly next to selected 苹果, a tiny lifted “名牌” card shows a restrained strip of many slender warm/cool numeric bars, with only the label “128 个数字”; this is a teaser, not a tall parameter panel. A soft shadow connects this little lifted card to the selected block.\nBottom-center a narrow frosted ivory dock: a search field “找一个词…” and ONE solid teal primary button “翻开名牌”. At bottom right a quiet collapsed tab “我的观察”. Tiny guide icon at bottom left.\nThe map is the dominant interface, not a decorative floor behind a website. Precise grid for chrome, organic spatial layout for data, art and interface in the same lighting. High legibility and calm visual focus. No paragraphs or permanent numerical rankings.",
+      "reference": null,
+      "iterations": [],
+      "width": 1586,
+      "height": 992,
+      "bytes": 2509512,
+      "sha256": "c19e4693bce681af408b388a266734b3746e6effd89502cc62924236e88e572b"
+    },
+    {
+      "name": "05-账房-分糖实验",
+      "file": "05-账房-分糖实验.png",
+      "prompt": "Use case: ui-mockup. ONE refined front-end concept screenshot of a Chinese interactive learning application “活字印书局”, 16:10 landscape desktop viewport. Contemporary museum editorial design integrated with a quiet Chinese letterpress workshop: warm ivory, smoky walnut, muted brass, charcoal typography, a SINGLE deep petrol teal interaction accent, tiny vermilion mark. Near top-down hands-on teaching object, restrained realistic tactile materials, softly defocused low-contrast peripheral environment. Crisp highly legible Chinese UI. Generous negative space, small minimal navigation at the extreme top “‹ 活字印书局”, room name, five small progress dots, “手记” and gear icon on right. No large nav buttons, no permanent sidebar, no checklists, no dashboard cards, no invented slogans. Small warm frosted overlays are allowed, but the main teaching instrument must dominate. ONE obvious primary action. Settled interactive application state, no poster or device frame. Room “账房”, progress “18 / 25”. Core interaction: change score emphasis and watch 100 candies redistribute among four recipients. Make four beautiful clear low glass candy vessels on a clean warm light-wood calculation table the overwhelming main subject, occupying 65% of the screen, arranged in a shallow symmetrical arc with clear space between them. Glass silhouettes are simple, crisp and readable, with subtle brass bases; each vessel has small colorful translucent candies inside. Avoid decorative stacks, inventories, unrelated charts.\nUpper left a large question “100颗糖，怎样分？” and a short hint “调一调放大镜，看谁分得更多。”\nIn order, the four vessel labels on tiny ivory plaques are “小雨”“小林”“雨伞”“昨天”; below each is one clear large number “44”“44”“6”“6”, and a tiny unit “颗”. The first two vessels are visibly equally full; last two equally sparse. These four numbers sum to100. A delicate brass tally mark “合计 100 颗” is in the clear center above the arc. Each vessel has its own very subtle color reflection, not saturated rainbow lights.\nAt the table's lower center a SINGLE tactile brass-and-ivory horizontal adjustment instrument, labelled “放大镜”, with a large accessible slider handle, endpoints “弱”“强”; crisp visual feedback. Adjacent ONE solid teal primary button “试着分糖”. Smaller quiet outlined control “看这笔账” opens the detailed calculation only when requested. No formulas or numeric matrices visible in this default state.\nAt lower right an almost closed blank ledger has a thin tab “实验记录”; at lower left tiny “老师傅” icon. A faint warm lamp, abacus silhouette and ink bowl exist only as blurred edge context; the four vessels remain sharp and bright. No sidebar, no checklist, no overlapping speech bubble, no dense paragraph. Elegant, tactile, logically clear application design. Only the specified Chinese labels.",
+      "reference": null,
+      "iterations": [],
+      "width": 1586,
+      "height": 992,
+      "bytes": 2243963,
+      "sha256": "4e9927447beb9d85433ec032d7f0ea1980f8e40e4ebac8e244674a77f899fda0"
+    },
+    {
+      "name": "06-排印车间-纸上编辑与校对",
+      "file": "06-排印车间-纸上编辑与校对.png",
+      "prompt": "Refine this exact frontend concept screenshot. Keep the newspaper as the dominant editable canvas, the same paper, table, lighting, top navigation, headline “晨风，六十岁了”, editable body and small proofreading popup. Keep the popup text and button “改为礼堂”, bottom workflow, and blue AI-origin underline unchanged. Remove the invented school photograph, its banners, the made-up calendar date and issue number, and all peripheral decorative slogans. Replace the lower newspaper area with a quiet, spacious two-column editorial notes area: headings “我的观察” and “来源记录”, each with just two faint blank writing rules. This should leave more calm breathing room and make the active proofreading sentence stand out. Under the masthead retain only the small label “校庆特刊”. Make “校对” in the bottom workflow the only active step; “撰稿” and “出版” remain secondary. Do not add facts, paragraphs, new photos, illustrations, ornaments, or controls. Preserve the rest of the design exactly.",
+      "reference": null,
+      "iterations": [
+        {
+          "prompt": "Use case: ui-mockup. ONE polished desktop application concept screenshot, 16:10 landscape, for the Chinese interactive course “活字印书局”. Design an exquisite coherent interface inside a contemporary Chinese letterpress museum workshop. Warm ivory paper, smoked walnut, subtle brass, ink black, deep petrol teal active controls, restrained vermilion editorial details. Near top-down or shallow desk perspective, soft amber task light, sharp central teaching object, dim low-contrast softly defocused peripheral environment. Photographic material fidelity with crafted illustrative refinement. UI belongs to the physical workbench; it is not cards pasted over a busy wallpaper. Editorial Chinese serif headings, crisp comfortable sans-serif UI, generous negative space. Tiny translucent top navigation “‹ 活字印书局” plus room name, five small progress dots, right “手记” and settings icon. No giant navigation tabs. One clear visual subject, one short question, one strong primary action. No permanent sidebar, no checklist, no dense long paragraph, no grids of generic dashboard cards. Thin frosted warm surfaces only where needed, high text contrast. A real usable product screenshot, not a poster, no annotations outside the viewport or device mockup. Room “排印车间”, station “25 / 25”. The central interaction is editing and checking a co-written newspaper, not filling a form. Make ONE large beautifully typeset newspaper sheet the dominant object, lying on an uncluttered dark walnut editor desk, nearly face-on for comfortable reading. The paper fills roughly 48% of the viewport width and 65% height, positioned slightly left of center. Peripheral printing rollers, type drawers and a warm lamp are faintly blurred at the screen edge; no distracting room photo.\nUpper-left page question “让这一版，值得被读到。” Small instruction “在纸上改写，按来源核对。”\nThe newspaper has exquisite restrained editorial layout, masthead “晨风报”, small issue line “校庆特刊”, headline “晨风，六十岁了”. Only a few large legible body lines: “本周六，晨风中学迎来校庆。” and “合唱团将在操场演出。” The word 操场 has a restrained vermilion proofreader underline. A subtle blue underline under part of the second sentence marks AI-origin text. A text caret within the body and a tiny context formatting strip above the selected text make direct editing obvious. The newspaper is not a static preview beside a form: it IS the editable canvas.\nShow one compact anchored proofing popover to the right of the selected line, width about 19% of screen, height about 23%. Warm frosted ivory paper/glass, thin brass keyline, refined shadow. Header “地点需要核对” and close ×. Two short lines “原稿：操场” and “安排表：礼堂”. A small source bookmark icon labelled “查看安排表”. Only one solid teal primary button “改为礼堂”. This is the next action, not a long checklist.\nAt bottom center, a slim translucent workflow rail “撰稿 — 校对 — 出版”, 校对 active, with a quiet “保存草稿” text action. 出版 is a later inactive step, not a competing bright button. A tiny bottom corner legend “蓝线 · AI 原文”. Top header is minimal as specified.\nCreate a coherent physical editorial studio whose interaction is immediately legible. Strong typographic beauty, exact alignment, generous paper margins, crisp text, soft depth. Avoid multiple permanent columns, giant form controls, checkbox lists, excessive buttons, scattered small labels. Include ONLY the requested Chinese copy.",
+          "source": "C:\\Users\\niu-h\\.codex\\generated_images\\01a12802-0a47-7850-a326-ef52ce402d6f\\exec-77466451-dd05-4aef-ad46-aa231fe04ee7.png"
+        }
+      ],
+      "width": 1586,
+      "height": 992,
+      "bytes": 2036638,
+      "sha256": "fa9fcfd734be97e07024fa9b7717ccb51990ead1076156324b8fc88e442d92fb"
+    }
+  ]
+}

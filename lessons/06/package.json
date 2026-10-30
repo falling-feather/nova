@@ -1,0 +1,11 @@
+{
+  "name": "nova-archipelago",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5366 --strictPort --configLoader native",
+    "build": "tsc --noEmit && vite build --configLoader native",
+    "preview": "vite preview --host 127.0.0.1 --port 5366 --strictPort --configLoader native"
+  }
+}

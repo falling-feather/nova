@@ -1,0 +1,159 @@
+.mission-stack {
+  position: absolute;
+  left: 25px;
+  top: 23px;
+  width: min(440px, 45vw);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  pointer-events: none;
+}
+.mission-stack > .mission-note {
+  position: relative;
+  inset: auto;
+  max-width: none;
+  width: 100%;
+  pointer-events: auto;
+}
+.objective-guide {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: linear-gradient(115deg, #fff6d9, #f2ebcd);
+  border: 2px solid #caab63;
+  border-radius: 14px;
+  box-shadow:
+    0 3px 0 #8c7148,
+    0 6px 18px #28372538;
+  text-align: left;
+  color: #485a36;
+  pointer-events: auto;
+  cursor: pointer;
+  min-width: 0;
+}
+.objective-arrow {
+  font:
+    700 36px/1 system-ui,
+    sans-serif;
+  color: #886327;
+  text-align: center;
+  background: #ead79970;
+  border-radius: 12px;
+  padding: 7px 0;
+  align-self: start;
+}
+.objective-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+.objective-instruction {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+.objective-place {
+  font-size: 15px;
+  line-height: 1.45;
+  color: #64583f;
+}
+.objective-companion {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #777057;
+}
+.objective-action {
+  font-size: 12px;
+  font-weight: 700;
+  color: #567447;
+  margin-top: 3px;
+}
+.objective-guide:hover {
+  background: #fff6d5;
+  border-color: #ad8337;
+}
+.objective-guide:focus-visible {
+  outline: 3px solid #3e868b;
+  outline-offset: 4px;
+}
+.objective-guide[data-direction="here"] {
+  border-color: #8caa5d;
+  background: #f0f3d9;
+}
+.objective-guide:disabled {
+  cursor: default;
+}
+.interaction-prompt.is-revisit { border-color:#a8ad91;background:#edf0dd;color:#59624a; }
+.forest-ui.is-blocked .objective-guide {
+  visibility: hidden;
+}
+.forest-ui:not(.is-blocked) .forest-toast,
+.forest-ui:not(.is-blocked) .forest-warning {
+  top: var(--forest-notice-top, 126px);
+}
+@media (max-width: 759px) {
+  .mission-stack {
+    top: 14px;
+    left: 14px;
+    width: min(300px, calc(100vw - 90px));
+    gap: 8px;
+  }
+  .objective-guide {
+    padding: 9px 10px;
+    gap: 7px;
+    grid-template-columns: 34px minmax(0, 1fr);
+  }
+  .objective-arrow {
+    font-size: 29px;
+    padding: 5px 0;
+  }
+  .objective-instruction {
+    font-size: 15px;
+  }
+  .objective-place {
+    font-size: 13px;
+  }
+  .objective-companion {
+    font-size: 10px;
+  }
+  .objective-action {
+    font-size: 11px;
+  }
+}
+@media (max-height: 600px) and (min-width: 760px) {
+  .mission-stack {
+    top: 12px;
+    left: 16px;
+    width: min(600px, calc(100vw - 230px));
+    gap: 9px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+  .objective-guide {
+    padding: 7px 12px;
+    grid-template-columns: 30px minmax(0, 1fr);
+    gap: 6px;
+  }
+  .objective-arrow {
+    font-size: 27px;
+    padding: 4px 0;
+  }
+  .objective-instruction {
+    font-size: 14px;
+  }
+  .objective-place {
+    font-size: 12px;
+  }
+  .objective-companion {
+    display: none;
+  }
+  .objective-action {
+    font-size: 11px;
+    margin-top: 0;
+  }
+}

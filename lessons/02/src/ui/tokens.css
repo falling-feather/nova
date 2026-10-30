@@ -1,0 +1,109 @@
+/*
+ * The museum's visual language: exhibition print and wayfinding, not app chrome.
+ * Square corners, hairline rules, warm paper and ink taken from the building's
+ * stone, walnut and brass. Each hall's colour is a small accent, never a fill.
+ */
+@font-face {
+  font-family: "Thought Court Serif";
+  src: url("/fonts/tc-serif-400.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thought Court Serif";
+  src: url("/fonts/tc-serif-600.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+:root {
+  --serif: "Thought Court Serif", "Noto Serif SC", "Source Han Serif SC",
+    "Songti SC", "SimSun", serif;
+  --sans: "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC",
+    "Noto Sans SC", sans-serif;
+  /* DIN-like figures for wayfinding numbers; Bahnschrift ships with Windows. */
+  --figure: "Bahnschrift", "DIN Alternate", "Segoe UI", "Microsoft YaHei UI",
+    sans-serif;
+  --paper: #f3eee5;
+  --paper-deep: #e9e2d4;
+  --ink: #1d1a16;
+  --ink-2: #4b443a;
+  --ink-3: #857b6b;
+  --rule: #d3cab9;
+  --rule-strong: #b9ad97;
+  --brass: #9c7b4c;
+  --brass-light: #d6bd8c;
+  --night: #13110e;
+  --on-night: #f5eddd;
+  --on-night-2: rgba(245, 237, 221, 0.72);
+  --on-night-3: rgba(245, 237, 221, 0.46);
+  --night-rule: rgba(245, 237, 221, 0.2);
+  --hall: #a8865a;
+  --hall-light: color-mix(in srgb, var(--hall) 52%, #f5eddd);
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  font-family: var(--sans);
+  color: var(--on-night);
+  background: var(--night);
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+}
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 0;
+  touch-action: manipulation;
+}
+button:disabled {
+  opacity: 0.36;
+  cursor: default;
+}
+a {
+  color: inherit;
+  text-underline-offset: 4px;
+}
+:focus-visible {
+  outline: 1px solid var(--brass-light);
+  outline-offset: 4px;
+}
+kbd {
+  display: inline-grid;
+  place-items: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  font: 500 11px/1 var(--figure);
+  letter-spacing: 0;
+  border: 1px solid currentColor;
+  opacity: 0.85;
+}
+kbd.wide {
+  min-width: 40px;
+}
+.reduced * {
+  scroll-behavior: auto !important;
+  animation: none !important;
+  transition-duration: 0s !important;
+  transition-delay: 0s !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    animation: none !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}

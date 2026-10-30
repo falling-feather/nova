@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1140" viewBox="0 0 1800 1140" role="img" aria-labelledby="title desc"><title id="title">学习校准台：前五分钟操作分镜</title><desc id="desc">插卡核对，调准当前样本，换卡看到连带误差，再比较同一答案下两组模型的整组表现。</desc><metadata>数值由教学样例.json及动作数值校验.json计算。此图是设计分镜，不是运行课程截图。</metadata><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#7a8a98"/></marker></defs><g font-family="Microsoft YaHei, Noto Sans SC, sans-serif"><rect width="1800" height="1140" fill="#f4f2ec"/>
+<text x="40" y="52" font-size="24" fill="#677888" font-weight="600" text-anchor="start">NOVA 奇点 / 第五章 · 学习校准台</text>
+<text x="40" y="105" font-size="42" fill="#1f3341" font-weight="700" text-anchor="start">亲手调出一次“成功”，再发现它的局限</text>
+<text x="40" y="148" font-size="23" fill="#677888" font-weight="400" text-anchor="start">约五分钟的开场设计：先让学生想试，再用自己造成的现象引出参数、样本与整组误差。</text>
+<rect x="40" y="186" width="412" height="645" fill="#fff" stroke="#dedbd5" rx="14"/>
+<rect x="40" y="186" width="412" height="7" fill="#286bc9" stroke="#286bc9" rx="0"/>
+<rect x="476" y="186" width="412" height="645" fill="#fff" stroke="#dedbd5" rx="14"/>
+<rect x="476" y="186" width="412" height="7" fill="#286bc9" stroke="#286bc9" rx="0"/>
+<rect x="912" y="186" width="412" height="645" fill="#fff" stroke="#dedbd5" rx="14"/>
+<rect x="912" y="186" width="412" height="7" fill="#286bc9" stroke="#286bc9" rx="0"/>
+<rect x="1348" y="186" width="412" height="645" fill="#fff" stroke="#dedbd5" rx="14"/>
+<rect x="1348" y="186" width="412" height="7" fill="#6b8591" stroke="#6b8591" rx="0"/>
+<text x="60" y="234" font-size="27" fill="#286bc9" font-weight="700" text-anchor="start">1  插卡、先猜、核对</text>
+<rect x="60" y="262" width="372" height="64" fill="#edf2f3" stroke="#d3dde1" rx="10"/>
+<text x="76" y="304" font-size="24" fill="#264052" font-weight="600" text-anchor="start">输入：光照 4 小时</text>
+<rect x="60" y="340" width="177" height="63" fill="#f5f8fa" stroke="#d9e2e6" rx="10"/>
+<rect x="255" y="340" width="177" height="63" fill="#f5f8fa" stroke="#d9e2e6" rx="10"/>
+<text x="80" y="380" font-size="25" fill="#30475b" font-weight="600" text-anchor="start">w  0.70</text>
+<text x="275" y="380" font-size="25" fill="#30475b" font-weight="600" text-anchor="start">b  1.20</text>
+<text x="67" y="431" font-size="18" fill="#677888" font-weight="400" text-anchor="start">生长增量 / mm</text>
+<line x1="244" y1="434" x2="244" y2="652" stroke="#94a4ae" stroke-width="2" />
+<line x1="238" y1="652" x2="250" y2="652" stroke="#94a4ae" stroke-width="1" />
+<text x="258" y="657" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">0</text>
+<line x1="238" y1="615.6666666666666" x2="250" y2="615.6666666666666" stroke="#94a4ae" stroke-width="1" />
+<text x="258" y="620.6666666666666" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">1</text>
+<line x1="238" y1="579.3333333333334" x2="250" y2="579.3333333333334" stroke="#94a4ae" stroke-width="1" />
+<text x="258" y="584.3333333333334" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">2</text>
+<line x1="238" y1="543" x2="250" y2="543" stroke="#94a4ae" stroke-width="1" />
+<text x="258" y="548" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">3</text>
+<line x1="238" y1="506.6666666666667" x2="250" y2="506.6666666666667" stroke="#94a4ae" stroke-width="1" />
+<text x="258" y="511.6666666666667" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">4</text>
+<line x1="238" y1="470.3333333333333" x2="250" y2="470.3333333333333" stroke="#94a4ae" stroke-width="1" />
+<text x="258" y="475.3333333333333" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">5</text>
+<line x1="238" y1="434" x2="250" y2="434" stroke="#94a4ae" stroke-width="1" />
+<text x="258" y="439" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">6</text>
+<line x1="144" y1="506.6666666666667" x2="233" y2="506.6666666666667" stroke="#286bc9" stroke-width="3" />
+<path d="M233 506.6666666666667L219 499.6666666666667L219 513.6666666666667Z" fill="#286bc9"/>
+<text x="139" y="495.6666666666667" font-size="24" fill="#286bc9" font-weight="700" text-anchor="end">4.00</text>
+<line x1="279" y1="466.70000000000005" x2="350" y2="466.70000000000005" stroke="#bb7b18" stroke-width="3" />
+<path d="M279 466.70000000000005L293 459.70000000000005L293 473.70000000000005Z" fill="#bb7b18"/>
+<text x="357" y="455.70000000000005" font-size="24" fill="#bb7b18" font-weight="700" text-anchor="start">5.10</text>
+<text x="102" y="680" font-size="19" fill="#286bc9" font-weight="600" text-anchor="start">预测</text>
+<text x="343" y="680" font-size="19" fill="#bb7b18" font-weight="600" text-anchor="start">参考</text>
+<text x="60" y="727" font-size="21" fill="#344f61" font-weight="400" text-anchor="start">把数据卡插入仪器，揭开参考窗。</text>
+<text x="60" y="761" font-size="21" fill="#677888" font-weight="400" text-anchor="start">仪器预测 4.00，参考为 5.10。</text>
+<text x="60" y="793" font-size="21" fill="#677888" font-weight="400" text-anchor="start">蓝色是模型输出，琥珀色是参考。</text>
+<text x="496" y="234" font-size="27" fill="#286bc9" font-weight="700" text-anchor="start">2  调准这一张</text>
+<rect x="496" y="262" width="372" height="64" fill="#edf2f3" stroke="#d3dde1" rx="10"/>
+<text x="512" y="304" font-size="24" fill="#264052" font-weight="600" text-anchor="start">输入：光照 4 小时</text>
+<rect x="496" y="340" width="177" height="63" fill="#f5f8fa" stroke="#d9e2e6" rx="10"/>
+<rect x="691" y="340" width="177" height="63" fill="#fff0d7" stroke="#e2c28a" rx="10"/>
+<text x="516" y="380" font-size="25" fill="#30475b" font-weight="600" text-anchor="start">w  0.70</text>
+<text x="711" y="380" font-size="25" fill="#bb7b18" font-weight="600" text-anchor="start">b  2.30</text>
+<text x="503" y="431" font-size="18" fill="#677888" font-weight="400" text-anchor="start">生长增量 / mm</text>
+<line x1="680" y1="434" x2="680" y2="652" stroke="#94a4ae" stroke-width="2" />
+<line x1="674" y1="652" x2="686" y2="652" stroke="#94a4ae" stroke-width="1" />
+<text x="694" y="657" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">0</text>
+<line x1="674" y1="615.6666666666666" x2="686" y2="615.6666666666666" stroke="#94a4ae" stroke-width="1" />
+<text x="694" y="620.6666666666666" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">1</text>
+<line x1="674" y1="579.3333333333334" x2="686" y2="579.3333333333334" stroke="#94a4ae" stroke-width="1" />
+<text x="694" y="584.3333333333334" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">2</text>
+<line x1="674" y1="543" x2="686" y2="543" stroke="#94a4ae" stroke-width="1" />
+<text x="694" y="548" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">3</text>
+<line x1="674" y1="506.6666666666667" x2="686" y2="506.6666666666667" stroke="#94a4ae" stroke-width="1" />
+<text x="694" y="511.6666666666667" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">4</text>
+<line x1="674" y1="470.3333333333333" x2="686" y2="470.3333333333333" stroke="#94a4ae" stroke-width="1" />
+<text x="694" y="475.3333333333333" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">5</text>
+<line x1="674" y1="434" x2="686" y2="434" stroke="#94a4ae" stroke-width="1" />
+<text x="694" y="439" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">6</text>
+<line x1="580" y1="466.70000000000005" x2="669" y2="466.70000000000005" stroke="#286bc9" stroke-width="3" />
+<path d="M669 466.70000000000005L655 459.70000000000005L655 473.70000000000005Z" fill="#286bc9"/>
+<text x="575" y="455.70000000000005" font-size="24" fill="#286bc9" font-weight="700" text-anchor="end">5.10</text>
+<line x1="715" y1="466.70000000000005" x2="786" y2="466.70000000000005" stroke="#bb7b18" stroke-width="3" />
+<path d="M715 466.70000000000005L729 459.70000000000005L729 473.70000000000005Z" fill="#bb7b18"/>
+<text x="793" y="455.70000000000005" font-size="24" fill="#bb7b18" font-weight="700" text-anchor="start">5.10</text>
+<text x="538" y="680" font-size="19" fill="#286bc9" font-weight="600" text-anchor="start">预测</text>
+<text x="779" y="680" font-size="19" fill="#bb7b18" font-weight="600" text-anchor="start">参考</text>
+<text x="496" y="727" font-size="21" fill="#344f61" font-weight="400" text-anchor="start">只改变 b，预测尺向上移动。</text>
+<text x="496" y="761" font-size="21" fill="#677888" font-weight="400" text-anchor="start">当前样本的差距变成 0.00。</text>
+<text x="496" y="793" font-size="21" fill="#677888" font-weight="400" text-anchor="start">w 没改，参考值也没改。</text>
+<text x="932" y="234" font-size="27" fill="#286bc9" font-weight="700" text-anchor="start">3  换卡，发现意外</text>
+<rect x="932" y="262" width="372" height="64" fill="#edf2f3" stroke="#d3dde1" rx="10"/>
+<text x="948" y="304" font-size="24" fill="#264052" font-weight="600" text-anchor="start">输入：光照 1 小时</text>
+<rect x="932" y="340" width="177" height="63" fill="#f5f8fa" stroke="#d9e2e6" rx="10"/>
+<rect x="1127" y="340" width="177" height="63" fill="#f5f8fa" stroke="#d9e2e6" rx="10"/>
+<text x="952" y="380" font-size="25" fill="#30475b" font-weight="600" text-anchor="start">w  0.70</text>
+<text x="1147" y="380" font-size="25" fill="#30475b" font-weight="600" text-anchor="start">b  2.30</text>
+<text x="939" y="431" font-size="18" fill="#677888" font-weight="400" text-anchor="start">生长增量 / mm</text>
+<line x1="1116" y1="434" x2="1116" y2="652" stroke="#94a4ae" stroke-width="2" />
+<line x1="1110" y1="652" x2="1122" y2="652" stroke="#94a4ae" stroke-width="1" />
+<text x="1130" y="657" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">0</text>
+<line x1="1110" y1="615.6666666666666" x2="1122" y2="615.6666666666666" stroke="#94a4ae" stroke-width="1" />
+<text x="1130" y="620.6666666666666" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">1</text>
+<line x1="1110" y1="579.3333333333334" x2="1122" y2="579.3333333333334" stroke="#94a4ae" stroke-width="1" />
+<text x="1130" y="584.3333333333334" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">2</text>
+<line x1="1110" y1="543" x2="1122" y2="543" stroke="#94a4ae" stroke-width="1" />
+<text x="1130" y="548" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">3</text>
+<line x1="1110" y1="506.6666666666667" x2="1122" y2="506.6666666666667" stroke="#94a4ae" stroke-width="1" />
+<text x="1130" y="511.6666666666667" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">4</text>
+<line x1="1110" y1="470.3333333333333" x2="1122" y2="470.3333333333333" stroke="#94a4ae" stroke-width="1" />
+<text x="1130" y="475.3333333333333" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">5</text>
+<line x1="1110" y1="434" x2="1122" y2="434" stroke="#94a4ae" stroke-width="1" />
+<text x="1130" y="439" font-size="16" fill="#81909b" font-weight="400" text-anchor="start">6</text>
+<line x1="1016" y1="543" x2="1105" y2="543" stroke="#286bc9" stroke-width="3" />
+<path d="M1105 543L1091 536L1091 550Z" fill="#286bc9"/>
+<text x="1011" y="532" font-size="24" fill="#286bc9" font-weight="700" text-anchor="end">3.00</text>
+<line x1="1151" y1="579.3333333333334" x2="1222" y2="579.3333333333334" stroke="#bb7b18" stroke-width="3" />
+<path d="M1151 579.3333333333334L1165 572.3333333333334L1165 586.3333333333334Z" fill="#bb7b18"/>
+<text x="1229" y="568.3333333333334" font-size="24" fill="#bb7b18" font-weight="700" text-anchor="start">2.00</text>
+<line x1="1013" y1="582.9666666666667" x2="1104" y2="582.9666666666667" stroke="#b3b8bd" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="1011" y="607.9666666666667" font-size="16" fill="#89929a" font-weight="400" text-anchor="end">原先 1.90</text>
+<text x="974" y="680" font-size="19" fill="#286bc9" font-weight="600" text-anchor="start">预测</text>
+<text x="1215" y="680" font-size="19" fill="#bb7b18" font-weight="600" text-anchor="start">参考</text>
+<text x="932" y="727" font-size="21" fill="#344f61" font-weight="400" text-anchor="start">换成 1 小时卡，参数仍是同一组。</text>
+<text x="932" y="761" font-size="21" fill="#677888" font-weight="400" text-anchor="start">预测 3.00，参考 2.00。</text>
+<text x="932" y="793" font-size="21" fill="#677888" font-weight="400" text-anchor="start">原先差 0.10，现在差 1.00。</text>
+<text x="1368" y="234" font-size="27" fill="#436b7a" font-weight="700" text-anchor="start">4  再试另一种调法</text>
+<rect x="1368" y="262" width="372" height="64" fill="#edf2f3" stroke="#d3dde1" rx="10"/>
+<text x="1386" y="303" font-size="23" fill="#264052" font-weight="600" text-anchor="start">两组都让 4 小时预测 5.10</text>
+<rect x="1368" y="350" width="372" height="144" fill="#fbf2e3" stroke="#e6d2ac" rx="12"/>
+<text x="1385" y="382" font-size="22" fill="#805c2b" font-weight="600" text-anchor="start">调法 A</text>
+<text x="1385" y="419" font-size="22" fill="#344f61" font-weight="600" text-anchor="start">w = 0.700    b = 2.30</text>
+<text x="1385" y="460" font-size="28" fill="#805c2b" font-weight="700" text-anchor="start">整组损失 0.3233</text>
+<rect x="1368" y="518" width="372" height="144" fill="#eaf2fc" stroke="#ccdcf0" rx="12"/>
+<text x="1385" y="550" font-size="22" fill="#286bc9" font-weight="600" text-anchor="start">调法 B</text>
+<text x="1385" y="587" font-size="22" fill="#344f61" font-weight="600" text-anchor="start">w = 0.975    b = 1.20</text>
+<text x="1385" y="628" font-size="28" fill="#286bc9" font-weight="700" text-anchor="start">整组损失 0.0128</text>
+<text x="1368" y="727" font-size="21" fill="#344f61" font-weight="400" text-anchor="start">一个相同答案，不能替代整组核对。</text>
+<text x="1368" y="761" font-size="21" fill="#677888" font-weight="400" text-anchor="start">学生选择还要检查哪些样本。</text>
+<text x="1368" y="793" font-size="21" fill="#677888" font-weight="400" text-anchor="start">整组损失 = 平方误差的平均。</text>
+<line x1="456" y1="504" x2="468" y2="504" stroke="#7a8a98" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="892" y1="504" x2="904" y2="504" stroke="#7a8a98" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1328" y1="504" x2="1340" y2="504" stroke="#7a8a98" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="40" y="880" font-size="29" fill="#263d4b" font-weight="700" text-anchor="start">同一张试验台继续展开：</text>
+<rect x="40" y="907" width="332" height="112" fill="#fff" stroke="#d6d9d8" rx="10"/>
+<text x="58" y="946" font-size="25" fill="#2d526b" font-weight="600" text-anchor="start">整组核对</text>
+<text x="58" y="990" font-size="20" fill="#677888" font-weight="400" text-anchor="start">让参数照顾六份材料</text>
+<rect x="388" y="907" width="332" height="112" fill="#fff" stroke="#d6d9d8" rx="10"/>
+<text x="406" y="946" font-size="25" fill="#2d526b" font-weight="600" text-anchor="start">自动更新</text>
+<text x="406" y="990" font-size="20" fill="#677888" font-weight="400" text-anchor="start">看清每次改变了什么</text>
+<rect x="736" y="907" width="332" height="112" fill="#fff" stroke="#d6d9d8" rx="10"/>
+<text x="754" y="946" font-size="25" fill="#2d526b" font-weight="600" text-anchor="start">公平对照</text>
+<text x="754" y="990" font-size="20" fill="#677888" font-weight="400" text-anchor="start">只改步长，从同一起点试</text>
+<rect x="1084" y="907" width="332" height="112" fill="#fff" stroke="#d6d9d8" rx="10"/>
+<text x="1102" y="946" font-size="25" fill="#2d526b" font-weight="600" text-anchor="start">查错签</text>
+<text x="1102" y="990" font-size="20" fill="#677888" font-weight="400" text-anchor="start">核对原记录，明确重学</text>
+<rect x="1432" y="907" width="332" height="112" fill="#fff" stroke="#d6d9d8" rx="10"/>
+<text x="1450" y="946" font-size="25" fill="#2d526b" font-weight="600" text-anchor="start">封存盲测</text>
+<text x="1450" y="990" font-size="20" fill="#677888" font-weight="400" text-anchor="start">换输入时参数保持固定</text>
+<text x="40" y="1065" font-size="22" fill="#677888" font-weight="400" text-anchor="start">数值来源：同一教学样例与模型。手动调参、核对答案和程序自动学习各有清楚的操作入口。</text>
+<text x="40" y="1107" font-size="20" fill="#84919b" font-weight="400" text-anchor="start">本图为准确计算后的设计分镜；三张台面图为界面概念。五组25环节、约150分钟仍待试教校准。</text>
+</g></svg>

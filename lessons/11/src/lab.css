@@ -1,0 +1,941 @@
+:root {
+  --muted: #8199a1;
+  --selected: #244650;
+  color: #dbe8e8;
+  background: #111c25;
+  --accent: #5bd8f2;
+  --positive: #58d9ed;
+  --negative: #ffc07a;
+  --line: #29465a;
+  --hover: #14334b;
+  --input: #0a192b;
+  --neuron-fill: #0d2439;
+  --node-selection: #154259;
+  --tech-accent: #5fe8fa;
+  --tech-glow: #45deed25;
+  --tech-field: #36c7ec11;
+  --action-fill: #153b52;
+  --action-ink: #d6fbff;
+  --dialog-bg: #102438;
+  --dialog-ink: #d3e8f1;
+  --dialog-line: #3b657c;
+  --dialog-input: #10283d;
+  --dialog-input-ink: #cbe8f2;
+}
+.network-app {
+  height: 100dvh;
+  display: grid;
+  grid-template-rows: 62px 64px minmax(0, 1fr) 180px;
+  background:
+    radial-gradient(ellipse at 40% 25%, #21303955, transparent 70%), #142029;
+}
+.course-header {
+  background: #14212a;
+}
+.course-header .primary {
+  background: #325f68;
+  border-color: #67a7af;
+  color: #dff1eb;
+}
+.project-origin {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  color: #83adb3;
+  border: 1px solid #4d74834d;
+  padding: 6px 9px;
+}
+.project-origin svg {
+  width: 16px;
+  height: 16px;
+}
+.header-tools button {
+  font-size: 13px;
+}
+.network-config {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 10px 25px;
+  background: #172630;
+  border-bottom: 1px solid #31434d;
+  font-size: 12px;
+  color: #9db1b3;
+}
+.network-config label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.network-config select {
+  padding: 7px;
+  font-size: 12px;
+  max-width: 190px;
+}
+.network-config button {
+  min-height: 30px;
+  padding: 5px 9px;
+  font-size: 12px;
+}
+.config-divider {
+  height: 27px;
+  border-left: 1px solid #3b4b51;
+}
+.layer-builders {
+  display: flex;
+  gap: 10px;
+  margin-right: auto;
+}
+.layer-builders > div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-bottom: 1px solid #41626e;
+  padding-bottom: 4px;
+}
+.layer-builders small {
+  color: #698990;
+}
+.layer-builders b {
+  min-width: 18px;
+  text-align: center;
+  color: #bee1df;
+}
+.layer-builders button {
+  border: 0;
+  font-size: 14px;
+}
+.linear-model {
+  font-size: 11px;
+  color: #829ba4;
+}
+.network-workspace {
+  display: grid;
+  grid-template-columns: 173px minmax(0, 1fr) 278px;
+  gap: 16px;
+  min-height: 0;
+  padding: 22px 25px 16px;
+}
+.input-probe {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  min-height: 0;
+}
+.input-frame {
+  height: 133px;
+  background: #253741;
+  border: 1px solid #597e8b4d;
+  position: relative;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-frame:before,
+.input-frame:after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-color: #6eafbd;
+  border-style: solid;
+}
+.input-frame:before {
+  left: -1px;
+  top: -1px;
+  border-width: 2px 0 0 2px;
+}
+.input-frame:after {
+  right: -1px;
+  bottom: -1px;
+  border-width: 0 2px 2px 0;
+}
+.input-frame canvas {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 1;
+}
+.input-probe select {
+  font-size: 11px;
+  padding: 7px;
+  width: 100%;
+}
+.sample-split {
+  font-size: 10px;
+  color: #68b7b5;
+}
+.sample-split.validation {
+  color: #d8b37c;
+}
+.input-probe p {
+  font-size: 11px;
+  line-height: 1.7;
+  color: #789199;
+}
+.feature-bars {
+  display: grid;
+  gap: 7px;
+}
+.feature-bars > div {
+  display: grid;
+  grid-template-columns: 58px 1fr 24px;
+  align-items: center;
+  gap: 7px;
+  font-size: 9px;
+  color: #82999e;
+}
+.feature-bars i {
+  height: 3px;
+  position: relative;
+  background: #263d44;
+}
+.feature-bars i:after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: calc(var(--value) * 100%);
+  background: var(--sign);
+}
+.feature-bars b {
+  font:
+    10px ui-monospace,
+    monospace;
+  font-weight: 400;
+  text-align: right;
+}
+.input-probe button {
+  font-size: 10px;
+  min-height: 28px;
+  padding: 5px 0;
+  border: 0;
+  border-top: 1px solid #354750;
+  text-align: left;
+  color: #9eaa91;
+  margin-top: auto;
+}
+.network-stage {
+  min-height: 0;
+  display: grid;
+  grid-template-rows: 60px 58px minmax(0, 1fr) 25px 77px;
+  position: relative;
+}
+.network-stage-caption {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 2px 14px;
+}
+.network-stage-caption h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #cbdcdd;
+  margin-top: 8px;
+}
+.model-status {
+  font:
+    10px/1.7 ui-monospace,
+    monospace;
+  color: #8da8ac;
+  max-width: 115px;
+  text-align: right;
+}
+.network-svg-host {
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  background: radial-gradient(ellipse at 50% 50%, #28404b33, transparent 73%);
+  border: 1px solid #36556429;
+}
+.neural-diagram {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.net-column {
+  font:
+    12px "Microsoft YaHei UI",
+    sans-serif;
+  fill: #9ab2b9;
+}
+.net-feature {
+  font:
+    9px "Microsoft YaHei UI",
+    sans-serif;
+  fill: #7e99a0;
+}
+.net-value {
+  font:
+    12px ui-monospace,
+    monospace;
+  fill: #c6e5e9;
+}
+.net-class {
+  font:
+    12px "Microsoft YaHei UI",
+    sans-serif;
+  fill: #9ebcc3;
+}
+.net-unit[role="button"] {
+  cursor: pointer;
+}
+.net-unit[role="button"]:hover circle {
+  stroke-width: 3;
+  stroke: #b8f7f0;
+}
+.network-legend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  font-size: 10px;
+  color: #68868f;
+}
+.network-legend span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.network-legend i {
+  width: 17px;
+  border-top: 2px solid var(--positive);
+}
+.network-legend span:nth-child(2) i {
+  border-color: var(--negative);
+}
+.learning-phases {
+  display: flex;
+  gap: 9px;
+  margin-top: 9px;
+}
+.learning-phases button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  border-color: #3f5761;
+  background: #192b35;
+  border-radius: 0;
+  padding: 9px 12px;
+}
+.learning-phases button.active {
+  border-color: #61abb8;
+  background: linear-gradient(100deg, #254953, #1b303a);
+}
+.learning-phases button > b {
+  font:
+    24px Georgia,
+    serif;
+  color: #8ba5ad;
+}
+.learning-phases button.active > b {
+  color: #8fe2e0;
+}
+.learning-phases button > span {
+  font-size: 15px;
+  text-align: left;
+  color: #b1cbd0;
+}
+.learning-phases small {
+  display: block;
+  font-size: 9px;
+  line-height: 1.5;
+  margin-top: 6px;
+  color: #698b98;
+}
+.neuron-inspector {
+  padding: 14px 16px;
+  background: #16272f;
+  border: 1px solid #3b566153;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 0;
+}
+.neuron-inspector h2 {
+  font-size: 17px;
+  font-weight: 400;
+}
+.formula {
+  font:
+    italic 23px Georgia,
+    serif;
+  color: #c4dfde;
+  padding-top: 8px;
+  letter-spacing: 1px;
+}
+.small-formula {
+  font-size: 19px;
+}
+.math-result {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  align-items: center;
+  color: #779ba5;
+}
+.math-result b {
+  font:
+    18px ui-monospace,
+    monospace;
+  color: #a4cdd0;
+}
+.weight-table {
+  border-collapse: collapse;
+  font-size: 10px;
+  width: 100%;
+  margin-top: 6px;
+}
+.weight-table th {
+  font-weight: 400;
+  color: #73929c;
+}
+.weight-table td,
+.weight-table th {
+  text-align: right;
+  padding: 7px 3px;
+  border-bottom: 1px solid #324650;
+}
+.weight-table th:first-child,
+.weight-table td:first-child {
+  text-align: left;
+}
+.weight-table td {
+  font-family: ui-monospace, monospace;
+  color: #b6cbd0;
+}
+.neuron-inspector .page-pager {
+  gap: 8px;
+  font-size: 10px;
+}
+.neuron-inspector .page-pager button {
+  font-size: 10px;
+  min-height: 24px;
+  padding: 3px 9px;
+}
+.gradient-receipt {
+  margin-top: auto;
+  border-top: 1px solid #41545a;
+  padding-top: 12px;
+}
+.gradient-receipt > span {
+  font-size: 10px;
+  color: #819eaa;
+}
+.gradient-receipt strong {
+  display: block;
+  font:
+    22px ui-monospace,
+    monospace;
+  color: #ddb681;
+  margin: 9px 0;
+}
+.gradient-receipt p {
+  font-size: 10px;
+  line-height: 1.65;
+  color: #78939e;
+}
+.training-console {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px 250px;
+  gap: 28px;
+  border-top: 1px solid #3a505a;
+  padding: 15px 25px;
+  background: #14212b;
+  min-height: 0;
+}
+.loss-section {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+.loss-section > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 12px;
+  color: #8ca6ae;
+}
+.loss-section strong {
+  font-weight: 500;
+}
+.loss-section > div > span {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-left: auto;
+}
+.loss-section i {
+  display: inline-block;
+  width: 12px;
+  border-top: 2px solid var(--positive);
+}
+.loss-section i:nth-of-type(2) {
+  border-color: var(--negative);
+}
+.loss-section small {
+  font:
+    11px ui-monospace,
+    monospace;
+  color: #658895;
+}
+.loss-diagram {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+.loss-diagram text {
+  font:
+    10px ui-monospace,
+    monospace;
+  fill: #77919d;
+}
+.empty-loss {
+  font-size: 13px;
+  color: #597581;
+  padding: 36px 0;
+}
+.training-parameters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.training-parameters label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 11px;
+  color: #9db2b8;
+}
+.training-parameters input,
+.training-parameters select {
+  width: 100%;
+  padding: 6px 9px;
+  font-size: 13px;
+}
+.training-parameters .train-button {
+  grid-column: 1/-1;
+  background: linear-gradient(120deg, #c6a46d, #dfba7b);
+  border: 1px solid #e7cc99;
+  color: #293236;
+  font-weight: 600;
+  min-height: 40px;
+}
+.checkpoint-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.checkpoint-tools .primary {
+  background: #275462;
+  border-color: #4a8c9d;
+  color: #d0e7e6;
+}
+.checkpoint-tools button {
+  font-size: 12px;
+}
+.checkpoint-tools span {
+  font-size: 10px;
+  line-height: 1.7;
+  color: #688c98;
+  margin-top: auto;
+}
+.compare-values {
+  display: flex;
+  gap: 40px;
+  padding: 35px;
+  color: #3b666c;
+  font:
+    30px Georgia,
+    serif;
+}
+.network-loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  padding: 30px;
+}
+@media (max-height: 800px) {
+  .network-app {
+    grid-template-rows: 54px 53px minmax(0, 1fr) 155px;
+  }
+  .network-workspace {
+    padding: 14px 22px 10px;
+    gap: 12px;
+    grid-template-columns: 150px minmax(0, 1fr) 250px;
+  }
+  .network-config {
+    gap: 10px;
+    padding: 7px 22px;
+  }
+  .input-probe {
+    gap: 9px;
+  }
+  .input-frame {
+    height: 100px;
+  }
+  .feature-bars {
+    gap: 5px;
+  }
+  .network-stage {
+    grid-template-rows: 53px minmax(0, 1fr) 22px 65px;
+  }
+  .network-stage-caption h2 {
+    font-size: 17px;
+  }
+  .neuron-inspector {
+    gap: 8px;
+    padding: 10px 13px;
+  }
+  .formula {
+    font-size: 20px;
+    padding-top: 2px;
+  }
+  .small-formula {
+    font-size: 17px;
+  }
+  .math-result b {
+    font-size: 16px;
+  }
+  .weight-table td,
+  .weight-table th {
+    padding: 5px 2px;
+  }
+  .gradient-receipt {
+    padding-top: 7px;
+  }
+  .gradient-receipt strong {
+    font-size: 18px;
+    margin: 6px 0;
+  }
+  .learning-phases button {
+    gap: 9px;
+    padding: 7px 10px;
+  }
+  .learning-phases button > span {
+    font-size: 13px;
+  }
+  .learning-phases small {
+    font-size: 8px;
+  }
+  .training-console {
+    padding: 11px 22px;
+    gap: 23px;
+    grid-template-columns: minmax(0, 1fr) 290px 220px;
+  }
+  .input-probe p {
+    font-size: 10px;
+  }
+  .project-origin {
+    font-size: 10px;
+  }
+  .input-probe button {
+    font-size: 9px;
+  }
+}
+@media (max-width: 1300px) {
+  .project-origin {
+    display: none;
+  }
+  .header-tools button {
+    font-size: 12px;
+  }
+  .network-config {
+    gap: 8px;
+    font-size: 11px;
+  }
+  .network-config select {
+    max-width: 165px;
+  }
+  .network-workspace {
+    grid-template-columns: 145px minmax(0, 1fr) 225px;
+  }
+  .training-console {
+    grid-template-columns: minmax(0, 1fr) 260px 195px;
+  }
+  .network-stage-caption h2 {
+    font-size: 16px;
+  }
+  .neuron-inspector {
+    padding: 10px;
+  }
+  .layer-builders {
+    gap: 6px;
+  }
+}
+
+/* Neural instrument: actual response rings and directional signal traces. */
+.network-app {
+  background: radial-gradient(
+    ellipse at 45% 38%,
+    #0b2538 0%,
+    #071321 60%,
+    #081220 100%
+  );
+}
+.course-header {
+  background: #081726e8;
+  border-top: 3px solid #1d708e;
+}
+.course-header h1 {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.chapter-no {
+  font-family: Consolas, monospace;
+}
+.project-origin {
+  border: 0;
+  border-left: 1px solid #376078;
+  background: none;
+  letter-spacing: 0.5px;
+}
+.network-config {
+  background: #0b1c2bd4;
+  border-bottom-color: #29465a;
+  box-shadow: 0 6px 25px #00000013;
+}
+.network-config select {
+  border: 0;
+  border-bottom: 1px solid #426178;
+  background: #0b1c2b;
+}
+.layer-builders > div {
+  border-bottom-color: #4b839a;
+}
+.network-svg-host {
+  background-image: radial-gradient(#508cac32 0.65px, transparent 0.65px);
+  background-size: 19px 19px;
+  border: 0 !important;
+  isolation: isolate;
+}
+.network-svg-host:after {
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 5%;
+  bottom: 1%;
+  height: 30%;
+  background:
+    linear-gradient(#2b5a7424 1px, transparent 1px),
+    linear-gradient(90deg, #2b5a7424 1px, transparent 1px);
+  background-size: 29px 29px;
+  transform: perspective(360px) rotateX(58deg)
+    translate(var(--field-x, 0px), var(--field-y, 0px));
+  transform-origin: center bottom;
+  pointer-events: none;
+  z-index: -1;
+}
+.neural-diagram {
+  position: relative;
+  z-index: 1;
+}
+.net-axis {
+  fill: none;
+  stroke: #49879b;
+  stroke-width: 0.6;
+  stroke-opacity: 0.2;
+  stroke-dasharray: 2 9;
+}
+.net-tick {
+  fill: none;
+  stroke: #70bdd0;
+  stroke-width: 0.8;
+  stroke-opacity: 0.5;
+}
+.net-edge {
+  pointer-events: stroke;
+  transition:
+    opacity 0.16s,
+    stroke-width 0.16s;
+}
+.net-edge:hover {
+  opacity: 0.95;
+  stroke-width: 2.8;
+}
+.net-unit {
+  cursor: pointer;
+}
+.net-unit:hover > circle:not(.neuron-hit) {
+  filter: drop-shadow(0 0 5px #5cdeed66);
+  stroke-opacity: 1;
+}
+.net-unit:focus-visible {
+  outline: none;
+}
+.net-unit:focus-visible > circle:not(.neuron-hit) {
+  stroke: #fff;
+  stroke-width: 2;
+}
+.output-ring {
+  opacity: 0.75;
+  pointer-events: none;
+}
+.net-unit .net-value {
+  pointer-events: none;
+}
+.network-app[data-phase="forward"] .net-edge.is-selected {
+  stroke-dasharray: 4 18;
+  animation: tech-signal-forward 0.7s linear 2;
+}
+.network-app[data-phase="gradient"] .net-edge.is-selected {
+  stroke-dasharray: 4 18;
+  animation: tech-signal-backward 0.7s linear 2;
+}
+.network-app[data-computing="true"] .net-edge.is-selected {
+  stroke-dasharray: 3 15;
+  animation: tech-signal-forward 0.6s linear infinite;
+}
+.network-stage-caption h2 {
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.network-stage-caption .micro-label {
+  color: #72a8bf;
+  letter-spacing: 3px;
+}
+.model-status {
+  font-family: Consolas, "Microsoft YaHei UI", sans-serif;
+  color: #84b3c4;
+}
+.input-frame {
+  border: 0 !important;
+  background: linear-gradient(135deg, #17384a77, #0c263a00);
+}
+.input-frame:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(#5ddae2, #5ddae2) left top/23px 1px no-repeat,
+    linear-gradient(#5ddae2, #5ddae2) left top/1px 23px no-repeat,
+    linear-gradient(#5ddae2, #5ddae2) right bottom/23px 1px no-repeat,
+    linear-gradient(#5ddae2, #5ddae2) right bottom/1px 23px no-repeat;
+  pointer-events: none;
+}
+.input-probe > p {
+  color: #6c98af;
+}
+.input-probe > button {
+  border: 0;
+  border-bottom: 1px solid #36576b;
+  text-align: left;
+}
+.neuron-inspector {
+  border: 0 !important;
+  border-left: 1px solid #39718a !important;
+  background: linear-gradient(90deg, #15344c88, #0c1e3000);
+  box-shadow: inset 10px 0 22px #4cbcd908;
+  clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%);
+}
+.neuron-inspector h2 {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.formula {
+  color: #a9dbdf;
+}
+.math-result b {
+  font-family: Consolas, monospace;
+}
+.gradient-receipt strong {
+  color: #ffca8c;
+}
+.learning-phases button {
+  background: none;
+  border: 0;
+  border-top: 1px solid #345a70;
+  border-bottom: 1px solid #254356;
+  position: relative;
+}
+.learning-phases button.active {
+  background: linear-gradient(90deg, #184c5c99, #13384733);
+  border-color: #60c4d4;
+}
+.learning-phases button.active:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: #69d4e7;
+}
+.learning-phases button b {
+  font-family: Consolas, monospace;
+  color: #83d5e4;
+}
+.training-console {
+  background: #071827ec;
+  border-top-color: #3d6b80;
+  box-shadow: 0 -15px 35px #0000000d;
+}
+.train-button {
+  background: linear-gradient(120deg, #dcab68, #f3d598);
+  border: 0;
+  clip-path: polygon(0 0, calc(100% - 13px) 0, 100% 13px, 100% 100%, 0 100%);
+}
+.checkpoint-tools .primary {
+  background: #12394c;
+  border-color: #37788d;
+  color: #c0eaf0;
+}
+.training-parameters input,
+.training-parameters select {
+  background: #071b2a;
+  border: 0;
+  border-bottom: 1px solid #426d7f;
+}
+.project-origin {
+  min-width: 0;
+  max-width: 280px;
+  flex-shrink: 1;
+}
+.project-origin .origin-title {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.project-origin svg {
+  flex-shrink: 0;
+}
+
+/* One sample is the visible spine of the learning experiment. */
+.network-app{overflow:clip;background:radial-gradient(ellipse at 48% 40%,#12374a55,transparent 67%),#101c29}
+.network-app .network-stage{grid-template-rows:60px 58px minmax(0,1fr) 25px 77px}
+.network-app .network-stage-caption .micro-label{font-size:12px;letter-spacing:1.5px;color:#70bdc9}
+.network-app .network-stage-caption h2{font-size:23px;letter-spacing:.5px}
+.sample-verdict{display:flex;align-items:center;gap:24px;margin:0 14px 8px;padding:7px 13px;border-top:1px solid #5d9ab64d;border-bottom:1px solid #5d9ab63a;background:linear-gradient(90deg,#264c5b44,transparent)}
+.sample-verdict>div{display:flex;flex-direction:column;gap:5px}.sample-verdict span{font-size:11px;color:#7da6b4}.sample-verdict b{font:16px "Microsoft YaHei UI",sans-serif;color:#d8eeee}.sample-verdict small{font:12px Consolas,monospace;color:#8ed3db}.sample-verdict>i{font-style:normal;color:#528497}.sample-verdict .sample-loss{margin-left:auto}.sample-verdict .sample-loss b{font-family:Consolas,monospace;color:#dfb986}.sample-verdict em{font-size:11px;font-style:normal;padding:5px 8px;border-left:2px solid #b78b61;color:#d7af84}.sample-verdict em.consistent{border-color:#5ea997;color:#8fcdb7}
+.network-app .network-svg-host{border:1px solid #426c824d;background:radial-gradient(ellipse at 50% 44%,#2e61742b,transparent 73%),linear-gradient(#639ebf08 1px,transparent 1px),linear-gradient(90deg,#639ebf08 1px,transparent 1px);background-size:auto,32px 32px,32px 32px;box-shadow:inset 0 0 30px #050f1b66}
+.network-app .net-unit.selected>circle:not(.neuron-hit){filter:drop-shadow(0 0 7px #72e4ed77)}
+.network-app .neuron-inspector{gap:9px;padding:15px 16px;border-top:2px solid #5c99ab;background:linear-gradient(155deg,#17334588,#101f2bbf);box-shadow:inset 0 1px #85bdce22}
+.neuron-reading-tabs{display:flex;gap:5px;border-bottom:1px solid #42657966;padding-bottom:7px}.neuron-reading-tabs button{flex:1;padding:5px;min-height:29px;border:0;background:transparent;font-size:12px;color:#789dab}.neuron-reading-tabs button[aria-pressed=true]{background:#284c5a66;color:#cceef0;box-shadow:inset 0 -2px #6cb3bf}
+.learning-explanation{margin-top:auto;padding-top:16px;border-top:1px solid #456e7e66}.learning-explanation>b{font-size:15px;color:#9cd6d9}.learning-explanation p{font-size:13px;line-height:1.85;color:#8daeb9;margin:10px 0}.learning-explanation>span{display:block;padding:10px 0;font-size:12px;color:#d1b78a;border-bottom:1px dashed #a1ae8e44}
+.update-trace{margin-top:auto;padding:14px 0 0;border-top:1px solid #58849788}.update-trace>span{font-size:12px;letter-spacing:1px;color:#85b7b8}.update-trace>div{display:flex;align-items:center;gap:13px;margin:11px 0 7px}.update-trace b{font:22px Consolas,monospace;color:#d2e9ea}.update-trace i{font-style:normal;color:#629b9d}.update-trace small{font-size:12px;color:#b9c59a}.update-trace p{font-size:12px;line-height:1.7;color:#88aab6;margin:9px 0}.update-trace code{display:block;padding:10px;border-left:2px solid #bc9765;background:#bd976510;font:13px/1.7 Consolas,monospace;color:#d1b382}
+.network-app .learning-phases button{position:relative;clip-path:polygon(0 0,calc(100% - 12px) 0,100% 50%,calc(100% - 12px) 100%,0 100%);background:linear-gradient(110deg,#28425266,#102533);border-top:1px solid #60879877;border-bottom:1px solid #47657855;padding:10px 15px}
+.network-app .learning-phases button.active{background:linear-gradient(110deg,#1e7d8f99,#173749);box-shadow:inset 0 1px #8ee6f599,inset 0 -1px #88dee699}.network-app .learning-phases button>span{font-size:16px}.network-app .learning-phases small{font-size:11px;color:#81acba}.network-app .learning-phases button.active small{color:#a4d2d4}
+.network-app .network-config{background:linear-gradient(90deg,#142c3c,#172833);font-size:13px}.network-app .network-config select{font-size:13px}.network-app .input-probe>p{font-size:12px;line-height:1.7}.network-app .training-console{border-top:2px solid #345d72;background:linear-gradient(#102535cc,#10212e)}
+
+.network-app .learning-phases button.active:disabled{opacity:1;cursor:default}
+/* Fewer small captions: secondary notes go; probe buttons, legend and inspector labels get readable sizes. */
+.input-probe .sample-split,.checkpoint-tools>span{display:none}
+.input-probe .step-probe-entry,.input-probe>button{font-size:12px}
+.network-legend span{font-size:11.5px}
+.neuron-inspector .micro-label,.input-probe .micro-label{font-size:12px}
+/* Notices float above the step row so the train and save buttons stay reachable; the update count stays on one line. */
+.network-app .toast{bottom:292px}
+.network-app .model-status{max-width:none;white-space:nowrap;font-size:12px}
+@media (max-height:800px){.network-app .toast{bottom:250px}}
+.network-app .train-button:hover:not(:disabled){background:linear-gradient(120deg,#e4b878,#f8e0ac)}
+.network-app ~ .creator-dialog .compare-values b{color:#cfeef2}

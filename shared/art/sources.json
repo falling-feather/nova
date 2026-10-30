@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-27",
+  "method": "OpenAI image generation — independent material textures and transparent tool cutouts, never complete interface screenshots",
+  "assets": [
+    {
+      "file": "wood.webp",
+      "prompt": "Use case: illustration-story / material texture. Generate a seamless-looking, evenly lit TOP-DOWN walnut desktop material for a hand-crafted educational nautical desk. Warm medium brown, fine long wood grain, subtle worn scratches and variation, matte, not glossy, not dark. Flat material swatch filling the entire square image, orthographic. No objects, no frame, no text, no boards with large gaps, no lighting hotspot, no perspective. This will be a small tiled surface material under independently coded UI, not a complete interface or scene.",
+      "transparent": false
+    },
+    {
+      "file": "paper.webp",
+      "prompt": "Use case: illustration-story / material texture. Generate a flat evenly lit TOP-DOWN warm ivory handmade paper texture. Delicate fine fibers, soft cream and light parchment variations, very subtle tiny age specks, highly readable blank center across the whole image. No text, marks, maps, objects, borders, folds, holes or shadows. A square seamless-looking material swatch, pale and quiet. This will texture independently coded paper widgets; it must not resemble a full page UI or a concept illustration.",
+      "transparent": false
+    },
+    {
+      "file": "compass.webp",
+      "prompt": "Use case: product-mockup / game prop cutout. ONE exquisite small brass nautical compass, viewed nearly top-down with a subtle 15-degree tilt, antique gold rim, engraved tick marks WITHOUT letters or numerals, deep muted teal circular face, ivory and rusty-red needle, fine bevels, gentle warm light, believable tactile detail. Friendly polished storybook realism matching a warm coastal educational workshop. Centered full object, large in frame, genuine transparent background, restrained soft contact shadow, no desk, no UI, no words, no frame, no other props. It will sit on a native clickable tool button.",
+      "transparent": true
+    },
+    {
+      "file": "binoculars.webp",
+      "prompt": "Use case: product-mockup / game prop cutout. ONE pair of antique brass field binoculars, compact and charming, three-quarter overhead view, warm satin gold barrels, dark brown leather grips, teal-blue glass lenses, fine ridged rings and physically believable construction. Refined hand-painted storybook realism, warm daylight, crisp silhouette. Entire object centered, genuine transparent background with a soft small contact shadow. No desk, no background scene, no text, no symbols, no UI and no extra objects. Used as a small independently clickable nautical learning tool.",
+      "transparent": true
+    },
+    {
+      "file": "sand-brush.webp",
+      "prompt": "Use case: product-mockup / game prop cutout. ONE charming sand-art brush lying diagonally, full object centered. Short smooth pale wooden handle with a small teal grip, warm cream natural bristles fanning at the tip, subtle carved details and soft rounded edges, refined hand-painted 3D storybook realism for a children's seaside art workshop. Slight overhead view, gentle sunny warm light. Genuine transparent background and small soft contact shadow. No words, no UI, no desk, no hands, no extra objects. Must be readable at small button size.",
+      "transparent": true
+    },
+    {
+      "file": "shell.webp",
+      "prompt": "Use case: product-mockup / game prop cutout. ONE beautiful fan-shaped scallop shell, top-down three-quarter view, warm ivory and pale peach with a hint of seafoam teal in its grooves, delicate tactile ridges, friendly rounded silhouette, refined hand-painted storybook realism for a seaside educational workshop. Genuine transparent background, soft restrained contact shadow, centered complete object. No pearl, no sand scene, no lettering, no numbers, no UI, no other objects. High clarity at small icon size.",
+      "transparent": true
+    }
+  ]
+}

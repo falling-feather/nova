@@ -1,0 +1,270 @@
+{
+  "date": "2026-10-12",
+  "provider": "Poly Haven",
+  "license": "CC0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "use": "Offline calibrated PBR maps and environment. No runtime requests to the provider.",
+  "records": [
+    {
+      "id": "wood_table_worn",
+      "source": "https://polyhaven.com/a/wood_table_worn",
+      "resolution": "2k",
+      "assets": [
+        {
+          "map": "Diffuse",
+          "file": "source-assets/pbr/wood-color.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_worn/wood_table_worn_diff_2k.jpg",
+          "bytes": 3108339,
+          "md5": "44d2440f1581401e0ea65133c0e11d79",
+          "sha256": "165cdba449d56ea8e9675116622b95d7af372b7d7c47b8a98a03fcc630f1d51c",
+          "runtime": {
+            "file": "public/textures/pbr/wood-color.jpg",
+            "bytes": 3108339,
+            "sha256": "165cdba449d56ea8e9675116622b95d7af372b7d7c47b8a98a03fcc630f1d51c",
+            "dimensions": [
+              2048,
+              2048
+            ],
+            "encoding": "original JPEG; byte-for-byte copy"
+          }
+        },
+        {
+          "map": "nor_gl",
+          "file": "source-assets/pbr/wood-normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_worn/wood_table_worn_nor_gl_2k.jpg",
+          "bytes": 3142587,
+          "md5": "855386aa1a252bfbf13116047e9e9915",
+          "sha256": "a90aaa321194fb41d6e44776c6ee88134e4be416051357a3c9e323cc447c4cf0",
+          "runtime": {
+            "file": "public/textures/pbr/wood-normal.jpg",
+            "bytes": 3142587,
+            "sha256": "a90aaa321194fb41d6e44776c6ee88134e4be416051357a3c9e323cc447c4cf0",
+            "dimensions": [
+              2048,
+              2048
+            ],
+            "encoding": "original JPEG; byte-for-byte copy"
+          }
+        },
+        {
+          "map": "Rough",
+          "file": "source-assets/pbr/wood-roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_worn/wood_table_worn_rough_2k.jpg",
+          "bytes": 2890891,
+          "md5": "0eb31614bc05c3e92a832f063991b6e0",
+          "sha256": "4263780c4b7737b8714eefcbda1b43c28f8e1e0ee2b797c125521cbe6e3889dd",
+          "runtime": {
+            "file": "public/textures/pbr/wood-roughness.webp",
+            "bytes": 2613480,
+            "sha256": "3c5cea6672fc82b0e0bcd00b8713e7fbccd25b08cfe9959e76654e3ca5f7d297",
+            "dimensions": [
+              2048,
+              2048
+            ],
+            "encoding": "lossless WebP; decoded RGB pixels unchanged"
+          }
+        }
+      ]
+    },
+    {
+      "id": "metal_plate_02",
+      "source": "https://polyhaven.com/a/metal_plate_02",
+      "resolution": "2k",
+      "assets": [
+        {
+          "map": "Diffuse",
+          "file": "source-assets/pbr/metal-color.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate_02/metal_plate_02_diff_2k.jpg",
+          "bytes": 2604239,
+          "md5": "519b43cf88b4b6ea74bd259e976f2170",
+          "sha256": "2bf77bbcf18c862bf1e1501d1953ce9d511e80df6305b46e2f38b788bd37b581",
+          "runtime": {
+            "file": "public/textures/pbr/metal-color.jpg",
+            "bytes": 2604239,
+            "sha256": "2bf77bbcf18c862bf1e1501d1953ce9d511e80df6305b46e2f38b788bd37b581",
+            "dimensions": [
+              2048,
+              2048
+            ],
+            "encoding": "original JPEG; byte-for-byte copy"
+          }
+        },
+        {
+          "map": "nor_gl",
+          "file": "source-assets/pbr/metal-normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate_02/metal_plate_02_nor_gl_2k.jpg",
+          "bytes": 565185,
+          "md5": "59a2c571e7dd601276f0efbd9c75bb3a",
+          "sha256": "1da6ddb0f455d53636754b3b629942e6aec2f77fafaf6a53cee102ec107854c1",
+          "runtime": {
+            "file": "public/textures/pbr/metal-normal.jpg",
+            "bytes": 565185,
+            "sha256": "1da6ddb0f455d53636754b3b629942e6aec2f77fafaf6a53cee102ec107854c1",
+            "dimensions": [
+              2048,
+              2048
+            ],
+            "encoding": "original JPEG; byte-for-byte copy"
+          }
+        },
+        {
+          "map": "Rough",
+          "file": "source-assets/pbr/metal-roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate_02/metal_plate_02_rough_2k.jpg",
+          "bytes": 3818263,
+          "md5": "4d719f94800aaf6a77cf8b22ce503116",
+          "sha256": "7abccc92dfebe4c6fd21b57b4de659a3b8be7747434af39306fcff2059927734",
+          "runtime": {
+            "file": "public/textures/pbr/metal-roughness.webp",
+            "bytes": 3213744,
+            "sha256": "711e35ea58965d09430336c1988cce83245e2a6036d8b1c106fb5c9100066e59",
+            "dimensions": [
+              2048,
+              2048
+            ],
+            "encoding": "lossless WebP; decoded RGB pixels unchanged"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grey_plaster",
+      "source": "https://polyhaven.com/a/grey_plaster",
+      "resolution": "1k",
+      "assets": [
+        {
+          "map": "Diffuse",
+          "file": "source-assets/pbr/plaster-color.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grey_plaster/grey_plaster_diff_1k.jpg",
+          "bytes": 704079,
+          "md5": "42d2ffe5338fcc0065e28076cbe15eba",
+          "sha256": "dcf34c5f3801cc43189f0edae3c430b602c827956e9d6ce4b89a85e53e952da9",
+          "runtime": {
+            "file": "public/textures/pbr/plaster-color.jpg",
+            "bytes": 704079,
+            "sha256": "dcf34c5f3801cc43189f0edae3c430b602c827956e9d6ce4b89a85e53e952da9",
+            "dimensions": [
+              1024,
+              1024
+            ],
+            "encoding": "original JPEG; byte-for-byte copy"
+          }
+        },
+        {
+          "map": "nor_gl",
+          "file": "source-assets/pbr/plaster-normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grey_plaster/grey_plaster_nor_gl_1k.jpg",
+          "bytes": 355288,
+          "md5": "add2064b193d083c892aead5eaf461d2",
+          "sha256": "85fe18209cb354b582003892898ee0cd6fe6b853644e01983718fc011140c0c2",
+          "runtime": {
+            "file": "public/textures/pbr/plaster-normal.jpg",
+            "bytes": 355288,
+            "sha256": "85fe18209cb354b582003892898ee0cd6fe6b853644e01983718fc011140c0c2",
+            "dimensions": [
+              1024,
+              1024
+            ],
+            "encoding": "original JPEG; byte-for-byte copy"
+          }
+        },
+        {
+          "map": "Rough",
+          "file": "source-assets/pbr/plaster-roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grey_plaster/grey_plaster_rough_1k.jpg",
+          "bytes": 635335,
+          "md5": "b97159bbbb4817965892ec7ab6efe46f",
+          "sha256": "67566b1b5ee25502596916303c246b08d47725b8a697283cfdc1494e6f659aa2",
+          "runtime": {
+            "file": "public/textures/pbr/plaster-roughness.jpg",
+            "bytes": 635335,
+            "sha256": "67566b1b5ee25502596916303c246b08d47725b8a697283cfdc1494e6f659aa2",
+            "dimensions": [
+              1024,
+              1024
+            ],
+            "encoding": "original JPEG; byte-for-byte copy"
+          }
+        }
+      ]
+    },
+    {
+      "id": "monastery_stone_floor",
+      "source": "https://polyhaven.com/a/monastery_stone_floor",
+      "resolution": "1k",
+      "assets": [
+        {
+          "map": "Diffuse",
+          "file": "source-assets/pbr/paving-color.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/monastery_stone_floor/monastery_stone_floor_diff_1k.jpg",
+          "bytes": 766525,
+          "md5": "8e748f767d8e478438ef748833365754",
+          "sha256": "8e52ec982469ce9da312cefe3126c1dff05b7150234971bc6dff6e31c3c584ae",
+          "runtime": {
+            "file": "public/textures/pbr/paving-color.jpg",
+            "bytes": 766525,
+            "sha256": "8e52ec982469ce9da312cefe3126c1dff05b7150234971bc6dff6e31c3c584ae",
+            "dimensions": [
+              1024,
+              1024
+            ],
+            "encoding": "original JPEG; byte-for-byte copy"
+          }
+        },
+        {
+          "map": "nor_gl",
+          "file": "source-assets/pbr/paving-normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/monastery_stone_floor/monastery_stone_floor_nor_gl_1k.jpg",
+          "bytes": 1063115,
+          "md5": "257ccdbbe1c2a23f74cece55b81861ac",
+          "sha256": "f2f1c3e8d52c1e3a49ef59695743872f2adaa57bc0d3f64b129ce988966162c1",
+          "runtime": {
+            "file": "public/textures/pbr/paving-normal.jpg",
+            "bytes": 1063115,
+            "sha256": "f2f1c3e8d52c1e3a49ef59695743872f2adaa57bc0d3f64b129ce988966162c1",
+            "dimensions": [
+              1024,
+              1024
+            ],
+            "encoding": "original JPEG; byte-for-byte copy"
+          }
+        },
+        {
+          "map": "Rough",
+          "file": "source-assets/pbr/paving-roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/monastery_stone_floor/monastery_stone_floor_rough_1k.jpg",
+          "bytes": 477972,
+          "md5": "ea3793f350c70ebd6216ae5b4565d4eb",
+          "sha256": "8d987222b727442c11c30cd4d8a32ed48f02e46683acd088d994baef5bf311a9",
+          "runtime": {
+            "file": "public/textures/pbr/paving-roughness.webp",
+            "bytes": 454352,
+            "sha256": "caddb690536ef5250608986892e1e5e5d1dc7c252a409f0d04320cf293dd4047",
+            "dimensions": [
+              1024,
+              1024
+            ],
+            "encoding": "lossless WebP; decoded RGB pixels unchanged"
+          }
+        }
+      ]
+    },
+    {
+      "id": "old_room",
+      "source": "https://polyhaven.com/a/old_room",
+      "resolution": "1k",
+      "assets": [
+        {
+          "map": "hdri",
+          "file": "public/textures/pbr/room-environment.hdr",
+          "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/old_room_1k.hdr",
+          "bytes": 1610118,
+          "md5": "cbada9bb6c45da61d47794bd4971550d",
+          "sha256": "0f30ea16d212f485c1d2b4c1234707ce6d17657a0f2db553b3f181ed8d8d66cc"
+        }
+      ]
+    }
+  ],
+  "runtimeBytes": 20836386,
+  "sourceBytes": 21741936
+}

@@ -1,0 +1,1359 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "ui/glossary/01-input",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 01-input.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"输入\" (do NOT write the term). Depict same explorer child hands one photograph to the same sprout robot; photo shows small red toy car. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-36435416-2b18-4903-91e3-9b6d23b93b28.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/01-input.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/01-input.png",
+      "sourceSha256": "8b86f18464ecab0e381b5a08e360b797d225519bd3b852fa7d1cf895444a7c28",
+      "sha256": "76207fbc7e28048281947286bab54373221fff2fd953ab3c7b4ce011eb177070",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.545322265625,
+        "semiFraction": 0.02498046875,
+        "opaqueFraction": 0.429697265625,
+        "bounds": [
+          10,
+          18,
+          312,
+          306
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/01-input.webp",
+        "sha256": "f96b7a83d7d1a4a952f373f2da48c52f8fbab503fcf48a0ce2222d2473f7f6e2",
+        "bytes": 39620
+      }
+    },
+    {
+      "id": "ui/glossary/02-sound-recognition",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 02-sound-recognition.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"声音识别\" (do NOT write the term). Depict sprout robot attentively faces a brass wind chime; three small teal sound-wave arcs connect chime to gold ear. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-fd39b25a-d178-490b-9a51-8dd5ebe20ab3.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/02-sound-recognition.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/02-sound-recognition.png",
+      "sourceSha256": "5bdfaeb6560087cea09bb304fce239e35d3ee04e7cb3b5ab01c7353fe2cc1a7c",
+      "sha256": "b328d9b18c78ded6b7f6f31e2935be882f9e09c8966ce9c1968e0dcbae87a2b5",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.658173828125,
+        "semiFraction": 0.030869140625,
+        "opaqueFraction": 0.31095703125,
+        "bounds": [
+          25,
+          15,
+          312,
+          294
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/02-sound-recognition.webp",
+        "sha256": "790dea3b825d37fc661642e25199f7c4ffd9cd60b0a32bc5224e400a43b57519",
+        "bytes": 34924
+      }
+    },
+    {
+      "id": "ui/glossary/03-keywords",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 03-keywords.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"关键词\" (do NOT write the term). Depict one blank warm yellow note with three simple ink-like horizontal marks, two marks highlighted with pale yellow oval strokes; no actual letters or words. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-6dd0c8e5-cdd6-4031-8451-6ad991a2c3cf.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/03-keywords.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/03-keywords.png",
+      "sourceSha256": "98beddd5038df8d4a36e4f76a949909466eb9547ba8f9c4675bd5f1471caa205",
+      "sha256": "01694f5596c918601185c20a6ccce585d651de2ce4dea0ca1ddc5a1b6272e53e",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.545693359375,
+        "semiFraction": 0.024296875,
+        "opaqueFraction": 0.430009765625,
+        "bounds": [
+          18,
+          44,
+          307,
+          299
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/03-keywords.webp",
+        "sha256": "7719bae359931f3bd4c08b2f89e22ad6b24557da154e504ec37fdd71396e9e45",
+        "bytes": 37344
+      }
+    },
+    {
+      "id": "ui/glossary/04-video",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 04-video.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"视频\" (do NOT write the term). Depict one horizontal filmstrip with THREE distinct frames, the same red wooden car gradually moves left to center to right in successive frames. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-c31353d0-411e-4ccc-aae0-86b8010d1ba7.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/04-video.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/04-video.png",
+      "sourceSha256": "0f3a022df9533fe76250f5b5aa6f4ba74c1c2e396e4fc12a52b2dfb5aef81e96",
+      "sha256": "2dfe4f3c02710328c2ae78c9cecb43a6f6c80de04ffa6c1b93c9ec93fbc44486",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.723603515625,
+        "semiFraction": 0.021416015625,
+        "opaqueFraction": 0.25498046875,
+        "bounds": [
+          7,
+          104,
+          313,
+          213
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/04-video.webp",
+        "sha256": "729e49bfb76eeb4a7e7000eb26beb5f5d25e4b2f88778f59c838b4a62477d336",
+        "bytes": 22160
+      }
+    },
+    {
+      "id": "ui/glossary/05-multimodal",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 05-multimodal.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"多模态\" (do NOT write the term). Depict photo card with bell, teal waveform card and blank yellow note converge through three small dotted arrows into the same sprout robot. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-f10f1807-7642-4692-bd27-fc0f953b64e2.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/05-multimodal.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/05-multimodal.png",
+      "sourceSha256": "82ef38ca519ed0de58d56d4a781656e988f8ceb7ad5e67de13d0fb65edd11c16",
+      "sha256": "fc7ca708863fbc4401311cc04513be7600e9a05b262fc080062a9ff3e1e7b3fe",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.620439453125,
+        "semiFraction": 0.02431640625,
+        "opaqueFraction": 0.355244140625,
+        "bounds": [
+          15,
+          16,
+          308,
+          299
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/05-multimodal.webp",
+        "sha256": "22ca767a693db762d264b36a9b8ce36d68bb074cde8b691ca5d2544266ded9bf",
+        "bytes": 34420
+      }
+    },
+    {
+      "id": "ui/glossary/06-incomplete-information",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 06-incomplete-information.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"信息不完整\" (do NOT write the term). Depict large GREEN broadleaf visibly obscures HALF of a RED wooden toy car; enough car including wheel remains recognizable. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-d842a86e-9efe-4ea4-929a-888a84df0d48.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/06-incomplete-information.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/06-incomplete-information.png",
+      "sourceSha256": "b9e5788ed710993199d720e491b4633e3537be0170e21486c499d7bbfd824654",
+      "sha256": "4ca916dc7fdd1a2858069f7b4eedc7c28537697361d5fc05eee92c22a2d7ed61",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.63611328125,
+        "semiFraction": 0.010771484375,
+        "opaqueFraction": 0.353115234375,
+        "bounds": [
+          29,
+          37,
+          293,
+          270
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/06-incomplete-information.webp",
+        "sha256": "2e34d6a259cd49c609cb56fc731daae814ed4ac00cf8733778ad0556e00c703c",
+        "bytes": 24546
+      }
+    },
+    {
+      "id": "ui/glossary/07-noise",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 07-noise.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"噪声\" (do NOT write the term). Depict a small bird sings a delicate musical note while a nearby miniature waterfall has much larger rough sound-wave arcs overlapping the note; clear quiet/loud comparison. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-3691b93f-9a40-4c82-8df2-48a9ed043309.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/07-noise.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/07-noise.png",
+      "sourceSha256": "ad1272e48100e03b0c45bebc452d91656d9af8fe8e0722d398f81864a069bb55",
+      "sha256": "9010cbf5b83cbf6a7b970cb3bd47017ab0c3c29aeb410f9bd45e6ce47cb915ae",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.633916015625,
+        "semiFraction": 0.03248046875,
+        "opaqueFraction": 0.333603515625,
+        "bounds": [
+          13,
+          40,
+          311,
+          278
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/07-noise.webp",
+        "sha256": "af5e38241d3535bb9fbe17a4c9780a53e18ff7d6122b91e74a661fad6b086f95",
+        "bytes": 41662
+      }
+    },
+    {
+      "id": "ui/glossary/08-different-views",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 08-different-views.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"同类不同样\" (do NOT write the term). Depict THREE small views of the SAME red wooden toy car, front three-quarter, side, and rear three-quarter, equal scale. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-bf89efa7-c4d4-4554-9e1a-3d08954dad71.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/08-different-views.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/08-different-views.png",
+      "sourceSha256": "65f522b720e82392cb62bbf875f9d934983947a699236b3e306794bbd5ebd43f",
+      "sha256": "ff791ca75f732b2fffbb16bcceeb79c5b2db604516a7b08d5c09da93a79ca7cd",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.643466796875,
+        "semiFraction": 0.01982421875,
+        "opaqueFraction": 0.336708984375,
+        "bounds": [
+          15,
+          31,
+          312,
+          289
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/08-different-views.webp",
+        "sha256": "163000aa14d119f2017a96f61d5b35888dd3b13fd5c046e0ae50716fc5390abd",
+        "bytes": 30922
+      }
+    },
+    {
+      "id": "ui/glossary/09-controlled-variable",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 09-controlled-variable.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"控制变量\" (do NOT write the term). Depict two square photographs side by side, exact same red toy car and exact same angle/size/lighting; ONLY background differs blue vs yellow. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-22ed5480-37af-4373-8d65-24b8b7064e0a.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/09-controlled-variable.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/09-controlled-variable.png",
+      "sourceSha256": "3508cce585271ff4d159444bcd29eb6824043511870d3dd474a37c26385e02b4",
+      "sha256": "10d979fad37efdd9ce5c01343ab294da23bcc564dc29ff1d012f216566d27c73",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.602275390625,
+        "semiFraction": 0.010537109375,
+        "opaqueFraction": 0.3871875,
+        "bounds": [
+          15,
+          75,
+          304,
+          251
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/09-controlled-variable.webp",
+        "sha256": "02dbf08374faa6f0daf05f6d0c1c94c26001e5859ce2bec00f7236bdec84e68c",
+        "bytes": 24502
+      }
+    },
+    {
+      "id": "ui/glossary/10-ask-the-question",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: scientific-educational. Create ONE simple hand-painted gouache vignette on genuine transparent background, for a child's AI glossary. ONLY THREE PRIMARY GROUPS: a green rectangular AUDIO PLAYER matching the reference in lower center, and two cream question bubbles above it. LEFT bubble contains a tiny clear icon of that SAME GREEN PLAYER plus one question mark. RIGHT bubble contains a tiny brown BIRD icon plus one question mark. A small musical note emerges from the player's round SPEAKER, connecting the scene. Teaching distinction: ask what OBJECT is here versus what SOUND is playing. MUST visibly include the real green audio player as the main subject. NO human, child, robot, humanoid, head, face, sprout, landscape, clothing, alphabetic text or extra characters. Warm gouache brushwork, soft upper-left light, whole grouping centered inside12% clear margin, square320x320 target.",
+      "references": [
+        "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-80d333b3-7f8c-4fd1-a592-bacde58350d5.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-28ca8bbc-2ca9-40c5-aa66-cb375ad97f0e.png",
+      "transparent_background": true,
+      "revisions": [
+        {
+          "source": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-5db1588d-85c8-4da4-a80b-4554f5467131.png",
+          "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 10-ask-the-question.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"问对问题\" (do NOT write the term). Depict green audio player emits a bird-shaped sound symbol, with TWO small question bubbles: one containing player icon, one containing a bird icon. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+          "references": [
+            "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+            "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+          ],
+          "original": "art-source/2026-10-10/ui/glossary/10-ask-the-question.png",
+          "sha256": "68abfc2259c61bc5ee014909968043ce8557852ed4b4a1706aaba1b756a3a9ea",
+          "status": "rejected",
+          "reason": "First generation omitted the audio player and confused object and sound questions."
+        }
+      ],
+      "url": "/assets/ui/glossary/10-ask-the-question.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/10-ask-the-question-r2.png",
+      "sourceSha256": "9f4f4ae1e7ad1d9983f7a190c83a30208a8ec0a4d3abe33d7c8766b28f747c76",
+      "sha256": "5c224b05ee9943b9a6d0fa846aa04b559e5aac889df456100b68442e1c59fab4",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.540712890625,
+        "semiFraction": 0.021767578125,
+        "opaqueFraction": 0.43751953125,
+        "bounds": [
+          11,
+          25,
+          308,
+          295
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/10-ask-the-question.webp",
+        "sha256": "926e560a93a40601adf16272e1d478e671b8bd3be869fca7ddcbd378602e04fc",
+        "bytes": 37658
+      }
+    },
+    {
+      "id": "ui/glossary/11-label",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 11-label.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"标签\" (do NOT write the term). Depict red wooden toy car with ONE cream blank paper tag tied to it, tag clearly has no name or writing. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-5fd029fe-da3a-49a3-af7f-a982b7ae76ce.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/11-label.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/11-label.png",
+      "sourceSha256": "bb1db51a98c73e63629adc1a692711c92e36bde490113f2b7e728a23d5b0c546",
+      "sha256": "ec862cd601cb3d710d3b4aa00731635128d059574fe97e04568ddda823f6079f",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.635205078125,
+        "semiFraction": 0.01296875,
+        "opaqueFraction": 0.351826171875,
+        "bounds": [
+          15,
+          66,
+          301,
+          261
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/11-label.webp",
+        "sha256": "b8c5ac395835663793623c2f9c4c6c761d04c70819c2ba282dd01cb9db53f52d",
+        "bytes": 28638
+      }
+    },
+    {
+      "id": "ui/glossary/12-classification",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 12-classification.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"分类\" (do NOT write the term). Depict THREE small open wooden boxes, first contains red cars, second brown wooden cubes, third brass bells; same types grouped together. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-1e8c3ab3-3de5-4632-9cd1-bae09e39c54e.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/12-classification.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/12-classification.png",
+      "sourceSha256": "e0ca373d3c78eabedc2adef6f506815d1ce659543a4c614224952a805c180c49",
+      "sha256": "c017a241414147a1e1c75a42a79ae59b6a05f44eeff5629b59ccc9464dc62328",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.682314453125,
+        "semiFraction": 0.01251953125,
+        "opaqueFraction": 0.305166015625,
+        "bounds": [
+          8,
+          93,
+          311,
+          263
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/12-classification.webp",
+        "sha256": "37c27f355d20c4948ac7032c4de27a07966ea091c098aa03d3f91b4accf72816",
+        "bytes": 28192
+      }
+    },
+    {
+      "id": "ui/glossary/13-attributes",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 13-attributes.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"属性\" (do NOT write the term). Depict one red wooden toy car beside THREE small attribute tags: red color swatch, wood-grain swatch, and car silhouette, no text. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-4af30c5f-00d9-48ef-929c-4acd26243af6.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/13-attributes.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/13-attributes.png",
+      "sourceSha256": "0886dd021bd340cd9381ff78c3eed141d73d5ac0b6e0cc27bdec41250b47e214",
+      "sha256": "634b0e9299694e80a6030e7c372f0d4c2d4acbea54147da1e9bced15c150cbe9",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.6602734375,
+        "semiFraction": 0.01912109375,
+        "opaqueFraction": 0.32060546875,
+        "bounds": [
+          14,
+          59,
+          310,
+          265
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/13-attributes.webp",
+        "sha256": "d548dd30d152c1e3170781b200f5c94bf8de55162d0333fbf13b1a97d5678921",
+        "bytes": 30852
+      }
+    },
+    {
+      "id": "ui/glossary/14-unknown",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 14-unknown.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"未知\" (do NOT write the term). Depict one brown pinecone beside a large soft teal question mark, no robot pretending to know. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-98ee7f0d-614e-4e22-b505-c912bba6cdd3.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/14-unknown.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/14-unknown.png",
+      "sourceSha256": "b448aaa6837ac3da23653c61101257683d72855b4a51ab3da12bb8abc2da3948",
+      "sha256": "531c03647e3b3cc651de4273aa4c557711db0326d1e067b70b66c6bd56af9941",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.574814453125,
+        "semiFraction": 0.020625,
+        "opaqueFraction": 0.404560546875,
+        "bounds": [
+          23,
+          23,
+          302,
+          292
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/14-unknown.webp",
+        "sha256": "d8eaf1731f904429cee71aa8d38f355bb9b8f93d06d84fa705a54c5a24526f6b",
+        "bytes": 36640
+      }
+    },
+    {
+      "id": "ui/glossary/15-training-data",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 15-training-data.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"训练数据\" (do NOT write the term). Depict open cream example album, THREE photo-and-tag pairs visibly arranged on its pages, red car, brown block and brass bell; blank labels. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-fa4b4e2b-e33e-45f8-9ff2-040b178433c9.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/15-training-data.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/15-training-data.png",
+      "sourceSha256": "88ec769b57d2b214a945bc2080d372ad41ca90597bc933256b01b904c09eab80",
+      "sha256": "ef26b9ed9febae39db530a35df210af1b6cd5865c0553b971dfaf6a09e9f3ed6",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.5454296875,
+        "semiFraction": 0.012919921875,
+        "opaqueFraction": 0.441650390625,
+        "bounds": [
+          17,
+          49,
+          302,
+          273
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/15-training-data.webp",
+        "sha256": "a60c23bdea6b924e4e7837fb0f66cb86a91ffa516b1fdf1911a1ca2e17b55f0d",
+        "bytes": 34194
+      }
+    },
+    {
+      "id": "ui/glossary/16-record-vs-learning",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 16-record-vs-learning.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"记录和学习\" (do NOT write the term). Depict a pencil corrects a blank label on ONE photo card in foreground; sprout robot and its CLOSED example book remain separate on the right, no linking arrow. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-e294da9a-8efd-49d7-b5b2-7f2757e8047d.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/16-record-vs-learning.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/16-record-vs-learning.png",
+      "sourceSha256": "7a080b4cb16ecb2a97f0c5cd26130ae039129f947d14486ffc67369d757224f1",
+      "sha256": "e16e21eac2529ed57d6c3ae7feeda71075ccc37d689da73cb814b02d5274f67f",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.53984375,
+        "semiFraction": 0.020068359375,
+        "opaqueFraction": 0.440087890625,
+        "bounds": [
+          16,
+          29,
+          311,
+          297
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/16-record-vs-learning.webp",
+        "sha256": "d72e1e6041ae7fefa22e2f5dca5c00a242930e53f4cea698e21c888a822e1842",
+        "bytes": 37776
+      }
+    },
+    {
+      "id": "ui/glossary/17-retraining",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 17-retraining.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"重新训练\" (do NOT write the term). Depict same sprout robot actively rereads an OPEN example album with small car and cube pictures, one gentle circular arrow around the book only. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-311aa78c-2b0d-49dc-9a6d-d86e16f4c88b.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/17-retraining.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/17-retraining.png",
+      "sourceSha256": "e2f06233366b22e0435e968dc1621e2e34b61e6eb20b0c7461078b8e4e04a7be",
+      "sha256": "541433cf671c05324b82de789956eead0243f15c5ba8d0a28c626e04e7e3cce1",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.55126953125,
+        "semiFraction": 0.0219140625,
+        "opaqueFraction": 0.42681640625,
+        "bounds": [
+          19,
+          10,
+          307,
+          298
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/17-retraining.webp",
+        "sha256": "df89b49eb7c21cb5ba7b8b5b911561f01558fc9ce8b9e8c1b835e8ba61b0d03e",
+        "bytes": 34398
+      }
+    },
+    {
+      "id": "ui/glossary/18-data-diversity",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 18-data-diversity.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"数据多样性\" (do NOT write the term). Depict open example album with SIX small photos showing red wooden cars with varied shape, angle and shade; coherent category, varied examples. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-1daf1bd1-c5ce-420b-8f38-31da76cd2ab8.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/18-data-diversity.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/18-data-diversity.png",
+      "sourceSha256": "c86f28b8538fc7717da509ed7d4bf2d3c833ed20d8c53e85eb5cdc1eb1b0e8f2",
+      "sha256": "421f38f9caf7ae59859376ecde735e0af4d4a73070739e9dc5cc835ed1861f4d",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.407109375,
+        "semiFraction": 0.01474609375,
+        "opaqueFraction": 0.57814453125,
+        "bounds": [
+          6,
+          26,
+          318,
+          304
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/18-data-diversity.webp",
+        "sha256": "48556b35bb98a6e2e16a32ca077c9b985e7e243b06010247fb5f223425115f6e",
+        "bytes": 42794
+      }
+    },
+    {
+      "id": "ui/glossary/19-data-bias",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 19-data-bias.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"数据偏差\" (do NOT write the term). Depict two short rows of example photos: three red toy cars ALL on blue paper above, three warm brown cubes ALL on yellow paper below. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-632f73fa-bda2-4e06-955a-8b4f96d17353.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/19-data-bias.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/19-data-bias.png",
+      "sourceSha256": "5a3d1e05160141e1491464d2b2f931caa79a2a5ca3ac44416060bea6f064e4e8",
+      "sha256": "e702d801ae878e6046235d5c09fca32e895863f8c018cd91a677cb41a47110c2",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.65017578125,
+        "semiFraction": 0.0225390625,
+        "opaqueFraction": 0.32728515625,
+        "bounds": [
+          6,
+          84,
+          313,
+          247
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/19-data-bias.webp",
+        "sha256": "7d90608372ac3de1dd69ebaeea3867867fc6da34c19366d215a03cb123021abc",
+        "bytes": 33956
+      }
+    },
+    {
+      "id": "ui/glossary/20-test-data",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: scientific-educational. Transparent square320x320 glossary vignette about TEST DATA. Preserve the referenced little ivory sprout robot. Robot is on LEFT looking at a single physical PAPER PHOTOGRAPH CARD on RIGHT. The photo MUST have a visible wide cream rectangular border with four corners; its INNER image depicts the REAR three-quarter view of a RED WOODEN TOY CAR, completely contained within the photograph, not a real large car outside it. At lower-left put one CLOSED brown example album with a simple leaf emblem, separate from the new photo. Robot holds a small magnifier toward the PHOTO. Do not open the album and do not put photo into album. No child, no real freestanding car, no words or numbers. Warm hand-painted gouache, soft light, transparent perimeter12%, three clear groups only.",
+      "references": [
+        "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-2b9dd09d-cb5d-4835-9d66-ba5e190fcf5e.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-97cdd35c-0bd4-4601-9d79-082ec36aaadc.png",
+      "transparent_background": true,
+      "revisions": [
+        {
+          "source": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-1f803d4b-eef8-4465-be17-c0dddeaf3ffc.png",
+          "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 20-test-data.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"测试数据\" (do NOT write the term). Depict sprout robot inspecting ONE separate new photograph of an unfamiliar angle of red car, its training album stays CLOSED and separate; no page being inserted. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+          "references": [
+            "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+            "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+          ],
+          "original": "art-source/2026-10-10/ui/glossary/20-test-data.png",
+          "sha256": "bfb9e055f6ef5fa405bcf952f45c1c55e04b76c94f17fd3a08210a5f08ddda36",
+          "status": "rejected",
+          "reason": "First generation showed a freestanding car rather than a separate test photograph."
+        }
+      ],
+      "url": "/assets/ui/glossary/20-test-data.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/20-test-data-r2.png",
+      "sourceSha256": "e1175d3d75616b2e5885679e1d8593e15080add0232114ed4ecce0c23d2926d9",
+      "sha256": "991510236cc35d2981bfa4965f8579771366c8f928622dd1e753bae70dba0f24",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.51634765625,
+        "semiFraction": 0.02310546875,
+        "opaqueFraction": 0.460546875,
+        "bounds": [
+          6,
+          6,
+          317,
+          313
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/20-test-data.webp",
+        "sha256": "913221ef734e06a214fcc26a85e65a3502c3f9fd4da5e7f8bad219b7a7c37bf2",
+        "bytes": 40534
+      }
+    },
+    {
+      "id": "ui/glossary/21-evidence",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 21-evidence.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"证据\" (do NOT write the term). Depict three small cards: photo of bell, waveform with tiny bell silhouette, blank note with bell pictogram; three arrows point to one real brass bell. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-4b8e0f12-a9dd-4226-b63e-dae1d6d3037c.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/21-evidence.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/21-evidence.png",
+      "sourceSha256": "c6fd1bb73b9e77252a5ec460cc13915b4b7a27cb3f5878874dd2d7513e14a867",
+      "sha256": "c3ff6f76e31001fb1745533ff90e12cb13ad8c95a12edbd38b835ec5bf46a8cb",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.675283203125,
+        "semiFraction": 0.0238671875,
+        "opaqueFraction": 0.300849609375,
+        "bounds": [
+          13,
+          30,
+          310,
+          288
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/21-evidence.webp",
+        "sha256": "e915eda4e5a4c0c74756f2721d31e0e318d8fa70ed4b78cf28fcc4d312982ebb",
+        "bytes": 34046
+      }
+    },
+    {
+      "id": "ui/glossary/22-content-and-source",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: scientific-educational. One small clear hand-painted woodland learning illustration, genuine transparent RGBA, square320x320 target. Lower LEFT: one GREEN rectangular portable AUDIO PLAYER exactly like reference, circular speaker and cream dial. Immediately above SPEAKER: a small translucent teal BIRD-SHAPED sound pictogram and one musical note, unmistakably a recording coming FROM THE DEVICE. Upper RIGHT, separated by a generous empty gap: ONE real little brown songbird sitting on a short plain twig. Real bird uses brown feathers; recorded-bird sound symbol uses translucent cyan silhouette. No arrows linking real bird to player: recording need not be live. ONLY player, sound pictogram, real bird and twig. Absolutely NO child, person, robot, face, clothing or magic bird-shaped flute. Warm gouache brushwork matching reference, clean readable shapes,12%clear outer margin, no text.",
+      "references": [
+        "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-80d333b3-7f8c-4fd1-a592-bacde58350d5.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-38f33fdf-2722-4956-a76f-142e92021dea.png",
+      "transparent_background": true,
+      "revisions": [
+        {
+          "source": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-d84ad748-12e0-4106-938d-eed873322b7f.png",
+          "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 22-content-and-source.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"内容和来源\" (do NOT write the term). Depict green player with a bird-shaped audio symbol in foreground, real small bird farther away on twig; clearly distinct device and animal, no implication recording is live. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+          "references": [
+            "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+          ],
+          "original": "art-source/2026-10-10/ui/glossary/22-content-and-source.png",
+          "sha256": "b6e8b1970996832b949de573727d0216a3f4e5bd3e320ff36a9fbd65e876a16e",
+          "status": "rejected",
+          "reason": "First generation invented a different character and a bird-shaped flute rather than a recording device."
+        }
+      ],
+      "url": "/assets/ui/glossary/22-content-and-source.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/22-content-and-source-r2.png",
+      "sourceSha256": "cb4fab4af9b0634b78860c8d3fad886786553ec57faf90c03db8248df074f557",
+      "sha256": "bb9c5870fd641e0859f140e93549c88c123211e44a0967df32194b8424933885",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.7220703125,
+        "semiFraction": 0.027275390625,
+        "opaqueFraction": 0.250654296875,
+        "bounds": [
+          14,
+          31,
+          307,
+          292
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/22-content-and-source.webp",
+        "sha256": "aee069daddd5f27abcc0fa5edb775ba4237d620cf84b07521b649b6d2d25b7a4",
+        "bytes": 30042
+      }
+    },
+    {
+      "id": "ui/glossary/23-transfer",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 23-transfer.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"举一反三\" (do NOT write the term). Depict open example album now contains orange-red maple and yellow ginkgo leaf photos; nearby magnifying glass links same checking action to new leaves. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-fc8d34a0-9212-43dd-bda8-e498e1a7364a.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/23-transfer.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/23-transfer.png",
+      "sourceSha256": "51187ba0a6b6c5d514e661e6b64d27f9a4bbeedccf4e45c050963e0244a20732",
+      "sha256": "0a0cf4f3a267e3e406c5359b2f96faf05035b53096c541a22d29d10a7d2d534a",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.569306640625,
+        "semiFraction": 0.0209765625,
+        "opaqueFraction": 0.409716796875,
+        "bounds": [
+          12,
+          46,
+          308,
+          278
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/23-transfer.webp",
+        "sha256": "7313b179cf607ae106d94b967007ae2a7c4b2338d164c6972913014fb817ced8",
+        "bytes": 38024
+      }
+    },
+    {
+      "id": "ui/glossary/24-uncertainty",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 24-uncertainty.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"不确定\" (do NOT write the term). Depict one dark blurred photograph of indistinct woodland object, droplets on photo edges, small gentle question mark; no identified answer. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-2133325a-47a2-4d96-90b0-8aac0b4afe47.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/24-uncertainty.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/24-uncertainty.png",
+      "sourceSha256": "1ab4a9a0f1f29a56313ea763eebd580e30868f30a418b6a946891911b4381404",
+      "sha256": "6a855448757bef32deb18c50750efa0a4faf80e1f49a96f5b2ef86e56c6d1d4e",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.558017578125,
+        "semiFraction": 0.018310546875,
+        "opaqueFraction": 0.423671875,
+        "bounds": [
+          24,
+          41,
+          304,
+          279
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/24-uncertainty.webp",
+        "sha256": "1ab220377afdcb039ea57adbd405d4db77ecf69a2cd550639059e9e6d6624656",
+        "bytes": 34766
+      }
+    },
+    {
+      "id": "ui/glossary/25-human-check",
+      "batch": "art-20261010",
+      "requirement": "A10",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, 25-human-check.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: Small educational vignette for primary school term \"人来把关\" (do NOT write the term). Depict same child with magnifying glass checks a photograph and compares it to a real brass bell, sprout robot watches from other side; child makes final check. All paper labels remain blank or use specified pictograms; no unreadable fake text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One simple explanatory grouping on transparent background, about three primary shapes max unless counts specified. Reserve12% clear perimeter. No decorative scene/background, no flat colored square.\nOutput: target 320x320 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only. Only draw the subjects listed in the Primary request. Identity references do NOT authorize adding the child or robot if absent from the requested vignette.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/assistant.png",
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/characters/living/hero-parts-v2.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-ed85b566-1eb0-4ecb-8437-8e31cc7fc7a7.png",
+      "transparent_background": true,
+      "url": "/assets/ui/glossary/25-human-check.png",
+      "size": [
+        320,
+        320
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/ui/glossary/25-human-check.png",
+      "sourceSha256": "536f5400c93c4d5b57018eac1aa2de42d37e6fed279b6b8801c28ad4cce63f59",
+      "sha256": "077ad3d581e87b71d88b97271f6e13bff643029dce89d0d3ba9a0f0d0f798939",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.548466796875,
+        "semiFraction": 0.026611328125,
+        "opaqueFraction": 0.424921875,
+        "bounds": [
+          5,
+          35,
+          315,
+          289
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/ui/glossary/25-human-check.webp",
+        "sha256": "ff78253a20acdfd1eefc111573549161b23758a0751a1c12691eced52bb36235",
+        "bytes": 39804
+      }
+    }
+  ],
+  "updated": "2026-10-10"
+}

@@ -1,0 +1,254 @@
+{
+  "created": "2026-10-03",
+  "license": "为本项目通过内置image_gen生成；参考图属于本项目既有设计资产",
+  "version": 1,
+  "assets": [
+    {
+      "id": "forest-distance",
+      "url": "/assets/environment/forest-distance.png",
+      "generator": "OpenAI built-in image_gen",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a100c0-1f81-7dd3-b937-41461018f75c/exec-8b10e522-c1f5-4e5c-b457-b4b9754df5f4.png",
+      "prompt": "Use case: illustration-story. Production game asset, a single seamless horizontally tileable distant forest panorama for a richly painted children's storybook 2D side-scroller. Very wide 3:1 canvas. This is ONLY the distant background, no foreground, no player, no UI, no buildings, no readable text. Clear warm blue sky occupies top 40 percent, distant layered blue alpine mountain peaks, soft white clouds, tall teal evergreen forests with occasional bright chartreuse deciduous foliage, tranquil turquoise water visible toward bottom, tiny distant white waterfalls on the rock cliffs. Dense, exquisite hand-painted brush detail, warm dappled golden noon light, soft aerial perspective, textured gouache and lush illustrated animation-film finish. Large coherent vertical shapes, dark teal pines, cool blue hills, bright verdant leafy tree crowns. Mountains are not snow covered. Bottom edge filled with dark teal forest canopy, not solid color. No near trees, no path, no UI, no text, no frames. Produce only reusable distant environment art; level geometry will be separate.",
+      "inputReference": null,
+      "visualDirectionReferences": [
+        "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+        "设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+        "设计图/2026-10-01-横版森林/04-森林溪谷-取景与线索UI.png"
+      ],
+      "inspection": "已逐张目视检查；PNG alpha另经采样核实。",
+      "sha256": "b43c2cef3b2113a1b42152da44bf706c59b9ad9893e4267324e1cf9b033c452d",
+      "bytes": 2486885,
+      "width": 2172,
+      "height": 724,
+      "hasAlphaChannel": false
+    },
+    {
+      "id": "camp-tree",
+      "url": "/assets/environment/camp-tree.png",
+      "generator": "OpenAI built-in image_gen",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a100c0-1f81-7dd3-b937-41461018f75c/exec-90bc33dc-ac29-477c-bc4e-696ef550a714.png",
+      "prompt": "Use case: background-extraction / precise-object-edit. Transform the provided approved forest game concept into ONE reusable transparent foreground environment sprite. KEEP the reference painterly style, warm sunshine, bark texture and leaf details. Isolate and reconstruct ONLY the central enormous golden-green broad oak tree with its entire visible trunk and spreading crown, and its charming cream canvas scout tent nestled against the trunk, wooden camp workbench, warm lantern, little rolled map, small barrels and crates, white daisies and moss at its roots. Remove all UI, all signs with words, all characters, all robots, all scenery, all water, all sky and distant woods. Fully transparent alpha outside the tree/camp sprite. Complete tree crown at top with breathable transparent gaps in leaves, full roots at bottom, centered single asset on square canvas, no cropped objects. Trunk divides toward upper half. The cream tent occupies lower center, roof reaches 45 percent up the trunk; the environment is side-view with slight storybook perspective suitable for a walkable 2D game. No shadow rectangle, no checkerboard baked into pixels. No human or animal, no text, no full scene. Keep a real transparent background.",
+      "inputReference": "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+      "visualDirectionReferences": [
+        "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+        "设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+        "设计图/2026-10-01-横版森林/04-森林溪谷-取景与线索UI.png"
+      ],
+      "inspection": "已逐张目视检查；PNG alpha另经采样核实。",
+      "sha256": "8642b8ecdf27136aeccfb60b5faa815cbf9562a2599d7c9a9195f32684ad6d96",
+      "bytes": 2820903,
+      "width": 1254,
+      "height": 1254,
+      "hasAlphaChannel": true
+    },
+    {
+      "id": "meadow-bank",
+      "url": "/assets/environment/meadow-bank.png",
+      "generator": "OpenAI built-in image_gen",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a100c0-1f81-7dd3-b937-41461018f75c/exec-6d185781-78bc-41ee-8c0c-55ed96e2803b.png",
+      "prompt": "Use case: illustration-story. Make one reusable continuous horizontal side-view terrain strip for a lush 2D children's storybook forest. VERY WIDE 4:1 panoramic strip with fully transparent alpha outside its irregular silhouette. Terrain is a walkable sunny sandy cream dirt trail across the full horizontal width; the TOP walkable surface is nearly flat horizontally but with slight natural variations, edged with thick golden-green grass, small white daisies, ochre flowers, clover, tiny ferns. Under the path a thick irregular rocky bank of intricately textured bluish grey stones, roots and dense dark green leaves, about half the strip height. Flat side-on camera with slight view of top trail surface. Ends extend to left and right image boundary at matching height to tile horizontally. Warm bright noon light, finely painted natural textures, watercolor gouache animated-film finish. No background, no sky, no large tree, no river, no large building, no label, no UI. Top 30 percent of canvas transparent, path top around 35 percent canvas height, mossy lower silhouette reaches bottom. Transparent background is mandatory.",
+      "inputReference": null,
+      "visualDirectionReferences": [
+        "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+        "设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+        "设计图/2026-10-01-横版森林/04-森林溪谷-取景与线索UI.png"
+      ],
+      "inspection": "已逐张目视检查；PNG alpha另经采样核实。",
+      "sha256": "16aa7f3063b3ce3a2ab25a09ccccb52eb6e585fdfb801f7a72531d9679f2f608",
+      "bytes": 2135114,
+      "width": 2172,
+      "height": 724,
+      "hasAlphaChannel": true
+    },
+    {
+      "id": "foreground-foliage",
+      "url": "/assets/environment/foreground-foliage.png",
+      "generator": "OpenAI built-in image_gen",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a100c0-1f81-7dd3-b937-41461018f75c/exec-91988b07-b105-4ced-84c6-15f950886f93.png",
+      "prompt": "Use case: illustration-story. One isolated very wide horizontal lower-foreground foliage border sprite for a high-quality side-scrolling storybook forest game, 3:1 canvas. Deep dark teal leaves, rounded broad leaves, a few curling fern fronds, tiny yellow flowers and white daisies, softly defocused to create camera depth-of-field. Dense tall clusters at far left and far right, much lower foliage along center with a large transparent open area across the top and center. The silhouette is an irregular organically layered bottom border. Painterly forest animation aesthetic, rich emerald and teal shadow colors, some warm green sunlit edges; deliberately softly blurred but recognizable. Absolutely transparent background outside foliage. No landscape, no ground, no characters, no text, no frame.",
+      "inputReference": null,
+      "visualDirectionReferences": [
+        "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+        "设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+        "设计图/2026-10-01-横版森林/04-森林溪谷-取景与线索UI.png"
+      ],
+      "inspection": "已逐张目视检查；PNG alpha另经采样核实。",
+      "sha256": "0dd1071f459dee60eb7ca704fe1dbc9202f56693c24477728cbf2952a39c64f9",
+      "bytes": 1232591,
+      "width": 2172,
+      "height": 724,
+      "hasAlphaChannel": true
+    },
+    {
+      "id": "child-walk",
+      "url": "/assets/characters/child-walk.png",
+      "generator": "OpenAI built-in image_gen",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a100c0-1f81-7dd3-b937-41461018f75c/exec-a5b39dfa-2b1d-403e-a830-a0b4c379315a.png",
+      "prompt": "Use case: identity-preserve / production 2D character animation. Use ONLY the child in the supplied approved concept as character reference. Recreate this exact friendly storybook child: small child, soft brown bob haircut, tan straw safari sunhat with round crown and dark brown band, cream short-sleeve shirt, forest-green shorts, stout brown hiking boots, brown leather backpack with brass fastenings. Charming polished hand-painted animated-film style with soft material shading. Produce exactly SIX full-body walking animation frames in a single horizontal sprite strip, equal-size six cells, all facing RIGHT in clean side view. 1536 x 512 wide strip. Frames show a complete 6-phase walk loop, alternately advancing left and right boot, clear swinging arms, hat/backpack gently following body, consistent same face/outfit/head size. Every frame has same ground baseline 88 percent of cell height, same overall height and same body center X inside the cell; at least 15 percent transparent padding on every side. Do not crop hat or feet. No other character, no scenery, no UI, no labels, no ground shadow. Real transparent alpha background throughout. Do not make a collage or character concept sheet; one aligned production animation strip only.",
+      "inputReference": "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+      "visualDirectionReferences": [
+        "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+        "设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+        "设计图/2026-10-01-横版森林/04-森林溪谷-取景与线索UI.png"
+      ],
+      "inspection": "已逐张目视检查；PNG alpha另经采样核实。",
+      "sha256": "818674197404025a6fa9341411653dbb89dd1aa26d7bf90a3c4449f6d4769fc1",
+      "bytes": 1273607,
+      "width": 2172,
+      "height": 724,
+      "hasAlphaChannel": true
+    },
+    {
+      "id": "assistant",
+      "url": "/assets/characters/assistant.png",
+      "generator": "OpenAI built-in image_gen",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a100c0-1f81-7dd3-b937-41461018f75c/exec-6ff68f4d-4770-4b82-9802-d63d9dbc1e08.png",
+      "prompt": "Use case: identity-preserve / background-extraction. Extract and reconstruct ONLY the adorable floating robot helper from this forest game concept as a clean single production game sprite on true transparent alpha. Same identity as reference: rounded creamy-white rectangular head with chamfered corners, glossy black-blue face screen with two cyan bright expressive eyes and a little cyan smiling mouth, gold circular ear pods, small white oval floating body and little rounded hands, bright green two-leaf seedling antenna. Full robot, very slight three-quarter view looking RIGHT, friendly attentive pose, head and leaves take about 70 percent of silhouette, small body hangs below. Beautiful hand-painted animated-film materials, warm cream ceramic and golden fittings, cyan face lights. No magnifying glass, no background, no child, no floor shadow, no UI, no text. Center in square canvas with 15 percent transparent padding. Preserve reference proportions and style exactly.",
+      "inputReference": "D:/代码玩具测试/多媒体竞赛/森语奇旅/设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+      "visualDirectionReferences": [
+        "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+        "设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+        "设计图/2026-10-01-横版森林/04-森林溪谷-取景与线索UI.png"
+      ],
+      "inspection": "已逐张目视检查；PNG alpha另经采样核实。",
+      "sha256": "932a5aa5739e5d3f5f09b2948391ea7c3082b2fa9c259a5a8fe571e63f2d5dd3",
+      "bytes": 884100,
+      "width": 1254,
+      "height": 1254,
+      "hasAlphaChannel": true
+    },
+    {
+      "id": "field-stations",
+      "url": "/assets/environment/field-stations.png",
+      "generator": "OpenAI built-in image_gen",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a100c0-1f81-7dd3-b937-41461018f75c/exec-b6b962fb-0622-4334-8b12-8b01bdd00d35.png",
+      "prompt": "Use case: illustration-story. Create a single production spritesheet containing 4 independent forest field stations. Match the supplied approved storybook illustration as STYLE reference only. Transparent background, EXACTLY four columns in one horizontal row, each same size rectangular slot with visible transparent padding. SIDE VIEW, full objects, about child's waist height. Left to right: (1) small rustic wooden workbench with a brass and blue-glass camera inspection device and folded cream cloth; (2) wooden easel holding blank cream paper leaf study with a pressed green leaf, little magnifying lens on stool; (3) tree stump with a small beautiful brass phonograph recording horn, little blue recording box, rolled sheet; (4) small wooden bookcase work table with three stacked cream paper books, leaf cards, canvas bag. Warm golden light, meticulously painted bark, wood grain, brass, paper, small white daisies and moss around roots, lush family animated film painterly style. Each object fully separate and centered in its cell, aligned at same bottom baseline. No ground plane beyond objects, no words or letters, no tree background, no characters, no UI. Strictly clear real transparent alpha background with no green or brown haze.",
+      "inputReference": "D:/代码玩具测试/多媒体竞赛/森语奇旅/设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+      "visualDirectionReferences": [
+        "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+        "设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+        "设计图/2026-10-01-横版森林/04-森林溪谷-取景与线索UI.png"
+      ],
+      "inspection": "已逐张目视检查；PNG alpha另经采样核实。",
+      "sha256": "56b3d0e1d3c25ee4971e9eef4cec9ba3408fa51a9ee05cc835cd06c5b49d447f",
+      "bytes": 1749771,
+      "width": 2095,
+      "height": 751,
+      "hasAlphaChannel": true
+    },
+    {
+      "id": "woodland-tree",
+      "url": "/assets/environment/woodland-tree.png",
+      "generator": "OpenAI built-in image_gen",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a100c0-1f81-7dd3-b937-41461018f75c/exec-363b7c79-2071-484f-986c-d60fd545e2ef.png",
+      "prompt": "A single complete majestic deciduous oak tree game sprite, isolated on a true transparent background. Side view. Broad irregular golden-green leafy crown with many individually painted leaves and some teal shadowed foliage, beautifully textured branching brown bark trunk, exposed roots and moss and a few tiny white daisies at the bottom. Entire crown and roots inside image with transparent padding. Richly detailed hand-painted children's storybook fantasy forest style, bright soft summer sunshine from upper right, physically tactile bark and leaves, polished animated-film art. Tree only. No sky, no forest, no scenery, no colored background, no cast shadow outside roots, no words, no frame. Transparent background.",
+      "inputReference": null,
+      "visualDirectionReferences": [
+        "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+        "设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+        "设计图/2026-10-01-横版森林/04-森林溪谷-取景与线索UI.png"
+      ],
+      "inspection": "已逐张目视检查；PNG alpha另经采样核实。",
+      "sha256": "5ea8a71fba39aad5c8dbf30f52a0e58a319d05260b8d862e5c4ed6730c6117cc",
+      "bytes": 2784077,
+      "width": 1245,
+      "height": 1263,
+      "hasAlphaChannel": true
+    },
+    {
+      "id": "bridges-kit",
+      "url": "/assets/environment/bridges-kit.png",
+      "generator": "OpenAI built-in image_gen",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a100c0-1f81-7dd3-b937-41461018f75c/exec-c928005c-f9dc-4f66-91ed-1a29c257c82e.png",
+      "prompt": "A production game sprite strip of THREE independent isolated wooden or stone structures on a truly transparent background. Exactly 3 evenly spaced horizontal cells on a wide canvas, objects wholly contained in their cells and never overlapping. Left: small side-view mossy white stone arch bridge with two end pillars, grey stone, grass, flowers. Middle: complete small side-view rustic wooden suspension rope footbridge with two end posts and short planks. Right: side-view wooden treehouse observation platform with rope railing and support posts, no tree, no house. All objects beautifully hand-painted for an elaborate lush children's storybook side-scrolling forest game, warm golden sunlight, moss, aged wood grain, carved stone texture, little daisies at feet. No ground plane, no backdrop, no scenery, no text, no label, no horizon, no rectangle. Empty areas inside stone arch and between railing must be truly transparent. Clear isolated production PNG sprite assets only.",
+      "inputReference": null,
+      "visualDirectionReferences": [
+        "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+        "设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+        "设计图/2026-10-01-横版森林/04-森林溪谷-取景与线索UI.png"
+      ],
+      "inspection": "已逐张目视检查；PNG alpha另经采样核实。",
+      "sha256": "6fe5d73098bfc8e7fe064eedb6080a754080d47f86227d06870337e556ea2c5a",
+      "bytes": 1504479,
+      "width": 2172,
+      "height": 724,
+      "hasAlphaChannel": true
+    },
+    {
+      "id": "forest-kit",
+      "url": "/assets/environment/forest-kit.png",
+      "generator": "OpenAI built-in image_gen",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a100c0-1f81-7dd3-b937-41461018f75c/exec-da5bf5f3-ec13-4bd5-997d-c1e424e9cbd9.png",
+      "prompt": "Remove ALL of the blurred brown/green backdrop from this sprite atlas, leaving the six complete illustrated foreground objects ONLY on true transparent alpha. Keep EXACT current size, exact positions, six-cell layout, scale, composition, textures, and every foreground object. This is background removal only: oak tree in top left, pine trees top middle, rocks top right, stone arch bridge bottom left, rope bridge bottom middle, platform bottom right. Transparent alpha must replace EVERY background pixel around, between, and inside holes in the objects, including under the stone arch and gaps between foliage. No solid colors, no colored haze, no drop shadow surrounding the objects, no checkerboard. Do NOT redesign the sprites. The finished product is a cutout spritesheet with a genuinely clear transparent background.",
+      "inputReference": "C:/Users/niu-h/.codex/generated_images/01a100c0-1f81-7dd3-b937-41461018f75c/exec-d6ed7ca0-d573-4b38-9591-95a0c8826757.png",
+      "visualDirectionReferences": [
+        "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+        "设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+        "设计图/2026-10-01-横版森林/04-森林溪谷-取景与线索UI.png"
+      ],
+      "priorPrompt": "Use case: illustration-story. Create a production sprite atlas of isolated environment elements, matching the lush finely hand-painted storybook forest in the supplied visual reference. Reference is STYLE ONLY; create six independent assets. Transparent canvas, EXACTLY 3 columns by 2 rows, equal size rectangular cells, wide landscape sheet 1536 x 1024, each object contained entirely inside its own cell with at least 25px clear padding, no overlap. TOP LEFT: complete tall green deciduous oak tree, brown branching trunk and gold green leafy crown. TOP MIDDLE: complete dark teal evergreen pine group, 3 trees together. TOP RIGHT: a group of grey mossy boulders decorated with tiny white daisies and bright grass. BOTTOM LEFT: standalone white stone arched footbridge viewed exactly from side, moss growing in cracks. BOTTOM MIDDLE: small rustic wooden rope suspension footbridge with 5 planks and 4 posts viewed from side. BOTTOM RIGHT: rustic forest observation platform built of wooden planks and short rope handrail on two stout support posts, with no tree behind it. Hand-painted gouache texture, warm sunlight from upper right, moss and bark detail. No water, no floor extending outside objects, no scenery background, no words or numerals, no UI, no characters. All six isolated sprites must be on true transparent background.",
+      "inspection": "已逐张目视检查；PNG alpha另经采样核实。",
+      "sha256": "526dad8791dd22e6ed8fd3e2efed11810fa358df64e13683f7620014ae9bc8e4",
+      "bytes": 2612125,
+      "width": 1536,
+      "height": 1024,
+      "hasAlphaChannel": true
+    },
+    {
+      "id": "waterfall-cliff",
+      "url": "/assets/environment/waterfall-cliff.png",
+      "generator": "OpenAI built-in image_gen",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a100c0-1f81-7dd3-b937-41461018f75c/exec-a51fe443-533f-4a51-be7a-923540bbb977.png",
+      "prompt": "One isolated environment sprite on true transparent background for a lush storybook side-scrolling forest game: a beautiful rocky cascade spilling down a blue-grey mossy cliff. Side view, whole self-contained object, taller than wide. At top small turquoise water source between rocks, pure white cascading ribbons splitting over three broad ledges, cool aquamarine pools, soft spray near foot, green ferns and small daisies growing among highly detailed craggy blue grey stone. A warm bright summer day, beautiful painterly animation-film rendering with precise material details, no outlines. Scene is strictly the cliff and cascade shape isolated as one natural object, not a rectangular picture. No background, no sky, no distant landscape, no trees, no buildings, no people, no UI, no text. True transparent alpha around the irregular silhouette of the rocky cascade, clear corners, not a green or brown background. The cascade will be layered into a real game.",
+      "inputReference": null,
+      "visualDirectionReferences": [
+        "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+        "设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+        "设计图/2026-10-01-横版森林/04-森林溪谷-取景与线索UI.png"
+      ],
+      "inspection": "已逐张目视检查；PNG alpha另经采样核实。",
+      "sha256": "3909276326c1899ebe9c948219178191c49c3c4f60447327aa8ae312e951b527",
+      "bytes": 3146925,
+      "width": 1024,
+      "height": 1536,
+      "hasAlphaChannel": true
+    },
+    {
+      "id": "moss-rocks",
+      "url": "/assets/environment/moss-rocks.png",
+      "generator": "OpenAI built-in image_gen",
+      "source": "C:/Users/niu-h/.codex/generated_images/01a100c0-1f81-7dd3-b937-41461018f75c/exec-4159eac0-23dd-4865-8e92-db03e141082a.png",
+      "prompt": "One standalone side-view cluster of THREE rounded grey granite rocks for a hand-painted children's storybook forest video game. Production isolated sprite with genuine transparent alpha. The biggest rock at rear, two little rocks in front. Solid opaque rock surfaces, blue-grey and warm grey stone facets with subtle cracks; thick moss only on top edges, five little white daisies and a few soft green grass blades around the base. Richly detailed but clean and readable silhouette, warm sunshine from upper right, polished painterly 2D illustrated film finish. Entire group fits comfortably inside canvas with transparent padding on all sides. It is a small grounded prop, not a landscape. No blurry colored backdrop, no haze, no background environment, no cast shadow outside the object, no checkerboard, no labels, no border. Transparent background only. Every rock must be fully opaque.",
+      "inputReference": null,
+      "visualDirectionReferences": [
+        "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+        "设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+        "设计图/2026-10-01-横版森林/04-森林溪谷-取景与线索UI.png"
+      ],
+      "inspection": "逐张目视检查，并以游戏截图核验比例、着地位置与透明边界",
+      "sha256": "2a0acfa5244bd2ac43d1eb1dcb861658fa8eac7fbd8ad2dc0bbd5c4a570514fe",
+      "bytes": 2620039,
+      "width": 1536,
+      "height": 1024,
+      "hasAlphaChannel": true
+    }
+  ],
+  "references": [
+    {
+      "path": "设计图/2026-10-02-中央起点与地图复用/04-中央起点-初始范围.png",
+      "sha256": "510ea2143d9e8ca737abc37e58586bb5f01a761b22b93f8d4b9872d90d5e187b",
+      "role": "批准视觉依据；仅指定的inputReference实际传给生成器"
+    },
+    {
+      "path": "设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+      "sha256": "2214edce68034ec0562437fefa142900af882f3201351e1fdc299dfa43d2e940",
+      "role": "批准视觉依据；仅指定的inputReference实际传给生成器"
+    },
+    {
+      "path": "设计图/2026-10-01-横版森林/04-森林溪谷-取景与线索UI.png",
+      "sha256": "cd2376e8f4f297e2c354b633fa42468ba5f32b72edfd471141a9724173f082b0",
+      "role": "批准视觉依据；仅指定的inputReference实际传给生成器"
+    }
+  ],
+  "note": "概念图仅作视觉依据。运行场景由独立透明素材、真实坐标、可交互物、动画和程序效果组成，未将完整概念图铺成游戏。PNG透明像素可能保留RGB颜色，以实际alpha为准。"
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1050" viewBox="0 0 1700 1050">
+<defs><marker id="teal" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="#397c7d"/></marker><marker id="gold" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="#d1a049"/></marker></defs>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#254952}.small{font-size:24px}.label{font-size:23px}</style>
+<rect width="1700" height="1050" fill="#f8f8ef"/>
+<text x="55" y="61" font-size="38" font-weight="bold">候选线路与规则关系 · 可编辑结构示意</text>
+<text x="55" y="101" class="small">当前已拿到图书。两种候选都从同一位置出发，避开施工连接，经坡道到音乐教室。</text>
+<rect x="55" y="142" width="1290" height="770" rx="18" fill="#eef2e2"/>
+<path d="M150,650L450,650" fill="none" stroke="#c7ccbe" stroke-width="21" stroke-linejoin="round"/><path d="M450,650L450,220" fill="none" stroke="#c7ccbe" stroke-width="21" stroke-linejoin="round"/><path d="M450,220L820,220" fill="none" stroke="#c7ccbe" stroke-width="21" stroke-linejoin="round"/><path d="M450,650L1010,650" fill="none" stroke="#c7ccbe" stroke-width="21" stroke-linejoin="round"/><path d="M1010,650L1160,400" fill="none" stroke="#c7ccbe" stroke-width="21" stroke-linejoin="round"/><path d="M150,650L150,850" fill="none" stroke="#c7ccbe" stroke-width="21" stroke-linejoin="round"/><path d="M150,850L1260,850" fill="none" stroke="#c7ccbe" stroke-width="21" stroke-linejoin="round"/><path d="M1260,850L1260,650" fill="none" stroke="#c7ccbe" stroke-width="21" stroke-linejoin="round"/><path d="M1260,650L1010,650" fill="none" stroke="#c7ccbe" stroke-width="21" stroke-linejoin="round"/><path d="M1160,400L1020,220" fill="none" stroke="#c7ccbe" stroke-width="21" stroke-linejoin="round"/><path d="M1020,220L820,220" fill="none" stroke="#c7ccbe" stroke-width="21" stroke-linejoin="round"/>
+<path d="M150,650L450,650L450,220L820,220" fill="none" stroke="#a4aaa2" stroke-width="6" stroke-dasharray="9 9"/>
+<path d="M150,650L150,850L1260,850L1260,650L1010,650L1160,400L1020,220L820,220" fill="none" stroke="#d1a049" stroke-width="9" stroke-linejoin="round" marker-end="url(#gold)"/>
+<path d="M150,650L450,650L1010,650L1160,400L1020,220L820,220" fill="none" stroke="#397c7d" stroke-width="8" stroke-linejoin="round" marker-end="url(#teal)"/>
+<path d="M450 405H500M425 400L475 450M430 435L480 485" stroke="#c97957" stroke-width="8"/>
+<rect x="320" y="485" width="258" height="46" rx="12" fill="#fae6d6"/><text x="449" y="518" font-size="25" text-anchor="middle">施工：这段不能通过</text>
+<circle cx="150" cy="650" r="13" fill="#fff" stroke="#5f8080" stroke-width="3"/><rect x="74" y="593" width="152" height="33" rx="8" fill="#fff"/><text x="150" y="617" class="label" text-anchor="middle">当前小车</text><circle cx="450" cy="650" r="13" fill="#fff" stroke="#5f8080" stroke-width="3"/><rect x="374" y="593" width="152" height="33" rx="8" fill="#fff"/><text x="450" y="617" class="label" text-anchor="middle">安全分岔</text><circle cx="450" cy="220" r="13" fill="#fff" stroke="#5f8080" stroke-width="3"/><rect x="374" y="163" width="152" height="33" rx="8" fill="#fff"/><text x="450" y="187" class="label" text-anchor="middle">原上侧路</text><circle cx="1010" cy="650" r="13" fill="#fff" stroke="#5f8080" stroke-width="3"/><rect x="934" y="593" width="152" height="33" rx="8" fill="#fff"/><text x="1010" y="617" class="label" text-anchor="middle">中路转点</text><circle cx="150" cy="850" r="13" fill="#fff" stroke="#5f8080" stroke-width="3"/><rect x="74" y="793" width="152" height="33" rx="8" fill="#fff"/><text x="150" y="817" class="label" text-anchor="middle">外侧路</text><circle cx="1260" cy="850" r="13" fill="#fff" stroke="#5f8080" stroke-width="3"/><rect x="1184" y="793" width="152" height="33" rx="8" fill="#fff"/><text x="1260" y="817" class="label" text-anchor="middle">外侧转点</text><circle cx="1260" cy="650" r="13" fill="#fff" stroke="#5f8080" stroke-width="3"/><rect x="1184" y="593" width="152" height="33" rx="8" fill="#fff"/><text x="1260" y="617" class="label" text-anchor="middle">补给点</text><circle cx="1160" cy="400" r="13" fill="#fff" stroke="#5f8080" stroke-width="3"/><rect x="1084" y="343" width="152" height="33" rx="8" fill="#fff"/><text x="1160" y="367" class="label" text-anchor="middle">坡道下端</text><circle cx="1020" cy="220" r="13" fill="#fff" stroke="#5f8080" stroke-width="3"/><rect x="944" y="163" width="152" height="33" rx="8" fill="#fff"/><text x="1020" y="187" class="label" text-anchor="middle">坡道上端</text><circle cx="820" cy="220" r="13" fill="#fff" stroke="#5f8080" stroke-width="3"/><rect x="744" y="163" width="152" height="33" rx="8" fill="#fff"/><text x="820" y="187" class="label" text-anchor="middle">音乐教室</text>
+<rect x="577" y="615" width="177" height="42" rx="11" fill="#e0eeeb"/><text x="665" y="645" class="small" text-anchor="middle">A · 经中路</text>
+<rect x="612" y="815" width="218" height="42" rx="11" fill="#f6e5c3"/><text x="721" y="845" class="small" text-anchor="middle">B · 经补给点</text>
+<rect x="1380" y="180" width="267" height="360" rx="17" fill="#fff" stroke="#d5dfd0"/>
+<text x="1401" y="223" font-size="29" font-weight="bold">共同满足</text>
+<text x="1401" y="276" class="small">• 起点和终点一致</text>
+<text x="1401" y="330" class="small">• 不进施工路段</text>
+<text x="1401" y="384" class="small">• 经过坡道</text>
+<text x="1401" y="438" class="small">• 已有图书可交付</text>
+<rect x="1380" y="570" width="267" height="192" rx="17" fill="#e9eff0"/>
+<text x="1401" y="615" font-size="28" font-weight="bold">再看这次需要</text>
+<text x="1401" y="665" class="small">经中路，还是补给？</text>
+<text x="1401" y="712" class="small">由人解释选择理由。</text>
+<text x="55" y="970" class="small">图中路径依据本图声明的连接关系检查；它不是概念画的逐像素道路，也不是运行时求解输出。</text>
+<text x="55" y="1012" font-size="21" fill="#657c79">正式实现须以真实地图、动作条件和约束计算结果。这里仅用于确认设计关系，未宣称最短距离或机器人性能。</text>
+</svg>

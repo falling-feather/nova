@@ -1,0 +1,122 @@
+{
+  "A01": {
+    "file": "/ui/plate-A01.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "A02": {
+    "file": "/ui/plate-A02.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "B01": {
+    "file": "/ui/plate-B01.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "B02": {
+    "file": "/ui/plate-B02.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "C02": {
+    "file": "/ui/plate-C02.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "B03": {
+    "file": "/ui/plate-B03.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "B04": {
+    "file": "/ui/plate-B04.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "C01": {
+    "file": "/ui/plate-C01.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "C03": {
+    "file": "/ui/plate-C03.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "D01": {
+    "file": "/ui/plate-D01.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "D02": {
+    "file": "/ui/plate-D02.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "D03": {
+    "file": "/ui/plate-D03.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "D04": {
+    "file": "/ui/plate-D04.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "E01": {
+    "file": "/ui/plate-E01.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "E02": {
+    "file": "/ui/plate-E02.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "F01": {
+    "file": "/ui/plate-F01.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "D05": {
+    "file": "/ui/plate-D05.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "E03": {
+    "file": "/ui/plate-E03.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "E04": {
+    "file": "/ui/plate-E04.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "F02": {
+    "file": "/ui/plate-F02.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "F03": {
+    "file": "/ui/plate-F03.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "F04": {
+    "file": "/ui/plate-F04.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "F05": {
+    "file": "/ui/plate-F05.webp",
+    "width": 1672,
+    "height": 941
+  },
+  "F06": {
+    "file": "/ui/plate-F06.webp",
+    "width": 1672,
+    "height": 941
+  }
+}

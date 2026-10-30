@@ -1,0 +1,1040 @@
+{
+  "date": "2026-10-12",
+  "scope": "24张核心页面，4张交互状态图，覆盖25环节；附3张逻辑图",
+  "tool": "内置image_gen.imagegen",
+  "status": "视觉设计提案；画面中的课程结果为示意，非实测输出。",
+  "pages": [
+    {
+      "id": "A01",
+      "title": "章节邀请与续学",
+      "stage": "入口",
+      "steps": [],
+      "scene": "dawn",
+      "entry": "奇点第八章详情进入；首次进入与已有进度共用入口",
+      "actions": [
+        [
+          "开始旅程",
+          "A02",
+          "首次开始；已有记录则先确认重新开始"
+        ],
+        [
+          "继续上次",
+          "LAST",
+          "读取本机保存位置"
+        ],
+        [
+          "返回奇点目录",
+          "HUB",
+          "离开本章"
+        ]
+      ],
+      "learning": "建立五站旅程与夜场创作目标。",
+      "filename": "A01-章节邀请与续学.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage A01. CHAPTER ENTRY, not a teaching board. A panoramic bay with a curved coastal village, sand-art pavilions, distant lighthouse preparing a night exhibition; morning light. Keep landscape rich and spacious. Left-center elegant large title “潮汐沙画节”, subtitle “从一片噪声，到一场属于你的展演”. Below, three small learning promises: “看懂噪声” “亲手实验” “策划夜场”. Lower-right a beautifully designed folded invitation card as the only prominent UI. Heading “今晚的展演，等你来策划”; primary teal button “开始旅程”; secondary quiet link “继续上次”. Show a small saved-progress preview “已到第 2 站 · 修复棚”. Lower left delicate five-shell journey motif, not an admin checklist. Small chapter marker “第八章 · 扩散模型”. The primary focus is the invitation and course identity, preserving environmental beauty. Utility “返回奇点目录” top left.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+      ]
+    },
+    {
+      "id": "A02",
+      "title": "五站课程地图",
+      "stage": "入口",
+      "steps": [],
+      "scene": "dawn",
+      "entry": "从入口开始旅程；任意课程页点击课程地图",
+      "actions": [
+        [
+          "继续这一站",
+          "CURRENT",
+          "当前站首个未完成环节"
+        ],
+        [
+          "回看上一站",
+          "PREVIOUS",
+          "已完成环节可回访"
+        ],
+        [
+          "关闭地图",
+          "CALLER",
+          "回到打开地图前的页面"
+        ]
+      ],
+      "learning": "让学生始终知道所在位置与后续目标。",
+      "filename": "A02-五站课程地图-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage A02. Full-screen illustrated JOURNEY MAP, a distinctive spatial navigation page. Bird's-eye 3D diorama of one coherent curving coastline, from dawn beach at left through workshop, shell market, recipe stall, to evening lighthouse at right. A readable winding path links exactly FIVE locations numbered 01–05. Labels “潮汐沙滩”“修复棚”“贝壳市集”“配方摊”“灯塔夜场”. Small timing tags “清晨”“上午”“午后”“黄昏”“夜晚”. Place a check on station 1, “当前” at station 2, subtle small locks on 3–5. A small floating station-details folio anchored to workshop, title “修复棚”, question “师傅怎样学会去噪？”, progress “已完成 1 / 5 个环节”, clear primary “继续这一站”, secondary “回看上一站”. Top title “今天的五站旅程”. No long lists; the route itself must explain sequence. Remaining places beautifully visible despite locked actions. Close × returns to previous experiment.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+      ]
+    },
+    {
+      "id": "B01",
+      "title": "原画与像素观察",
+      "stage": "潮汐沙滩",
+      "steps": [
+        1
+      ],
+      "scene": "dawn",
+      "entry": "A02进入第1站",
+      "actions": [
+        [
+          "画笔／橡皮",
+          "SELF",
+          "直接在画布操作"
+        ],
+        [
+          "借一幅",
+          "SELF",
+          "选择样图后仍可继续编辑"
+        ],
+        [
+          "看像素",
+          "G03",
+          "打开局部观察层"
+        ],
+        [
+          "画好了，去看潮水",
+          "B02",
+          "保留原图用于后续实验"
+        ]
+      ],
+      "learning": "把图像与像素数据对应起来。",
+      "filename": "B01-原画与像素观察-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage B01. DRAWING PAGE at first station, morning shoreline. Title “先留下一幅自己的画”. Center-left a beautiful large square SAND DRAWING CANVAS, a simple incomplete fish line in sand, clear visible brush cursor. The actual canvas dominates, not its wooden ornament. A compact floating tool dock immediately beside canvas: “画笔”“橡皮”“撤销”“重画”, clean readable icons. A pixel-inspection loupe anchored to one stroke magnifies a small grayscale cell grid; caption “图像由 32 × 32 个格子组成”. To the right a compact specimen drawer titled “也可以借一幅”, three miniature simple doodles labelled “鱼”“花”“帆船”; no unnecessary hero art. A small host hint “画好后，我们看看潮水会怎样改变它。” Primary bottom button “画好了，去看潮水”; secondary small toggle “看像素”. Show selected brush and a ready-to-continue state, not all tools highlighted.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+      ]
+    },
+    {
+      "id": "B02",
+      "title": "加噪预测与观察",
+      "stage": "潮汐沙滩",
+      "steps": [
+        2,
+        3
+      ],
+      "scene": "dawn",
+      "entry": "B01保存原画后进入",
+      "actions": [
+        [
+          "拖动潮水尺",
+          "SELF",
+          "同一原图与随机数，改变加噪进程"
+        ],
+        [
+          "记下这一刻",
+          "G03",
+          "弹出预测与观察对照"
+        ],
+        [
+          "查看原理",
+          "G01",
+          "按需查看概念"
+        ],
+        [
+          "继续比较终点",
+          "B03",
+          "完成观察与解释后"
+        ]
+      ],
+      "learning": "先预测、再观察，理解信号减弱和噪声增强。",
+      "filename": "B02-加噪预测与观察.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage B02. Reuse the already reviewed noise-observation design unchanged.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+      ],
+      "reuse": "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+    },
+    {
+      "id": "B03",
+      "title": "噪声终点与分布",
+      "stage": "潮汐沙滩",
+      "steps": [
+        4
+      ],
+      "scene": "dawn",
+      "entry": "B02完成加噪观察",
+      "actions": [
+        [
+          "选择一片乱沙",
+          "SELF",
+          "留下判断"
+        ],
+        [
+          "揭开原画",
+          "SELF",
+          "显示对应关系与分布提示"
+        ],
+        [
+          "试试把它修回来",
+          "B04",
+          "进入修复尝试"
+        ]
+      ],
+      "learning": "区分分布相似与像素完全相同。",
+      "filename": "B03-噪声终点与分布-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage B03. OBSERVATIONAL COMPARISON after adding noise. Title “终点的乱沙，哪里相同？” Full-width elegant observation board with four small original drawings across top, “鱼”“花”“帆船”“星星”, each connected downward to a LARGE distinct noise square, aligned four across, labels A B C D. They must show similar overall noise character but different exact cells, not four identical textures. One selected noise tile opens a modest right/bottom loupe showing a few pixel values and a tiny histogram; show a second outline histogram with similar bell-like shape. Crucial large insight “整体分布相似，不是每格相同”. A clean question strip below asks “你还能认出哪一片来自你的原画吗？” with small choices “试着猜一片”“揭开原画”. Render post-reveal state with matching thin connectors, not random crossing lines. Primary “试试把它修回来”. The morning sea remains a soft peripheral frame. This is a visual reasoning task, not another single-image slider.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+      ]
+    },
+    {
+      "id": "B04",
+      "title": "人工修复与过站提问",
+      "stage": "潮汐沙滩→修复棚",
+      "steps": [
+        5,
+        6
+      ],
+      "scene": "work",
+      "entry": "第5环节先尝试纯噪声恢复；G04过站后，第6环节共用版式比较中度噪声。图示为第6环节。",
+      "actions": [
+        [
+          "用刷子修复",
+          "SELF",
+          "保留学生尝试"
+        ],
+        [
+          "请师傅试试",
+          "G02",
+          "计算后显示模型尝试"
+        ],
+        [
+          "和原画比一比",
+          "SELF",
+          "展开原图与像素对照"
+        ],
+        [
+          "带着问题去工坊",
+          "G04",
+          "完成沙滩综合环节后过站"
+        ],
+        [
+          "看师傅的练习本",
+          "C01",
+          "图示第6环节修复比较完成后"
+        ]
+      ],
+      "learning": "亲历逆向恢复困难，不把生成等同于找回原画。",
+      "filename": "B04-人工修复与过站提问-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage B04. HANDS-ON RESTORATION task, transition between beach and workshop. Title “冲乱容易，你能把它修回来吗？” Composition like a real craft bench transformed into a polished educational interface: a large editable noisy fish canvas left, thin small tool dock “刷子 / 抹匀 / 撤销”, a small original-image reference tab folded shut labelled “原画”. To the right TWO smaller vertical results “我的修复” and “师傅的尝试”; show imperfect reconstructed fish rather than perfect magical recovery. A modest bottom comparison slip “像素比较，不是作品评分”. Current state: student has tried repair and can press primary “请师傅试试”; model result pane is a frosted placeholder, not a fabricated computed success. A small mentor/robot at the side asks “哪些是原来的线，哪些是混入的扰动？” Lower transition action “带着问题去工坊” in quiet text, activated only after comparison. Warm timber and teal workshop threshold, sea visible at left. Convey meaningful direct manipulation, not generic generation.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/02-修复工坊-模型拆解.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+      ]
+    },
+    {
+      "id": "C01",
+      "title": "师傅的训练练习本",
+      "stage": "修复棚",
+      "steps": [
+        7
+      ],
+      "scene": "work",
+      "entry": "B04完成修复尝试",
+      "actions": [
+        [
+          "翻下一页",
+          "SELF",
+          "比较不同样本与噪声水平"
+        ],
+        [
+          "查看误差",
+          "G03",
+          "按需展开真实／预测噪声"
+        ],
+        [
+          "看一次实际去噪",
+          "C02",
+          "至少完成必要观察后"
+        ]
+      ],
+      "learning": "区分训练时的真实答案与推理时的噪声预测。",
+      "filename": "C01-师傅的训练练习本-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage C01. TRAINING NOTEBOOK opened in atelier. Title “师傅是怎样练会猜噪声的？” Large open folio with two facing pages, visually different from the three-panel inference screen. Left page heading “出一道练习题”: clear clean fish image + true random noise → noisy fish. Right page heading “检查它猜得怎样”: “真实加进去的噪声” and “模型预测的噪声” side by side, small discrepancy highlight, then a simple labelled feedback arrow “比较误差 → 调整参数” looping back to a tiny MODEL symbol. Crucial boundary printed clearly “训练过程示意；这里运行的是已训练好的模型”. No fake live-training progress or invented loss curve. Bottom page tabs “第 1 页”“第 2 页”“第 3 页”, second selected, primary “翻下一页”, next quiet “看一次实际去噪”. Gentle paper texture, crisp Chinese type, selective gold accents; robot peeking unobtrusively at outer edge, all diagram evidence readable.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/02-修复工坊-模型拆解.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "只走一步的去噪台",
+      "stage": "修复棚",
+      "steps": [
+        8
+      ],
+      "scene": "work",
+      "entry": "C01训练观察完成",
+      "actions": [
+        [
+          "再收一步",
+          "G02",
+          "完成本步计算后回到C02"
+        ],
+        [
+          "从头重看",
+          "SELF",
+          "重置本次回放，不清除课程进度"
+        ],
+        [
+          "查看原图估计",
+          "G03",
+          "打开本步补充信息"
+        ],
+        [
+          "比较一步与多步",
+          "C03",
+          "转入方法对照"
+        ]
+      ],
+      "learning": "模型预测与图像更新是两个环节。",
+      "filename": "C02-只走一步的去噪台-v3.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage C02. STEP-BY-STEP INFERENCE screen. Adapt the referenced three-image folio. Heading “先预测噪声，再更新一步”. Three equal clear windows in a horizontal process: “这一步之前” noisy fish, arrow “模型预测”, “猜出的噪声” random grid, arrow “计算更新”, “这一步之后” slightly clearer fish, not a perfect original. Large visible step counter “第 3 / 20 步” above the last pane. Below a fine 20-position timeline, first 3 positions filled and current selected. One prominent button “再收一步”, quiet “从头重看”, small “查看原图估计” folded tab. A concise feedback line “每一步都重新判断，再更新图像。” Soft workshop background and beautiful ivory open folio; no dense text sidebar, no implied instant restoration. Show a stable paused state, ready for another student click. Small section marker C02.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/02-修复工坊-模型拆解.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "一步多步与修复对照",
+      "stage": "修复棚",
+      "steps": [
+        9,
+        10
+      ],
+      "scene": "work",
+      "entry": "C02完成逐步观察",
+      "actions": [
+        [
+          "1步／20步",
+          "G02",
+          "分别真实运行并保留结果"
+        ],
+        [
+          "轻／中／重",
+          "SELF",
+          "切换修复对照子实验"
+        ],
+        [
+          "记下我的比较",
+          "G01",
+          "保存该站观察"
+        ],
+        [
+          "去市集挑一个起点",
+          "G04",
+          "工坊完成后过站"
+        ]
+      ],
+      "learning": "用对照解释多步采样与受损程度的影响。",
+      "filename": "C03-一步多步与修复对照-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage C03. COMPARATIVE EXPERIMENT spread. Title “一步到位，还是一步步来？” The hero is two large side-by-side square result windows on paper labelled “只走 1 步” and “分 20 步”, same initial noise seed shown in a single locked-condition strip. One-step result has weak fragmented structure, 20-step result clearer simple fish; no polished artwork. Below each a narrow miniature real-process-style filmstrip. Along bottom, a discreet second experiment tab labelled “轻 / 中 / 重：我和师傅比一比”, with a compact 3-column preview row showing input severity and paired manual/model outputs, not a spreadsheet of numerical scores. Clear note “比较本次结果，不预设步数越多越好”. Primary “记下我的比较”, small next “去市集挑一个起点”. Lighting warm, spacious graphic hierarchy, keep the two main results much larger than the lower preview. No victory leaderboard.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/02-修复工坊-模型拆解.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+      ]
+    },
+    {
+      "id": "D01",
+      "title": "贝壳起点与生成回放",
+      "stage": "贝壳市集",
+      "steps": [
+        11
+      ],
+      "scene": "market",
+      "entry": "C03过站后进入市集",
+      "actions": [
+        [
+          "选择编号贝壳",
+          "SELF",
+          "决定新的随机起点"
+        ],
+        [
+          "生成完整一幅",
+          "G02",
+          "完成后可拖动回放"
+        ],
+        [
+          "拖动胶片条",
+          "SELF",
+          "回看已产生的中间状态"
+        ],
+        [
+          "核对能否复现",
+          "D02",
+          "保留完整配方"
+        ]
+      ],
+      "learning": "从纯噪声逐步生成；种子表示随机起点。",
+      "filename": "D01-贝壳起点与生成回放.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage D01. SAMPLING AND REPLAY at shell market. Title “选一个起点，看图像怎样出现”. Layout must emphasize a single active generation/replay viewport, with a gracefully curved small collection of numbered shells at left “23”“101”“427”“851”; 427 selected. Main image is a partially formed simple star emerging from noise, labelled “第 8 / 20 步”. Directly beneath, a large readable filmstrip of 6 representative intermediate frames from pure noise to recognizable star and an obvious draggable replay handle. Controls “回看这一步” and primary “生成完整一幅”, quiet “换一枚贝壳”. Right side small folded recipe tag says “种子 427 · 自由生成 · 20 步”; no topic condition picker yet. A small explanation “编号确定最初的随机噪声”. Use teal awning, afternoon sun and specimen-case refinement from reference, make the image and filmstrip larger than the scenic props.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/03-贝壳市集-控制变量.png"
+      ]
+    },
+    {
+      "id": "D02",
+      "title": "同配方重新计算",
+      "stage": "贝壳市集",
+      "steps": [
+        12
+      ],
+      "scene": "market",
+      "entry": "D01生成完成",
+      "actions": [
+        [
+          "再完整计算一次",
+          "G02",
+          "不使用缓存；完成后逐格核对"
+        ],
+        [
+          "不一致时查看条件",
+          "G03",
+          "解释模型、配方和环境差异"
+        ],
+        [
+          "换种子做对照",
+          "D03",
+          "进入多起点与近邻观察"
+        ]
+      ],
+      "learning": "完整条件决定可复现性，不能只记种子。",
+      "filename": "D02-同配方重新计算-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage D02. REPRODUCIBILITY VERIFICATION. Title “同一张配方，能再画出同一幅吗？” Two large equal square specimen windows labelled “第一次生成” and “重新计算”, show exactly matching simple star doodles. A full concise locked recipe ribbon above: “模型相同 · 种子 427 · 20 步 · 自由生成”. Between the two images a narrow glowing comparison seam, a small floating pixel loupe shows corresponding cells. Below a measured success message “本次核对：像素一致”, subtitle “相同模型、完整配方与计算环境”. One prominent button “再完整计算一次”, secondary “换种子做对照”. Clearly this result is a post-comparison state; no fake aesthetic score, accuracy percentage, or use of cache. Elegant silver-teal framed ivory sheets, pleasant afternoon market backdrop, minimal props. Small flow link “不一致时查看条件” anchors a closed explanation drawer.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/03-贝壳市集-控制变量.png"
+      ]
+    },
+    {
+      "id": "D03",
+      "title": "多起点与训练近邻",
+      "stage": "贝壳市集",
+      "steps": [
+        13
+      ],
+      "scene": "market",
+      "entry": "D02转入不同种子对照",
+      "actions": [
+        [
+          "选一幅生成图",
+          "SELF",
+          "更新右侧近邻候选"
+        ],
+        [
+          "打开相似样本",
+          "G03",
+          "并排细看，不宣称查明来源"
+        ],
+        [
+          "去比较采样步数",
+          "D04",
+          "进入步数实验"
+        ]
+      ],
+      "learning": "区分现场计算、相似性与有限检索的证据边界。",
+      "filename": "D03-多起点与训练近邻.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage D03. SEED VARIETY AND TRAINING-NEIGHBOR inquiry. Title “这些画不同，和练习本又有多像？” Main content left 60%: a 2-by-3 array of six carefully framed simple generated doodles with seed numbers, one selected with fine coral corner brackets. Right 35% is a pulled-out archival drawer titled “练习本里的相似样本”, displaying selected generated image above and three small similar training doodles beneath, linked by fine comparison lines. Crucial readable note on drawer “只在 1,920 幅抽样中比较；相似不等于查明来源”. Primary action “换一幅继续找”, secondary bottom “去比较采样步数”. No claims of originality proved, no copied/not-copied stamp. The rich drawer material and seaside market should make the archive UI feel native to the world; actual subject comparison is the focus.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/03-贝壳市集-控制变量.png"
+      ]
+    },
+    {
+      "id": "D04",
+      "title": "步数与用时实验",
+      "stage": "贝壳市集",
+      "steps": [
+        14
+      ],
+      "scene": "market",
+      "entry": "D03完成多起点观察",
+      "actions": [
+        [
+          "运行四组步数",
+          "G02",
+          "分别记录图像与本机实际用时"
+        ],
+        [
+          "保存这次比较",
+          "G01",
+          "写下质量与时间观察"
+        ],
+        [
+          "制作我的配方卡",
+          "D05",
+          "保存完整配方"
+        ]
+      ],
+      "learning": "同时比较计算成本与实际结果。",
+      "filename": "D04-步数与用时实验.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage D04. SAMPLING STEPS experiment. Title “多走几步，就一定更好吗？” Four equal front-facing result panels in one row labelled “2 步”“5 步”“20 步”“50 步”. Fixed strip “同一模型 · 同一种子 · 其他设置相同”. The 2-step simple boat is incomplete, 5-step roughly recognizable, 20 and 50 are both reasonably clear but visibly different, not an automatic perfection progression. Beneath each a clock icon and a clearly labelled illustrative timing “示意 0.3 秒”“示意 0.6 秒”“示意 1.9 秒”“示意 4.7 秒”. Small note “正式运行显示本机实测用时”. Lower a small observation notebook with two short writable lines “轮廓有什么变化？” and “多花的时间值得吗？”. One primary “保存这次比较”; secondary “制作我的配方卡”. Use refined specimen display instead of dashboard charts, warm afternoon light.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/03-贝壳市集-控制变量.png"
+      ]
+    },
+    {
+      "id": "D05",
+      "title": "配方卡保存与复现",
+      "stage": "贝壳市集",
+      "steps": [
+        15
+      ],
+      "scene": "market",
+      "entry": "D04选择结果制作配方；亦可从全局配方卡册打开",
+      "actions": [
+        [
+          "收进配方卡册",
+          "SELF",
+          "保存配方，显示完成反馈"
+        ],
+        [
+          "复制配方码",
+          "SELF",
+          "复制完整可复现参数"
+        ],
+        [
+          "按这张卡重新计算",
+          "G02",
+          "结果返回D05核对"
+        ],
+        [
+          "进入配方摊",
+          "G04",
+          "本关完成后解锁下一站"
+        ],
+        [
+          "关闭",
+          "CALLER",
+          "返回来源页面"
+        ]
+      ],
+      "learning": "配方可保存、交接与复现。",
+      "filename": "D05-配方卡保存与复现.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage D05. RECIPE CARD saved modal state. Keep the market and a few prior works dimmed behind a beautiful focused floating two-sided recipe card. Header “我的第一张配方卡”. Left half shows a simple star artwork with subtle sand display texture. Right half is a crisply printed recipe with seed 427, “题目：自由生成”, “步数：20”, “模型与采样方式：随卡记录”. A prominent copyable code line “427-自由-20”, small copy icon and visible feedback “已复制”. Bottom one primary “按这张卡重新计算”, secondary “收进配方卡册”. A secondary narrow attached paper sleeve shows an input labelled “输入同伴的配方码” and small action “核对配方”. Close × returns to the prior experiment. Underlay retains context but is gently blurred, not unreadably transparent text. This is a precise save/copy/reproduce flow, not a decorative blank invitation.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/03-贝壳市集-控制变量.png"
+      ]
+    },
+    {
+      "id": "E01",
+      "title": "题目签与引导力度",
+      "stage": "配方摊",
+      "steps": [
+        16,
+        17
+      ],
+      "scene": "dusk",
+      "entry": "D05完成后进入配方摊",
+      "actions": [
+        [
+          "更换题目签",
+          "G02",
+          "保持同一种子，生成类别条件结果"
+        ],
+        [
+          "改变力度",
+          "G02",
+          "固定种子和题目，只改引导力度"
+        ],
+        [
+          "记录哪一组更合适",
+          "G01",
+          "记录实际判断"
+        ],
+        [
+          "只改一个变量，再试试",
+          "E02",
+          "控制变量实验"
+        ]
+      ],
+      "learning": "类别提供方向；引导力度不是正确率。",
+      "filename": "E01-题目签与引导力度-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage E01. CONDITIONING lesson at twilight recipe stall. Transform crude old UI into sophisticated specimen-board interface matching reference 2. Warm coral/violet evening sky, teal signs, a few lit lanterns. Heading “题目能指路，力度怎样影响画面？” A small unfolded topic-sign selector at upper left shows tasteful wooden tabs “鱼”“花”“鸟”“帆船” and a quiet “全部 12 类”; fish selected. Fixed seed badge 427. Main central board shows FOUR equally sized simple fish-generation samples for guidance “0”“1”“3”“7”; zero can resemble a different vague doodle, middle recognizable, high over-thick or distorted. Under them an elegant intensity control with clear tick labels “不使用类别引导” at 0, never labelled accuracy. A compact floating teacher hint “更强不一定更好，看看轮廓与细节”. Primary “记录哪一组更合适”, quiet “只改一个变量，再试试”. Keep topic selector secondary and study samples dominant; no open-ended text prompt box.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/docs/实机图/16-配方摊-抽签.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/03-贝壳市集-控制变量.png"
+      ]
+    },
+    {
+      "id": "E02",
+      "title": "种子与题目的双重对照",
+      "stage": "配方摊",
+      "steps": [
+        18
+      ],
+      "scene": "dusk",
+      "entry": "E01完成主题与力度观察",
+      "actions": [
+        [
+          "实验A：只换题目",
+          "SELF",
+          "固定种子、步数和力度"
+        ],
+        [
+          "实验B：只换种子",
+          "SELF",
+          "固定题目、步数和力度"
+        ],
+        [
+          "记录观察",
+          "G01",
+          "记录两组对照结论"
+        ],
+        [
+          "尝试两支签",
+          "E03",
+          "进入混合条件"
+        ]
+      ],
+      "learning": "控制变量区分随机起点和条件方向。",
+      "filename": "E02-种子与题目的双重对照.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage E02. CONTROLLED TWO-EXPERIMENT page, adapt the refined seed-comparison board from reference 2 into twilight RECIPE stall; highlight “配方”, not 市集. Title “一次只改一个变量”. Tabs “实验 A · 只换题目” selected and “实验 B · 只换种子”. Locked ribbon “种子 427 · 步数 20 · 力度 3”. Three large aligned specimen panes show a fish, flower and sailboat, respective exact labels “题目：鱼”“题目：花”“题目：帆船”. Same seed 427 badge repeated quietly, distinct category conditions. Beneath, a contextual popover “我的对照结论”, prompt “固定了什么？改变了什么？” with two short evidence lines “相同起点” and “不同题目”, primary “记录观察”; it must not occlude the samples. Quiet button “切换到只换种子”. Purple-coral dusk, gently glowing lanterns, cream and deep teal UI with consistent typography. Complete readable screen, no dataset claims.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/docs/实机图/16-配方摊-抽签.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/03-贝壳市集-控制变量.png"
+      ]
+    },
+    {
+      "id": "E03",
+      "title": "两支题目签的混合",
+      "stage": "配方摊",
+      "steps": [
+        19
+      ],
+      "scene": "dusk",
+      "entry": "E02完成控制变量观察",
+      "actions": [
+        [
+          "选择两支签",
+          "SELF",
+          "指定混合的两个类别"
+        ],
+        [
+          "调整比例并生成",
+          "G02",
+          "保留同一配方的其他参数"
+        ],
+        [
+          "记下这次尝试",
+          "G01",
+          "允许记录两不像或失败结果"
+        ],
+        [
+          "接受配方挑战",
+          "E04",
+          "综合运用参数"
+        ]
+      ],
+      "learning": "混合条件有不确定结果，不保证语义拼接成功。",
+      "filename": "E03-两支题目签的混合-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage E03. CONDITION MIXING exploration. Title “两支题目签，会混出什么？” An elegant split recipe instrument: left a selected fish sign, right selected bird sign, connected to an obvious horizontal ratio slider labelled “鱼 70% / 鸟 30%”. Below it THREE generous comparison images for “20 / 80”“50 / 50”“80 / 20”, the center may be ambiguous, left bird-ish and right fish-ish, all very simple charcoal/sand doodles, not fantasy detailed animal illustrations. One highlighted current sample. A tiny fixed strip “种子 427 · 20 步 · 力度 3”. An airy floating observation card says “像两者，还是两不像？” with neutral choices “更像鱼”“更像鸟”“暂时认不出”. Primary “记下这次尝试”; secondary “接受配方挑战”. Readable note “混合不保证成功”. Rich twilight stall, glass specimen vessels and paper recipe tabs around edges; center devoted to real controls and comparison.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/docs/实机图/16-配方摊-抽签.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/03-贝壳市集-控制变量.png"
+      ]
+    },
+    {
+      "id": "E04",
+      "title": "配方挑战与尝试记录",
+      "stage": "配方摊",
+      "steps": [
+        20
+      ],
+      "scene": "dusk",
+      "entry": "E03进入综合挑战",
+      "actions": [
+        [
+          "选择目标",
+          "SELF",
+          "保留各目标尝试记录"
+        ],
+        [
+          "试这张配方",
+          "G02",
+          "显示实际差异与命中结果"
+        ],
+        [
+          "回看上次尝试",
+          "SELF",
+          "恢复该次参数继续比较"
+        ],
+        [
+          "准备夜场",
+          "G04",
+          "至少完成2张目标；第3张可选"
+        ]
+      ],
+      "learning": "综合理解种子、条件、力度和步数。",
+      "filename": "E04-配方挑战与尝试记录-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage E04. RECIPE CHALLENGE puzzle, NOT a free text prompt app. Heading “找回这幅画的配方”. Left target artwork on an elevated easel, small label “目标 02”, simple sailboat. Center current attempt same large size, visibly different sailboat, labelled “我的尝试”. Right a concise adjustable recipe slip: “贝壳编号” with three small numbered shell choices, “题目” with selected 帆船, “力度” with discrete values, “步数固定：20”. Bottom a horizontal two-attempt history strip, each a tiny result and changed parameter, e.g. “改了种子”“改了力度”. Primary “试这张配方”. Progress “已解开 1 / 2”, tabs target 01 with check, 02 current, 03 “可选挑战”. A clear note “解开两张，就能准备夜场”. No arbitrary success badge before a match, no impossible text request, and no celebratory clutter. A small comparison-difference cue between target and attempt focuses attention.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/docs/实机图/16-配方摊-抽签.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/03-贝壳市集-控制变量.png"
+      ]
+    },
+    {
+      "id": "F01",
+      "title": "六幅作品的策展台",
+      "stage": "灯塔夜场",
+      "steps": [
+        21
+      ],
+      "scene": "night",
+      "entry": "E04过站后进入夜场准备",
+      "actions": [
+        [
+          "选作品加入",
+          "SELF",
+          "从配方卡册选出6幅"
+        ],
+        [
+          "拖动／前移／后移",
+          "SELF",
+          "调整顺序并保留选择"
+        ],
+        [
+          "去配方卡册补选",
+          "D05",
+          "带来源返回F01"
+        ],
+        [
+          "确认节目顺序",
+          "F02",
+          "满6幅后进入边界讨论"
+        ]
+      ],
+      "learning": "展示什么和怎样排序由学生决定。",
+      "filename": "F01-六幅作品的策展台-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage F01. CURATION / ORDERING board at a spectacular but calm night bay. Make rich deep navy, teal and warm brass, ivory paper labels. Title “今晚，怎样讲你的故事？” Left a compact open portfolio of saved simple line-art works. Center/right a large program board with exactly SIX numbered square slots arranged as a gentle horizontal ribbon or 2x3 editorial grid, each containing a different simple doodle such as fish, flower, star, boat, lighthouse, tree. One selected artwork appears slightly lifted with a short drag arrow to another slot and an obvious insertion marker. Next to selected item small accessible controls “前移”“后移”“移出”. Count “已选 6 / 6”. Bottom title field “我的夜场：海边的一天”, primary “确认节目顺序”; quiet “去配方卡册补选”. Lighthouse beams and distant audience silhouettes stay secondary. The ordering interaction should be obvious, tactile and elegant, with no dashboard table.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/docs/实机图/21-灯塔夜场-节目单.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/02-修复工坊-模型拆解.png"
+      ]
+    },
+    {
+      "id": "F02",
+      "title": "观众点题与模型边界",
+      "stage": "灯塔夜场",
+      "steps": [
+        22
+      ],
+      "scene": "night",
+      "entry": "F01节目排序完成",
+      "actions": [
+        [
+          "选择观众要求",
+          "SELF",
+          "对照支持类别与输入能力"
+        ],
+        [
+          "解释为什么做不到",
+          "SELF",
+          "区分类别范围和身份信息"
+        ],
+        [
+          "带着边界去介绍作品",
+          "F03",
+          "进入作品标识"
+        ]
+      ],
+      "learning": "限定本章模型的能力，不泛化到所有扩散模型。",
+      "filename": "F02-观众点题与模型边界-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage F02. MODEL LIMITS lesson in night festival. Title “观众的要求，它都能做到吗？” Beautiful two-part teaching scene: left two REQUEST cards handed in by small peripheral audience silhouettes, one “画一只长颈鹿”, one “画我家的小狗”. Right an open sign case with a neatly organized small selection of supported class tokens and heading “这位师傅只接收 12 类题目签”. Instead of generating a false giraffe, show an honest context panel “这个请求超出了本章模型的输入范围”. Two reason chips clearly distinguish “不在支持的类别里” and “没有这只宠物的身份信息”. A short bottom question “这能说明所有扩散模型都做不到吗？” with selected “不能”. Primary “带着边界去介绍作品”. Deep blue waterfront, warm lantern faces, mature educational tone, not punitive red error alert or childish quiz scoreboard.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/docs/实机图/21-灯塔夜场-节目单.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/02-修复工坊-模型拆解.png"
+      ]
+    },
+    {
+      "id": "F03",
+      "title": "作品标识与导出核对",
+      "stage": "灯塔夜场",
+      "steps": [
+        23
+      ],
+      "scene": "night",
+      "entry": "F02完成能力边界讨论",
+      "actions": [
+        [
+          "给六幅都加标识",
+          "SELF",
+          "每幅作品显示可见AI标签"
+        ],
+        [
+          "导出并检查一张",
+          "SELF",
+          "导出后实际读取文件说明"
+        ],
+        [
+          "补充来源致谢",
+          "F04",
+          "标识完成后继续"
+        ]
+      ],
+      "learning": "同时核对可见标签与文件说明。",
+      "filename": "F03-作品标识与导出核对.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage F03. AI LABEL / EXPORT VERIFICATION. Title “让观众看见，也让文件写明”. Left LARGE poster preview, simple sand-style boat artwork with clearly visible small tasteful “AI 生成” label in the artwork's margin, plus student-curated title. Right a refined hinged document-inspection panel with two tabs “画面上的标识” and “文件里的说明”, second selected. Show concise key-value lines “生成方式：AI 生成”“种子：427”“题目：帆船”“步数：20”“数据来源：见致谢”. Two check indicators “可见标签已添加”“已读回文件说明”. Primary “导出并检查一张”; secondary “给六幅都加标识”. Small caution in calm type “截图、裁切或转存可能丢失说明”. Do not show a legal certification seal, fake compliance score or blockchain. The preview and file contents must be visible together, nocturnal festival UI crisp and elegant.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/docs/实机图/21-灯塔夜场-节目单.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/02-修复工坊-模型拆解.png"
+      ]
+    },
+    {
+      "id": "F04",
+      "title": "数据来源与致谢墙",
+      "stage": "灯塔夜场",
+      "steps": [
+        24
+      ],
+      "scene": "night",
+      "entry": "F03完成标识核对",
+      "actions": [
+        [
+          "查看来源",
+          "G01",
+          "打开来源说明并可返回"
+        ],
+        [
+          "编辑致谢",
+          "SELF",
+          "保留学生表达与必要署名"
+        ],
+        [
+          "把致谢加入节目单",
+          "F05",
+          "带标识与致谢进入展演"
+        ]
+      ],
+      "learning": "说明真实数据贡献者与数据来源。",
+      "filename": "F04-数据来源与致谢墙-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage F04. DATA PROVENANCE AND GRATITUDE WALL. Heading “每一笔，从哪里来？” A warm illuminated archive wall at night, made of many tiny simple human doodle cards from diverse hands; focus on authorship and data, not political map borders. Left a large tasteful printed source placard: “Quick, Draw!” “24 万幅涂鸦 · 12 类题目” “来自真实的人”. Smaller exact attribution “Google Quick, Draw! 数据集” and “CC BY 4.0”. Right a clear editable THANK-YOU card with text “感谢参与绘画的人，让模型有了练习的材料。” plus a source line. Bottom a slim chain diagram “人的涂鸦 → 模型训练 → 我的选择与策展”. Primary “把致谢加入节目单”. Small secondary “查看来源”. No copyrighted brand logos needed, no claim that a particular output's exact origin is identified. Rich navy, paper and gold atmosphere, joyful and thoughtful.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/docs/实机图/21-灯塔夜场-节目单.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/02-修复工坊-模型拆解.png"
+      ]
+    },
+    {
+      "id": "F05",
+      "title": "灯塔夜场与播放控制",
+      "stage": "灯塔夜场",
+      "steps": [
+        25
+      ],
+      "scene": "show",
+      "entry": "F04来源致谢加入节目单后",
+      "actions": [
+        [
+          "播放／暂停／回看",
+          "SELF",
+          "按学生节目顺序展示6幅"
+        ],
+        [
+          "退出展演",
+          "F01",
+          "保留节目单与当前位置"
+        ],
+        [
+          "写下我的回答",
+          "F06",
+          "完成展演后进入反思"
+        ]
+      ],
+      "learning": "让学生的策展形成有来源说明的公开表达。",
+      "filename": "F05-灯塔夜场与播放控制-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage F05. THE PERFORMANCE PAGE, radically different from a teaching folio. Full-bleed cinematic night cove, starlit sky, lighthouse and a sand-art projection screen facing the harbor, tasteful crowd silhouettes far below. The student's simple boat line-doodle is projected elegantly in ivory sand light; do not replace it with a painted scenic boat. Large unobtrusive caption “我的夜场 · 海边的一天”. UI MINIMAL: low glass/teal playback dock at bottom center with play/pause, “第 3 / 6 幅”, a segmented 6-work progress strip, and labels “上一幅”“下一幅”. Tiny visible “AI 生成” marking next to the projection and discreet credits line. Quiet top-right “退出展演”, preserving current progress. Bottom-right a small folded question card awaiting the end: “这一场展演，谁做了什么？” with action “写下我的回答”. The spectacle belongs to student work. Maintain exquisite polished scene quality, warm gold vs deep blue, legible restrained HUD rather than a huge beige panel.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/docs/实机图/25-灯塔夜场-开演.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+      ]
+    },
+    {
+      "id": "F06",
+      "title": "学习总结与章节出口",
+      "stage": "灯塔夜场",
+      "steps": [
+        25
+      ],
+      "scene": "night",
+      "entry": "F05结束展演后",
+      "actions": [
+        [
+          "保存我的学习手册",
+          "G01",
+          "汇总并导出个人学习记录"
+        ],
+        [
+          "再次欣赏夜场",
+          "F05",
+          "保留原节目顺序"
+        ],
+        [
+          "返回奇点目录",
+          "HUB",
+          "返回第8章详情"
+        ],
+        [
+          "查看下一章预告",
+          "HUB9",
+          "进入目录第9章详情"
+        ]
+      ],
+      "learning": "区分人的选择、模型计算与数据贡献。",
+      "filename": "F06-学习总结与章节出口-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage F06. END-OF-CHAPTER REFLECTION / EXIT. Lantern-lit quiet shore after the performance; lighthouse still visible, no confetti overload. Elegant open student journal is central. Heading “这场展演里，你做了什么？” Three distinct contribution areas with modest icons: “我：选择、比较、策展”, “模型：依据规律计算”, “数据贡献者：提供练习材料”. A beautiful short writing area “用自己的话，说说你的理由……” with a few handwritten-style draft strokes, not filled essay. Beside it six small completed artwork tickets. Primary “保存我的学习手册”; secondary buttons “再次欣赏夜场” and “返回奇点目录”. At the bottom a small next-chapter teaser card “下一章：AI 的知识放在哪里？” not a forced auto-redirect. A finished-but-reflective atmosphere. No numerical learning score based on clicks or assertions about legal ownership.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/docs/实机图/21-灯塔夜场-节目单.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/02-修复工坊-模型拆解.png"
+      ]
+    },
+    {
+      "id": "G01",
+      "title": "学习手册与词条抽屉",
+      "stage": "全局",
+      "steps": [],
+      "scene": "work",
+      "entry": "任意页面点击学习手册；完成任务后保存观察",
+      "actions": [
+        [
+          "切换站点",
+          "SELF",
+          "查看该站证据与笔记"
+        ],
+        [
+          "点词条",
+          "SELF",
+          "局部弹出定义"
+        ],
+        [
+          "回到这个实验",
+          "LINKED",
+          "回到记录对应页面"
+        ],
+        [
+          "导出手册",
+          "SELF",
+          "导出观察与个人解释"
+        ],
+        [
+          "关闭",
+          "CALLER",
+          "返回原页面与操作状态"
+        ]
+      ],
+      "learning": "让证据、解释与术语集中在可回访的手册中。",
+      "filename": "G01-学习手册与词条抽屉-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage G01. GLOBAL JOURNAL DRAWER shown open above a dimmed workshop scene. Full height RIGHT 70% sophisticated ivory folio; left underlying experiment remains visible and softly defocused. Heading “我的学习手册”. Five slim chapter tabs “沙滩 / 工坊 / 市集 / 配方 / 夜场”, workshop selected. Main content is an actual evidence spread: a small prediction-versus-observation pair, one selected experiment thumbnail, short note box “我的发现”, and a delicate terminology tab “去噪”. A compact secondary popover defines “先预测扰动，再计算图像更新”, not a huge wall of definitions. Bottom actions “导出手册”“回到这个实验”; clear close ×. Tiny source entry “原理与来源” collapsed. Show information on demand, calm hierarchy, paper textures like a museum research card. No fake chat assistant transcript.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/02-修复工坊-模型拆解.png",
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+      ]
+    },
+    {
+      "id": "G02",
+      "title": "计算等待失败与重试",
+      "stage": "交互状态",
+      "steps": [],
+      "scene": "market",
+      "entry": "所有模型预测、生成、修复、复现操作",
+      "actions": [
+        [
+          "完成",
+          "CALLER",
+          "保留结果并恢复操作"
+        ],
+        [
+          "失败",
+          "SELF",
+          "显示原因、保留参数和既有结果"
+        ],
+        [
+          "重试",
+          "SELF",
+          "同参数重新执行"
+        ],
+        [
+          "返回实验",
+          "CALLER",
+          "不丢失此前作品与观察"
+        ]
+      ],
+      "learning": "计算状态明确，失败可恢复，避免重复提交。",
+      "filename": "G02-计算等待失败与重试-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage G02. A THREE-STATE INTERACTION DESIGN BOARD in one 16:9 image, not a single giant scene. Three equally sized clearly separated screen vignettes left-to-right showing the SAME sampling interface from shell market, with page ID G02 and heading “一次计算的三种状态”. State 1 “正在计算”: partial noisy star, progress “8 / 20 步”, calm text “正在逐步生成”, action “停止本次计算”; parameters and navigation visibly disabled, not disappeared. State 2 “结果就绪”: completed simple star, small success check, primary “保存配方”, navigation available. State 3 “暂未完成”: retained parameter values and previous artwork, concise error “这次计算没有完成”, primary “重试本次计算”, secondary “返回实验”. A short thin arrow from state1 to2 labelled “完成”, branching to3 labelled “失败”, arrow from3 back to1 labelled “重试”. Keep all important Chinese text large, only essential controls; sea-teal, ivory and gold design consistent. Never illustrate failure as successful generation, never erase student's previous evidence. Use mini UI states, not comic characters.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/03-贝壳市集-控制变量.png"
+      ]
+    },
+    {
+      "id": "G03",
+      "title": "预测观察解释的展开状态",
+      "stage": "交互状态",
+      "steps": [],
+      "scene": "dawn",
+      "entry": "B02及其他先预测后操作的实验",
+      "actions": [
+        [
+          "锁定预测",
+          "SELF",
+          "保留原预测并解锁操作"
+        ],
+        [
+          "记下这一刻",
+          "SELF",
+          "保存观察、展开解释"
+        ],
+        [
+          "保存发现",
+          "G01",
+          "汇入手册后可继续"
+        ],
+        [
+          "关闭补充层",
+          "CALLER",
+          "回到原画面、参数与滚动位置"
+        ]
+      ],
+      "learning": "用渐进展开降低信息负担，同时保持证据可见。",
+      "filename": "G03-预测观察解释的展开状态-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage G03. A THREE-STATE STORYBOARD for one noise lesson, three screen vignettes on the same 16:9 design board. Heading “信息怎样随着学习逐步展开”. State 1 “先预测”: same fish image with disabled tide slider, concise three choices “前段 / 中段 / 后段”, primary “锁定预测”. Arrow “开始观察”. State 2 “动手观察”: before/after fish images, active tide slider “420”, compact floating pixel loupe, primary “记下这一刻”. Arrow “记录”. State 3 “解释发现”: both evidence images remain visible, small contextual paper popup with “我预测：600 / 我观察：420”, a short explanation line, primary “保存发现”, close ×. Text “关闭后回到原位置” in small bottom annotation. The backdrop is the same sunrise beach in each; controls stay at stable positions; secondary detail softens background locally while text stays crisp. This is a polished frontend interaction-state design board, not a promotional collage. Keep UI labels readable and scientific noise grids plausible.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+      ]
+    },
+    {
+      "id": "G04",
+      "title": "过站回访与中断续学",
+      "stage": "交互状态",
+      "steps": [],
+      "scene": "dawn",
+      "entry": "站末综合活动完成；查看地图；退出后再进入",
+      "actions": [
+        [
+          "前往下一站",
+          "NEXTSTATION",
+          "满足本站要求后解锁"
+        ],
+        [
+          "回访",
+          "COMPLETED",
+          "仅进入已完成或当前可用环节"
+        ],
+        [
+          "继续上次",
+          "LAST",
+          "恢复保存的环节与证据"
+        ],
+        [
+          "从头开始",
+          "RESET_CONFIRM",
+          "单独确认后重置，取消可原路返回"
+        ]
+      ],
+      "learning": "保持课程位置感与学习成果连续性。",
+      "filename": "G04-过站回访与中断续学-v2.png",
+      "prompt": "Use case ui-mockup, editorial educational product design. Create ONE drawn, high-fidelity 16:9 desktop frontend DESIGN IMAGE in a complete coherent chapter-8 UI set. Transform the referenced base screen into the specific page described below. Audience: Chinese middle school age 12–15. Project: 奇点 · 潮汐沙画节. This is a visual proposal, not executable code, and not a photo of a computer.\nKeep the reference's exceptional quality and art direction: sophisticated tactile ivory paper, sea-glass teal accents, fine warm brass, maritime craft, subtle material texture, expressive cinematic but legible softly stylized 3D environments. Beautiful Chinese serif headings, crisp clean control labels. Unify foreground UI materials, scene lighting and atmosphere. Page focus, hierarchy and meaningful student interaction matter more than decorative props. Important text and all controls front facing, large and readable, with no distracting perspective. Generous spacing, clear current task, only one primary action per task. No generic SaaS sidebar, no empty giant sand tray, no avalanche of cards, no code editor, no wireframe, no device bezel.\nIf multiple input images: image 1 is the screen/environment to transform; image 2 is a visual-system reference, not another panel to copy. For night pages reinterpret the crude first input into the polished paper/brass design of reference 2 with midnight teal, navy and warm lantern light. For dusk use peach and violet horizon, not full night. Distinct learning layouts for distinct tasks.\nConsistent small global branding “奇点 · 潮汐沙画节”; restrained five-station top navigation “沙滩 / 工坊 / 市集 / 配方 / 夜场”, highlight the current station from the brief; small utility links “学习手册” and “课程地图”. Include small page ID in an unobtrusive corner as given. Do not invent extra UI copy. Use short accurate Chinese labels specified below; no lorem ipsum. The example drawings are conceptual simple dark line doodles, never intricate painted fantasy images or claimed actual inference results. All imagery must clearly support the lesson. Smooth progressive disclosure is represented by a selected state, contextual drawer or floating panel when requested. Never obscure evidence with its feedback panel. Render one cohesive desktop screenshot unless explicitly told a multi-state board.\nPage G04. THREE-STATE NAVIGATION DESIGN BOARD. Title “走向下一站，也能回来继续”. Left vignette “完成这一站”: a restrained paper milestone overlay above beach, summary “已留下：原画与观察记录”, two actions “前往修复棚” primary and “再看看这一站”. Middle vignette “回访已完成环节”: the five-location route map, station1 checked and accessible, station2 current, remaining quiet locks, action “回到上次实验”. Right vignette “下次继续”: the chapter invitation with saved progress “修复棚 · 第 8 环节”, primary “继续上次”, quieter “从头开始” separated and labelled “将重新开始本次旅程”. Along bottom concise continuity line “原画 · 配方 · 观察记录随进度保留”. Keep reset separate from normal continue and do not imply automatic destructive reset. Connect first to map with thin arrows and show resume returning to current lesson. Material/scene design matches references, text readable, no generic browser dialog.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/第八章/概念图/2026-10-12-教学界面设计图/01-潮汐沙滩-加噪观察.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "nova-thought-court",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 127.0.0.1 --port 5182 --strictPort --configLoader native",
+    "build": "vite build --configLoader native",
+    "preview": "vite preview --host 127.0.0.1 --port 5183 --strictPort --configLoader native",
+    "test": "node --test tests/*.test.js"
+  }
+}

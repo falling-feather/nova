@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "room": "bakery",
+  "signature": "124793255eb496523497b85a8a0150fb97cdbdb9610f527b95691de94d445b48",
+  "source": {
+    "threeRevision": "186",
+    "files": {
+      "src/generated/three.js": "36974afdaa88f8f83bbddf92fbf1c775380dcc701002474c72384e29d0de199e",
+      "src/generated/prop-assets.js": "a0753a401a9400a8070cb2a8344df36d7aed74bfed009f441e050aac6fdcdd5e",
+      "src/simulation/core.js": "2e61e91f839fcd076af8c0bffaef9fd5fcea66096a49722fe3b45f5c946e5cbf",
+      "src/content/layout.js": "a7ac91e703c40722cbe97728483e46f74659aa7b49255fa864029ba2a9ad022e",
+      "src/render/world.js": "94d635fba431523d2885a594e48c23a17d5ace042ee27e1d18efd2c2766f7944",
+      "src/render/materials.js": "5fb0648a96b2cd0bee3c8a9617245dae3ec2448f26b1bf8af150562c787fbd59",
+      "src/render/architecture.js": "326aea9a170f788eae9db28a5f7cc53d06f1893428ec93cd7ef60acea8035c61",
+      "src/render/props.js": "7f40ae2057e97cef1a9418977d21e0defef27c903d71adc6ae1f780075e116c7",
+      "src/render/imported-props.js": "2c09493d1d69431994833d419c55f3579e9802447a76536c495d98bd818c658c",
+      "src/render/interiors.js": "19d74e20cccb4320da39a60a85254a9a1b15697a1ef278e0d4be6b07c80c5e18"
+    },
+    "receiverSelection": "furnished-ID traversal: opaque non-instanced Mesh",
+    "occluderSelection": "receivers plus physical architecture body, static front and roof; no door, glass, flame or actors",
+    "exportSha256": "50d94babe161a5a119dfe74bce2f3e9ca957e916ea0f8ba1ff1049c1f9dbca8e"
+  },
+  "tool": {
+    "name": "Blender",
+    "version": "5.2.2 LTS",
+    "buildHash": "d13f752e3b9c",
+    "script": "tools/bake-room-occlusion.py"
+  },
+  "method": "Cycles AO bake, physical shell and static furnishings, no directional illumination",
+  "parameters": {
+    "device": "CPU",
+    "size": 2048,
+    "samples": 32,
+    "distance": 1.0,
+    "threads": 8,
+    "seed": 37,
+    "smartProjectAngleDegrees": 66,
+    "uvPaddingPixels": 6,
+    "bakeMarginPixels": 3
+  },
+  "ao": {
+    "file": "bakery-ao.png",
+    "sha256": "6c6fc0602f278f4fb4725788d8c5b3bdeb9324e1ca4ee2b0f7a3cef624883aeb",
+    "bytes": 1685215,
+    "width": 2048,
+    "height": 2048,
+    "colorSpace": "NoColorSpace",
+    "textureFlipY": true,
+    "statistics": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.6102901697158813,
+      "belowHalfFraction": 0.3997008800506592,
+      "belowPoint98Fraction": 0.48479247093200684,
+      "whiteFraction": 0.513303279876709
+    }
+  },
+  "uv1": {
+    "file": "bakery-uv1.bin",
+    "sha256": "5120b99d40a8bad6d0dc5086477091d36e4ee7f0f0ecb166c626d1fc3ace7e07",
+    "bytes": 2863056,
+    "encoding": "float32-le",
+    "itemSize": 2,
+    "validation": {
+      "vertices": 357882,
+      "triangles": 119294,
+      "min": 0.00292958109639585,
+      "max": 0.9960261583328247,
+      "surfaceAreaFraction": 0.2918032705783844,
+      "collapsedTriangles": 0,
+      "allOriginalCornersMapped": true
+    }
+  },
+  "meshes": [
+    {
+      "meshIndex": 0,
+      "signature": "c5b3cb1eb575dace9c1457d3760c8f4502207cb549f29f0cbdc3165e7b5d396f",
+      "vertices": 36936,
+      "uvByteOffset": 0,
+      "uvByteLength": 295488
+    },
+    {
+      "meshIndex": 1,
+      "signature": "293668dceec83b037c503888c8c82d0f67b8c426d68cfa7b1c8d26ccca0de23e",
+      "vertices": 6384,
+      "uvByteOffset": 295488,
+      "uvByteLength": 51072
+    },
+    {
+      "meshIndex": 2,
+      "signature": "e47b1f084786e5b9e8eee3f37e06c5013a14593dcc85aefd77074aefe4f0019e",
+      "vertices": 20436,
+      "uvByteOffset": 346560,
+      "uvByteLength": 163488
+    },
+    {
+      "meshIndex": 3,
+      "signature": "ac4847e5fb008017ead9a35a08829d596aed823cc856c7c1037b5b5df66f8dd6",
+      "vertices": 96492,
+      "uvByteOffset": 510048,
+      "uvByteLength": 771936
+    },
+    {
+      "meshIndex": 4,
+      "signature": "82f82b9fd8aa2971d6c384c296da242b393d7e07bb034bb61b922141ceb67bb6",
+      "vertices": 53040,
+      "uvByteOffset": 1281984,
+      "uvByteLength": 424320
+    },
+    {
+      "meshIndex": 5,
+      "signature": "68cef2267861f6e8ea467db13044d9a13081a86c45140fe9cb2260445168235a",
+      "vertices": 36492,
+      "uvByteOffset": 1706304,
+      "uvByteLength": 291936
+    },
+    {
+      "meshIndex": 6,
+      "signature": "e8455de00c3bbbae833fd0e0d246294cb81eee50ab1677d9086c6836ad5b0af7",
+      "vertices": 14952,
+      "uvByteOffset": 1998240,
+      "uvByteLength": 119616
+    },
+    {
+      "meshIndex": 7,
+      "signature": "7da6745e0da512bbf9d2df389a835e8062206ab101adb03c9413a4e7f6924fa8",
+      "vertices": 2772,
+      "uvByteOffset": 2117856,
+      "uvByteLength": 22176
+    },
+    {
+      "meshIndex": 8,
+      "signature": "56a5ecd1961ad69a80f2a7b60f8b913ab0d0923ce478d56ff844ad8af73cacb3",
+      "vertices": 51840,
+      "uvByteOffset": 2140032,
+      "uvByteLength": 414720
+    },
+    {
+      "meshIndex": 9,
+      "signature": "e7916a36d238f54aab66d0d6226dccc428bc3636462e1338ef7e82b5a6b0b268",
+      "vertices": 29850,
+      "uvByteOffset": 2554752,
+      "uvByteLength": 238800
+    },
+    {
+      "meshIndex": 10,
+      "signature": "6efcdf658c16345fa34c615081e5d1d05ae8fbc953bfc45a6f2e5448aee234c3",
+      "vertices": 1008,
+      "uvByteOffset": 2793552,
+      "uvByteLength": 8064
+    },
+    {
+      "meshIndex": 11,
+      "signature": "08e47c83e23eadf51a3d27eb126a1323f0a133d7dcf6a8581842b30c1b86886e",
+      "vertices": 768,
+      "uvByteOffset": 2801616,
+      "uvByteLength": 6144
+    },
+    {
+      "meshIndex": 12,
+      "signature": "347a01182054c869d8d9020b9679be449d5ac70f205921636c9a3ca636c0f15d",
+      "vertices": 6912,
+      "uvByteOffset": 2807760,
+      "uvByteLength": 55296
+    }
+  ],
+  "excluded": {
+    "instancedReceiverMeshes": 1,
+    "transparentMeshes": 2
+  },
+  "timingsSeconds": {
+    "import": 1.4007610000116983,
+    "unwrap": 2.848413799991249,
+    "bake": 12.526771200005896,
+    "total": 17.6538150000124
+  }
+}

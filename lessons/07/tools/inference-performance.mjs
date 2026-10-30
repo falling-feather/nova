@@ -1,0 +1,23 @@
+import { readFileSync } from 'node:fs';
+import { mkdir, writeFile } from 'node:fs/promises';
+import { pathToFileURL } from 'node:url';
+import { Course } from '../src/course/course.ts';
+import { ProgressStorage } from '../src/core/storage.ts';
+import { Dictionary,Tokenizer } from '../src/model/tokenizer.ts';
+import { TinyTransformer } from '../src/model/transformer.ts';
+const json=name=>JSON.parse(readFileSync(new URL('../public/models/'+name,import.meta.url),'utf8'));
+const model=name=>{const b=readFileSync(new URL('../public/models/'+name+'.bin',import.meta.url));return new TinyTransformer(json(name+'.json'),b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength));};
+const dictionary=new Dictionary(json('words.json'));
+const models={dictionary,tokenizer:new Tokenizer(json('tokenizer.json'),dictionary),council:model('council'),press:model('press'),map:json('name-map.json'),basket:json('basket.json').lines};
+Object.assign(globalThis,{window:globalThis});
+const previous=process.env.BASELINE_COURSE;
+if(!previous)throw Error('Set BASELINE_COURSE to the verified, read-only baseline course.ts');
+const {Course:Before}=await import(pathToFileURL(previous).href);
+const setup=C=>{const c=new C(models,new ProgressStorage(null));for(const id of ['01','06','12'])c.progress.done[id]=true;c.enter('21');return c;};
+const before=setup(Before),after=setup(Course);
+const sample=c=>{const values=[];for(let i=0;i<30;i++){const begin=performance.now();const candidates=c.candidates;values.push(performance.now()-begin);if(candidates[0].id!==817)throw Error('Parity changed');}return values;};
+for(let i=0;i<5;i++){before.candidates;after.candidates;}
+const old=sample(before),current=sample(after),p=(v,n)=>[...v].sort((a,b)=>a-b)[Math.floor(v.length*n)];
+const result={kind:'CPU next-token reads; same model object and unchanged input; not GPU frame rate',samples:30,before:{p50:p(old,.5),p95:p(old,.95)},after:{p50:p(current,.5),p95:p(current,.95)}};
+before.flush();after.flush();
+const out=new URL('../.work/performance/',import.meta.url);await mkdir(out,{recursive:true});await writeFile(new URL('inference-paired.json',out),JSON.stringify(result,null,2));console.log(JSON.stringify(result));

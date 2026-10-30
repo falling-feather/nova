@@ -1,0 +1,34 @@
+import {toolFeedback} from "./tool-feedback.ts";
+import {h,icon,modal} from '../../../shared/creator/dom.ts';
+import {FIELD_SCENARIOS,compareDecisions} from './field-inquiry.ts';
+import type {Workbench} from './workbench.ts';
+import type {Run} from './engine/types.ts';
+
+export function fieldStage(w:Workbench,fallback:string){
+  const world=w.active?.environment.world??w.config.initial;
+  const goal=w.config.goal,feedback=toolFeedback(w.active);
+  return `<section class="field-stage"><header class="field-heading"><div><span>GREENHOUSE / 校园种植角</span><h2>今天，由你来值守。</h2></div><div class="field-heading-actions"><button data-action="statement">只说“完成了”，试试看 ↗</button><button data-space="flow">查看我的控制流程 ${icon('link')}</button></div></header><nav class="field-scenarios" aria-label="温室情境">${FIELD_SCENARIOS.map(s=>`<button data-scenario="${s.id}" aria-pressed="${w.scenarioName===s.title}"><span>${s.time}</span><b>${s.title}</b><small>${s.subtitle}</small></button>`).join('')}</nav><div class="field-observatory"><div class="field-mission"><span>本次照护目标</span><b>湿度 ${goal.moistureMin}—${goal.moistureMax}%</b><b>温度 ${goal.temperatureMin}—${goal.temperatureMax}°C</b><small>工具调用 ≤ ${w.config.limits.maxCalls} 次 / 用水 ≤ ${w.config.limits.maxWaterMl} mL</small>${feedback?`<div class="field-effect ${feedback.applied?'applied':'unapplied'}"><span>${feedback.kind==='statement'?'声明与实际结果':feedback.kind==='observation'?'最新观测':'工具回执中的变化'}</span><b>${feedback.title}</b>${feedback.lines.map(line=>`<small>${h(line)}</small>`).join('')}</div>`:''}</div><div class="greenhouse-viewport field-greenhouse">${fallback}<span class="scene-scale">INTERACTIVE SIMULATION / 可操作的模拟现场</span><button class="scene-reset" data-action="scene-overview" aria-label="温室视角复位">${icon('fit')}</button><nav class="scene-views" aria-label="温室观察视角"><button data-scene-view="probe">近看探针</button><button data-scene-view="water">近看供水</button><button data-scene-view="climate">近看通风</button></nav><span class="scene-render-status">拖动旋转 · 滚轮靠近 · 点击现场标记操作工具</span></div><div class="field-world"><span class="field-world-tag">真实环境（教学展示）</span>${meter('土壤湿度',world.moisture,100,goal.moistureMin,goal.moistureMax,'%')}${meter('现场温度',world.temperature,50,goal.temperatureMin,goal.temperatureMax,'°C')}<div class="field-meter"><span>水箱余量</span><b>${world.tankMl}<small>mL</small></b><div class="meter-track"><i style="width:${Math.min(100,world.tankMl/3)}%"></i></div><small>实际用水 ${w.active?.waterUsedMl??0} mL</small></div></div></div><footer class="field-tools"><button data-tool="observe"><i>01</i>${icon('search')}读取探针<small>获取新的观测</small></button><button data-tool="water"><i>02</i>${icon('tool')}浇水 20 mL<small>请求供水并看回执</small></button><button data-tool="ventilate"><i>03</i>${icon('tool')}通风 20 秒<small>降低模拟温度</small></button><button data-tool="shade"><i>04</i>${icon('tool')}${world.shade?'收起':'展开'}遮阳帘<small>改变遮阴状态</small></button></footer></section>`;
+}
+function meter(label:string,value:number,max:number,low:number,high:number,unit:string){return `<div class="field-meter"><span>${label}</span><b>${value}<small>${unit}</small></b><div class="meter-track"><em style="left:${low/max*100}%;width:${(high-low)/max*100}%"></em><i style="width:${value/max*100}%"></i><u style="left:${value/max*100}%"></u></div><small>${value>=low&&value<=high?'在目标区间内':value<low?'低于目标区间':'高于目标区间'} · ${low}—${high}${unit}</small></div>`;}
+export function fieldNotes(w:Workbench){
+  const r=w.active,observed=r?.observation;
+  const env=r?.logs.filter(l=>l.kind==='environment').at(-1);
+  return `<div class="field-notes"><div class="field-brief"><span>先判断，再动手</span><h3>${FIELD_SCENARIOS.find(s=>s.title===w.scenarioName)?.question??'你会先执行哪一个动作？'}</h3><p>${r&&r.status!=="running"?'本次试验已结束。点击“新试验”回到初始条件，再继续探索。':'现场数值供你观察。系统要先读取探针，才能据此决定下一步。'}</p></div><div class="field-observation"><span>系统最近一次观测</span><b>${observed?.reliable?`${observed.moisture}% / ${observed.temperature}°C`:'尚无可靠读数'}</b><small>${observed?.reliable&&observed.revision===(r?.environment.world.revision)?'这份观测对应当前环境':'环境可能已变化，需要重新观测'}</small></div>${env?`<div class="field-event"><i>环境事件</i><p>${h(env.summary)}</p></div>`:''}<div class="field-prediction"><span>同条件下，你预测谁能达成目标？</span><div>${['固定工作流','目标驱动','两者都能','还不确定'].map(text=>`<button data-prediction="${text}" aria-pressed="${w.reflection.prediction===text}">${text}</button>`).join('')}</div><button class="field-compare" data-action="compare">${icon('play')}实际比较两种方式</button></div></div>`;
+}
+function traceList(run:Run){
+  const items=run.logs.filter(l=>['action','plan','environment','verify','stop'].includes(l.kind));
+  const key=[items[0],items.find(l=>l.kind==='environment'),...items.filter(l=>l.kind==='action').slice(-2),items.at(-1)].filter((l):l is typeof items[number]=>!!l);
+  const excerpt=[...new Set(key)].sort((a,b)=>a.index-b.index);
+  return `<li class="trace-count">关键步骤摘录 · 完整轨迹共 ${run.logs.length} 步</li>`+excerpt.map(l=>`<li class="event-${l.kind}"><i>${l.kind==='action'?'动作':l.kind==='environment'?'变化':l.kind==='plan'?'规划':l.kind==='verify'?'核验':'停止'}</i><span title="${h(l.summary)}">${h(l.summary)}</span></li>`).join('');
+}
+export function showDecisionComparison(root:HTMLElement,w:Workbench){
+  const [a,b]=w.runs.slice(-2);if(!a||!b)return;
+  const evidence=compareDecisions(a,b);
+  const d=modal(root,'计划遇到变化，会发生什么？',`<section class="field-comparison"><header><span>CONTROLLED COMPARISON / 同条件实验</span><h2>同一个温室，两种决策方式。</h2><p>${evidence.sameConditions?'初始环境、目标、故障、预算和固定流程相同，仅切换决策方式。':'这两条记录的条件不同，不能当作单变量比较。'}${w.reflection.prediction?`你原先预测：<b>${h(w.reflection.prediction)}</b>。`:'你尚未记录预测，可先观察真实过程。'}</p></header><div class="decision-pair">${[a,b].map(r=>`<article><header><span>${r.config.mode==='planner'?'B / 按目标重新规划':'A / 沿既定流程执行'}</span><strong>${r.status==='succeeded'?'目标已核验':'停止，需要检查'}</strong><small>${r.calls} 次工具调用 · ${r.waterUsedMl} mL实际用水</small></header><ol>${traceList(r)}</ol>${r.logs.at(-1)?.kind==='stop'&&r.logs.at(-1)?.summary===r.stopMessage?'':`<p>${h(r.stopMessage)}</p>`}</article>`).join('')}</div><div class="field-reflection"><label>哪个实际动作或回执，让你改变了判断？<textarea id="field-explanation" rows="2" maxlength="1200" placeholder="例如：天气变化后，它重新读到了什么，又采取了什么动作？">${h(w.reflection.explanation)}</textarea></label><label>下一次准备怎样修改？<textarea id="field-revision" rows="2" maxlength="1200" placeholder="可以修改流程、调整预算，或说明什么时候应请人接管。">${h(w.reflection.revision)}</textarea></label></div><footer><p>规划器采用有界状态搜索。固定流程也能被你改进；一次对照不代表某种方式永远更好。</p><button class="primary" data-save-reflection>保存观察，回去改进</button></footer></section>`);
+  d.classList.add('field-comparison-dialog');
+  d.querySelector('[data-save-reflection]')!.addEventListener('click',()=>{
+    w.reflection.explanation=d.querySelector<HTMLTextAreaElement>('#field-explanation')!.value;
+    w.reflection.revision=d.querySelector<HTMLTextAreaElement>('#field-revision')!.value;
+    if(w.persist()){d.close();d.remove();}
+  });
+}

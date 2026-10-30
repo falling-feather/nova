@@ -1,0 +1,27 @@
+{
+  "source": "https://github.com/google/fonts/tree/main/ofl/notoserifsc",
+  "source_file": "NotoSerifSC[wght].ttf",
+  "source_sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+  "source_version": "Version 2.003-H1;hotconv 1.1.1;makeotfexe 2.6.0",
+  "license": "SIL Open Font License 1.1",
+  "derived_family": "Workshop Serif",
+  "built_for": "2026-10-13 physical tile interactions",
+  "files": [
+    {
+      "path": "public/fonts/tc-serif-400.woff2",
+      "bytes": 189964,
+      "sha256": "58ae78574deec4a1332cca18819f32957d89966ab9106d0346f0dcab28f18f90"
+    },
+    {
+      "path": "public/fonts/tc-serif-600.woff2",
+      "bytes": 192648,
+      "sha256": "2fe4d9b5dc0a7f1c4395e9cb34189992d752105d63911e846b546d88b1b81389"
+    },
+    {
+      "path": "public/fonts/typeface.json",
+      "bytes": 2230769,
+      "sha256": "ca6a1a6feabf44c1e48ef5334181b0c9f67b0ef8a836c02d437135403da23114"
+    }
+  ],
+  "glyphs": 1136
+}

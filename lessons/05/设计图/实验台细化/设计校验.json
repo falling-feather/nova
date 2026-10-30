@@ -1,0 +1,52 @@
+{
+  "clientDate": "2026-10-05",
+  "stage": "design refinement",
+  "assets": [
+    {
+      "file": "01-初次接触试验台.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "02-单步学习与展开台面.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "03-同起点对照步长.png",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "05-运动预测附件.png",
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "missingLinks": [],
+  "layoutErrors": [],
+  "math": [
+    {
+      "case": "same current answer, different whole-set loss",
+      "at4": [
+        5.1,
+        5.1
+      ],
+      "at1AfterBChange": 3,
+      "referenceAt1": 2,
+      "losses": [
+        0.3233333333333335,
+        0.012812500000000017
+      ]
+    },
+    {
+      "case": "measuring attachment",
+      "modelPredictionAt4": 5,
+      "measuredAt4": 9,
+      "firstUpdatedPrediction": 7.066666666666666,
+      "lossBefore": 4.666666666666667,
+      "lossAfter": 0.9407407407407414
+    }
+  ],
+  "status": "passed"
+}

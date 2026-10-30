@@ -1,0 +1,31 @@
+{
+  "clientDate": "2026-10-05",
+  "status": "design-assets-checked",
+  "assets": [
+    {
+      "file": "01-训练台整体界面.png",
+      "width": 1672,
+      "height": 941,
+      "matchesSource": true
+    },
+    {
+      "file": "02-展开一次学习.png",
+      "width": 1672,
+      "height": 941,
+      "matchesSource": true
+    }
+  ],
+  "localLinksChecked": 18,
+  "missingLinks": [],
+  "math": "numeric-check-passed",
+  "productImplemented": false,
+  "svgPreview": {
+    "svgPreviewRendered": true,
+    "labelsChecked": 35,
+    "outOfBounds": [],
+    "productRuntimeTested": false
+  },
+  "svgVisuallyInspected": true,
+  "scope": "Only concept images, presentation design and numeric diagram were checked. No course application was built or playtested.",
+  "conceptPrecision": "Raster rail placement is conceptual; exact shared-scale feedback is in 03-单步可见反馈.svg and its rendered PNG."
+}

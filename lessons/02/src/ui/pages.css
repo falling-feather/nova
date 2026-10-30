@@ -1,0 +1,94 @@
+[hidden] { display: none !important; }
+dialog[open] { display: flex; flex-direction: column; height: calc(100dvh - 110px); max-height: calc(100dvh - 110px); margin: 82px auto 28px; overflow: visible; }
+dialog > header, dialog > footer { flex: none; }
+#novaReturnHost { position: static; padding: 0; background: transparent; color: inherit; }
+#novaReturnHost .nova-course-return { padding: 6px 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; font: 14px var(--sans); letter-spacing: .1em; }
+#novaReturnHost .nova-course-return:hover { color: var(--brass-light); }
+#novaReturnHost:empty { display: none; }
+#results { flex: 1; min-height: 0; max-height: none; overflow: visible; padding-bottom: 12px; }
+.folio-pager { display: flex; align-items: center; justify-content: center; gap: 20px; padding: 12px 0; border-top: 1px solid var(--rule); flex: none; font: 13px var(--sans); }
+.folio-pager button { padding: 6px 12px; }
+.folio-pager label { display: flex; gap: 8px; align-items: center; }
+.folio-pager select { max-width: 430px; background: var(--paper); color: var(--ink); padding: 6px; border: 1px solid var(--rule); font: inherit; }
+.index-group h3 { position: static; padding-top: 12px; }
+#reading-body { flex: 1; min-height: 0; padding: 10px 56px 0; display: flex; flex-direction: column; }
+.folio-page { flex: 1; min-height: 0; }
+.reader-opening { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); gap: 32px; align-items: start; }
+.reader-opening .cat-plate { margin: 0; }
+.reader-opening .cat-head { grid-column: auto; }
+.reader-opening .cat-plate figcaption { display: block; padding: 10px 16px; }
+.reader-opening .cat-plate figcaption small { display: block; }
+.reader-opening .cat-plate canvas { aspect-ratio: auto; height: auto; }
+.reader-opening .cat-lead { margin-top: 18px; padding-top: 18px; }
+dialog:has(.reader-opening:not([hidden])) { height: fit-content; bottom: auto; }
+.reader-aside { max-width: 750px; }
+#reading-body .cat-article, #reading-body .cat-body { max-width: none; margin-top: 0; }
+#reading-body .cat-article h3 { margin-top: 10px; }
+#reading-body .article-figure { margin: 0; padding: 12px 22px; }
+#reading-body .article-figure svg { height: min(31vh, 260px); }
+.map-dialog > .map-layout { flex: 1; min-height: 0; }
+.map-page .map-list { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 8px 24px; }
+.map-page #floor-map { max-height: 100%; }
+.help-pages { flex: 1; min-height: 0; display: flex; flex-direction: column; padding: 16px 56px; }
+.help-pages .help-section { margin: 0; padding: 12px 0; }
+.map-layout { display: flex; flex-direction: column; padding: 12px 56px; }
+.map-page #floor-map svg { max-height: 420px; }
+.map-page #map-list { padding: 0; }
+#study-body { flex: 1; min-height: 0; padding-bottom: 10px; display: flex; flex-direction: column; }
+.folio-title { padding-top: 12px; padding-bottom: 12px; }
+.folio-nav button { padding-top: 10px; padding-bottom: 10px; }
+.folio-content { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.task-heading { flex: none; }
+.lab-instruction { flex: none; margin: 8px 0; padding: 8px 12px; }
+.experiment-body { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.experiment-body > .folio-page > * + * { margin-top: 10px; }
+.experiment-body .research-form { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px 24px; }
+.experiment-body .research-card-paper { grid-row: 1 / span 3; }
+.experiment-body .classifier-controls > p { margin: 4px 0; }
+.experiment-body .classifier-controls label { margin: 4px 0; }
+.experiment-body .button-stack { display: flex; gap: 8px; flex-wrap: wrap; }
+.experiment-body .learning-plot svg { max-height: 260px; }
+.experiment-body .folio-pager { padding: 6px 0; }
+.folio-content > .folio-page > * + * { margin-top: 14px; }
+.folio-content .research-form { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px 24px; }
+.folio-content .research-card-paper { grid-row: 1 / span 3; }
+.folio-content .classifier-controls .button-stack { display: flex; flex-wrap: wrap; gap: 8px; }
+.folio-content .classifier-controls { max-width: 750px; }
+.folio-content .learning-plot svg { max-height: 270px; }
+.folio-content .search-branches { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+.folio-content .search-branches > button { margin: 0; }
+.folio-content .evidence-case h2 { margin-top: 6px; }
+.folio-content .guide-opening { padding: 0; }
+.folio-content .guide-opening .guide-goal { padding: 10px 16px; margin-top: 12px; }
+.folio-content .folio-page > div > svg { width: 100%; height: 270px; }
+.exit-study { margin: 3px 0; padding: 3px 0; }
+.study-top { padding: 10px 44px; }
+.folio-title h2 { margin: 6px 0 0; }
+.folio-title { padding: 6px 0; }
+.folio-tabs { margin: 4px 0 8px; }
+.folio-tabs button { padding: 9px 20px; }
+.folio-content > .folio-pager { padding: 8px 0; }
+.core-experiment { display: grid; grid-template-columns: minmax(0,1.15fr) minmax(0,1fr); gap: 24px; }
+.core-experiment .experiment-object, .core-experiment .experiment-actions { min-width: 0; }
+.core-experiment .experiment-object > * + *, .core-experiment .experiment-actions > * + * { margin-top: 12px; }
+.core-experiment .dialogue-pair { grid-template-columns: 1fr; gap: 14px; }
+.core-experiment .dialogue-pair article { padding: 14px 18px; }
+.core-experiment .dialogue-pair blockquote { margin: 8px 0; }
+.core-experiment .study-question { margin: 0; padding-top: 0; border: 0; }
+.core-experiment .study-choices { gap: 8px; }
+.core-experiment .study-choice { padding: 10px 14px; }
+.core-experiment .classifier-controls label { margin: 6px 0; }
+.core-experiment .classifier-controls > p { margin: 4px 0; }
+.core-experiment .learning-plot svg { width: 100%; height: 296px; }
+.core-experiment .rule-trace { gap: 8px; }
+.core-experiment .rule-trace > i { display: none; }
+.core-experiment .search-branches { gap: 8px; }
+.core-experiment .search-branches button { padding: 8px; }
+.core-experiment .experiment-object > div > svg { height: 290px; }
+.core-experiment .opened-evidence { margin-top: 12px; padding: 12px 16px; }
+.core-future { grid-template-columns: 1fr; }
+.core-future .research-form { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px 24px; }
+.core-future .research-card-paper { grid-row: 1 / span 3; }
+/* Keep the pager label on one line inside the study handbook. */
+.folio-pager label { flex: none; }
+.folio-pager label > span { white-space: nowrap; }

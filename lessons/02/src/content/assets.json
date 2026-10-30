@@ -1,0 +1,58 @@
+[
+  {
+    "id": "turing-1951",
+    "file": "assets/history/turing-1951.jpg",
+    "title": "File:Alan Turing (1951).jpg",
+    "caption": "艾伦·图灵，1951年人物照。",
+    "author": "Elliott & Fry",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Alan_Turing_(1951).jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Alan_Turing_%281951%29.jpg",
+    "accessed": "2026-09-27",
+    "changes": "原文件保存；仅在网页中按展板尺寸展示。",
+    "sha256": "d4198226155e56a672fff83ae1fa3ccb750d8c3aa841c9a4443f910be8b12e3a"
+  },
+  {
+    "id": "deep-blue-2007",
+    "file": "assets/history/deep-blue-2007.jpg",
+    "title": "File:Deep Blue.jpg",
+    "caption": "深蓝计算机展品，2007年摄于计算机历史博物馆。",
+    "author": "James the photographer",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deep_Blue.jpg",
+    "accessed": "2026-09-27",
+    "changes": "原文件保存；仅在网页中按展板尺寸展示。",
+    "sha256": "24166a946d7910ed4c631ed45141e73e6724a776009c910da9a175fe9c880b85"
+  },
+  {
+    "id": "ke-jie-2019",
+    "file": "assets/history/ke-jie-2019.png",
+    "title": "File:Ke Jie (柯洁) 2019.png",
+    "caption": "柯洁，2019年人物资料图，并非2017年乌镇对局现场。",
+    "author": "中国新闻网",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ke_Jie_(%E6%9F%AF%E6%B4%81)_2019.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Ke_Jie_%28%E6%9F%AF%E6%B4%81%29_2019.png",
+    "accessed": "2026-09-27",
+    "changes": "原文件保存；仅在网页中按展板尺寸展示。",
+    "sha256": "c039254ee2e0dde5a23f3f100b50ef4aebea51cf8fb2ec8cd1807423fa5c9085"
+  },
+  {
+    "id": "lee-sedol-2016",
+    "file": "assets/history/lee-sedol-2016.jpg",
+    "title": "File:Lee Se-Dol.jpg",
+    "caption": "李世石，2016年5月人物资料照，并非3月对局现场。",
+    "author": "LG Electronics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lee_Se-Dol.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/99/Lee_Se-Dol.jpg",
+    "accessed": "2026-09-27",
+    "changes": "原文件保存；仅在网页中按展板尺寸展示。",
+    "sha256": "a2ef84abe3755fdb8c171e5538d4d11485896493380a671913c9ae68cc682359"
+  }
+]

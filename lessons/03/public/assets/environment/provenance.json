@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "environment/marker-active",
+      "batch": "art-20261010",
+      "requirement": "A13",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, marker-active.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: One small floating leaf-shaped investigation marker with warm yellow golden glow. Simple distinct leaf silhouette and central vein, soft small alpha glow halo, no exclamation/question mark, no text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One upright symmetrical leaf centered, same silhouette/scale for both states. Solid colored interior readable on dark forest, glow fades to fully transparent before 12% perimeter.\nOutput: target 128x128 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-6afdf0a4-1715-4bbd-8dd2-1b08928e5a6e.png",
+      "transparent_background": true,
+      "url": "/assets/environment/marker-active.png",
+      "size": [
+        128,
+        128
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/environment/marker-active.png",
+      "sourceSha256": "b4b224bec8dc449b230457bc43f9ee0ee951f158ea3727abcf0a28f17afaacd1",
+      "sha256": "4ad97b949c692825e6766c2411138aaee48a568efc3277cb7f1d91c93ffec415",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.70379638671875,
+        "semiFraction": 0.1019287109375,
+        "opaqueFraction": 0.19427490234375,
+        "bounds": [
+          28,
+          13,
+          99,
+          116
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/environment/marker-active.webp",
+        "sha256": "d18051c21056276c2f0323e9031de1d0f0391ad03fbf668cb89f7065a03a451f",
+        "bytes": 6096
+      }
+    },
+    {
+      "id": "environment/marker-visited",
+      "batch": "art-20261010",
+      "requirement": "A13",
+      "generator": "OpenAI built-in image_gen",
+      "prompt": "Use case: style-transfer. Asset type: ONE separate production game image, marker-visited.png. Input images are style/identity references only; do not copy their layout or create a sheet. Primary request: One small floating leaf-shaped investigation marker with soft pale green glow. Simple distinct leaf silhouette and central vein, soft small alpha glow halo, no exclamation/question mark, no text.\nStyle: Premium hand-painted gouache/watercolor children's forest adventure, warm soft upper-left daylight, tactile brush texture, soft organic edges, restrained highlights, readable simple silhouette. Match the input reference style. Never a glossy plastic 3D render or flat vector icon. No text, letters, numbers, logos, frame, watermark, checkerboard or backdrop.\nComposition: One upright symmetrical leaf centered, same silhouette/scale for both states. Solid colored interior readable on dark forest, glow fades to fully transparent before 12% perimeter.\nOutput: target 128x128 pixels, genuinely transparent RGBA background; preserve clean antialiased alpha, no ground plane, no external cast shadow or border. ONE image only.",
+      "references": [
+        "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/camp-tree.png"
+      ],
+      "originalGeneratedPath": "C:/Users/niu-h/.codex/generated_images/01a0ee5e-81cf-7663-9349-e9fed20768f0/exec-99ebc0ef-c2a2-4b14-b21e-48942d0e31a1.png",
+      "transparent_background": true,
+      "url": "/assets/environment/marker-visited.png",
+      "size": [
+        128,
+        128
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "original": "art-source/2026-10-10/environment/marker-visited.png",
+      "sourceSha256": "41875f7d96d18875c876cdafc60549d8b0e7ae7da96030de90ea52f053c3b74a",
+      "sha256": "32b2c5a4aed36b191622cec39ca4fc000646f7746d28d5bb107ee450646d455d",
+      "operation": "Proportional resize with transparent padding to requested canvas.",
+      "alpha": {
+        "clearFraction": 0.7308349609375,
+        "semiFraction": 0.11981201171875,
+        "opaqueFraction": 0.14935302734375,
+        "bounds": [
+          28,
+          17,
+          99,
+          112
+        ],
+        "opaqueEdgePixels": 0
+      },
+      "status": "visual content reviewed; dimensions, alpha, source hash and WebP checked; connected to game 2026-10-10",
+      "delivery": {
+        "anchor": [
+          0.5,
+          0.5
+        ],
+        "tileMode": "none",
+        "contactShadow": false,
+        "gameConnected": true
+      },
+      "webp": {
+        "url": "/assets/environment/marker-visited.webp",
+        "sha256": "28b93b81d4d9722b370be9f8ca7eaedbbb4a99d8944d9fa8b539d659cea47a99",
+        "bytes": 6194
+      }
+    }
+  ],
+  "updated": "2026-10-10"
+}

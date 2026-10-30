@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-03",
+  "generator": "image_gen built-in transparent-background mode",
+  "assets": [
+    {
+      "id": "library",
+      "file": "paper-campus/library.png",
+      "source": "OpenAI built-in image_gen; independent transparent production sprite",
+      "sourceFile": "C:\\Users\\niu-h\\.codex\\generated_images\\01a10254-1453-73c0-acfd-c6f897b4bca5\\exec-d551a77b-4a33-4e4a-876a-2a6693a3c290.png",
+      "prompt": "Use case: stylized-concept. Asset type: standalone production sprite for a 2D slightly overhead paper-craft campus board game.\nPrimary request: A small campus library corner building: cream paper walls, broad sky-blue folded gable roof, an elegant stack of three small coral/cream/blue books on the roof, tiny teal windows, centered wooden front double door, little cream entrance step. No attached path, no trees, no sign text.\nReference images are STYLE REFERENCE ONLY, never a target to copy wholesale. Match their hand-crafted folded paper, layered cut cardboard, warm cream, sky-blue, coral and muted teal palette. Real tangible miniature photographed with diffuse soft studio illumination and beautifully subtle paper fibers, clean edges. Camera: elevated near-orthographic 55 degrees looking down; front facade still visible; no dramatic isometric skew. The asset must be isolated, fully in frame with generous transparent margin around every edge, centered, with NO environment, NO rectangular backdrop, NO composited reference scene, NO large cast shadow outside the object. Truly transparent RGBA background. Very polished, clear at small game sprite size. Output one single object only, square 1024 px.",
+      "referenceImages": [
+        "概念图/2026-10-03-行动工坊/01-校园行动棋盘-主玩法.png",
+        "概念图/2026-10-03-行动工坊/05-小学综合任务-我的校园小方案.png"
+      ],
+      "use": "Independent object sprite. Roads and connectivity are rendered from BoardGraph.",
+      "sha256": "4276b607ddb59dd07e81762d3098419b75af08280458b65b5958d6ea36adb584",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1313036,
+      "alphaCheck": {
+        "mode": "RGBA",
+        "transparentFraction": 0.5704,
+        "semiTransparentFraction": 0.4293,
+        "borderMaximumAlpha": 1,
+        "visibleBoundsAlphaAbove8": [
+          140,
+          190,
+          1114,
+          1082
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "music",
+      "file": "paper-campus/music.png",
+      "source": "OpenAI built-in image_gen; independent transparent production sprite",
+      "sourceFile": "C:\\Users\\niu-h\\.codex\\generated_images\\01a10254-1453-73c0-acfd-c6f897b4bca5\\exec-c13cc599-aa7b-4bd3-ad55-3ed72d8323dd.png",
+      "prompt": "Use case: stylized-concept. Asset type: standalone production sprite for a 2D slightly overhead paper-craft campus board game.\nPrimary request: A small campus music classroom building: cream paper walls, broad warm coral-red folded gable roof, single cream treble-clef emblem centered on roof, two small arched sky-blue windows, centered wooden front double door, little cream entrance step. No attached path, no trees, no sign text.\nReference images are STYLE REFERENCE ONLY, never a target to copy wholesale. Match their hand-crafted folded paper, layered cut cardboard, warm cream, sky-blue, coral and muted teal palette. Real tangible miniature photographed with diffuse soft studio illumination and beautifully subtle paper fibers, clean edges. Camera: elevated near-orthographic 55 degrees looking down; front facade still visible; no dramatic isometric skew. The asset must be isolated, fully in frame with generous transparent margin around every edge, centered, with NO environment, NO rectangular backdrop, NO composited reference scene, NO large cast shadow outside the object. Truly transparent RGBA background. Very polished, clear at small game sprite size. Output one single object only, square 1024 px.",
+      "referenceImages": [
+        "概念图/2026-10-03-行动工坊/01-校园行动棋盘-主玩法.png",
+        "概念图/2026-10-03-行动工坊/05-小学综合任务-我的校园小方案.png"
+      ],
+      "use": "Independent object sprite. Roads and connectivity are rendered from BoardGraph.",
+      "sha256": "0575eab9da7ed553cb390544684f48ca73fcf8489816ebaa92d709868d775416",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1478694,
+      "alphaCheck": {
+        "mode": "RGBA",
+        "transparentFraction": 0.5127,
+        "semiTransparentFraction": 0.4866,
+        "borderMaximumAlpha": 1,
+        "visibleBoundsAlphaAbove8": [
+          77,
+          200,
+          1177,
+          1063
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "station",
+      "file": "paper-campus/station.png",
+      "source": "OpenAI built-in image_gen; independent transparent production sprite",
+      "sourceFile": "C:\\Users\\niu-h\\.codex\\generated_images\\01a10254-1453-73c0-acfd-c6f897b4bca5\\exec-c52006b7-90c3-405d-beb5-48ac624ac202.png",
+      "prompt": "Use case: stylized-concept. Asset type: standalone production sprite for a 2D slightly overhead paper-craft campus board game.\nPrimary request: A small campus action workshop station building: cream paper walls, layered blue folded gable roof, cream gear emblem above the front door, two tiny cheerful coral and golden fabric flags at the peak, centered wooden front double door. No attached path, no trees, no sign text.\nReference images are STYLE REFERENCE ONLY, never a target to copy wholesale. Match their hand-crafted folded paper, layered cut cardboard, warm cream, sky-blue, coral and muted teal palette. Real tangible miniature photographed with diffuse soft studio illumination and beautifully subtle paper fibers, clean edges. Camera: elevated near-orthographic 55 degrees looking down; front facade still visible; no dramatic isometric skew. The asset must be isolated, fully in frame with generous transparent margin around every edge, centered, with NO environment, NO rectangular backdrop, NO composited reference scene, NO large cast shadow outside the object. Truly transparent RGBA background. Very polished, clear at small game sprite size. Output one single object only, square 1024 px.",
+      "referenceImages": [
+        "概念图/2026-10-03-行动工坊/01-校园行动棋盘-主玩法.png",
+        "概念图/2026-10-03-行动工坊/05-小学综合任务-我的校园小方案.png"
+      ],
+      "use": "Independent object sprite. Roads and connectivity are rendered from BoardGraph.",
+      "sha256": "60c312f3876a25d0c3f99fee847e2ef9676960712f29813b34309d6723060932",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1557844,
+      "alphaCheck": {
+        "mode": "RGBA",
+        "transparentFraction": 0.525,
+        "semiTransparentFraction": 0.4747,
+        "borderMaximumAlpha": 1,
+        "visibleBoundsAlphaAbove8": [
+          120,
+          92,
+          1129,
+          1153
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "charge",
+      "file": "paper-campus/charge.png",
+      "source": "OpenAI built-in image_gen; independent transparent production sprite",
+      "sourceFile": "C:\\Users\\niu-h\\.codex\\generated_images\\01a10254-1453-73c0-acfd-c6f897b4bca5\\exec-5215bf5f-23b2-4777-94e0-b45c9ced3c78.png",
+      "prompt": "Use case: stylized-concept. Asset type: standalone production sprite for a 2D slightly overhead paper-craft campus board game.\nPrimary request: A small campus supply charging station building: cream paper walls, flat sky-blue paper roof with a centered upright cream battery sign showing a teal battery and golden lightning bolt, wooden front door, one neat small side charging pedestal. No attached path, no trees, no sign text.\nReference images are STYLE REFERENCE ONLY, never a target to copy wholesale. Match their hand-crafted folded paper, layered cut cardboard, warm cream, sky-blue, coral and muted teal palette. Real tangible miniature photographed with diffuse soft studio illumination and beautifully subtle paper fibers, clean edges. Camera: elevated near-orthographic 55 degrees looking down; front facade still visible; no dramatic isometric skew. The asset must be isolated, fully in frame with generous transparent margin around every edge, centered, with NO environment, NO rectangular backdrop, NO composited reference scene, NO large cast shadow outside the object. Truly transparent RGBA background. Very polished, clear at small game sprite size. Output one single object only, square 1024 px.",
+      "referenceImages": [
+        "概念图/2026-10-03-行动工坊/01-校园行动棋盘-主玩法.png",
+        "概念图/2026-10-03-行动工坊/05-小学综合任务-我的校园小方案.png"
+      ],
+      "use": "Independent object sprite. Roads and connectivity are rendered from BoardGraph.",
+      "sha256": "51bb1930fab03aa6c733e40b609e404b12abfe8d1002d4fce452da9664b33a8e",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1048226,
+      "alphaCheck": {
+        "mode": "RGBA",
+        "transparentFraction": 0.6425,
+        "semiTransparentFraction": 0.357,
+        "borderMaximumAlpha": 1,
+        "visibleBoundsAlphaAbove8": [
+          208,
+          339,
+          1167,
+          1068
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "fountain",
+      "file": "paper-campus/fountain.png",
+      "source": "OpenAI built-in image_gen; independent transparent production sprite",
+      "sourceFile": "C:\\Users\\niu-h\\.codex\\generated_images\\01a10254-1453-73c0-acfd-c6f897b4bca5\\exec-fbe51963-e784-4f6f-9bfe-dbba4c4ef757.png",
+      "prompt": "Use case: stylized-concept. Asset type: standalone production sprite for a 2D slightly overhead paper-craft campus board game.\nPrimary request: One small circular campus reading fountain: layered cream stone-paper low circular plinth, a delicate shallow sky-blue water basin, upright open cream-paper book sculpture at its center, tiny grassy ring tucked into the plinth. No roads, no benches, no trees, no text.\nReference images are STYLE REFERENCE ONLY, never a target to copy wholesale. Match their hand-crafted folded paper, layered cut cardboard, warm cream, sky-blue, coral and muted teal palette. Real tangible miniature photographed with diffuse soft studio illumination and beautifully subtle paper fibers, clean edges. Camera: elevated near-orthographic 55 degrees looking down; front facade still visible; no dramatic isometric skew. The asset must be isolated, fully in frame with generous transparent margin around every edge, centered, with NO environment, NO rectangular backdrop, NO composited reference scene, NO large cast shadow outside the object. Truly transparent RGBA background. Very polished, clear at small game sprite size. Output one single object only, square 1024 px.",
+      "referenceImages": [
+        "概念图/2026-10-03-行动工坊/01-校园行动棋盘-主玩法.png",
+        "概念图/2026-10-03-行动工坊/05-小学综合任务-我的校园小方案.png"
+      ],
+      "use": "Independent object sprite. Roads and connectivity are rendered from BoardGraph.",
+      "sha256": "b47abd14bcd8f80e5a4e43560b8eaaecf90ad6455a32a7fb7e54725b1623dca7",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1132988,
+      "alphaCheck": {
+        "mode": "RGBA",
+        "transparentFraction": 0.6518,
+        "semiTransparentFraction": 0.3479,
+        "borderMaximumAlpha": 0,
+        "visibleBoundsAlphaAbove8": [
+          173,
+          253,
+          1082,
+          1034
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "robot",
+      "file": "paper-campus/robot.png",
+      "source": "OpenAI built-in image_gen; independent transparent production sprite",
+      "sourceFile": "C:\\Users\\niu-h\\.codex\\generated_images\\01a10254-1453-73c0-acfd-c6f897b4bca5\\exec-07c6ee7b-3291-4711-a9a8-ea2ca4069551.png",
+      "prompt": "Use case: stylized-concept. Asset type: standalone production sprite for a 2D slightly overhead paper-craft campus board game.\nPrimary request: One adorable little wheeled campus delivery robot, three-quarter front view facing gently toward camera right: cream-white rounded cardstock body, dark navy rounded rectangular face display with exactly two bright cyan oval eyes, small white head, blue accent panel, four dark blue rubbery wheels with white hubs, a small empty warm-wood front cargo tray. Its wheels sit on one horizontal baseline. Make it a refined tactile paper-craft toy matching the little robot in the supplied reference. No limbs, no legs, no text, no people.\nReference images are STYLE REFERENCE ONLY, never a target to copy wholesale. Match their hand-crafted folded paper, layered cut cardboard, warm cream, sky-blue, coral and muted teal palette. Real tangible miniature photographed with diffuse soft studio illumination and beautifully subtle paper fibers, clean edges. Camera: elevated near-orthographic 55 degrees looking down; front facade still visible; no dramatic isometric skew. The asset must be isolated, fully in frame with generous transparent margin around every edge, centered, with NO environment, NO rectangular backdrop, NO composited reference scene, NO large cast shadow outside the object. Truly transparent RGBA background. Very polished, clear at small game sprite size. Output one single object only, square 1024 px.",
+      "referenceImages": [
+        "概念图/2026-10-03-行动工坊/01-校园行动棋盘-主玩法.png",
+        "概念图/2026-10-03-行动工坊/05-小学综合任务-我的校园小方案.png"
+      ],
+      "use": "Independent object sprite. Roads and connectivity are rendered from BoardGraph.",
+      "sha256": "c572b107923f93605e88cc7e23ee748371585055022257cc2e58c3e4ae1d3ea6",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 982869,
+      "alphaCheck": {
+        "mode": "RGBA",
+        "transparentFraction": 0.6997,
+        "semiTransparentFraction": 0.3001,
+        "borderMaximumAlpha": 0,
+        "visibleBoundsAlphaAbove8": [
+          275,
+          187,
+          1009,
+          1078
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "tree",
+      "file": "paper-campus/tree.png",
+      "source": "OpenAI built-in image_gen; independent transparent production sprite",
+      "sourceFile": "C:\\Users\\niu-h\\.codex\\generated_images\\01a10254-1453-73c0-acfd-c6f897b4bca5\\exec-65b5301b-7995-431c-8d8f-086adbadce11.png",
+      "prompt": "Use case: stylized-concept. Asset type: standalone production sprite for a 2D slightly overhead paper-craft campus board game.\nPrimary request: One small campus landscaping cluster made of precision folded textured paper: one rounded teal-green deciduous tree with warm wooden trunk and a few folded leaves, two small low sage and lime shrubs with one tiny cream daisy at the base. Compact silhouette. No ground tile, no roads, no pot, no buildings, no text.\nReference images are STYLE REFERENCE ONLY, never a target to copy wholesale. Match their hand-crafted folded paper, layered cut cardboard, warm cream, sky-blue, coral and muted teal palette. Real tangible miniature photographed with diffuse soft studio illumination and beautifully subtle paper fibers, clean edges. Camera: elevated near-orthographic 55 degrees looking down; front facade still visible; no dramatic isometric skew. The asset must be isolated, fully in frame with generous transparent margin around every edge, centered, with NO environment, NO rectangular backdrop, NO composited reference scene, NO large cast shadow outside the object. Truly transparent RGBA background. Very polished, clear at small game sprite size. Output one single object only, square 1024 px.",
+      "referenceImages": [
+        "概念图/2026-10-03-行动工坊/01-校园行动棋盘-主玩法.png",
+        "概念图/2026-10-03-行动工坊/05-小学综合任务-我的校园小方案.png"
+      ],
+      "use": "Independent object sprite. Roads and connectivity are rendered from BoardGraph.",
+      "sha256": "a7693dd347fe83401fd47654239e6bfad3ac1a1b67643f9cb8536a7557f6a93f",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1408382,
+      "alphaCheck": {
+        "mode": "RGBA",
+        "transparentFraction": 0.6274,
+        "semiTransparentFraction": 0.3721,
+        "borderMaximumAlpha": 1,
+        "visibleBoundsAlphaAbove8": [
+          249,
+          150,
+          1028,
+          1132
+        ],
+        "result": "pass"
+      }
+    }
+  ],
+  "derived": [
+    {
+      "id": "robot-face",
+      "file": "paper-campus/robot-face.png",
+      "from": "paper-campus/robot.png",
+      "crop": [
+        270,
+        40,
+        1010,
+        780
+      ],
+      "size": [
+        160,
+        160
+      ],
+      "use": "Panel speaker portrait: the robot sprite's head, cropped and downscaled so the panel does not decode the full 1254 px sprite on every redraw.",
+      "sha256": "909ed352e7863e42e7640ff682f9139d827cce021d314791bdf4e7d581ec4d97",
+      "bytes": 32093
+    }
+  ]
+}

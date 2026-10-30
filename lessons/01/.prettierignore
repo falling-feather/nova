@@ -1,0 +1,4 @@
+src/vendor/
+src/generated/
+src/content/model-data.js
+src/content/audio-data.js

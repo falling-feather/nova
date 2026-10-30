@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-27",
+  "construction": "Independent transparent relief paintings, authored Blender props, procedural ocean and native interactive overlays. No interface reference is used as a background.",
+  "images": [
+    {
+      "file": "cape-relief.webp",
+      "prompt": "Create one isolated coastal island relief illustration as a transparent PNG asset for a premium antique nautical atlas. NOT a whole map, NOT a UI or background. A single asymmetrical island fills most of a square frame. View from high above the south at 65 degrees, fixed orthographic perspective, north up. The island has an elevated jagged chalk-and-granite mountain ridge in its UPPER THIRD, grassy olive-green headlands on the upper left and right, very detailed broken pale stone cliffs and individual rocks around the coast, dark leafy tree clusters concentrated along ridges and edges. The LOWER HALF is a very wide calm open pale sand and short-grass coastal plain, almost flat and uncluttered, suitable for overlaying experimental markers; leave a large EMPTY softly textured central sandy clearing, absolutely no objects on that clearing. The southeastern coast curves around an open beach bay. Make the island taller than wide, organic lobed silhouette with a craggy north cape reserved for a separate lighthouse asset, no buildings. Hand-painted gouache cartographic realism with meticulous tiny brush texture, sculptural 3D terrain depth, warm ivory rocks, richly differentiated moss, visible strata, soft sunlight from upper left. Much more finely detailed than low-poly game terrain. Rich but restrained natural colors, no cartoon plastic trees. No surrounding sea plane, NO water rectangle, no backdrop, no text, no symbols, no lines, no labels, no lighthouse, no boats, no borders. Transparent outside the exact coastline, softly anti-aliased edge. Show the complete island without cropping.",
+      "original": "C:\\Users\\niu-h\\.codex\\generated_images\\01a139b1-ab6e-7db1-89a7-e7ac43fd6189\\exec-268f9e79-bde7-4d2a-8da2-8c5e8ef85af1.png",
+      "method": "image_gen"
+    },
+    {
+      "file": "island-rock.webp",
+      "prompt": "One isolated small rugged island for a premium hand-painted antique nautical relief map, transparent background. High orthographic view from the south at 65 degrees. Irregular roughly triangular island with fractured ivory limestone cliffs and jagged rock shelves, three rounded green knolls with a dense grove of tiny dark olive and sage trees, pockets of warm sand, finely painted weathered stone, tiny shore rocks. Sunlight upper left, subtle shadows cast onto the island only. Museum-quality gouache and realistic cartographic engraving detail, not low-poly, not plastic. One single complete island, centered, no building, no text, no symbols, no ocean or background plane, no rectangle, no border. Only island silhouette with transparent exterior, square composition.",
+      "original": "C:\\Users\\niu-h\\.codex\\generated_images\\01a139b1-ab6e-7db1-89a7-e7ac43fd6189\\exec-120c0234-81f7-46c5-93e6-4633f6a4d0a6.png",
+      "method": "image_gen"
+    },
+    {
+      "file": "island-meadow.webp",
+      "prompt": "One isolated small island asset for a beautiful antique illustrated nautical atlas, transparent background. High orthographic view from the south at 65 degrees. Asymmetrical crescent-shaped island with a tiny horseshoe cove open toward the lower right, vivid olive green grassy plateau and dense clusters of varied small leafy trees on the upper left, warm ivory rocky cliffs, broken coastal boulders, pale sand at the cove. Exquisite hand-painted gouache cartographic realism, fine 3D relief and natural striated rock detail; sunlight upper left. Complete silhouette centered on square canvas, no text, no lighthouse, no buildings, no boats, no surrounding sea or rectangular backdrop, transparent outside coastline. Different natural forms and fine detail, avoid simple mound or smooth rounded low-poly shape.",
+      "original": "C:\\Users\\niu-h\\.codex\\generated_images\\01a139b1-ab6e-7db1-89a7-e7ac43fd6189\\exec-a10b7a2a-bfef-421a-9898-0a4b8ea4f4e6.png",
+      "method": "image_gen"
+    },
+    {
+      "file": "gull-perched.webp",
+      "prompt": "A single standing herring gull as a transparent cutout decorative character for an antique maritime field journal. Full body in profile, facing right, calm alert pose, warm white head and breast, beautifully detailed soft grey and charcoal wing feathers, small yellow ochre beak, two thin yellow legs and webbed feet clearly visible. Refined naturalistic hand-painted gouache, slight realistic volume, delicate vintage textbook illustration quality, consistent sunlight from upper left. Not a cartoon icon, not flat vector art, not a photograph. No hat, no accessories, no ground, no text, no other objects, no frame. True transparent background. Vertical composition with generous clear margins.",
+      "original": "C:\\Users\\niu-h\\.codex\\generated_images\\01a139b1-ab6e-7db1-89a7-e7ac43fd6189\\exec-310b1be8-2cd9-4c6e-8d63-beaadb9ea3f1.png",
+      "method": "image_gen"
+    },
+    {
+      "file": "ocean-pigment.webp",
+      "prompt": "Create a high-resolution 2:1 landscape texture swatch of ocean water for a meticulously illustrated antique nautical atlas. The entire image is only water viewed directly from above: luminous blue turquoise and muted sea green, painterly gouache brushwork, countless very small irregular ripples and scattered cream-white light glints, darker translucent currents, subtle pale sandy turquoise shoals without any actual sand or land visible. Texture detail should be rich and fine at multiple scales, with horizontal broken brush marks, no large blurry clouds. Sophisticated natural cartographic illustration, soft warm daylight, pigment on paper quality. NO islands, no coastline, no rocks, no plants, no boats, no compass, no map labels, no grid, no border, no frame, no typography, no UI. This is only a reusable material texture, not a scene composition. Edge-to-edge continuous water. Avoid photographic foam, waves viewed from the side, or a horizon.",
+      "original": "C:\\Users\\niu-h\\.codex\\generated_images\\01a139b1-ab6e-7db1-89a7-e7ac43fd6189\\exec-34af4f89-3378-4d1e-a9f7-02c32cd611e3.png",
+      "method": "image_gen",
+      "role": "water material blended under independent islands; no UI content"
+    }
+  ],
+  "models": {
+    "source": "../../../lessons/06/tools/atlas-props.blend",
+    "generator": "../../../lessons/06/tools/build-atlas-props.py",
+    "method": "Blender 5.2.3 Cycles authored geometry and transparent orthographic renders"
+  }
+}

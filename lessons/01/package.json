@@ -1,0 +1,14 @@
+{
+  "name": "chunting-town-renewed",
+  "private": true,
+  "version": "0.1.0",
+  "description": "春汀小镇新版：完整可交互课程与精细风格化3D重绘",
+  "scripts": {
+    "pretest": "npm run build",
+    "start": "node ../../tools/preview.cjs 01",
+    "build": "node tools/build.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "format": "prettier --write src --ignore-path .prettierignore",
+    "dev": "node ../../tools/preview.cjs 01"
+  }
+}

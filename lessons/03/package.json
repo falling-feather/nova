@@ -1,0 +1,21 @@
+{
+  "name": "forest-whispers",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5193 --strictPort --configLoader native",
+    "build": "tsc --noEmit && vite build --configLoader native",
+    "preview": "vite preview --host 127.0.0.1 --port 5193 --strictPort --configLoader native",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "playtest": "node tools/playtest.mjs",
+    "test:input": "node tools/forest-renderer-check.mjs",
+    "test:world": "node --experimental-strip-types tools/world-playtest.mjs",
+    "test:flow": "node --experimental-strip-types tools/world-flow-playtest.mjs",
+    "test:devices": "node --experimental-strip-types tools/device-playtest.mjs",
+    "test:lessons": "node tools/lesson-regressions.mjs",
+    "test:guide": "node tools/guide-visual-check.mjs",
+    "test:journey": "node tools/full-journey.mjs",
+    "test:teaching": "node tools/teaching-probe.mjs"
+  }
+}

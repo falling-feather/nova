@@ -1,0 +1,57 @@
+{
+  "clientDate": "2026-10-05",
+  "status": "optional design attachment, not implemented",
+  "title": "运动预测附件",
+  "purpose": "给定的直线运动实验：发车、采样、训练数值模型、再次发车核对。",
+  "sourceBoundary": "模拟器负责产生真实运动与观测记录；模型只读取时间和已记录位置，不能读取模拟器内部速度、起点或未来位置。",
+  "input": {
+    "name": "记录时刻",
+    "unit": "秒"
+  },
+  "target": {
+    "name": "轨道位置",
+    "unit": "厘米"
+  },
+  "environment": {
+    "motion": "position = 2 * time + 1",
+    "speedCmPerSecond": 2,
+    "startCm": 1,
+    "trackRangeCm": [
+      0,
+      12
+    ],
+    "label": "仅用于课件模拟环境；不作为模型参数直接赋值来源"
+  },
+  "train": [
+    {
+      "x": 1,
+      "y": 3
+    },
+    {
+      "x": 2,
+      "y": 5
+    },
+    {
+      "x": 3,
+      "y": 7
+    }
+  ],
+  "freshCheck": {
+    "x": 4,
+    "y": 9
+  },
+  "initialModel": {
+    "w": 1,
+    "b": 1,
+    "predictionAt4": 5
+  },
+  "model": "prediction = w * time + b",
+  "loss": "mean squared error over the measured training samples",
+  "learningRate": 0.05,
+  "firstUpdate": {
+    "w": 1.4666666666666668,
+    "b": 1.2,
+    "predictionAt4": 7.066666666666667
+  },
+  "courseRole": "可替代第五组的综合迁移练习，或作为10–15分钟可选延伸；不把新任务材料冒充对原温室模型的同任务盲测。"
+}

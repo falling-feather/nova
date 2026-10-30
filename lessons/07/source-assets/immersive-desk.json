@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-28",
+  "task": "DEV-024",
+  "purpose": "A版沉浸桌面与C版真实对照的实时渲染实现",
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "path": "public/textures/porcelain-bamboo.png",
+      "role": "青花竹纹笔筒基础颜色；独立纹理，无预烘焙灯光",
+      "prompt": "Use case: illustration-story. Asset type: actual production diffuse/albedo texture for a cylindrical blue-and-white porcelain brush pot in a high-quality real-time 3D Chinese movable-type printing workshop. Generate a single square 2048x2048 flat unwrapped ceramic surface texture, not a rendered pot and not a scene. Warm ivory unglazed-white ground with understated hand-painted cobalt blue bamboo branches and fine clusters of slender bamboo leaves, a few elegant restrained cloud curls near the base. Thin double cobalt border lines near top and bottom, keeping 8% clean warm ivory margins at the image's upper and lower edges. Painting feels like authentic refined old Chinese blue-and-white pottery, nuanced blue brush load and very fine natural ink-edge variation, lightly worn pigment only, no heavy dirt or cracks. Motifs spaced asymmetrically with ample clean porcelain between, modest contrast and very fine hand-painted details. Horizontally seamless repeat for UV wrapping around a cylindrical brush pot, left and right edges match; vertical wrapping not required. True flat orthographic albedo: completely even diffuse illumination, absolutely no object contour, perspective, cylinder silhouette, cast shadow, light gradient, highlights, baked ambient occlusion or glossy reflections. No text, calligraphy, symbols, frames, logos, watermark, people, photo backdrop, brush tools. Full canvas is only the surface color pattern. Premium quiet craftsmanship, not a busy ornate wallpaper."
+    }
+  ],
+  "references": [
+    "../../../../资料-界面参考/2026-10-28-第七章减法设计/01-A-沉浸桌面.png",
+    "../../../../资料-界面参考/2026-10-28-第七章减法设计/03-C-双句对照台.png"
+  ],
+  "technicalReferences": [
+    "https://threejs.org/docs/pages/MeshStandardMaterial.html",
+    "https://threejs.org/docs/pages/GTAOPass.html",
+    "https://threejs.org/docs/pages/PMREMGenerator.html"
+  ],
+  "notes": "既有Poly Haven材质与许可沿用pbr.json。概念图没有作为场景背景。纸张、活字、案头器物仍为实时三维几何。"
+}

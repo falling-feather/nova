@@ -1,0 +1,15 @@
+{
+  "name": "nova-action-lab",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5372 --strictPort --configLoader native",
+    "build": "tsc --noEmit && vite build --configLoader native",
+    "preview": "vite preview --host 127.0.0.1 --port 5372 --strictPort --configLoader native",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "test:browser": "node --experimental-strip-types tests/browser.mjs",
+    "test:visual": "node --experimental-strip-types tests/visual.mjs",
+    "run:artifact": "node --experimental-strip-types examples/run-import.ts"
+  }
+}

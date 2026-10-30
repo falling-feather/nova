@@ -1,0 +1,95 @@
+.chart-dialog .page-heading {margin-bottom:14px}
+.chart-dialog .page-heading h2 {font-size:25px;line-height:1.4}
+.chart-dialog .page-heading .eyebrow {font-size:12px;letter-spacing:2px;color:#7a8466}
+.chart-dialog .compact-heading {align-items:center}
+.atlas-blueprint-page {display:flex;flex-direction:column;min-height:0;gap:13px}
+.atlas-blueprint-page .page-heading {margin:0;flex:0 0 auto}
+.blueprint-current {font-size:12px;color:#75816a;padding-left:18px;border-left:1px solid #b8b697}
+.atlas-blueprint-layout {display:grid;grid-template-columns:210px minmax(0,1fr);gap:28px;flex:1;min-height:0}
+.blueprint-shelf {display:grid;grid-template-rows:repeat(7,minmax(36px,1fr));gap:6px;min-height:0;padding:6px 12px 6px 0;border-right:1px solid #bcb69388}
+.chart-dialog .blueprint-shelf button {display:flex;align-items:center;gap:12px;padding:7px 10px;text-align:left;min-height:0;border:0;border-bottom:1px solid #b8b79566;background:linear-gradient(90deg,#ddd2ac33,transparent);color:#5b6a54;box-shadow:none}
+.blueprint-shelf button>span:nth-child(2) {display:flex;flex-direction:column;gap:5px}
+.blueprint-shelf b {font:600 17px AtlasSerif,serif}
+.blueprint-shelf small {font-size:11px;color:#7e8368;line-height:1.5}
+.blueprint-sheet-number {font:italic 19px Georgia,serif;color:#9a8a63}
+.blueprint-shelf i {font-size:10px;font-style:normal;border:1px solid #82987d77;padding:2px;color:#56725e;margin-left:auto;writing-mode:vertical-rl}
+.chart-dialog .blueprint-shelf button[aria-pressed="true"] {background:linear-gradient(90deg,#2e6a5ee8,#3f7b6de8);border-color:#376c58;color:#fff3d6;box-shadow:2px 3px 4px #5c563033;transform:translateX(4px)}
+.blueprint-shelf button[aria-pressed="true"] small,.blueprint-shelf button[aria-pressed="true"] .blueprint-sheet-number,.blueprint-shelf button[aria-pressed="true"] i {color:#d0e1be}
+.blueprint-preview {display:flex;flex-direction:column;gap:12px;min-height:0;min-width:0}
+.blueprint-preview>header {display:flex;align-items:center;justify-content:space-between;flex:0 0 auto;padding-bottom:8px;border-bottom:1px solid #b7b38b88}
+.blueprint-preview>header>div:first-child>span {font-size:12px;color:#7c8065}
+.blueprint-preview h3 {font:600 23px AtlasSerif,serif;margin-top:7px;color:#365b50}
+.parameter-seal {display:flex;align-items:center;gap:10px;border:1px solid #9d926166;padding:7px 12px;transform:rotate(-3deg);color:#7c7250}
+.parameter-seal strong {font:30px Georgia,serif;font-weight:400}
+.parameter-seal span {font-size:11px;max-width:48px;line-height:1.5}
+.blueprint-drafting-paper {position:relative;min-height:110px;flex:1;padding:12px 8px;background:linear-gradient(#6b8d7d0a 1px,transparent 1px),linear-gradient(90deg,#6b8d7d0a 1px,transparent 1px),#f5f0dc77;background-size:20px 20px;border:1px solid #8f9b7c66;box-shadow:inset 0 0 24px #9a9b6833,2px 4px 6px #6b684021}
+.blueprint-drafting-paper:before,.blueprint-drafting-paper:after {content:"";position:absolute;top:-6px;width:40px;height:17px;background:#d9cba47a;transform:rotate(-12deg);border-left:1px dashed #b8a67c55;border-right:1px dashed #b8a67c55;pointer-events:none}
+.blueprint-drafting-paper:before {left:25px}.blueprint-drafting-paper:after {right:25px;transform:rotate(13deg)}
+.blueprint-structure {display:block;width:100%;height:100%;overflow:visible}
+.blueprint-wires path {fill:none;stroke:#3a7f79;stroke-width:.8;opacity:.22}
+.blueprint-nodes circle {fill:#f8f0d9;stroke:#4d8477;stroke-width:1.3}
+.blueprint-nodes .blueprint-node-core {fill:#568d7f;stroke:none}
+.blueprint-layer-label {font:600 17px AtlasSerif,serif;fill:#3d6a5d}
+.blueprint-layer-count {font:13px "Microsoft YaHei UI",sans-serif;fill:#71826a}
+.blueprint-purpose {font-size:15px;line-height:1.65;flex:0 0 auto;color:#48654f}
+.blueprint-apply {display:flex;align-items:center;gap:20px;flex:0 0 auto;border-top:1px dashed #aaa97c88;padding-top:12px}
+.blueprint-apply p {font-size:12px;line-height:1.6;flex:1;color:#7b7e61}
+.chart-dialog .blueprint-apply button {flex:0 0 auto;min-height:40px;padding:8px 18px;font-size:14px;background:#346e5d;color:#fff2ce;border:1px solid #57836d;border-bottom:3px solid #315444}
+.chart-dialog .blueprint-apply button:disabled {background:#b8bea6;color:#4e6555;border-color:#919f84;opacity:.85}
+.blueprint-footnote {font-size:12px;line-height:1.5;color:#82866a;flex:0 0 auto}
+
+.chart-dialog .sea-controls-page {gap:13px}
+.chart-dialog .response-study {background:linear-gradient(110deg,#e3e8ce77,#f8f3df77);border:1px solid #b6bea0;box-shadow:2px 4px 6px #6b684022;padding:16px}
+.response-study>span {font:600 17px AtlasSerif,serif;color:#54735d}
+.response-study p {font-size:13px;color:#6a7d64}
+.chart-dialog .parameter-study h3 {font:600 18px AtlasSerif,serif;color:#456951}
+.chart-dialog .parameter-study {min-height:0}
+.chart-dialog .sea-control-spread {grid-template-rows:minmax(0,1fr)}
+.chart-dialog .sea-controls-page .precise-parameters,.chart-dialog .sea-controls-page .activation-options {margin:0}
+.chart-dialog .precise-parameters label {gap:6px;padding:10px 12px;border:1px solid #b9bd9a77;background:#f5edd755;position:relative}
+.chart-dialog .precise-parameters label>span {font-size:13px;color:#58745c}
+.parameter-dial {display:flex;align-items:center;gap:9px}
+.chart-dialog .precise-parameters .parameter-dial input[type="range"] {appearance:none;min-width:0;width:auto;flex:1;height:25px;min-height:25px;padding:0;background:linear-gradient(90deg,#cab47f,#5c9075) center/100% 5px no-repeat;border:0;cursor:pointer}
+.parameter-dial input[type="range"]::-webkit-slider-thumb {appearance:none;width:17px;height:24px;background:linear-gradient(90deg,#967a43,#e5cd94,#aa8e52);border:1px solid #8c7547;border-radius:6px 6px 4px 4px;box-shadow:1px 2px 3px #68553455}
+.chart-dialog .precise-parameters .parameter-dial input[type="number"] {width:84px;flex:0 0 84px;min-width:0;padding:6px;font:14px Georgia,serif;background:#fffae9;border-color:#b7b58e}
+.chart-dialog .activation-options button {background:#efe5ca;border:1px solid #b2b48b;padding:9px 15px;color:#58725b}
+.chart-dialog .activation-options button[aria-pressed="true"] {background:#3d765f;color:#fff4d2;border-color:#6c9374}
+.chart-dialog .seed-study {padding-top:12px;border-top:1px dashed #b6ad8288}
+.chart-dialog .control-feedback {background:#dbe4c466;padding:10px 12px;font-size:13px;gap:12px}
+
+.chart-dialog .manual-spread {gap:26px}
+.chart-dialog .manual-spread>article {position:relative;background:linear-gradient(#fcf5e355,#f0e7cd77);border:0;border-left:2px solid #b8b991;padding:20px 24px;box-shadow:3px 3px 7px #6b684014}
+.chart-dialog .manual-spread h3 {font:600 20px AtlasSerif,serif;color:#426b54;margin-bottom:12px}
+.chart-dialog .manual-spread p {font-size:15px;line-height:1.8;color:#586c50}
+.chart-dialog .manual-spread ol {padding-left:23px;margin:16px 0;line-height:1.8;font-size:14px}
+.chart-dialog .manual-spread li {padding:5px 0;border-bottom:1px dashed #b6b89077}
+.manual-start-actions {display:flex;flex-wrap:wrap;gap:9px;margin-top:17px}
+.chart-dialog .manual-start-actions button {background:#ede3c7;border:1px solid #b1ac7d;font-size:13px}
+.chart-dialog .manual-start-actions .primary {background:#3a745f;color:#fff0cc}
+.chart-dialog .comparison-card {background:#fbf5e36b;border:1px solid #b9b590;box-shadow:2px 4px 7px #6b684022;border-radius:0}
+.chart-dialog .snapshot-letter {border-radius:50%;background:#47785e;color:#fcf0cf;border:2px solid #b6bd8b;font:italic 22px Georgia,serif}
+.chart-dialog .comparison-picture {border:4px solid #e3d4af;box-shadow:0 2px 0 #a8a17c}
+.chart-dialog .evidence-sheet {background:linear-gradient(#e6e9ce77,#f7efd855);border:1px solid #c0bd90;padding:22px;box-shadow:3px 5px 7px #6b684020}
+.chart-dialog .note-field textarea {background:repeating-linear-gradient(transparent 0 27px,#b6ba8c44 27px 28px),#fff9e850;line-height:28px;border:1px solid #b8b48a;border-radius:0;padding:8px 12px}
+.chart-dialog .gallery-picture {border:7px solid #e4d5af;box-shadow:2px 3px 6px #6b684033}
+.chart-dialog .record-spread {grid-template-rows:minmax(0,1fr);gap:24px}
+.chart-dialog .record-writing {gap:12px;min-width:0}
+.record-note-tabs {display:flex;gap:8px;border-bottom:1px solid #b1b58b;padding-bottom:8px;margin-bottom:5px}
+.chart-dialog .record-note-tabs button {flex:1;background:#eee5c9;border:1px solid #b3b28a;padding:8px 10px;font-size:14px}
+.chart-dialog .record-note-tabs button[aria-pressed="true"] {background:#3d785f;color:#fff2d2;border-color:#5c8b6f}
+.record-writing-note {font-size:13px;line-height:1.7;color:#7c8564;margin-top:8px}
+.chart-dialog .record-page .evidence-sheet {min-height:0;gap:10px;padding:17px}
+.chart-dialog .record-page .evidence-sheet p {font-size:14px;line-height:1.6}
+.chart-dialog .record-page .evidence-readiness {border-left:2px solid #8f9d73;border-radius:0;padding:9px 12px}
+.chart-dialog .record-page .evidence-sheet button {min-height:33px;font-size:13px;padding:7px 10px}
+.chart-dialog .record-page .evidence-sheet button.primary {background:#3d765f;color:#fff2d2}
+
+@media(max-height:800px){
+  .chart-dialog .page-heading h2{font-size:23px}.chart-dialog .page-heading{margin-bottom:10px}.atlas-blueprint-page{gap:9px}.atlas-blueprint-page .page-heading{margin-bottom:0}
+  .atlas-blueprint-layout{grid-template-columns:190px minmax(0,1fr);gap:22px}.blueprint-shelf{gap:3px;padding-top:3px;padding-bottom:3px}.blueprint-shelf b{font-size:16px}.blueprint-shelf small{font-size:10px}.chart-dialog .blueprint-shelf button{padding:5px 8px;gap:9px}
+  .blueprint-preview{gap:8px}.blueprint-preview h3{font-size:21px;margin-top:4px}.blueprint-preview>header{padding-bottom:5px}.parameter-seal{padding:4px 10px}.parameter-seal strong{font-size:26px}.blueprint-purpose{font-size:14px}.blueprint-apply{gap:13px;padding-top:8px}.blueprint-apply p{font-size:11px}.chart-dialog .blueprint-apply button{font-size:13px;padding:7px 12px;min-height:34px}.blueprint-footnote{font-size:11px}
+  .chart-dialog .manual-spread>article{padding:14px 18px}.chart-dialog .manual-spread p{font-size:14px;line-height:1.65}.chart-dialog .manual-spread ol{margin:10px 0;line-height:1.65}.chart-dialog .manual-spread h3{font-size:18px;margin-bottom:8px}
+}
+@media(max-width:1150px){.blueprint-current{font-size:11px;padding-left:9px}.atlas-blueprint-layout{grid-template-columns:170px minmax(0,1fr);gap:18px}.blueprint-shelf b{font-size:14px}.blueprint-shelf small{font-size:10px}.blueprint-sheet-number{font-size:16px}.blueprint-shelf i{display:none}.blueprint-apply{align-items:flex-start;flex-direction:column;gap:7px}.blueprint-apply p{line-height:1.5}.chart-dialog .blueprint-apply button{width:100%}.blueprint-purpose{font-size:13px}.chart-dialog .parameter-dial input[type="number"]{width:72px;flex-basis:72px}.chart-dialog .precise-parameters label{padding:7px}.chart-dialog .manual-spread{gap:18px}}
+@media(max-height:680px){.chart-dialog .page-heading h2{font-size:21px}.atlas-blueprint-page{gap:7px}.blueprint-shelf small{display:none}.blueprint-preview>header>div:first-child>span{font-size:10px}.blueprint-preview h3{font-size:19px}.blueprint-purpose{font-size:12px;line-height:1.5}.blueprint-drafting-paper{padding:6px;min-height:85px}.blueprint-apply p{font-size:10px}.blueprint-apply{gap:6px;padding-top:6px}.blueprint-footnote{font-size:10px}.chart-dialog .sea-controls-page{gap:8px}.chart-dialog .parameter-study{gap:10px}.chart-dialog .response-study{padding:11px}.chart-dialog .response-study p{font-size:12px}.chart-dialog .parameter-study h3{font-size:16px}.chart-dialog .manual-spread p{font-size:13px}.chart-dialog .manual-spread li{font-size:13px;padding:3px 0}.chart-dialog .manual-spread h3{font-size:17px}.manual-start-actions{margin-top:9px}.chart-dialog .manual-start-actions button{font-size:12px;min-height:28px}}
+@media(max-height:680px){.chart-dialog .record-page .evidence-sheet{padding:12px;gap:8px}.chart-dialog .record-page .evidence-sheet p{font-size:13px;line-height:1.5}.record-writing-note{font-size:12px}.chart-dialog .record-note-tabs button{font-size:13px;min-height:32px;padding:6px 8px}}

@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "type": "可核算的设计例题，非已实现游戏或求解器输出",
+  "title": "路线实验室",
+  "unit": "能量点（教学单位）",
+  "graph": {
+    "undirected": true,
+    "stepsPerEdge": 1,
+    "nodes": [
+      {
+        "id": "S",
+        "label": "行动站",
+        "column": 0,
+        "row": 0
+      },
+      {
+        "id": "U",
+        "label": "上侧路口",
+        "column": 1,
+        "row": 0
+      },
+      {
+        "id": "G",
+        "label": "音乐教室",
+        "column": 2,
+        "row": 0
+      },
+      {
+        "id": "L",
+        "label": "下侧路口",
+        "column": 0,
+        "row": 1
+      },
+      {
+        "id": "M",
+        "label": "中间路口",
+        "column": 1,
+        "row": 1
+      },
+      {
+        "id": "R",
+        "label": "右侧路口",
+        "column": 2,
+        "row": 1
+      }
+    ],
+    "edges": [
+      {
+        "id": "SU",
+        "from": "S",
+        "to": "U",
+        "cost": 4
+      },
+      {
+        "id": "UG",
+        "from": "U",
+        "to": "G",
+        "cost": 4
+      },
+      {
+        "id": "SL",
+        "from": "S",
+        "to": "L",
+        "cost": 1
+      },
+      {
+        "id": "LM",
+        "from": "L",
+        "to": "M",
+        "cost": 1
+      },
+      {
+        "id": "MR",
+        "from": "M",
+        "to": "R",
+        "cost": 1
+      },
+      {
+        "id": "RG",
+        "from": "R",
+        "to": "G",
+        "cost": 1
+      }
+    ]
+  },
+  "controls": {
+    "roadCost": {
+      "minimum": 1,
+      "maximum": 5,
+      "integer": true
+    },
+    "budget": {
+      "minimum": 2,
+      "maximum": 16,
+      "integer": true
+    },
+    "objectives": {
+      "fewestSteps": "预算内少走几步",
+      "leastCost": "预算内少花能量"
+    },
+    "closure": "不可通行，与高代价不同"
+  },
+  "routes": {
+    "A": [
+      "S",
+      "U",
+      "G"
+    ],
+    "B": [
+      "S",
+      "L",
+      "M",
+      "R",
+      "G"
+    ]
+  },
+  "cases": [
+    {
+      "id": "base",
+      "label": "预算6点，少走几步",
+      "start": "S",
+      "goal": "G",
+      "budget": 6,
+      "spent": 0,
+      "objective": "fewestSteps",
+      "overrides": {},
+      "blocked": [],
+      "expected": {
+        "status": "ok",
+        "minReachableCost": 4,
+        "optimalPaths": [
+          [
+            "S",
+            "L",
+            "M",
+            "R",
+            "G"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "budget8",
+      "label": "预算8点，少走几步",
+      "start": "S",
+      "goal": "G",
+      "budget": 8,
+      "spent": 0,
+      "objective": "fewestSteps",
+      "overrides": {},
+      "blocked": [],
+      "expected": {
+        "status": "ok",
+        "minReachableCost": 4,
+        "optimalPaths": [
+          [
+            "S",
+            "U",
+            "G"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "energy8",
+      "label": "预算8点，少花能量",
+      "start": "S",
+      "goal": "G",
+      "budget": 8,
+      "spent": 0,
+      "objective": "leastCost",
+      "overrides": {},
+      "blocked": [],
+      "expected": {
+        "status": "ok",
+        "minReachableCost": 4,
+        "optimalPaths": [
+          [
+            "S",
+            "L",
+            "M",
+            "R",
+            "G"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "cheaperUpper",
+      "label": "上侧改为1＋1",
+      "start": "S",
+      "goal": "G",
+      "budget": 6,
+      "spent": 0,
+      "objective": "fewestSteps",
+      "overrides": {
+        "SU": 1,
+        "UG": 1
+      },
+      "blocked": [],
+      "expected": {
+        "status": "ok",
+        "minReachableCost": 2,
+        "optimalPaths": [
+          [
+            "S",
+            "U",
+            "G"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "closeLower",
+      "label": "封下侧，预算不足",
+      "start": "S",
+      "goal": "G",
+      "budget": 6,
+      "spent": 0,
+      "objective": "fewestSteps",
+      "overrides": {},
+      "blocked": [
+        "MR"
+      ],
+      "expected": {
+        "status": "budget_exceeded",
+        "minReachableCost": 8,
+        "optimalPaths": []
+      }
+    },
+    {
+      "id": "disconnect",
+      "label": "两路各封一段，没有通路",
+      "start": "S",
+      "goal": "G",
+      "budget": 6,
+      "spent": 0,
+      "objective": "fewestSteps",
+      "overrides": {},
+      "blocked": [
+        "UG",
+        "MR"
+      ],
+      "expected": {
+        "status": "no_path",
+        "minReachableCost": null,
+        "optimalPaths": []
+      }
+    },
+    {
+      "id": "equalCost",
+      "label": "两种同样省的方案",
+      "start": "S",
+      "goal": "G",
+      "budget": 6,
+      "spent": 0,
+      "objective": "leastCost",
+      "overrides": {
+        "SU": 2,
+        "UG": 2
+      },
+      "blocked": [],
+      "expected": {
+        "status": "ok",
+        "minReachableCost": 4,
+        "optimalPaths": [
+          [
+            "S",
+            "U",
+            "G"
+          ],
+          [
+            "S",
+            "L",
+            "M",
+            "R",
+            "G"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "replanFromMiddle",
+      "label": "已到中路口并花2点，再封下侧",
+      "start": "M",
+      "goal": "G",
+      "budget": 6,
+      "spent": 2,
+      "objective": "fewestSteps",
+      "overrides": {},
+      "blocked": [
+        "MR"
+      ],
+      "expected": {
+        "status": "budget_exceeded",
+        "minReachableCost": 10,
+        "optimalPaths": []
+      }
+    }
+  ],
+  "scope": "基础例题无途中补给、奖励、负代价或额外通行限制；扩大到课程任务时需读取当前真实教学状态。"
+}

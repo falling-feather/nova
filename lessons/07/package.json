@@ -1,0 +1,14 @@
+{
+  "name": "nova-type-workshop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5367 --strictPort --configLoader native",
+    "build": "tsc --noEmit && vite build --configLoader native",
+    "preview": "vite preview --host 127.0.0.1 --port 5367 --strictPort --configLoader native",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "playtest": "node tools/playtest.mjs",
+    "verify": "node tools/verify.mjs"
+  }
+}

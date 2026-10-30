@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-15",
+  "purpose": "仅环境插画。教具、文字、地图、节点、读数及成果均由独立代码与真实MLP绘制。",
+  "encoding": "PNG转WebP无损格式编码，未裁切/缩放；解码RGBA像素与原图逐字节一致。",
+  "assets": [
+    {
+      "file": "coast-environment-v1.webp",
+      "original": "C:/Users/niu-h/.codex/generated_images/01a13b0b-6a87-72c1-ae5f-a42956e5e376/exec-b8ccc7cf-4fdd-434b-a2e0-b795d6d4df08.png",
+      "sha256": "c0b9a57afa0d6e386689c5295a90e75d2156776787869c93eaf78c78be1b2e86",
+      "prompt": "Use case: stylized-concept. Asset type: environment background for a desktop educational game, not a UI mockup. Create a wide 16:9 coastal observation station in a polished, warm, slightly stylized 3D illustrated style. Blend a lush natural coastal setting with calm, clean ivory and teal workshop materials. Soft morning light, turquoise sea, distant green islands and a modest white lighthouse, wind-touched coastal leaves framing the sides, warm pale wood observation deck spanning the lower half. The large central area is simple, empty pale decking suitable for independent interactive teaching instruments that will be rendered by code. Atmospheric depth, believable wood, leaves, gentle sea reflections. Composition has an open readable center, richer detail near the edges, horizon in upper third. No people, no text, no letters, no logo, no map, no grid, no charts, no UI controls, no screens, no foreground data or model visualization. Calm and inviting for school students, mature clean craftsmanship rather than a dashboard. This is only scenery; all instructional content will be built independently."
+    },
+    {
+      "file": "workshop-environment-v1.webp",
+      "original": "C:/Users/niu-h/.codex/generated_images/01a13b0b-6a87-72c1-ae5f-a42956e5e376/exec-81cba297-0119-47eb-88f3-854d691210cf.png",
+      "sha256": "0722ec12168193b1b708fca83b65e7ceabc057afc45bd3cb1497aa99046c1445",
+      "prompt": "Use case: stylized-concept. Asset type: environment background for a desktop educational game, not a UI mockup. Create a wide 16:9 sunlit signal-making workshop beside a coastal garden, polished warm slightly stylized 3D illustration. Large airy windows show green foliage and calm blue sky. Clean pale ivory, teal, natural light oak, brushed brass details, tidy rounded tool containers and plants along the edges. A broad empty pale oak workbench occupies the lower half and central area, ready for independent interactive network components that will be rendered by code. Depth from window light, subtle cast shadows, tasteful physical material quality, bright readable calm center, detail around edges only. Distinctly an indoor making workshop rather than the outdoor coastal deck. No text, no numbers, no letters, no logo, no people, no diagrams, no cables connecting nodes, no screens, no UI buttons or charts. All signals, nodes and model outcomes will be drawn independently in code; this image is environmental scenery only."
+    }
+  ]
+}

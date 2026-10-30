@@ -1,0 +1,770 @@
+{
+  "schemaVersion": 1,
+  "createdOn": "2026-10-04",
+  "generator": "Built-in image_gen.imagegen only",
+  "scope": "Six woodland buildings, five resident rigs, twelve rooted plants, and two layered tree kits.",
+  "geometryAuthority": "src/render/habitat-assets.ts is the sole authority for frame rectangles, anchors, attachment positions, scale and rotation. Rotation is radians; attachment.asset optionally selects a different asset entry.",
+  "preservation": "Delivered files are byte-identical copies of the selected built-in generated sources.",
+  "summary": {
+    "atlasCount": 15,
+    "frameCount": 77,
+    "attachmentCount": 37,
+    "byteLength": 34773545,
+    "generationCalls": 26
+  },
+  "assets": [
+    {
+      "id": "postoffice",
+      "family": "building",
+      "key": "habitatPostoffice",
+      "url": "/assets/habitat/postoffice.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 2697345,
+      "sha256": "b090c4ed83f335bd28dc84db2a83b0dde60ad5df7708908e99fe567884d222a8",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-50a8dac6-9f98-42f8-93bc-74be3a54899b.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.postoffice",
+      "componentNames": [
+        "body",
+        "door",
+        "shutterLeft",
+        "shutterRight",
+        "mailbox",
+        "parcels"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.4538,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: production-ready transparent 2D side-scrolling game prop atlas for a hand-painted storybook forest.\nReference image 1 is STYLE ONLY: borrow its hand-painted gouache woodland material, warm wood, soft golden daylight and green moss, but no scenery/background. Reference image 2 is the game's target world, STYLE ONLY.\nCreate an original FOX POST OFFICE, a welcoming squat hollow tree-stump cottage with a small mossy bark roof, 2 little glazed windows, a dark open rounded doorway and stone sill. No fox character yet. A modest envelope-shaped hanging sign communicates post office WITHOUT any writing.\nAtlas layout on a wide 1536x1024 transparent canvas: main cottage entirely within LEFT 66% of canvas, around 850px tall, standing on a clearly flat visible root/stump base. RIGHT 30% contains 4 separate detached accessory islands with generous fully transparent gaps: upper left an arched wooden door leaf which fits the cottage doorway, upper right a pair of small hinged window shutters, lower left a red-brown wooden mailbox on a short independent post, lower right a small tied parcel and envelope bundle. Make right-side props read clearly and never overlap the building or each other.\nThe cottage doorway must remain dark and open; do NOT bake a closed door onto the house. Door leaf and shutters are animation layers. Mailbox and parcels are separate placement layers. No ground platform, no lawn, no large flowers attached to the building, no surrounding trees, no sky, no cast shadow plane. Stump has a physically grounded cut base and short roots ending at that base. Side-view game camera with only slight visible roof/top, not isometric.\nStyle: rich hand-painted children's fantasy illustration, natural rounded forms, visible fine brush texture, dimensional carved wood and quiet moss detail, restrained dark contours, warm yellow-green highlights, readable silhouette at game scale. Not flat vector, not pixel art, not cut paper, not plastic 3D. No letters, watermark, border, chart labels or grid.\nOutput must have genuine clean alpha transparency. Preserve painted edge softness with no white/black/color matte fringe. Every object fully inside canvas with safe padding.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/field-stations.png",
+              "role": "painted materials and light reference"
+            },
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/设计图/2026-10-02-中央起点与地图复用/06-中央营地-双向森林全景.png",
+              "role": "forest world visual reference"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-b218a236-80ae-445e-a025-f3438f2f58a2.png"
+        },
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: precise-object-edit.\nInput image 1 is the edit target: a transparent hand-painted fox post-office game atlas. Keep the same original warm dimensional storybook painting, wood grain, moss, colors, shapes and post-office identity. Improve ONLY production layer separation and atlas spacing.\nRecompose on the same 1536x1024 genuine-alpha transparent canvas, with a continuous completely empty VERTICAL GUTTER from x=900 to x=970 across the ENTIRE canvas. The entire cottage including every root, sign and branch must stay LEFT of x=900. Reduce the cottage proportionally to fit x=45..880 and y=90..940. Do not cut off any roots. Nothing from the cottage is permitted in the right-side prop area.\nThe right-side accessories must be separate, fully visible islands:\narched blue door leaf in x=1000..1230, y=90..440;\ntwo blue shutters in x=1290..1490,y=110..420;\nred-brown mailbox and post in x=1000..1230,y=560..950;\nparcel/envelope bundle in x=1300..1490,y=690..935.\nLeave clear horizontal and vertical transparent space between all accessory rectangles.\nOn cottage itself REMOVE all four attached blue open shutter panels: keep round window glass, window frames, warm light and small bare attachment hinges only. Also remove the parcel stack and blue trunk beside the doorway so the ground next to the door is simple wood/root. Keep the doorway entirely open and dark with a stone sill; do not add a door to the cottage. The one detached door and detached shutters are the ONLY animation pieces.\nRemove any colored atmospheric background; all space around and between pieces has alpha zero, no glow, no gradient, no shadow plane, no matte fringe. Keep fine painted object edges. No text, numbers, labels, grid or checkerboard.",
+          "references": [
+            {
+              "path": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-b218a236-80ae-445e-a025-f3438f2f58a2.png",
+              "role": "edit target (preceding generated source; a workspace copy may have been supplied)"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-50a8dac6-9f98-42f8-93bc-74be3a54899b.png"
+        }
+      ]
+    },
+    {
+      "id": "mill",
+      "family": "building",
+      "key": "habitatMill",
+      "url": "/assets/habitat/mill.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 2385049,
+      "sha256": "4852d8c6f78b812e36776094b770d8b3eeafa3f439992277d565c06cdcd6d27f",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-ecfb7246-1335-4a42-b5bf-d616550e5654.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.mill",
+      "componentNames": [
+        "body",
+        "waterwheel",
+        "door",
+        "logs"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.53323,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: modular transparent 2D side-scrolling storybook-game prop atlas.\nReference image 1 is STYLE ONLY, matching its hand-painted richly textured warm wood and soft golden light. Make an original BEAVER STREAM WATERMILL home, NOT another stump cottage. A small sturdy cabin built from rounded riverwood beams on a low stone footing, a sloping shingle roof with small moss patches, warm window, side wooden flume chute, and an exposed axle peg for a waterwheel on the cabin RIGHT side. No water or river in the image. No animal character. Dark open door hole, no fitted door. Wheel must be absent from the main cabin.\nProduction layout: wide 1536x1024 true transparent canvas. A complete isolated cabin occupies LEFT x=35..860, y=130..950, with its entire stone footing visible. Maintain a completely EMPTY vertical gutter from x=875 to x=965. All detached parts stay right of x=980.\nUpper right x=1000..1495, y=80..595: ONE large perfectly ROUND wooden waterwheel facing the viewer straight-on, clear equally distributed spokes, a centered round axle hub, separate paddles around its circumference, consistent radial construction. It must be a standalone mechanical disc suitable for smooth rotation, no supporting post attached, no perspective ellipse, no plants growing across wheel spokes.\nLower right x=985..1195,y=690..950: one detached cabin door. Lower far right x=1290..1495,y=740..955: a tidy separate stack of three small riverwood logs.\nNo object overlaps another object's rectangular region. Separate pieces with generous true transparent padding; no background, no shadow plane, no labels.\nGrounding: the cabin has a flat lowest stone footing, not levitating roots. Only a few moss patches on its own stone/material surface. No lawn slab, no flower border, no trees, no big scenic ground shape. Natural quiet beaver-craft details: wooden joints, woodgrain, subtle gnaw marks. No writing, logos, numbers, caption or UI.\nArt style: dimensional hand-painted woodland fairy-tale gouache, beautiful natural colors, clean readable silhouette, painterly texture at close range. Soft upper-left sunlight, warm honey wood, muted teal roof accent, restrained forest moss. Not vector, not pixel, not cardboard layers, not glossy plastic.\nPreserve real alpha around all parts and within wheel openings, with no opaque color matte or fringe.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/environment/field-stations.png",
+              "role": "style only"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-c06a4bf0-5f46-4147-8218-6e16461d230c.png"
+        },
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: precise-object-edit. Input image is a production watermill atlas. Preserve the painting, objects, colors, construction and true transparent alpha exactly; change only their layout for rectangular atlas slicing.\nMake the whole LEFT cabin, including flume and stone base, uniformly 15 percent smaller. Keep its bottom at the same baseline, and place it toward the left so its ENTIRE outer silhouette lies left of x=860. This must create one wide continuous empty transparent vertical gutter between cabin and all other parts, from x=870 to x=940, top to bottom. No wood, stone, moss or glow can enter this gutter.\nKeep the large detached round waterwheel in the upper right unchanged. Keep the detached small door in the lower-right area, but move it 60 pixels to the right to leave more space from the cabin. Keep the log pile at far lower right. Separate all four objects. Do not add a door or wheel to the cabin. No drawn grid, no labels, no background or shadow plane. Maintain clean alpha holes between wheel spokes and fully transparent object gaps. Output remains wide 1536x1024.",
+          "references": [
+            {
+              "path": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-c06a4bf0-5f46-4147-8218-6e16461d230c.png",
+              "role": "edit target (preceding generated source; a workspace copy may have been supplied)"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-5f920ef4-dd9f-4544-b24b-2784906135f0.png"
+        },
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: precise-object-edit. Input image is an existing transparent WATERMILL GAME ATLAS. Make ONLY one mechanical correction to the main cabin, preserving every object, canvas size, silhouette, layout, painting and genuine alpha otherwise.\nThe main cabin has a horizontal axle peg on its right wall at about (665,637). Its position is too high for a correctly-sized waterwheel. REMOVE that high axle plate and peg completely and naturally restore the log wall underneath it.\nReinstall the same metal axle plate and horizontal wooden peg LOWER and farther RIGHT, on the rightmost cabin support post just above the stone foundation. The new metal plate center should be approximately (739,733) on the 1536x1024 canvas. The peg points horizontally right, with its tip at approximately (812,733). The plate must sit on wood, just above the first stone footing, not float in air. This allows a medium wheel to reach the ground without blocking the door.\nKeep the dark open doorway, flume, roof, stones, detached circular waterwheel, detached door and log pile exactly as in the source. Do not attach the wheel yet. Do not add scenery, water, grass, text, labels or guides. Preserve actual transparent alpha in all empty areas.",
+          "references": [
+            {
+              "path": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-5f920ef4-dd9f-4544-b24b-2784906135f0.png",
+              "role": "edit target (preceding generated source; a workspace copy may have been supplied)"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-ecfb7246-1335-4a42-b5bf-d616550e5654.png"
+        }
+      ]
+    },
+    {
+      "id": "greenhouse",
+      "family": "building",
+      "key": "habitatGreenhouse",
+      "url": "/assets/habitat/greenhouse.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 2240500,
+      "sha256": "af0bb9731d33eb1a70144d84be6a21f61a34744930f14fe29fce254bb612ebbc",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-e45b0247-5025-405b-95b1-fcb19e9f1209.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.greenhouse",
+      "componentNames": [
+        "body",
+        "windRotor",
+        "wateringCan",
+        "flowerPot"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.62411,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: modular transparent 2D game building atlas for a natural hand-painted woodland village.\nReference is STYLE ONLY: match its fine gouache paint, sunny honey-colored carved wood, calm moss-green accents and dimensional material detail. Do not copy its stump-house shape.\nCreate a RABBIT GARDENER'S GREENHOUSE PAVILION: a small airy curved-roof glass conservatory supported by graceful bent wooden ribs, a low pale stone footing, a warm wood arched OPEN doorway, very subtle blue-green glass reflections, a few seed trays visible safely INSIDE. Roof has one short wooden mast with a bare round hub at the upper-right, for a detachable wind rotor. A restrained carved carrot motif WITHOUT writing identifies the gardener. NO rabbit character.\nWide 1536x1024 true-alpha canvas. Main greenhouse fully fits LEFT 55% of canvas, x=40..835,y=130..945; every beam, footing and decoration remains in this left region. A wide completely transparent vertical gap must separate it from all detached parts.\nDetached parts on the RIGHT:\n1. Upper-right: one front-facing FOUR-SAIL wooden garden wind rotor, centered round hub and four broad leaf-shaped wooden sails arranged at equal right angles, as a standalone balanced shape which can rotate continuously. No mast attached. Entire rotor inside x=1010..1480,y=100..565.\n2. Lower-right middle: a rustic small brass/green watering can, entire silhouette inside x=975..1215,y=690..960.\n3. Far lower-right: one EMPTY terracotta plant pot with clearly visible open soil surface, no plant baked in; inside x=1310..1490,y=740..960.\nEach part has a generous transparent rectangular gutter and is fully visible. Do NOT attach a rotor to the greenhouse. No floor platform or lawn outside the building, no grass border, no flowers fused to footing, no surrounding tree or sky, no scenery, no ground-shadow plane, no labels, letters or grid.\nEye-level side-scrolling game view, slight visible top of roof/pot only, not isometric. Warm gentle storybook fantasy naturalism, soft brushwork and readable organic silhouettes; not vector, not pixel, not paper cutout, not glossy plastic 3D. True clean alpha around all pieces and holes.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/habitat/postoffice.png",
+              "role": "style only"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-e7920cdc-bd38-4642-b7b7-932227b62d1f.png"
+        },
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: precise-object-edit. Preserve this greenhouse atlas's entire artwork, colors, alpha, objects and details. Only correct atlas spacing.\nUniformly shrink the ENTIRE left greenhouse by 16 percent and position it slightly left, with its base still near the bottom. Its complete outer silhouette including all stones, vines, glass, mast and roof must end LEFT of x=850 on the 1536x1024 canvas. There must be a large empty true-transparent vertical gutter spanning x=870..960 from top to bottom.\nKeep the three detached right-side parts (four-sail wind rotor, watering can, empty terracotta pot) unchanged, same sizes and positions. Do not draw any object or glow in the empty gutter. Do not add any scenery, floor, text or chart markings. Maintain genuine alpha.",
+          "references": [
+            {
+              "path": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-e7920cdc-bd38-4642-b7b7-932227b62d1f.png",
+              "role": "edit target (preceding generated source; a workspace copy may have been supplied)"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-e45b0247-5025-405b-95b1-fcb19e9f1209.png"
+        }
+      ]
+    },
+    {
+      "id": "treeLibrary",
+      "family": "building",
+      "key": "habitatTreeLibrary",
+      "url": "/assets/habitat/tree-library.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 2388608,
+      "sha256": "03ae25cf3ba08fdd0dc0efa68fc544b20ce1f24ecf136d49d00e799fe4de8e9e",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-4a292a61-0d18-496d-937b-9d3abbeb3926.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.treeLibrary",
+      "componentNames": [
+        "body",
+        "bookSign",
+        "lantern",
+        "bookCrate"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.60876,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: transparent modular storybook-game TREE LIBRARY landmark atlas.\nReference is STYLE ONLY: dimensional hand-painted forest wood, natural moss, warm gouache sunlight, careful brush texture. Create an original OWL LIBRARY built into ONE tall living old tree, not a second squat stump cottage and not a forest panorama.\nMain landmark: a single tall slightly crooked tree trunk rooted firmly at the bottom, splitting into two graceful thick bare upper branches. A small round-windowed library room and wooden balcony nestle HIGH in its trunk; warm bookshelves seen within, curved bark-and-muted-teal roof, simple railings and one narrow ladder running down to the root footing. The single tree has intact short spreading roots, all meeting one plausible ground level. Keep a few tiny moss/ivy details on wood, but NO leaf canopy attached: upper branch ends remain exposed attachment branches for separate moving crowns later.\nWide 1536x1024 real alpha atlas. Entire tree-library, every branch/ladder/root, stays in LEFT HALF x=40..800,y=35..955. This main tree must be intentionally slender with plenty of empty transparent breathing room to its right. No part crosses x=840.\nRIGHT SIDE contains three separate props with clear rectangular gutters:\ntop-right: a hanging OPEN-BOOK-SHAPED WOODEN SIGN on one short rope, no written text, centered inside x=1080..1450,y=75..345;\nmiddle-right: a warm small BRONZE HANGING LANTERN on one short cord with a loop at top, inside x=1030..1240,y=420..735;\nlower-right: a small independent wooden crate with 3 closed books and one rolled map, inside x=1280..1490,y=740..955.\nDo not attach the sign or lantern to the main tree; they are separate swinging layers. No owl or other character. No soil island, lawn bank, big flowers, additional tree, sky, ground shadow, scenic background, captions, grid, logos or labels.\nNatural side-scrolling viewpoint, not isometric; hand-painted dimensional children's woodland fantasy, rich bark and rope/material brushwork, clean readable silhouette. Not vector, not pixel art, not cut-paper craft, not glossy 3D. True clean alpha around every part and negative space, no colored matte fringe.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/habitat/postoffice.png",
+              "role": "style only"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-d40c4bb4-494f-4370-8703-8cda341623bd.png"
+        },
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: precise-object-edit. Preserve the existing transparent tree-library atlas, its main tree, root, room, ladder, book sign, lantern, painting, colors and canvas exactly.\nChange ONLY the detached BOOK CRATE in the lower-right corner. Make the entire crate with its books/map 20 percent smaller and move it farther to the right and slightly lower. Keep its whole outline inside x=1220..1510,y=740..1000 on the 1536x1024 canvas. The entire crate must be RIGHT of x=1210 so there is a large fully empty transparent vertical gap between it and the lantern at x~1080.\nKeep lantern size and location unchanged. Do not resize or move any other part. No new object or scene. Genuine alpha background and clear rectangular part separation.",
+          "references": [
+            {
+              "path": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-d40c4bb4-494f-4370-8703-8cda341623bd.png",
+              "role": "edit target (preceding generated source; a workspace copy may have been supplied)"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-4a292a61-0d18-496d-937b-9d3abbeb3926.png"
+        }
+      ]
+    },
+    {
+      "id": "repair",
+      "family": "building",
+      "key": "habitatRepair",
+      "url": "/assets/habitat/repair.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 2333494,
+      "sha256": "7c69a598049e0d0a2bf141a7420d012ac7115738d9b15d1e734ebf6259e72368",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-3ddae675-d09d-4e51-8f21-db147c887483.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.repair",
+      "componentNames": [
+        "body",
+        "handwheel",
+        "pennant",
+        "seedCrate"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.58303,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: modular transparent 2D storybook-game landmark atlas.\nReference is STYLE ONLY: dimensional hand-painted wood, soft golden daylight, natural materials, rich gouache brushwork.\nCreate a HEDGEHOG REPAIR SHED AND SEED STALL, a low OPEN-FRONT woodland workshop. A crooked but sturdy timber frame with a small warm russet shingle roof and folded moss-green canvas sunshade, three visible support feet, shallow shelves of tiny seed jars, one workbench with a few wooden hand tools. A small carved wrench-and-leaf motif without writing identifies the shop. Quiet autumn-orange details distinguish it from the teal-roof homes. No character. Leave front-center floor open for a resident. No great scenic ground slab.\nWide 1536x1024 genuine-alpha atlas. Main workshop belongs entirely in LEFT HALF of canvas, roughly x=30..850,y=130..950. Leave generous completely empty transparent air to its right. ALL detached parts belong in the FAR RIGHT, left edge at least x=1030:\nUPPER RIGHT x=1060..1460,y=80..500: one standalone front-facing ROUND WOODEN HANDWHEEL / COG with a clear circular center hub, 12 evenly-spaced rounded teeth, clean alpha gaps, designed to rotate. No axle pole attached.\nMIDDLE RIGHT x=1060..1270,y=575..835: a single short hanging CLOTH LEAF PENNANT with rope loop at its top, green fabric with one ochre leaf symbol, no text.\nLOWER FAR RIGHT x=1290..1500,y=770..970: a separate small OPEN SEED CRATE with two seed sacks and a few acorns.\nThe main workbench has ONE short bare axle knob near its front RIGHT leg at knee height, but no attached cog. The roof has one empty little peg suitable for the pennant. No repeated cog or pennant on the building.\nNo pieces may touch or overlap. Every silhouette fully within canvas with clear rectangular padding. No grass carpet, flowers, ground bank, tree, sky, backplate, labels, written words, grid or cast shadow plane.\nWarm dimensional hand-painted children's woodland fantasy, natural rounded craftsmanship and material irregularity, readable shapes; not vector, not pixel art, not paper cutout, not glossy plastic 3D. Preserve true clean transparency between parts.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/habitat/postoffice.png",
+              "role": "style only"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-8f3c4045-e2bf-4e33-a5cd-3537f30c7c38.png"
+        },
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: precise-object-edit. Preserve all paintings, object designs, colors, materials and true alpha in this repair-shed atlas. Correct only the spacing of its four separated parts.\nUniformly reduce the entire LEFT workshop by 16 percent and keep it to the left so every roof edge, post, footing and leaf lies LEFT of x=865. Preserve its complete feet and rootless solid building base. Leave a generous fully transparent vertical gutter from x=880 to x=1000.\nKeep the detached cog in upper right and detached hanging pennant unchanged in size/location.\nMake only the seed crate at bottom-right 20 percent smaller and move it right so its whole outline stays RIGHT of x=1280, inside x=1280..1510,y=785..1000. It must not overlap the pennant's rectangular region.\nOutput remains 1536x1024 true alpha. No new objects, background, text, grids or cropped edges.",
+          "references": [
+            {
+              "path": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-8f3c4045-e2bf-4e33-a5cd-3537f30c7c38.png",
+              "role": "edit target (preceding generated source; a workspace copy may have been supplied)"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-3ddae675-d09d-4e51-8f21-db147c887483.png"
+        }
+      ]
+    },
+    {
+      "id": "station",
+      "family": "building",
+      "key": "habitatStation",
+      "url": "/assets/habitat/station.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 2441659,
+      "sha256": "15891f5d0cad9a539720fe1c5ce06871eaf36afffe0032683667f80013e1785d",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-097e422a-3024-4515-bf01-1f0abf7c4457.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.station",
+      "componentNames": [
+        "body",
+        "ferry",
+        "lantern",
+        "oar"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.56308,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: modular transparent 2D woodland FERRY SHELTER atlas, for the same hand-painted side-scrolling forest.\nReference is painting/material STYLE ONLY. Create a distinctive rainy-valley FERRY SHELTER: small open-sided timber boathouse shelter with a low curved slate-blue shingle roof, worn cool grey-brown wooden posts, a narrow bench, one small rope cleat and simple covered waiting platform. A modest carved boat icon without letters identifies the ferry. Warm amber interior lamp light contrasts with cool damp wood. Four complete sturdy short support posts have clearly visible flat bottoms. No character.\nWide 1536x1024 genuine-alpha canvas. Main shelter stays fully on LEFT, x=35..875,y=120..960; leave a wide clean transparent gutter before all right parts.\nRIGHT SIDE, three isolated components separated by large rectangular alpha gaps:\n1. Upper-right x=1010..1500,y=80..530: ONE SMALL ROWBOAT in clear side profile, honey-brown wood hull with visible rim and two seats, a gently curved continuous waterline, no water, no oars attached, no sail, no character.\n2. Lower middle-right x=1000..1190,y=650..960: ONE HANGING WEATHER LANTERN with loop at top, warm light and dark bronze frame, no bracket attached.\n3. Far lower-right x=1280..1495,y=610..960: ONE WOODEN OAR at a diagonal, visibly separated paddle blade, shaft and rounded handgrip, no person holding it.\nThe main shelter has one empty little hanging peg under the eave; the detached lantern can hang from it. Do not repeat lantern/oar/boat on the shelter. Bench and rope cleat are fixed wood details.\nNo river/water strip, reflections, rain painted across empty space, scenery, background, trees, grass ground mat, long dock extending across image, captions, writing, chart lines, grids or cast-shadow plane.\nNatural painterly children's woodland fantasy with genuine woodgrain, irregular handmade beams, soft gouache shading. Cooler quiet rain-valley palette but same visual world. Not pixel art, not flat vector, not cut-paper craft, not glossy 3D. Preserve clean true alpha around each object and all gaps.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/habitat/postoffice.png",
+              "role": "style only"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-097e422a-3024-4515-bf01-1f0abf7c4457.png"
+        }
+      ]
+    },
+    {
+      "id": "grass",
+      "family": "plants",
+      "key": "habitatGrass",
+      "url": "/assets/habitat/grass.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 1919911,
+      "sha256": "79e1d0c8895ceadcf08c6534bfd9caf7e69594bb97441056dad4ad97ed841d70",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-e4c3a487-300b-4ad5-a7a7-c5ae4a1431a7.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.grass",
+      "componentNames": [
+        "meadow",
+        "sedge",
+        "fernRight",
+        "fernLeft",
+        "fiddlehead",
+        "sprig"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.70687,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: transparent 2D game PLANT DEFORMATION ATLAS, 6 separate anchored plants.\nStyle reference image 1 supplies ONLY its richly hand-painted dimensional woodland material and sunny yellow-green / deep blue-green palette. Do not reproduce the building, props, flower border or background.\nCanvas: 1536x1024, genuine alpha. Invisible uniform 3-column by 2-row atlas, cells exactly 512x512. Within EVERY cell, one isolated rooted plant should fit x=70..445,y=45..470 relative to that cell, with its SINGLE narrow basal growing point centered at (256,468). Keep clear transparent gutters between cells. No written labels or drawn grid.\nTop row, left to right:\n1. Light meadow grass tuft: 7 long gently curved tapering blades rising from one narrow joined root base, airy spaces between blades. \n2. Tall blue-green sedge: 5 thin gracefully arching blades from one narrow base, different silhouette from 1, no seed heads.\n3. ONE mature fern frond: strong flexible upright stem from one narrow basal point, leaflets fan alternately and curl slightly toward the right; no background fern clump.\nBottom row, left to right:\n4. ONE left-leaning fern frond, different natural shape, detailed but readable lobed leaflets, same root point.\n5. A tender fiddlehead fern sprig, one curled tip and one unfurling side leaflet on a long flexible stem, narrow rooted bottom.\n6. ONE leafy woodland sprig with 5 pointed leaves branching from a long supple stem, narrow rooted bottom, canopy opens above the stem.\nThe lower 1/4 of each asset must visibly converge into the anchored root/stem so the upper portion can bend in a Phaser mesh while the root stays fixed. Plants need actual negative space between leaves/blades.\nNo soil, dirt clods, lawn mats, long horizontal grass bank, rock, pot, flower, insect, sky, cast shadow, glow or scenery. Do not connect neighboring plants. Entire plant tips and bases must stay safely inside their cell.\nHand-painted storybook naturalism, layered brushwork, subtle leaf veins, warm rimless sunlight; not flat vector, not pixel art, not paper cutout, no thick outlines. Every gap must be truly transparent with clean soft alpha, no black/white matte.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/habitat/postoffice.png",
+              "role": "style only"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-e4c3a487-300b-4ad5-a7a7-c5ae4a1431a7.png"
+        }
+      ]
+    },
+    {
+      "id": "flowers",
+      "family": "plants",
+      "key": "habitatFlowers",
+      "url": "/assets/habitat/flowers.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 1828612,
+      "sha256": "73c6debd21ba3b74feeb64b19dc5889f42bb025ff650284d3e05d1feacba1b4c",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-1f932112-a694-4bad-b6be-f08a114280c8.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.flowers",
+      "componentNames": [
+        "daisy",
+        "buttercup",
+        "bellflower",
+        "geranium",
+        "oat",
+        "mapleTwig"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.8017,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: transparent 2D game FLOWER / LEAF DEFORMATION ATLAS, 6 independently rooted plants.\nReference image 1 is STYLE ONLY: beautifully painted woodland materials, natural dimensional gouache shading, warm late-morning light and warm/deep greens. Keep the same natural storybook style.\nCanvas wide 1536x1024 with genuine alpha; invisible 3-column by 2-row cells, 512x512 each. One isolated plant entirely in each cell; no grids or writing. Leave at least 25 pixels transparent space on ALL sides of every cell. Each plant has one narrow stem/root endpoint near bottom of its cell so it can be anchored while the stem and flower bend.\nTop row left to right:\n1. One long-stem WHITE DAISY with golden center, two small stem leaves, upright blossom, airy curved stem.\n2. One butter-yellow five-petal woodland flower on a tall slim slightly S-curved stem, with two narrow green leaves.\n3. One blue-violet BELLFLOWER stem with 3 hanging bell-shaped blossoms staggered along its flexible stem and two small leaves.\nBottom row left to right:\n4. One soft pink wild GERANIUM sprig: two modest five-petal flowers and a small bud on ONE slender branch that joins at the single narrow root point.\n5. One arching fern-like seed stalk with 5 pale oat-like seed pods, a long flexible stem, no grass clump attached, quiet cream and moss green tones.\n6. One slender maple twig with THREE small green-gold maple leaves along it, one narrow lower woody pivot stem, naturally asymmetrical.\nFlowers occupy only the upper third or upper half of their assets; retain long readable stems below so deformation is visible. Roots are small natural stem ends, no cut soil block. Every flower, stem, leaf and root completely inside cell.\nNo meadow strips, turf, soil, pots, rocks, ground shadow, scenery, trees, characters, insects or background gradient. No connection between cells. True alpha also between petals/leaves.\nPainterly dimensional hand-painted fantasy woodland, fine brush texture, natural organic irregularity, delicate veins and petal shading. Not vector clipart, not flat stickers, not pixel art, not paper cut-outs, not glossy 3D. Clear silhouettes at 60–150px game display size, soft clean alpha edges without white/black matte.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/habitat/postoffice.png",
+              "role": "style only"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-1f932112-a694-4bad-b6be-f08a114280c8.png"
+        }
+      ]
+    },
+    {
+      "id": "fox",
+      "family": "resident",
+      "key": "habitatFox",
+      "url": "/assets/habitat/fox.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 2322914,
+      "sha256": "a23ee5e4012a79c60fbcc8465f9a88910aaac051e9ea78f3e7285cc1621cf897",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-1ebe3711-d91b-4dfc-8c7e-e081616b6ae4.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.fox",
+      "componentNames": [
+        "body",
+        "head",
+        "headBlink",
+        "armRest",
+        "armWave",
+        "tail",
+        "letter"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.55106,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: six-piece transparent 2D RESIDENT RIG ATLAS, for a hand-painted forest side-scrolling game.\nReference image 1 is a STYLE and PRODUCTION-LAYOUT reference only: copy its warm painterly fur/material treatment and 3-by-2 isolated-part layout, but invent a distinct fox character, not a squirrel.\nCharacter: a friendly adult FOX POSTAL WORKER, small natural animal proportions with appealing clear face, orange-russet fur, cream muzzle and throat, black ear tips and dark paws. Wears a soft muted teal postal vest, a little russet leather satchel over the far shoulder, and a small teal cap as part of the head. No text or badges with writing. Slight three-quarter side view facing RIGHT. Not a human child.\nCanvas 1536x1024, exactly 3 columns and 2 rows of invisible 512x512 cells with transparent gutters. Every component fits entirely in its own cell with at least 16px padding:\nTOP LEFT: headless standing BODY with torso, neck overlap tuft, legs, two feet flat on the same baseline, fixed FAR arm naturally holding the satchel. The NEAR arm on viewer's RIGHT is absent except for a clean small shoulder overlap cap. NO head and NO tail on the body.\nTOP MIDDLE: detached fox HEAD with small cap and short soft neck overlap tuft, eyes open and gentle friendly smile, looking slightly right.\nTOP RIGHT: EXACT SAME detached fox HEAD, identical silhouette/cap/muzzle/pose/size, with only both eyes comfortably CLOSED in a blink.\nBOTTOM LEFT: the complete detached near arm in REST pose, connected shoulder-to-paw with vest-colored short sleeve cap, slight elbow bend and relaxed paw, drawn at scale compatible with body.\nBOTTOM MIDDLE: same detached near arm in WAVE pose, same shoulder cap and fur/clothing, bent elbow and open raised paw. Keep shoulder pivot orientation consistent with rest arm.\nBOTTOM RIGHT: one separate large gently curved FOX TAIL with fluffy cream tip, short rounded attachment root at its lower-left end. No other tail anywhere.\nThe head and limbs are clean animation cutouts with natural overlapping fur/sleeve margins, not a diagram: no seam marks, no arrows, no grid, no labels. Body stance remains grounded; no jump or gait.\nWarm dimensional hand-painted gouache storybook look, fine fur brushwork, restrained outlines and soft natural light, consistent with source. NOT pixel art, NOT flat vector, NOT cut-paper collage, NOT glossy plastic 3D. True alpha throughout empty spaces; no gradient, backdrop, floor shadow, props outside requested six pieces, or matte fringe.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/neighbors/squirrel.png",
+              "role": "style and modular production layout only; each resident is a distinct species"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-51ddc7b1-bdc0-499e-a819-0a89df4cb4ee.png"
+        },
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: precise-object-edit. Preserve the existing transparent fox rig atlas exactly: same canvas 1536x1024, same six cutout parts, exact positions, identity, colors, sizes, edges, head expressions and poses.\nAdd only ONE small seventh component in the currently empty space directly BELOW the raised waving arm in the bottom-middle column: an isolated cream sealed ENVELOPE, front view with a tiny red wax seal and a leaf stamp motif, no readable text. Its whole silhouette must fit within x=630..935,y=925..1005. It must not touch the raised arm above (whose lowest part ends before y=900), or cross into the tail/right column. Keep a fully transparent gap around the envelope so it can be sliced independently.\nDo not put the envelope into either hand and do not change any existing art. It is a separate transferable game prop for delivering mail. No additional objects or background. Preserve true alpha transparency.",
+          "references": [
+            {
+              "path": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-51ddc7b1-bdc0-499e-a819-0a89df4cb4ee.png",
+              "role": "edit target (preceding generated source; a workspace copy may have been supplied)"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-1ebe3711-d91b-4dfc-8c7e-e081616b6ae4.png"
+        }
+      ]
+    },
+    {
+      "id": "beaver",
+      "family": "resident",
+      "key": "habitatBeaver",
+      "url": "/assets/habitat/beaver.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 2382290,
+      "sha256": "31e2d5c4dc77de1a64e5e17b9610c51c7e5941f1acf49bbdeb9fd2aaaf1a4af8",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-eb20e467-44ef-4c5a-8f4f-fdb1204f108d.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.beaver",
+      "componentNames": [
+        "body",
+        "head",
+        "headBlink",
+        "armRest",
+        "armWave",
+        "tail"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.55167,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: six-piece transparent 2D RESIDENT RIG ATLAS for the same hand-painted woodland game.\nReference image 1 is STYLE and part-layout ONLY. Create a distinct friendly adult BEAVER MILLWRIGHT, not a squirrel or fox. Warm medium-brown plush fur, cream tan muzzle, small round ears, large broad nose, two small clear beaver front teeth, calm clever brown eyes. Wears a faded blue work apron over a cream shirt, simple leather tool belt, no hat. Stockier body than a fox. Slight three-quarter side view facing RIGHT.\nUse a wide 1536x1024 genuine-alpha canvas with an invisible 3-column by 2-row layout. TOP row is y=0..550, BOTTOM row y=570..1024; keep clear transparent gaps. Each piece contained in its column with at least 16px side padding:\nTOP LEFT: headless standing BODY with thick torso, small neck overlap fur, sturdy legs and two flat grounded feet. FAR arm on viewer's LEFT remains naturally attached holding a small wooden ruler at the belt. NEAR arm on viewer's RIGHT is completely absent except a rounded cream-shirt shoulder overlap cap. NO head or tail attached.\nTOP MIDDLE: detached beaver HEAD with a short rounded neck overlap tuft, eyes OPEN, gentle smile, three-quarter facing right.\nTOP RIGHT: identical detached HEAD with only eyes CLOSED in a blink. Same silhouette, ears, muzzle, nose, teeth, orientation and scale as the open head.\nBOTTOM LEFT: detached complete near arm, cream shirt cuff + sturdy fur arm + hand, in a lowered gentle WORK/REST pose holding ONE small wooden mallet by its handle. Keep shoulder cap and overlap area clear for rotation; mallet is part of this working hand frame.\nBOTTOM MIDDLE: the same arm in an open-hand WAVE pose, with no mallet, identical shirt and shoulder root orientation.\nBOTTOM RIGHT: separate flat BEAVER TAIL, broad paddle-shaped, dark warm brown leather-like crosshatch scales, short narrow rounded attachment root toward its left-bottom end, no furry plume.\nWarm dimensional painterly storybook fur and cloth, soft natural light, fine visible brushwork, charming but grounded anatomy matching source reference. NOT pixel, NOT vector, NOT paper collage, NOT glossy 3D. No graphic grid, labels, arrows, text, scenery, ground shadow or extra objects. All background and spaces genuinely transparent with no matte edge.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/neighbors/squirrel.png",
+              "role": "style and modular production layout only; each resident is a distinct species"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-eb20e467-44ef-4c5a-8f4f-fdb1204f108d.png"
+        }
+      ]
+    },
+    {
+      "id": "rabbit",
+      "family": "resident",
+      "key": "habitatRabbit",
+      "url": "/assets/habitat/rabbit.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 2332360,
+      "sha256": "d1f82680aa30bb7a8659379049f262da40ae247db111085a8fb2192283f681ad",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-b76d565e-c27c-4a05-b258-1e08cd1d888d.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.rabbit",
+      "componentNames": [
+        "body",
+        "head",
+        "headBlink",
+        "armRest",
+        "armWave",
+        "tail"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.57866,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: six-piece transparent 2D resident animation rig atlas, same woodland game.\nReference is STYLE/layout only, not identity. Create an original friendly adult RABBIT GARDENER, creamy warm ivory fur, long pink-lined ears, round small brown eyes, little pink nose and whiskers, sage green apron over pale cream shirt. A small straw gardening hat fits BETWEEN ears as part of the head. Soft natural storybook animal proportions, not a human child. Three-quarter side view facing RIGHT.\nWide 1536x1024 genuine transparent canvas. Three columns, top row y=0..555 and bottom row y=585..1024. All six parts separate with generous transparent margins:\nTOP LEFT: standing headless BODY with two grounded rabbit feet, apron, short neck overlap tuft. Far arm on viewer's LEFT is attached, holding a small simple basket against the apron. Near arm on viewer's RIGHT absent except a small rounded shoulder overlap cap. No head and no tail on body.\nTOP MIDDLE: detached HEAD with long ears and hat, gentle open eyes and small smile, lower neck tuft for overlap.\nTOP RIGHT: same head, exactly same ears/hat/silhouette/size/view, only eyes closed for a blink.\nBOTTOM LEFT: detached near arm in WORK/REST pose, soft cream sleeve and paw holding one little wooden-handled garden trowel. Clear rounded shoulder pivot area, relaxed bent elbow.\nBOTTOM MIDDLE: matching near arm in WAVE pose, open raised paw, no trowel; same sleeve and shoulder pivot orientation.\nBOTTOM RIGHT: one separate small fluffy rounded cotton TAIL with a clear narrower attachment patch on left side.\nKeep the long ears completely inside the head cells, and every accessory away from other cells. Do not add loose carrots or props elsewhere.\nWarm hand-painted dimensional gouache fur/cloth/basket textures, clean expressive face, natural color and soft light matching reference. No text, label, grid, border, arrows, ground, scenery or cast shadow. Not flat vector, not pixel art, not paper collage, not glossy plastic 3D. True alpha background with clean soft fur edges.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/neighbors/squirrel.png",
+              "role": "style and modular production layout only; each resident is a distinct species"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-b76d565e-c27c-4a05-b258-1e08cd1d888d.png"
+        }
+      ]
+    },
+    {
+      "id": "owl",
+      "family": "resident",
+      "key": "habitatOwl",
+      "url": "/assets/habitat/owl.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 2495550,
+      "sha256": "b6dff788d1e1eb6bad83c321d2be255dcb654c3923d1400f390c9a960204a064",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-0cd6949f-a694-4bd9-bc5c-4633f312c257.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.owl",
+      "componentNames": [
+        "body",
+        "head",
+        "headBlink",
+        "armRest",
+        "armWave",
+        "book"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.52181,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: six-piece transparent 2D resident rig atlas for the same forest game.\nReference image is STYLE and layout only. Create an original friendly OWL LIBRARIAN, warm grey-brown and cream feathers, large calm amber eyes, little curved ochre beak, neat round bronze reading spectacles. Small rounded feathered owl, not human anatomy. Wears a restrained moss-colored knitted waistcoat. Three-quarter side view facing RIGHT. No hat.\nWide true-alpha 1536x1024 canvas, six fully isolated parts, three columns and two rows, with generous transparent spacing:\nTOP LEFT: headless standing BODY with short soft feather neck overlap, rounded chest, waistcoat, little feathered legs and two grounded owl talon feet. FAR wing on viewer's LEFT remains folded against body holding a small closed book. NEAR wing on viewer's RIGHT absent except a short soft feather overlap root. No head on body.\nTOP MIDDLE: detached owl HEAD with open gentle eyes and spectacles, short feather neck overlap, three-quarter right.\nTOP RIGHT: identical detached head with spectacles, same silhouette, view and size, eyes CLOSED for a blink. The beak and glasses remain identical.\nBOTTOM LEFT: detached near WING in relaxed folded REST pose, layered feathers, rounded feather shoulder root on upper-left; no human fingers or sleeves.\nBOTTOM MIDDLE: same near WING in raised welcoming WAVE pose, slightly spread feather tips, same shoulder-root geometry.\nBOTTOM RIGHT: one separate small OPEN BOOK with blank cream pages and green-brown cover, no readable text, suitable as reading prop.\nKeep every piece completely inside its own broad rectangular cell. No merged pieces. No diagram arrows, grid, labels, writing, floor, scenery, shadows or background.\nWarm dimensional hand-painted gouache feathers, subtle fibers and knitted texture, soft natural daylight, charming readable face and organic edges matching reference. Not pixel art, not flat vector, not paper cutout, not glossy plastic 3D. Genuine transparent alpha around parts and in open gaps, no white/black matte.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/neighbors/squirrel.png",
+              "role": "style and modular production layout only; each resident is a distinct species"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-0cd6949f-a694-4bd9-bc5c-4633f312c257.png"
+        }
+      ]
+    },
+    {
+      "id": "hedgehog",
+      "family": "resident",
+      "key": "habitatHedgehog",
+      "url": "/assets/habitat/hedgehog.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 2370482,
+      "sha256": "53022e6554b2daabda0dd842a60ce8b43864d86eec4bf0416843db10f94a369a",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-e3f060d8-bbd8-4518-ac90-f6ad9b03e6d3.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.hedgehog",
+      "componentNames": [
+        "body",
+        "head",
+        "headBlink",
+        "armRest",
+        "armWave",
+        "toy"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.55099,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: six-piece transparent 2D resident animation rig atlas for this woodland storybook game.\nReference is STYLE and part-layout only. Create an original friendly adult HEDGEHOG REPAIRER AND SEED KEEPER: warm tan face/belly, little dark eyes, small rounded ears, gently pointed black-tipped snout, soft short brown-and-cream quills on back/head. Wears a muted burnt-orange craftsman's apron and pale oatmeal short-sleeved shirt. Small sturdy natural hedgehog proportions, three-quarter side view facing RIGHT, no hat.\nWide true-alpha 1536x1024 canvas. Three columns and two rows, generous clear gutters between all six pieces:\nTOP LEFT: headless standing BODY with rounded torso, short legs and two flat grounded feet. Short quills remain on the back outline. Short neck fur overlap. FAR arm on viewer's LEFT is attached and supports a tiny wooden seed box near the apron. NEAR arm on viewer's RIGHT absent except a soft rounded shirt-sleeve shoulder overlap. No head.\nTOP MIDDLE: detached hedgehog HEAD, short quill hood and soft tan face, open attentive eyes, small smile, short neck overlap, facing right.\nTOP RIGHT: same detached head with identical silhouette/quills/nose/pose/size, only eyes CLOSED for a blink.\nBOTTOM LEFT: complete detached near arm in WORK/REST pose with pale sleeve, tan paw holding one small simple wooden-handled screwdriver, clear rounded shoulder pivot.\nBOTTOM MIDDLE: matching near arm in WAVE pose, open paw, no tool; same shoulder cap and cloth.\nBOTTOM RIGHT: an independent charming small WOODEN TOY CART, oval carved acorn-like body with four round wooden wheels, a tiny leaf pennant, no metal engine or modern plastic; keep it compact and separate from the arms.\nWarm dimensional gouache storybook painting, softly brushed quills/fur/cloth, natural woodland craft textures and clean readable face. No labels, letters, grid, arrows, floor, scenery, shadow plane or background. No pixel style, no flat vector, no paper collage, no glossy plastic 3D. Genuine clean alpha between and around parts, no matte fringe.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/neighbors/squirrel.png",
+              "role": "style and modular production layout only; each resident is a distinct species"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-03ea20e9-e758-49f4-8200-09287481df4c.png"
+        },
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: precise-object-edit. Keep this transparent hedgehog rig atlas exactly the same except for one anatomy correction.\nIn BOTH detached arm pieces along the bottom row, remove the long brown-and-cream back quills currently protruding behind the shirt shoulder. Hedgehog quills belong on the back and head, not on these moving arms. Restore a clean rounded oatmeal cloth sleeve cap with soft tan arm fur at the back edge. Preserve arm poses, paws, screwdriver, sleeve size, shading, colors and shoulder placement.\nKeep all quills on the headless BODY and both HEADS unchanged. Keep the wooden toy cart unchanged. Keep the same 1536x1024 atlas layout, object positions and real alpha. Do not add, move or resize any object. No background, shadow, text or labels.",
+          "references": [
+            {
+              "path": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-03ea20e9-e758-49f4-8200-09287481df4c.png",
+              "role": "edit target (preceding generated source; a workspace copy may have been supplied)"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-e3f060d8-bbd8-4518-ac90-f6ad9b03e6d3.png"
+        }
+      ]
+    },
+    {
+      "id": "oak",
+      "family": "tree",
+      "key": "habitatOak",
+      "url": "/assets/habitat/oak.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 2403958,
+      "sha256": "240d5c271f1cfaf3c35c4a08f127b74e30b2aeacd1dac63c434bf3db3201c467",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-9509b933-2060-4789-b294-8a8caa6fff07.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.oak",
+      "componentNames": [
+        "body",
+        "crownLeft",
+        "crownTop",
+        "crownRight"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.62488,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: FOUR-PIECE transparent 2D ANIMATABLE OAK TREE KIT, for a hand-painted woodland side-scrolling game.\nReference image 1 is STYLE ONLY: natural dimensional golden-green leaves, deeply painted bark, soft woodland sunlight. No buildings or props from the reference.\nCanvas 1536x1024, genuine alpha. Exactly FOUR clearly separated components:\nLEFT HALF: one complete BARE OLD OAK TRUNK, x=35..690,y=30..990. Thick ancient gnarled trunk, stable broad roots ending at one coherent flat ground level. Three main branches: one arcs upper-left, one reaches upward, one arcs upper-right. Branch tips taper naturally to thinner wood, NOT sawn-off cylinders. No leaf canopy attached, no long grass mat, no rocks or ground island. A few moss patches and knots are allowed on bark only. Root silhouette must be intact and physically grounded.\nRIGHT SIDE has THREE independent leafy BRANCH-CROWN CLUSTERS, stacked with at least 35px of entirely transparent horizontal space separating their rectangles:\nTOP RIGHT x=790..1490,y=25..310: a broad low asymmetrical oak-leaf crown extending LEFTWARD, with one obvious short woody attachment stem at its LOWER-RIGHT endpoint. Leaves spread left and up from that stem.\nMIDDLE RIGHT x=790..1490,y=365..640: a taller rounded oak-leaf crown, one obvious short woody attachment stem at its LOWER-CENTER endpoint. Leaves spread upward.\nBOTTOM RIGHT x=790..1490,y=695..985: a broad asymmetrical oak-leaf crown extending RIGHTWARD, one obvious short woody attachment stem at its LOWER-LEFT endpoint. Leaves spread right and up.\nEach crown has visible internal small twigs, layered lobed oak leaves and irregular airy edge gaps, dimensional light/shadow. No trunk glued to crowns; only the short joining branch stem. Do not merge the three crowns into one large tree. The narrow woody endpoint is the rotation/deformation anchor.\nKeep every piece fully inside its region, with a large fully transparent vertical gutter between trunk and crowns. No grass, soil plate, backdrop, sky, scenery, animals, flowers, text, chart labels, dividing lines or ground shadow.\nRich hand-painted gouache fairy-tale naturalism, warm grey-brown bark, mid olive green / fresh golden highlights / cool green inner shadows, individual leafy brush texture. Not vector, not pixel, not cut paper, not plastic 3D. Clean true alpha, no color matte/fringe.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/habitat/postoffice.png",
+              "role": "style only"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-c8b09441-0ee3-4661-a868-0efc230cd94f.png"
+        },
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: precise-object-edit. Keep the same four oak kit components, exact painterly forms/materials/colors and true alpha. Change only layout and uniform component sizes so all four can be cleanly rectangular-sliced.\nMain bare trunk: make the ENTIRE trunk with every root and branch 25 percent smaller and put it in the left region x=25..735,y=180..980. Do not crop anything. Leave a wide transparent vertical gutter x=750..850.\nEach of the THREE detached crowns must also be 25 percent smaller than in the source, retaining its own whole short stem and all leaf tips. Align the three crown pieces inside these separate right-side boxes:\ntop crown, x=875..1500,y=20..295;\nmiddle crown, x=875..1500,y=370..650;\nbottom crown, x=875..1500,y=730..1005.\nThere must be at least 65 pixels of entirely empty transparent space between the crown rows. Every crown's entire outline belongs within its box, with no leaf extending into another row. Keep the top crown's lower-right stem, middle crown's lower-center stem, bottom crown's lower-left stem. No extra foliage or new component. No text, labels, background or ground. Output still 1536x1024 true alpha.",
+          "references": [
+            {
+              "path": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-c8b09441-0ee3-4661-a868-0efc230cd94f.png",
+              "role": "edit target (preceding generated source; a workspace copy may have been supplied)"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-6f1c225f-22af-42f9-9a53-23fee33f355d.png"
+        },
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: precise-object-edit. Preserve this four-part transparent oak-tree atlas exactly: same component sizes, positions, leaf shapes, trunk shape, colors and all alpha edges.\nRetouch ONLY the tiny visible sawn cross-section circles at the attachment ends of the THREE detached leafy branches on the right. Replace those pale growth-ring cut faces with bark-covered rounded/tapered joining ends in the same brown wood texture, so the pieces can overlap a parent trunk without showing a chopped-log disc. Keep the exact branch-end silhouette and endpoint position. The junction will be partly hidden by the parent trunk in the game.\nDo not change the main bare trunk or any leaf, and do not move or resize components. No new scene, label or background. Keep true alpha.",
+          "references": [
+            {
+              "path": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-6f1c225f-22af-42f9-9a53-23fee33f355d.png",
+              "role": "edit target (preceding generated source; a workspace copy may have been supplied)"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-9509b933-2060-4789-b294-8a8caa6fff07.png"
+        }
+      ]
+    },
+    {
+      "id": "willow",
+      "family": "tree",
+      "key": "habitatWillow",
+      "url": "/assets/habitat/willow.png",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "byteLength": 2230813,
+      "sha256": "6203f19b09beb0f64e76d0ac4d0223861d4f76c88b5af8cccc599d6d027d42e1",
+      "selectedGeneratedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-e8e776a7-11e2-48a2-a05c-cafd5763c315.png",
+      "metadataSource": "src/render/habitat-assets.ts#HABITAT_ASSETS.willow",
+      "componentNames": [
+        "body",
+        "crownLeft",
+        "crownTop",
+        "crownRight"
+      ],
+      "splitRule": "Use only the explicit runtime atlas rectangles and source-pixel anchors from metadataSource. Preserve the original generated PNG and its alpha; no offline crop, background removal, resampling or pixel edits were applied.",
+      "alphaQa": {
+        "mode": "RGBA",
+        "transparentRatio": 0.6205,
+        "allFrameEdgesAtMostAlpha16": true
+      },
+      "stages": [
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: illustration-story.\nAsset type: FOUR-PIECE transparent 2D ANIMATABLE WEEPING WILLOW TREE KIT, for the same hand-painted woodland game.\nReference is STYLE/material only. This tree must have a clearly DIFFERENT silhouette and palette from a broad old oak: a slim graceful bending silver-grey / soft brown trunk, elegant arching branches, and long drooping narrow willow leaves in muted jade and celadon with pale yellow-green highlights.\nCanvas 1536x1024, true alpha. Four VERTICAL LANES containing exactly four independent parts with wide transparent gutters:\nLEFT lane x=25..500,y=25..985: one complete BARE WILLOW TRUNK with a subtle S-curve, narrower than an oak, three thin arching upper branches reaching left/up/right. Intact slim spreading roots meet a coherent ground baseline. No leaf canopy attached; no grass, rock or ground island. Bark and a few moss patches only. Branch ends naturally taper, not sawn stumps.\nSECOND lane x=560..845,y=50..960: an independent LEFT HANGING WILLOW LEAF CURTAIN. A short slender arching twig at the top has its single clearly visible attachment stem at TOP RIGHT; several thin hanging stems extend down, each lined with narrow lance-shaped leaves. Long tapering dangling ends, open transparent spaces between tendrils.\nTHIRD lane x=905..1175,y=45..980: an independent MIDDLE HANGING LEAF CURTAIN, its one narrow attachment stem at TOP CENTER, a gently umbrella-like upper twig and several long leaves/tendrils hanging down.\nFOURTH lane x=1235..1500,y=60..950: an independent RIGHT HANGING LEAF CURTAIN, attachment stem at TOP LEFT; a thin curved branch reaches right with uneven long hanging leaf strands.\nEach curtain's root is at TOP; it must dangle down so animation can fix the top while lower leaves sway. The three are separate shapes, not connected to each other or to trunk. Give natural bark-covered joint ends with NO visible cut-face growth rings.\nAll leaf tips and roots fully inside each lane, large transparent padding between lanes. No word labels, grid, scenery, background, sky, water, soil, flowers, animals or shadow plane.\nDimensional hand-painted gouache fairy-tale naturalism, delicate leaf brushwork, soft cool riverside daylight, rich quiet organic detail, not vector clipart, not pixel art, not paper cutout, not shiny plastic 3D. True clean alpha around fine hanging leaves and internal gaps.",
+          "references": [
+            {
+              "path": "D:/代码玩具测试/多媒体竞赛/森语奇旅/public/assets/habitat/postoffice.png",
+              "role": "style only"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-eab067d9-1807-428b-a134-3e2f950bc7b4.png"
+        },
+        {
+          "tool": "image_gen.imagegen (built-in)",
+          "transparentBackground": true,
+          "prompt": "Use case: precise-object-edit. Preserve this weeping-willow kit's painting, colors, three hanging leaf curtains, their positions, and real alpha exactly.\nOnly shrink and move the left bare tree trunk for clean atlas separation: uniformly make the complete tree trunk including ALL roots and branch tips 18 percent smaller, keep it on the far left with the full silhouette inside x=15..490,y=180..985. Every root must remain intact and all tips inside canvas. This must leave an uninterrupted empty transparent vertical strip between x=495 and x=515 from top to bottom.\nDo not move, resize, repaint or join any of the three right-side hanging willow crowns. Do not add a canopy to the main trunk. No new object, background, grid, text or shadow plane. Same 1536x1024 alpha canvas.",
+          "references": [
+            {
+              "path": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-eab067d9-1807-428b-a134-3e2f950bc7b4.png",
+              "role": "edit target (preceding generated source; a workspace copy may have been supplied)"
+            }
+          ],
+          "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a103ae-79b0-7d43-958f-e97618b853c2/exec-e8e776a7-11e2-48a2-a05c-cafd5763c315.png"
+        }
+      ]
+    }
+  ]
+}

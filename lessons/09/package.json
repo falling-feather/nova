@@ -1,0 +1,17 @@
+{
+  "name": "nova-seasons-conservatory",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5369 --strictPort --configLoader native",
+    "build": "tsc --noEmit && vite build --configLoader native",
+    "preview": "vite preview --host 127.0.0.1 --port 5369 --strictPort --configLoader native",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "plan": "node tools/draw-plan.mjs",
+    "test:browser": "node tools/browser-check.mjs",
+    "test:course": "node tools/course-check.mjs",
+    "test:linkage": "node tools/linkage-check.mjs",
+    "test:artifact": "node tools/artifact-check.mjs",
+    "test:source": "node tools/source-check.mjs"
+  }
+}

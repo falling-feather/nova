@@ -1,0 +1,27 @@
+{
+  "clientDate": "2026-10-05",
+  "source": "../实验台细化/运动预测附件.json",
+  "computedFromRecordedSamplesOnly": true,
+  "trainingRecordCount": 3,
+  "updates": 1,
+  "learningRate": 0.05,
+  "gradient": {
+    "w": -9.333333333333334,
+    "b": -4
+  },
+  "before": {
+    "w": 1,
+    "b": 1,
+    "predictionAt2": 3,
+    "loss": 4.666666666666667
+  },
+  "after": {
+    "w": 1.4666666666666668,
+    "b": 1.2,
+    "predictionAt2": 4.133333333333334,
+    "loss": 0.9407407407407399
+  },
+  "observedAt2": 5,
+  "modelOnlyReceivesRecordedData": true,
+  "status": "numeric-check-passed"
+}

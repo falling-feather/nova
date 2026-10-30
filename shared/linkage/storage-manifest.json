@@ -1,0 +1,99 @@
+[
+  {
+    "chapter": 1,
+    "title": "春汀小镇",
+    "keys": [
+      "chunting-renewed-chapter1-v1"
+    ]
+  },
+  {
+    "chapter": 2,
+    "title": "思想之庭",
+    "keys": [
+      "nova-thought-court-progress-v1",
+      "nova-museum-orientation-v1"
+    ]
+  },
+  {
+    "chapter": 3,
+    "title": "森语奇旅",
+    "keys": [
+      "nova-forest-whispers-v1"
+    ]
+  },
+  {
+    "chapter": 4,
+    "title": "行动工坊",
+    "keys": [
+      "nova-action-workshop-v1"
+    ]
+  },
+  {
+    "chapter": 5,
+    "title": "光影学徒",
+    "keys": [
+      "nova-light-apprentice-v1",
+      "nova-light-apprentice-previous-experiment"
+    ]
+  },
+  {
+    "chapter": 6,
+    "title": "群岛海图",
+    "keys": [
+      "nova-neural-ch6-v1"
+    ]
+  },
+  {
+    "chapter": 7,
+    "title": "活字印书局",
+    "keys": [
+      "nova-type-house-v1"
+    ]
+  },
+  {
+    "chapter": 8,
+    "title": "潮汐沙画节",
+    "keys": [
+      "nova-tides-course-v1",
+      "nova-tides-course-guesses"
+    ]
+  },
+  {
+    "chapter": 9,
+    "title": "四季问询亭",
+    "keys": [
+      "nova-seasons-conservatory-v1",
+      "nova-seasons-journey-v1"
+    ]
+  },
+  {
+    "chapter": 10,
+    "title": "数据检视台",
+    "keys": [
+      "nova-ch10-trusted-data-v1"
+    ]
+  },
+  {
+    "chapter": 11,
+    "title": "网络解剖台",
+    "keys": [
+      "nova-neural-ch11-v1"
+    ]
+  },
+  {
+    "chapter": 12,
+    "title": "行动编排台",
+    "keys": [
+      "nova.ch12.workbench.v1",
+      "nova.ch12.canvas.v1"
+    ]
+  },
+  {
+    "chapter": 13,
+    "title": "我的AI创作台",
+    "keys": [
+      "nova.capstone.project.v1",
+      "nova-creator-index-v1"
+    ]
+  }
+]

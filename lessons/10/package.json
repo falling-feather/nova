@@ -1,0 +1,19 @@
+{
+  "name": "nova-trusted-data-lab",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24.20.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5370 --strictPort --configLoader native",
+    "build": "tsc --noEmit && vite build --configLoader native",
+    "preview": "vite preview --host 127.0.0.1 --port 5370 --strictPort --configLoader native",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "test:browser": "node tests/workshop-browser.mjs",
+    "test:storage-browser": "node tests/storage-browser.mjs",
+    "test:return-browser": "node tests/return-browser.mjs",
+    "test:cross-chapter": "node --experimental-strip-types --test tests/cross-chapter.integration.ts"
+  }
+}

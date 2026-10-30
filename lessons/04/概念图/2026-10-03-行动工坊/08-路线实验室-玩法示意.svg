@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1180" viewBox="0 0 1800 1180"><style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style><defs><marker id="tealArrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#198879"/></marker></defs>
+<rect x="0" y="0" width="1800" height="1180" rx="0" fill="#f5f2e8" stroke="none"/>
+<text x="55" y="60" font-size="44" font-weight="bold" fill="#284d59" text-anchor="start">路线实验室</text>
+<text x="1140" y="60" font-size="26" font-weight="normal" fill="#284d59" text-anchor="start">第四章 · 行动工坊中的独立小游戏</text>
+<text x="55" y="108" font-size="29" font-weight="bold" fill="#284d59" text-anchor="start">目标：在6点能量预算内，少走几步到音乐教室</text>
+<rect x="55" y="140" width="1030" height="660" rx="30" fill="#e1eddf" stroke="#c3d2c1"/>
+<rect x="1130" y="140" width="615" height="660" rx="30" fill="#fffdf8" stroke="#dbdacf"/>
+<text x="88" y="182" font-size="23" font-weight="normal" fill="#284d59" text-anchor="start">点道路放代价牌  ·  放路障  ·  先预测再试走</text>
+<text x="88" y="215" font-size="21" font-weight="normal" fill="#5f746f" text-anchor="start">基础例题：每条连接计一步，数值表示能量消耗</text>
+<g transform="translate(11.25 0) scale(.9375 1)">
+<path d="M180 350L500 350" fill="none" stroke="#bccabb" stroke-width="38" stroke-linecap="round"/><path d="M180 350L500 350" fill="none" stroke="#fff9df" stroke-width="30" stroke-linecap="round"/>
+<path d="M500 350L820 350" fill="none" stroke="#bccabb" stroke-width="38" stroke-linecap="round"/><path d="M500 350L820 350" fill="none" stroke="#fff9df" stroke-width="30" stroke-linecap="round"/>
+<path d="M180 350L180 650" fill="none" stroke="#bccabb" stroke-width="38" stroke-linecap="round"/><path d="M180 350L180 650" fill="none" stroke="#fff9df" stroke-width="30" stroke-linecap="round"/>
+<path d="M180 650L500 650" fill="none" stroke="#bccabb" stroke-width="38" stroke-linecap="round"/><path d="M180 650L500 650" fill="none" stroke="#fff9df" stroke-width="30" stroke-linecap="round"/>
+<path d="M500 650L820 650" fill="none" stroke="#bccabb" stroke-width="38" stroke-linecap="round"/><path d="M500 650L820 650" fill="none" stroke="#fff9df" stroke-width="30" stroke-linecap="round"/>
+<path d="M820 650L820 350" fill="none" stroke="#bccabb" stroke-width="38" stroke-linecap="round"/><path d="M820 650L820 350" fill="none" stroke="#fff9df" stroke-width="30" stroke-linecap="round"/>
+<path d="M180 350L500 350L820 350" fill="none" stroke="#c38a51" stroke-width="6" stroke-dasharray="13 11"/><path d="M180 350L180 650L500 650L820 650L820 350" fill="none" stroke="#198879" stroke-width="7" marker-end="url(#tealArrow)"/>
+<rect x="349" y="234" width="300" height="86" rx="16" fill="#fff2dd" stroke="#e6cdad"/>
+<text x="499" y="270" font-size="26" font-weight="bold" fill="#896038" text-anchor="middle">A · 2步，8点</text>
+<text x="499" y="305" font-size="20" font-weight="normal" fill="#896038" text-anchor="middle">超过6点预算</text>
+<text x="500" y="745" font-size="30" font-weight="bold" fill="#147467" text-anchor="middle">B · 4步，4点</text>
+<text x="500" y="780" font-size="22" font-weight="normal" fill="#147467" text-anchor="middle">预算内可到达</text>
+<circle cx="340" cy="350" r="29" fill="#fffdf5" stroke="#d67d63" stroke-width="4"/>
+<text x="340" y="358" font-size="22" font-weight="bold" fill="#355760" text-anchor="middle">4点</text>
+<circle cx="660" cy="350" r="29" fill="#fffdf5" stroke="#89a69d" stroke-width="2"/>
+<text x="660" y="358" font-size="22" font-weight="bold" fill="#355760" text-anchor="middle">4点</text>
+<circle cx="180" cy="500" r="29" fill="#fffdf5" stroke="#89a69d" stroke-width="2"/>
+<text x="180" y="508" font-size="22" font-weight="bold" fill="#355760" text-anchor="middle">1点</text>
+<circle cx="340" cy="650" r="29" fill="#fffdf5" stroke="#89a69d" stroke-width="2"/>
+<text x="340" y="658" font-size="22" font-weight="bold" fill="#355760" text-anchor="middle">1点</text>
+<circle cx="660" cy="650" r="29" fill="#fffdf5" stroke="#89a69d" stroke-width="2"/>
+<text x="660" y="658" font-size="22" font-weight="bold" fill="#355760" text-anchor="middle">1点</text>
+<circle cx="820" cy="500" r="29" fill="#fffdf5" stroke="#89a69d" stroke-width="2"/>
+<text x="820" y="508" font-size="22" font-weight="bold" fill="#355760" text-anchor="middle">1点</text>
+<g transform="translate(155 330)"><rect width="50" height="38" rx="12" fill="#fffdf5" stroke="#699bb3" stroke-width="3"/><circle cx="16" cy="15" r="4" fill="#355a65"/><circle cx="34" cy="15" r="4" fill="#355a65"/><path d="M17 26Q25 32 33 26" fill="none" stroke="#699bb3" stroke-width="2"/><circle cx="8" cy="40" r="6" fill="#456471"/><circle cx="42" cy="40" r="6" fill="#456471"/></g>
+<text x="180" y="306" font-size="23" font-weight="bold" fill="#355760" text-anchor="middle">起点 · 行动站</text>
+<circle cx="500" cy="350" r="19" fill="#fffdf4" stroke="#89a69d" stroke-width="3"/>
+<text x="500" y="389" font-size="21" font-weight="normal" fill="#526c68" text-anchor="middle">上侧路口</text>
+<rect x="779" y="319" width="82" height="62" rx="12" fill="#e2eef7" stroke="#7c9eb5"/>
+<path d="M779 322L820 298L861 322" fill="#7397b2"/><path d="M814 334v26m0-16q24-4 24 9q-3 12-15 9q-12-5-3-11" fill="none" stroke="#456f91" stroke-width="3"/>
+<text x="820" y="285" font-size="23" font-weight="bold" fill="#355760" text-anchor="middle">终点 · 音乐教室</text>
+<circle cx="180" cy="650" r="19" fill="#fffdf4" stroke="#89a69d" stroke-width="3"/>
+<text x="180" y="698" font-size="21" font-weight="normal" fill="#526c68" text-anchor="middle">下侧路口</text>
+<circle cx="500" cy="650" r="19" fill="#fffdf4" stroke="#89a69d" stroke-width="3"/>
+<text x="500" y="698" font-size="21" font-weight="normal" fill="#526c68" text-anchor="middle">中间路口</text>
+<circle cx="820" cy="650" r="19" fill="#fffdf4" stroke="#89a69d" stroke-width="3"/>
+<text x="820" y="698" font-size="21" font-weight="normal" fill="#526c68" text-anchor="middle">右侧路口</text>
+<path d="M357 373L357 403L368 395L378 410L385 405L375 390L389 387Z" fill="#fff" stroke="#456471" stroke-width="2"/>
+
+</g>
+<text x="1168" y="184" font-size="29" font-weight="bold" fill="#284d59" text-anchor="start">点选一条路，就能设置</text>
+<text x="1168" y="222" font-size="23" font-weight="normal" fill="#637775" text-anchor="start">当前：上侧左段</text>
+<text x="1168" y="270" font-size="26" font-weight="bold" fill="#284d59" text-anchor="start">这段花几个能量点？</text>
+<rect x="1168" y="291" width="88" height="64" rx="14" fill="#f0f4ef" stroke="#cbd8d0"/>
+<text x="1212" y="334" font-size="28" font-weight="bold" fill="#355760" text-anchor="middle">1</text>
+<rect x="1276" y="291" width="88" height="64" rx="14" fill="#f0f4ef" stroke="#cbd8d0"/>
+<text x="1320" y="334" font-size="28" font-weight="bold" fill="#355760" text-anchor="middle">2</text>
+<rect x="1384" y="291" width="88" height="64" rx="14" fill="#f0f4ef" stroke="#cbd8d0"/>
+<text x="1428" y="334" font-size="28" font-weight="bold" fill="#355760" text-anchor="middle">3</text>
+<rect x="1492" y="291" width="88" height="64" rx="14" fill="#fae7ca" stroke="#cc9360"/>
+<text x="1536" y="334" font-size="28" font-weight="bold" fill="#875d36" text-anchor="middle">4</text>
+<rect x="1600" y="291" width="88" height="64" rx="14" fill="#f0f4ef" stroke="#cbd8d0"/>
+<text x="1644" y="334" font-size="28" font-weight="bold" fill="#355760" text-anchor="middle">5</text>
+<text x="1168" y="398" font-size="24" font-weight="bold" fill="#284d59" text-anchor="start">路况</text>
+<rect x="1265" y="369" width="140" height="47" rx="13" fill="#dfeee7" stroke="#a3c3b7"/>
+<text x="1335" y="401" font-size="24" font-weight="bold" fill="#2e6f61" text-anchor="middle">开放</text>
+<rect x="1427" y="369" width="257" height="47" rx="13" fill="#faf0e6" stroke="#d9b697"/>
+<text x="1555" y="401" font-size="24" font-weight="normal" fill="#8c6340" text-anchor="middle">放一个路障</text>
+<text x="1168" y="468" font-size="25" font-weight="bold" fill="#284d59" text-anchor="start">本次预算：6点</text>
+<circle cx="1435" cy="460" r="12" fill="#76b8ac" stroke="#4a8d80"/>
+<circle cx="1478" cy="460" r="12" fill="#76b8ac" stroke="#4a8d80"/>
+<circle cx="1521" cy="460" r="12" fill="#76b8ac" stroke="#4a8d80"/>
+<circle cx="1564" cy="460" r="12" fill="#76b8ac" stroke="#4a8d80"/>
+<circle cx="1607" cy="460" r="12" fill="#76b8ac" stroke="#4a8d80"/>
+<circle cx="1650" cy="460" r="12" fill="#76b8ac" stroke="#4a8d80"/>
+<text x="1168" y="529" font-size="28" font-weight="bold" fill="#284d59" text-anchor="start">我画的方案：B</text>
+<text x="1168" y="567" font-size="24" font-weight="normal" fill="#167768" text-anchor="start">4步  ·  消耗4点  ·  预算内</text>
+<rect x="1168" y="601" width="535" height="59" rx="16" fill="#277e8d" stroke="none"/>
+<text x="1435" y="639" font-size="27" font-weight="bold" fill="#fff" text-anchor="middle">试走我的路线</text>
+<rect x="1168" y="681" width="535" height="58" rx="16" fill="#f0f4ec" stroke="#a9c3b7"/>
+<text x="1435" y="719" font-size="26" font-weight="normal" fill="#3d686d" text-anchor="middle">看看助手方案</text>
+<text x="55" y="835" font-size="22" font-weight="normal" fill="#687b76" text-anchor="start">静态玩法示意。例题关系已核算；正式路线与反馈需依据当前地图和条件真实计算。</text>
+<text x="55" y="883" font-size="30" font-weight="bold" fill="#284d59" text-anchor="start">条件和目标怎样影响路线？</text>
+<text x="1120" y="883" font-size="23" font-weight="normal" fill="#667872" text-anchor="start">每个对比都从上方初始地图重新开始</text>
+<rect x="55" y="914" width="326" height="212" rx="19" fill="#e3edf2" stroke="#d7dbce"/>
+<text x="75" y="955" font-size="25" font-weight="bold" fill="#284d59" text-anchor="start">预算改成8点</text>
+<text x="75" y="1000" font-size="21" font-weight="normal" fill="#284d59" text-anchor="start">目标仍是少走几步</text>
+<text x="75" y="1040" font-size="21" font-weight="normal" fill="#284d59" text-anchor="start">选A：2步，8点</text>
+<text x="75" y="1080" font-size="21" font-weight="bold" fill="#284d59" text-anchor="start">B也可用：4步，4点</text>
+<rect x="395" y="914" width="326" height="212" rx="19" fill="#e2efe7" stroke="#d7dbce"/>
+<text x="415" y="955" font-size="25" font-weight="bold" fill="#284d59" text-anchor="start">目标改成省能量</text>
+<text x="415" y="1000" font-size="21" font-weight="normal" fill="#284d59" text-anchor="start">预算8点</text>
+<text x="415" y="1040" font-size="21" font-weight="normal" fill="#284d59" text-anchor="start">选B：4步，4点</text>
+<text x="415" y="1080" font-size="21" font-weight="bold" fill="#284d59" text-anchor="start">最短与最省可以不同</text>
+<rect x="735" y="914" width="326" height="212" rx="19" fill="#f4e9d4" stroke="#d7dbce"/>
+<text x="755" y="955" font-size="25" font-weight="bold" fill="#284d59" text-anchor="start">上路改成1＋1</text>
+<text x="755" y="1000" font-size="21" font-weight="normal" fill="#284d59" text-anchor="start">预算6点，少走几步</text>
+<text x="755" y="1040" font-size="21" font-weight="normal" fill="#284d59" text-anchor="start">选A：2步，2点</text>
+<text x="755" y="1080" font-size="21" font-weight="bold" fill="#284d59" text-anchor="start">改代价，结果也会变</text>
+<rect x="1075" y="914" width="326" height="212" rx="19" fill="#f5e5da" stroke="#d7dbce"/>
+<text x="1095" y="955" font-size="25" font-weight="bold" fill="#284d59" text-anchor="start">下侧放一个路障</text>
+<text x="1095" y="1000" font-size="21" font-weight="normal" fill="#284d59" text-anchor="start">预算6点，封闭下侧中段</text>
+<text x="1095" y="1040" font-size="21" font-weight="normal" fill="#284d59" text-anchor="start">有通路，但至少需8点</text>
+<text x="1095" y="1080" font-size="21" font-weight="bold" fill="#284d59" text-anchor="start">提示：预算不足</text>
+<rect x="1415" y="914" width="326" height="212" rx="19" fill="#eee7e1" stroke="#d7dbce"/>
+<text x="1435" y="955" font-size="25" font-weight="bold" fill="#284d59" text-anchor="start">两条通路都封闭</text>
+<text x="1435" y="1000" font-size="21" font-weight="normal" fill="#284d59" text-anchor="start">上侧右段＋下侧中段</text>
+<text x="1435" y="1040" font-size="21" font-weight="normal" fill="#284d59" text-anchor="start">无论怎样增加预算</text>
+<text x="1435" y="1080" font-size="21" font-weight="bold" fill="#284d59" text-anchor="start">提示：目前没有通路</text>
+<text x="55" y="1160" font-size="22" font-weight="normal" fill="#687b76" text-anchor="start">教学基础版：小整数、等长道路格、点选即可编辑。算法名称与内部实现留到后续学段。</text>
+<rect x="908" y="78" width="170" height="41" rx="12" fill="#eef4ed" stroke="#b6caba"/><text x="993" y="107" text-anchor="middle" font-size="24" fill="#3d686d">换个目标</text>
+<rect x="1373" y="442" width="32" height="36" rx="8" fill="#edf3ec" stroke="#a9c3b7"/><text x="1389" y="468" text-anchor="middle" font-size="27" fill="#3d686d">−</text>
+<rect x="1687" y="442" width="32" height="36" rx="8" fill="#edf3ec" stroke="#a9c3b7"/><text x="1703" y="468" text-anchor="middle" font-size="27" fill="#3d686d">＋</text>
+</svg>

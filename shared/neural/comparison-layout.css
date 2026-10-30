@@ -1,0 +1,73 @@
+/* Keep frozen maps and the three real trials visible together on a desktop. */
+@media (min-width: 1180px) and (min-height: 700px) {
+  .neural-app .comparison-page {
+    display: grid;
+    grid-template-columns: minmax(275px, .5fr) minmax(0, 1.5fr);
+    grid-template-rows: 58px minmax(165px, 1fr) auto auto;
+    column-gap: 16px;
+    row-gap: 6px;
+    padding: 8px 20px;
+  }
+
+  .comparison-page > .compact-heading {
+    grid-column: 1;
+    grid-row: 1;
+    gap: 12px;
+    min-width: 0;
+  }
+
+  .comparison-page > .prediction-inline {
+    grid-column: 2;
+    grid-row: 1;
+    gap: 12px;
+    min-width: 0;
+  }
+
+  .comparison-page .prediction-inline .note-field {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+  }
+
+  .comparison-page .prediction-inline .note-field > span {
+    flex: 0 0 140px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .comparison-page .prediction-inline textarea {
+    flex: 1;
+    min-width: 0;
+    height: 54px;
+    min-height: 54px;
+    padding: 5px 8px;
+    line-height: 21px;
+  }
+
+  .comparison-page .prediction-inline .note-pages { min-width: 220px; font-size: 14px; }
+
+  .comparison-page > .comparison-pair {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    min-height: 165px;
+  }
+
+  .comparison-page .comparison-card { padding: 6px 12px; }
+
+  .comparison-page > .experiment-strip {
+    grid-column: 1 / -1;
+    grid-row: 3;
+  }
+
+  .comparison-page > .comparison-result {
+    grid-column: 1 / -1;
+    grid-row: 4;
+  }
+
+  .comparison-page .comparison-result .trial-boundary {
+    font-size: 14px;
+    line-height: 1.35;
+    margin-top: 4px;
+  }
+}

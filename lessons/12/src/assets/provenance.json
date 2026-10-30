@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-15",
+  "generator": "OpenAI built-in image_gen",
+  "skill": "imagegen",
+  "usage": "独立透明温室、植物和器具素材；不含UI、读数或动作结果。模型和运行数据由src/engine唯一提供。",
+  "assets": [
+    {
+      "file": "tomato-plant.png",
+      "generation": "exec-38951d78-4fa3-4bfd-aada-d3ed9f97e920",
+      "prompt": "Use case: stylized-concept. Asset type: one transparent game prop for a warm, natural greenhouse learning scene. Create ONE isolated healthy young tomato plant, compact and lush, with branching stems, irregular veined waxy leaves, one small ripe red tomato and two small green tomatoes. Short exposed root/soil contact at the base, no pot, no planter, no greenhouse or background. Three-quarter view with camera looking down about 20 degrees, gentle afternoon sunlight from upper left, rich natural leaf textures, rounded realistic 3D storybook rendering, believable soft translucency and fine organic details, soft ambient occlusion between leaves; friendly classroom aesthetic, sophisticated and calm rather than flat vector or infographic. Whole plant fully visible centered with generous transparent margin. True transparent background with clean alpha edges. No text, no numbers, no labels, no UI, no watermark, no diagram, no outline strokes. It will be reused as an independent plant layer above code-driven soil and irrigation; do not bake in a water effect or any health meter."
+    },
+    {
+      "file": "watering-can.png",
+      "generation": "exec-93e0d19e-b0a7-47e4-b313-7e3a10f7c3cc",
+      "prompt": "Use case: stylized-concept. Asset type: ONE independent transparent gardening tool prop for a natural greenhouse learning game. Create a beautiful small rounded enamel watering can, warm ivory main body with a muted deep teal base and rim, long curved spout ending in a rose sprinkler head pointing to the right and slightly down, comfortable rounded handle, tiny natural metal highlights and mild enamel texture. Three-quarter product view from slightly above, believable volumetric material, soft warm afternoon sunlight from upper left, restrained soft contact shadow with alpha transparency. Calm modern classroom storybook 3D rendering with realistic materials, friendly tactile quality, matching a warm sunlit greenhouse. Entire object centered and fully visible, generous transparent margins. True transparent background. No plant, no water pouring, no hand, no room, no background, no text, no numbers, no labels, no logos, no UI, no infographic, no outline strokes. This will become a separate draggable tool, and actual water effects will be produced by code only after a real simulated tool receipt."
+    },
+    {
+      "file": "greenhouse-shell.png",
+      "generation": "exec-5b8ea4c4-cf86-40db-8f06-dce2501a3319",
+      "prompt": "Use case: stylized-concept. Asset type: ONE independent transparent greenhouse architectural shell prop for a natural classroom learning game. Create a small but convincing wide freestanding greenhouse with a pitched glass roof, slim warm ivory and sage-gray enamel metal frame, carefully modeled rounded structural joints, subtle soft glass reflections, and a low weathered oak-and-stone foundation. View almost from the front, with just a narrow right side visible, camera slightly elevated about 15-20 degrees. Cutaway OPEN FRONT with NO FRONT GLASS and NO FRONT WALL so independently drawn planting beds and interactive tools can be seen clearly inside; back and roof glass mostly transparent, not opaque white. Interior completely empty: NO plants, NO pots, NO planting beds, NO water tank, NO fan, NO probes, NO furniture, NO tools. Soft warm afternoon sunlight from upper left, tactile enamel highlights, realistic fine wood grain, gentle contact shadows and rich material depth; calm sophisticated storybook 3D rendering, not vector, not schematic. Entire shell and foundation fully visible with generous transparent margin. True transparent background, including open front interior. NO landscape, NO room background, NO text, NO numbers, NO labels, NO logo, NO UI, NO diagram. This is a single scene layer, not a website screenshot. Actual readings, moving devices, soil and water effects will come only from code."
+    }
+  ]
+}

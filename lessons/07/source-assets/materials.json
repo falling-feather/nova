@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-11",
+  "timezone": "Asia/Shanghai",
+  "tool": "built-in image_gen.imagegen",
+  "purpose": "活字印书局三维场景的可平铺基础颜色材质",
+  "referenceBasis": "已确认的六张 2026-10-11 前端概念设计图；未使用旧网页截图。",
+  "processing": "PNG 原始画布保留；WebP 仅格式编码，quality=92、method=6；无裁切、缩放、调色、合成或手工生成纹理。",
+  "materials": [
+    {
+      "id": "walnut",
+      "prompt": "Use case: photorealistic-natural. Asset type: seamless PBR base-color / albedo texture for a high-fidelity real-time 3D Chinese classical movable-type printing workshop. Generate a single 2048 x 2048 square image, ultra-detailed true orthographic flat scan of finished dark walnut wood, covering the entire canvas edge to edge. Warm medium-dark brown walnut, not black and not orange, refined long straight natural grain running vertically, fine pores and very subtle gentle grain waviness. Historical crafted workbench quality, clean satin wood color only, restrained small color variation. This is ONLY the wood surface base color, no boards, no plank seams, no knots or high-contrast distinctive repeated features. Perfectly even diffuse illumination across the entire image; no shadows, no cast light, no highlights, no specular lighting, no gradient, no ambient occlusion, no camera perspective or vignette. Must tile seamlessly on all four edges with matching surface pattern continuity, no visible border. No objects, letters, printing, marks, stains, chips, scratches, frame, watermarks or illustrative styling. Photographically real microscopic surface detail, a uniform production texture map.",
+      "source": "source-assets/walnut.png",
+      "colorSpace": "sRGB",
+      "mapsIncluded": [
+        "baseColor"
+      ],
+      "referenceImages": [
+        "references/01-议事厅-主操作态.png",
+        "references/03-铸字房-句子排字台.png",
+        "references/05-账房-分糖实验.png",
+        "references/06-排印车间-纸上编辑与校对.png"
+      ],
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "mode": "RGB",
+      "checks": {
+        "visualInspection": "完成：无文字、物体轮廓、砖缝、明显灯光渐变；细节与材质目标一致。",
+        "edgeDifferenceStats8bit": {
+          "edgeHorizontalMeanAbsoluteDifference": 7.924,
+          "edgeVerticalMeanAbsoluteDifference": 6.375,
+          "neighborHorizontalMeanAbsoluteDifference": 7.338,
+          "neighborVerticalMeanAbsoluteDifference": 3.636,
+          "meanRgb": [
+            80.9,
+            54.4,
+            36.89
+          ]
+        },
+        "encodedCanvasPreserved": true,
+        "encodingMeanAbsoluteDifference8bit": 1.895
+      },
+      "sourceBytes": 2844761,
+      "sourceSha256": "bf00f1d44dfadb0dadf257abf188fbab313b8669de35d87ed6de84f272021048",
+      "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a12ba1-80be-7cd0-b21e-7efd674735ab/exec-18c19d52-3738-4129-9258-f98319b8429c.png",
+      "createdAt": "2026-10-11",
+      "tool": "built-in image_gen.imagegen",
+      "runtimeStatus": "Replaced by wood_table_worn PBR; original PNG master retained",
+      "runtimeReplacement": "source-assets/pbr.json"
+    },
+    {
+      "id": "paper",
+      "prompt": "Use case: photorealistic-natural. Asset type: seamless PBR base-color / albedo texture for a high-fidelity real-time 3D Chinese classical movable-type printing workshop. Generate a single 2048 x 2048 square image, ultra-detailed true orthographic flat scan of clean handmade Chinese xuan paper, covering the entire canvas edge to edge. Soft warm ivory-white, delicate natural paper fibers evenly dispersed and visible only at close range, gentle subtle cloudy fiber density, elegant premium writing paper. Color is clean near-white warm ivory, not yellow parchment and not brown antique paper. This is ONLY paper surface base color. Perfectly flat, perfectly even diffuse illumination across the entire image; no shadows, no cast light, no highlights, no gradient, no ambient occlusion, no camera perspective or vignette. Must tile seamlessly on all four edges with matching surface pattern continuity, no visible border. No sheet edges, no paper stacks, no wrinkles, folds, creases, stains, speckles, tears, writing, letters, seals, marks, printed content, objects, frames or watermark. Photographically real restrained microscopic surface detail, a uniform production texture map.",
+      "source": "source-assets/paper.png",
+      "output": "public/textures/paper.webp",
+      "colorSpace": "sRGB",
+      "mapsIncluded": [
+        "baseColor"
+      ],
+      "referenceImages": [
+        "references/01-议事厅-主操作态.png",
+        "references/03-铸字房-句子排字台.png",
+        "references/05-账房-分糖实验.png",
+        "references/06-排印车间-纸上编辑与校对.png"
+      ],
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "mode": "RGB",
+      "checks": {
+        "visualInspection": "完成：无文字、物体轮廓、砖缝、明显灯光渐变；细节与材质目标一致。",
+        "edgeDifferenceStats8bit": {
+          "edgeHorizontalMeanAbsoluteDifference": 4.683,
+          "edgeVerticalMeanAbsoluteDifference": 6.636,
+          "neighborHorizontalMeanAbsoluteDifference": 3.128,
+          "neighborVerticalMeanAbsoluteDifference": 3.916,
+          "meanRgb": [
+            238.27,
+            231.99,
+            223.66
+          ]
+        },
+        "encodedCanvasPreserved": true,
+        "encodingMeanAbsoluteDifference8bit": 1.577
+      },
+      "sourceBytes": 2587536,
+      "sourceSha256": "0ca8908b67ee5c8f59a613adb7950ecdf5e7d49c28aa3ed0abc9b967c3737b29",
+      "outputBytes": 279688,
+      "outputSha256": "7ef06769c57bfda7b93c25c0f41e6d87b28c1f456f4e89b464741507e69b5b40",
+      "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a12ba1-80be-7cd0-b21e-7efd674735ab/exec-d08f257b-3d48-4fb9-847f-52653cdcf29b.png",
+      "createdAt": "2026-10-11",
+      "tool": "built-in image_gen.imagegen"
+    },
+    {
+      "id": "brass",
+      "prompt": "Use case: photorealistic-natural. Asset type: seamless PBR base-color / albedo texture for a high-fidelity real-time 3D Chinese classical movable-type printing workshop. Generate a single 2048 x 2048 square image, ultra-detailed true orthographic flat scan of softly aged brass, covering the entire canvas edge to edge. Muted warm old yellow brass with subdued ochre-gold color, fine extremely delicate random multidirectional abrasion marks, subtle uniform age, no green verdigris, no rust, no holes. Tactile refined brass hardware for a traditional printing workshop, restrained believable material color. This is ONLY metal surface base color, it must not look like a lit metal photo: no reflections, no specular highlights, no glowing streaks, no directional brushing bands, no lighting gradients, no shading. Perfectly even diffuse illumination across the entire image; no shadows, no cast light, no ambient occlusion, no camera perspective or vignette. Must tile seamlessly on all four edges with matching surface pattern continuity, no visible border. No objects, letters, engraving, logos, dents, rivets, seams, bolts, edges, frames or watermark. Photographically real microscopic surface detail, a uniform production texture map.",
+      "source": "source-assets/brass.png",
+      "output": "public/textures/brass.webp",
+      "colorSpace": "sRGB",
+      "mapsIncluded": [
+        "baseColor"
+      ],
+      "referenceImages": [
+        "references/01-议事厅-主操作态.png",
+        "references/03-铸字房-句子排字台.png",
+        "references/05-账房-分糖实验.png",
+        "references/06-排印车间-纸上编辑与校对.png"
+      ],
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "mode": "RGB",
+      "checks": {
+        "visualInspection": "完成：无文字、物体轮廓、砖缝、明显灯光渐变；细节与材质目标一致。",
+        "edgeDifferenceStats8bit": {
+          "edgeHorizontalMeanAbsoluteDifference": 11.268,
+          "edgeVerticalMeanAbsoluteDifference": 11.249,
+          "neighborHorizontalMeanAbsoluteDifference": 9.062,
+          "neighborVerticalMeanAbsoluteDifference": 10.689,
+          "meanRgb": [
+            154.83,
+            121.64,
+            63.03
+          ]
+        },
+        "encodedCanvasPreserved": true,
+        "encodingMeanAbsoluteDifference8bit": 2.32
+      },
+      "sourceBytes": 3713606,
+      "sourceSha256": "4fb88177b6f7c86946537142a45ddf06599e08763fe5ca43157dd35e7685a550",
+      "outputBytes": 691144,
+      "outputSha256": "6fff150819ba719f82c9db74c9573861c802321b89f7147351390fc3a66e5274",
+      "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a12ba1-80be-7cd0-b21e-7efd674735ab/exec-65175f72-ddff-429b-875b-891919088580.png",
+      "createdAt": "2026-10-11",
+      "tool": "built-in image_gen.imagegen"
+    },
+    {
+      "id": "stone",
+      "prompt": "Use case: photorealistic-natural. Asset type: seamless PBR base-color / albedo texture for a high-fidelity real-time 3D Chinese classical movable-type printing workshop courtyard. Generate a single 2048 x 2048 square image, ultra-detailed true orthographic flat scan of a Chinese courtyard blue-grey stone surface, covering the entire canvas edge to edge. Fine-grained natural blue-grey limestone or bluestone, softly weathered but clean, a neutral muted slightly cool grey with extremely fine granular mineral detail and very subtle natural grain, restrained low-contrast small variations. This is ONLY one continuous stone surface base color; no paving layout, no tiles, no stones with visible boundaries. Perfectly even diffuse illumination across the entire image; no shadows, no cast light, no highlights, no gradient, no ambient occlusion, no camera perspective or vignette. Must tile seamlessly on all four edges with matching surface pattern continuity, no visible border. No brick joints, no slab seams, no cracks, no moss, no dirt, no dramatic veins, no objects, letters, marks, frame or watermark. Photographically real microscopic surface detail, a uniform production texture map.",
+      "source": "source-assets/stone.png",
+      "output": "public/textures/stone.webp",
+      "colorSpace": "sRGB",
+      "mapsIncluded": [
+        "baseColor"
+      ],
+      "referenceImages": [
+        "references/01-议事厅-主操作态.png",
+        "references/03-铸字房-句子排字台.png",
+        "references/05-账房-分糖实验.png",
+        "references/06-排印车间-纸上编辑与校对.png"
+      ],
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "mode": "RGB",
+      "checks": {
+        "visualInspection": "完成：无文字、物体轮廓、砖缝、明显灯光渐变；细节与材质目标一致。",
+        "edgeDifferenceStats8bit": {
+          "edgeHorizontalMeanAbsoluteDifference": 14.428,
+          "edgeVerticalMeanAbsoluteDifference": 14.313,
+          "neighborHorizontalMeanAbsoluteDifference": 11.493,
+          "neighborVerticalMeanAbsoluteDifference": 12.147,
+          "meanRgb": [
+            138.96,
+            143.11,
+            146.97
+          ]
+        },
+        "encodedCanvasPreserved": true,
+        "encodingMeanAbsoluteDifference8bit": 1.919
+      },
+      "sourceBytes": 3975110,
+      "sourceSha256": "d532a955bec204c3a96157d3dc313b647778282b09f97a87ad0944063bf12932",
+      "outputBytes": 705414,
+      "outputSha256": "c5c98ba34431756267f656439e0a2ec6784196bd43705cbbe3b6eb76a33cad42",
+      "generatedSource": "C:/Users/niu-h/.codex/generated_images/01a12ba1-80be-7cd0-b21e-7efd674735ab/exec-0709b528-d385-4623-b5e1-8d53996e369a.png",
+      "createdAt": "2026-10-11",
+      "tool": "built-in image_gen.imagegen"
+    }
+  ],
+  "nativeResolutionNote": "提示词请求 2048 × 2048；内置工具实际返回 1254 × 1254，源 PNG 与运行 WebP 均保留实际画布，没有上采样。",
+  "tileabilityNote": "已检查四边颜色连续性与边缘差异统计，未见明显高反差拼缝；属于自然纹理的视觉平铺，未声称边缘逐像素一致。"
+}

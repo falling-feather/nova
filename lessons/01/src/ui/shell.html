@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#2e7a62" />
+    <title>春汀小镇｜第一章 · 你好，AI</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='6' y='12' width='52' height='44' rx='15' fill='%23fbf4e4' stroke='%23d6c59d' stroke-width='3'/%3E%3Crect x='13' y='19' width='38' height='29' rx='9' fill='%232f6b58'/%3E%3Cellipse cx='25' cy='32' rx='3.2' ry='4' fill='%23eafde9'/%3E%3Cellipse cx='39' cy='32' rx='3.2' ry='4' fill='%23eafde9'/%3E%3Cpath d='M32 12V5' stroke='%235c8a3e' stroke-width='3'/%3E%3C/svg%3E"
+    />
+    <!-- STYLES -->
+  </head>
+  <body>
+    <canvas
+      id="world"
+      tabindex="0"
+      aria-label="三维春汀小镇。WASD 走路，拖动画面看看四周，E 和身边的东西互动。"
+    ></canvas>
+    <div id="loading">
+      <i data-ting="96"></i>
+      <h1>春汀小镇</h1>
+      <p>小汀正在打开小镇的灯……</p>
+      <div class="loadingBar"><i></i></div>
+    </div>
+    <div id="fatal" hidden>
+      <i data-ting="80" data-mood="wow"></i>
+      <h2>哎呀，小镇没能打开</h2>
+      <p>
+        这个浏览器暂时画不出三维小镇。请打开浏览器的“图形加速”，或者换一台电脑再试试。
+      </p>
+      <pre id="fatalText"></pre>
+      <button class="primary" onclick="location.reload()">再试一次</button>
+    </div>
+    <div id="gpuNote" role="alert" hidden>
+      <i data-icon="info" data-size="20"></i>
+      <span
+        >这台电脑的浏览器没有用上显卡，小镇会非常卡。请老师在浏览器设置里打开“图形加速”，重启浏览器后再打开；还是这样的话，换一台电脑试试。</span
+      >
+    </div>
+    <header id="hudTop">
+      <div class="townNavigation">
+        <nav id="novaReturnHost" data-nova-return-host aria-label="返回奇点"></nav>
+        <div class="brand">
+          <i data-ting="38"></i>
+          <div><strong>春汀</strong><small>第一章 · 你好，AI</small></div>
+        </div>
+      </div>
+      <nav class="viewtools" aria-label="视角与工具">
+        <button data-mode="first" title="自己走（按 1）">
+          <i data-icon="walk"></i><span class="label">自己走</span
+          ><kbd>1</kbd></button
+        ><button data-mode="third" title="跟着看（按 2）">
+          <i data-icon="follow"></i><span class="label">跟着看</span
+          ><kbd>2</kbd></button
+        ><button data-mode="overview" title="看全镇（按 3）">
+          <i data-icon="globe"></i><span class="label">看全镇</span
+          ><kbd>3</kbd></button
+        ><span class="sep"></span
+        ><button id="mapBtn" title="地图（按 M）">
+          <i data-icon="map"></i><span class="label">地图</span></button
+        ><button id="journalBtn" title="我的游记（按 J）">
+          <i data-icon="book"></i><span class="label">游记</span></button
+        ><button id="helpBtn" title="设置" aria-label="设置与帮助">
+          <i data-icon="gear"></i>
+        </button>
+      </nav>
+    </header>
+    <section
+      id="intro"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="introTitle"
+      aria-describedby="introDescription"
+    >
+      <div id="introCard">
+        <div class="introIllustration" aria-hidden="true">
+          <span class="introOrbit"
+            ><i data-ting="156" class="introTing"></i
+          ></span>
+          <span class="introActivity photo"
+            ><i data-icon="camera" data-size="26"></i>拍下好奇</span
+          >
+          <span class="introActivity check"
+            ><i data-icon="search" data-size="26"></i>找找答案</span
+          >
+          <span class="introActivity art"
+            ><i data-icon="brush" data-size="26"></i>画出想法</span
+          >
+          <span class="introArtCaption">小汀，随时陪着你</span>
+        </div>
+        <div class="introContent">
+          <span class="introSub">第一章 · 你好，AI</span>
+          <h1 id="introTitle">春汀小镇里，<br /><em>AI</em> 藏在哪儿？</h1>
+          <p class="introLead" id="introDescription">
+            和小汀一起拍花、画画、弹琴，<br />找找 AI
+            在哪里帮忙，又会在哪里出错。
+          </p>
+          <button class="primary" id="enterTown">出发！</button>
+          <div class="introLinks">
+            <button class="textBtn" id="surveyTown">
+              <i data-icon="globe" data-size="18"></i>先看看全镇</button
+            ><button class="textBtn" id="introFilm" hidden>
+              <i data-icon="film" data-size="18"></i>小镇短片
+            </button>
+          </div>
+          <div class="introPromise">
+            <span>4 个主线任务</span><span>9 个小发现</span
+            ><span>1 本我的游记</span>
+          </div>
+          <small id="resumeHint" hidden></small>
+        </div>
+      </div>
+    </section>
+    <aside
+      id="objective"
+      data-kind="main"
+      aria-label="当前任务"
+      aria-live="polite"
+      hidden
+    >
+      <p id="objectiveUpdate" hidden></p>
+      <div class="objectiveTop">
+        <span id="stageLabel">第 1 课</span
+        ><span id="objectivePlace"
+          ><i data-icon="pin" data-size="15"></i
+          ><span id="objectivePlaceName"></span></span
+        ><button
+          id="taskMenu"
+          title="换一个任务"
+          aria-label="打开地图，换一个任务"
+        >
+          <i data-icon="map" data-size="18"></i></button
+        ><button
+          id="objectiveCollapse"
+          title="收起任务栏"
+          aria-label="收起任务栏"
+        >
+          <i data-icon="close" data-size="18"></i>
+        </button>
+      </div>
+      <strong id="objectiveTitle"></strong>
+      <div class="coachLine">
+        <button id="companionBtn" title="找小汀" aria-label="找小汀聊聊">
+          <i data-ting="48"></i>
+        </button>
+        <p id="objectiveStep"></p>
+      </div>
+      <div class="objectiveActions">
+        <button id="guideBtn" class="primary">
+          <i data-icon="walk"></i>带我去</button
+        ><button id="continueLesson" hidden>
+          <i data-icon="arrow"></i>回到主线</button
+        ><button id="pathBtn" title="显示或隐藏地上的引导线（按 G）">
+          <i data-icon="route"></i><span>引导线</span>
+        </button>
+      </div>
+      <div id="mainProgress" class="mainProgress"></div>
+    </aside>
+    <div id="objectiveDock" role="group" aria-label="任务与小汀">
+      <button
+        id="objectiveToggle"
+        aria-expanded="false"
+        aria-controls="objective"
+        aria-label="展开任务栏"
+      >
+        <i data-icon="book" data-size="20"></i
+        ><span id="objectiveToggleLabel">任务</span
+        ><i class="drawerChevron" data-icon="arrow" data-size="16"></i>
+      </button>
+      <button id="quickCompanion" aria-label="找小汀聊聊" title="找小汀聊聊">
+        <i data-ting="32"></i><span>小汀</span>
+      </button>
+    </div>
+    <div id="crosshair"></div>
+    <button id="prompt" hidden><kbd>E</kbd><span></span></button>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <aside
+      id="tutorial"
+      aria-label="小汀操作教学"
+      aria-live="polite"
+      hidden
+    ></aside>
+    <aside id="miniwrap">
+      <canvas
+        id="minimap"
+        width="220"
+        height="220"
+        aria-label="小地图，点一下打开大地图"
+      ></canvas
+      ><small id="localStatus">记录留在这台电脑</small>
+    </aside>
+    <footer id="bottomHud">
+      <button id="timeBtn" title="切换午后 / 傍晚"></button
+      ><button id="soundBtn" title="打开或关闭提示音"></button
+      ><button id="captureBtn" title="给小镇拍张照（按 P）">
+        <i data-icon="camera"></i>留影
+      </button>
+    </footer>
+    <div id="touch">
+      <button data-key="KeyW" class="up" aria-label="向前">↑</button
+      ><button data-key="KeyA" aria-label="向左">←</button
+      ><button data-key="KeyS" aria-label="向后">↓</button
+      ><button data-key="KeyD" aria-label="向右">→</button
+      ><button id="touchUse">互动</button>
+    </div>
+    <section
+      id="workbench"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="benchTitle"
+      data-kind="main"
+      hidden
+    >
+      <header>
+        <div class="benchBadge" id="benchBadge"></div>
+        <div class="benchHeading">
+          <small id="benchTag"></small>
+          <h2 id="benchTitle"></h2>
+        </div>
+        <button id="benchClose" title="回到小镇（Esc）" aria-label="回到小镇">
+          <i data-icon="close" data-size="22"></i>
+        </button>
+      </header>
+      <div id="benchCoach" hidden>
+        <i data-ting="54"></i>
+        <div
+          class="coachBubble"
+          id="coachBubble"
+          role="status"
+          aria-live="polite"
+        >
+          <span id="coachText"></span><span class="next" id="coachNext"></span>
+        </div>
+      </div>
+      <ol id="benchTrail" aria-label="任务步骤" hidden></ol>
+      <nav id="benchViews" aria-label="工作台分区" hidden></nav>
+      <div id="benchBody"></div>
+      <footer id="benchFoot"></footer>
+    </section>
+    <div id="shade" hidden></div>
+    <input id="importFile" type="file" accept=".json,application/json" hidden />
+
+    <!--
+BUNDLED THIRD-PARTY ATTRIBUTION
+Copyright © 2010-2026 three.js authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Digits: Alpaydin, E. & Kaynak, C. (1998), Optical Recognition of Handwritten Digits, UCI Machine Learning Repository. DOI 10.24432/C50P49. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ . Source: https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits . Modified: crop, normalize to 16x16, select reference samples, serialize. No endorsement by dataset authors.
+-->
+    <!-- RUNTIME -->
+  </body>
+</html>

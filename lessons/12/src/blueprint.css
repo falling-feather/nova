@@ -1,0 +1,930 @@
+:root {
+  --hover: #214c68;
+  --selected: #1f5575;
+  --input: #102d47;
+  color: #d5e6ec;
+  background: #0b2944;
+  --accent: #79dfff;
+  --line: #467eac66;
+  --muted: #84aac7;
+  --grid: #4d8db43d;
+  --node: #0d3352ed;
+  --node-line: #70adca;
+  --node-text: #cdeaf5;
+  --model-node: #123e5e;
+  --model-line: #79b9d5;
+  --port: #9ce9f4;
+  --wire: #6db5d3;
+  --yes: #8ee0ba;
+  --no: #f0b985;
+  --run: #b4f0d0;
+  --run-glow: #78edcc33;
+  --canvas-tools: #092a47ef;
+  --tech-accent: #8de8fa;
+  --tech-field: #53c7ee13;
+  --tech-glow: #53c7ee2b;
+  --action-fill: #164e78;
+  --action-ink: #def7ff;
+  --dialog-bg: #0e2d4a;
+  --dialog-ink: #d4eaf4;
+  --dialog-line: #437b9e;
+  --dialog-input: #102c48;
+  --dialog-input-ink: #d4eaf4;
+}
+.blueprint-app {
+  height: 100dvh;
+  display: grid;
+  grid-template-rows: 62px 90px minmax(0, 1fr) 67px;
+  background: radial-gradient(ellipse at 45% 35%, #153b5a, #0b2944 78%);
+}
+.course-header {
+  border-bottom-color: #5886a16b;
+}
+.course-header .primary {
+  background: #245b7b;
+  color: #e8f3ee;
+}
+.mode-tabs {
+  display: flex;
+  gap: 18px;
+  align-self: stretch;
+  margin-left: 6vw;
+}
+.mode-tabs button {
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  font-size: 15px;
+  min-width: 130px;
+  color: #83a7c0;
+}
+.mode-tabs button[aria-pressed="true"] {
+  background: transparent;
+  border-bottom-color: #91d7ec;
+  color: #e4f1f5;
+}
+.header-tools button {
+  font-size: 12px;
+}
+.blueprint-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 15px 24px;
+}
+.blueprint-question h2 {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 7px;
+}
+.blueprint-question .micro-label {
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.unit-tabs {
+  display: flex;
+  gap: 11px;
+}
+.unit-tabs button {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  font-size: 10px;
+  border: 0;
+  border-bottom: 1px solid #436b8160;
+  border-radius: 0;
+  padding: 8px 6px;
+  color: #85a2b3;
+}
+.unit-tabs button b {
+  font:
+    17px Georgia,
+    serif;
+  font-weight: 400;
+}
+.unit-tabs button[aria-pressed="true"] {
+  background: transparent;
+  color: #c3e3e8;
+  border-color: #7fa9bb;
+}
+.blueprint-workspace {
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr) 430px;
+  gap: 17px;
+  padding: 0 20px 16px;
+}
+.node-palette {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid #46728b66;
+  padding: 16px 8px;
+  background: #12344a44;
+}
+.node-palette > span {
+  font-size: 10px;
+  color: #8bacc2;
+}
+.node-palette button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+  width: 62px;
+  height: 63px;
+  padding: 8px;
+  border-radius: 0;
+  border-color: #7496ad66;
+  background: linear-gradient(140deg, #1b4261, #15334a);
+  color: #b5d7e0;
+}
+.node-palette svg {
+  width: 25px;
+  height: 25px;
+}
+.node-palette b {
+  font-size: 11px;
+  font-weight: 400;
+}
+.node-palette .palette-undo {
+  margin-top: auto;
+  font-size: 10px;
+  height: 48px;
+}
+.node-palette .palette-undo svg {
+  width: 16px;
+  height: 16px;
+}
+.blueprint-canvas {
+  min-width: 0;
+  min-height: 0;
+  border: 1px solid #4d7e9766;
+  position: relative;
+}
+.diagram-warning {
+  position: absolute;
+  top: 47px;
+  left: 18px;
+  right: 18px;
+  font-size: 11px;
+  line-height: 1.6;
+  color: #e6bd8d;
+  pointer-events: none;
+}
+.blueprint-app .diagram-node {
+  border-radius: 0;
+  box-shadow: inset 0 0 18px #8cb8d30a;
+}
+.blueprint-app .node-handle strong {
+  font-weight: 500;
+}
+.blueprint-app .kind-output {
+  border-color: #87bba0;
+  color: #c2e7cb;
+  background: #194b4b;
+}
+.blueprint-app .kind-stop {
+  border-color: #d9a174;
+  color: #e5bf96;
+  background: #3c3d45;
+}
+.blueprint-app .diagram-node.running {
+  outline: 1px solid #efc398;
+  outline-offset: 3px;
+}
+.blueprint-app .canvas-minimap {
+  width: 120px;
+  height: 76px;
+}
+.execution-panel {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  border: 1px solid #6a93aa80;
+  border-radius: 0;
+  background: #10314d99;
+}
+.panel-tabs {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+  border-bottom: 1px solid #4b748956;
+  padding: 5px 10px;
+}
+.panel-tabs button {
+  flex: 1;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  font-size: 12px;
+  min-height: 31px;
+  color: #90b0c1;
+}
+.panel-tabs button[aria-pressed="true"] {
+  background: transparent;
+  border-color: #8dc2d5;
+  color: #d4e9ee;
+}
+.execution-status {
+  padding: 14px 16px 12px;
+  display: grid;
+  grid-template-columns: 9px 1fr;
+  gap: 7px 10px;
+  align-items: center;
+  border-bottom: 1px solid #426c8155;
+}
+.execution-status i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #7fb5c7;
+}
+.execution-status strong {
+  font-size: 14px;
+  font-weight: 500;
+}
+.execution-status small {
+  grid-column: 2;
+  font:
+    10px ui-monospace,
+    monospace;
+  color: #8db4c0;
+}
+.execution-status.success i {
+  background: #91c8a7;
+}
+.execution-status.stopped i {
+  background: #e5aa7d;
+}
+.execution-status.stopped strong {
+  color: #e3b28e;
+}
+.world-pane {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.greenhouse-cutaway {
+  width: 100%;
+  min-height: 110px;
+  flex: 1;
+  max-height: 310px;
+}
+.greenhouse-viewport {
+  position:relative;
+  flex:1;
+  min-height:150px;
+  overflow:hidden;
+  background:radial-gradient(ellipse at 50% 62%,#35647d,#0a233b 75%);
+  border-bottom:1px solid #7098ad66;
+}
+.greenhouse-viewport>.greenhouse-cutaway {height:100%;position:absolute;inset:0}
+.greenhouse-viewport.rendered>.greenhouse-cutaway {display:none}
+.greenhouse-canvas {display:block;width:100%;height:100%;touch-action:none;cursor:grab}
+.greenhouse-canvas:active {cursor:grabbing}
+.scene-scale {position:absolute;top:9px;left:12px;font:10px Consolas,monospace;letter-spacing:1px;color:#94b9c7;pointer-events:none}
+.scene-render-status {position:absolute;bottom:6px;left:0;right:0;text-align:center;font-size:11px;color:#adcbd4;pointer-events:none;text-shadow:0 1px 3px #071b2e}
+.scene-reset {position:absolute;right:8px;top:7px;padding:5px!important;min-height:26px!important;background:#0b2d45a6!important;border:1px solid #7098ad88!important}
+.scene-reset svg {width:16px;height:16px}
+.greenhouse-cutaway text {
+  font:
+    9px "Microsoft YaHei UI",
+    sans-serif;
+  fill: #8fb7c4;
+}
+.world-readouts {
+  display: flex;
+  border-top: 1px solid #49758c55;
+  border-bottom: 1px solid #49758c55;
+  padding: 11px 14px;
+  gap: 20px;
+  justify-content: space-between;
+}
+.world-readouts > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.world-readouts span {
+  font-size: 10px;
+  color: #739cb2;
+}
+.world-readouts b {
+  font:
+    20px ui-monospace,
+    monospace;
+  font-weight: 400;
+  color: #c6dde2;
+}
+.observation-strip {
+  padding: 11px 15px;
+  font-size: 11px;
+  color: #b5cfd5;
+  line-height: 1.6;
+}
+.observation-strip span {
+  color: #6f9bac;
+  font-size: 10px;
+}
+.manual-tools {
+  display: flex;
+  gap: 7px;
+  padding: 0 14px 12px;
+}
+.manual-tools button {
+  padding: 6px 8px;
+  font-size: 10px;
+  flex: 1;
+  white-space: nowrap;
+  border-color: #57829b6b;
+}
+.runtime-controls {
+  display: flex;
+  gap: 10px;
+  padding: 12px 14px;
+  border-top: 1px solid #4c789165;
+  margin-top: auto;
+  flex-shrink: 0;
+}
+.runtime-controls button {
+  flex: 1;
+  font-size: 12px;
+  min-height: 37px;
+  padding: 7px;
+}
+.runtime-controls .primary {
+  background: #285e7f;
+  border-color: #7bb8d0;
+  color: #e0eff4;
+}
+.last-receipt {
+  padding: 0 15px 12px;
+  font-size: 10px;
+  line-height: 1.6;
+  color: #8dabb9;
+  min-height: 44px;
+  max-height: 58px;
+}
+.node-settings {
+  flex: 1;
+  min-height: 0;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.node-settings h2 {
+  font-size: 19px;
+  font-weight: 400;
+}
+.node-settings label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 11px;
+  color: #8bb0c2;
+}
+.node-settings input,
+.node-settings select {
+  font-size: 13px;
+  width: 100%;
+  padding: 7px;
+}
+.node-explanation {
+  font-size: 11px;
+  line-height: 1.7;
+  color: #82a6bb;
+}
+.node-outlets {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: auto;
+}
+.node-outlets > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 10px;
+}
+.node-outlets span {
+  color: #d8b78b;
+}
+.node-outlets b {
+  font-weight: 400;
+  flex: 1;
+}
+.node-outlets button {
+  font-size: 10px;
+  min-height: 25px;
+  padding: 3px 8px;
+}
+.node-settings .inline-actions button {
+  font-size: 11px;
+  min-height: 29px;
+}
+.trace-pane {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+  min-height: 0;
+}
+.trace-pane h3 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.trace-pane article {
+  border-left: 2px solid #638eaa;
+  padding: 7px 11px;
+  background: #183b5480;
+}
+.trace-pane article > span {
+  font:
+    10px ui-monospace,
+    monospace;
+  color: #83b5c7;
+}
+.trace-pane p {
+  font-size: 11px;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+.trace-pane small {
+  font:
+    9px ui-monospace,
+    monospace;
+  color: #739cb1;
+}
+.trace-pane .page-pager {
+  margin-top: auto;
+  font-size: 10px;
+}
+.blueprint-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  gap: 15px;
+  border-top: 1px solid #517c9177;
+  background: #0c2a43;
+}
+.blueprint-footer > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.blueprint-footer button {
+  font-size: 11px;
+  min-height: 31px;
+  padding: 5px 9px;
+  white-space: nowrap;
+}
+.environment-controls label {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  white-space: nowrap;
+  color: #a8beca;
+}
+.environment-controls input {
+  accent-color: #c2946a;
+}
+.water-pulse {
+  animation: water-flow 1s linear infinite;
+}
+@keyframes water-flow {
+  to {
+    stroke-dashoffset: -24;
+  }
+}
+.blueprint-app .toast {
+  bottom: 76px;
+  max-width: 800px;
+  background: #0b2239ed;
+  border-color: #608fa0;
+}
+@media (max-height: 800px) {
+  .blueprint-app {
+    grid-template-rows: 54px 75px minmax(0, 1fr) 58px;
+  }
+  .blueprint-question {
+    padding: 12px 22px;
+  }
+  .blueprint-question h2 {
+    font-size: 21px;
+  }
+  .blueprint-workspace {
+    grid-template-columns: 74px minmax(0, 1fr) 410px;
+    gap: 13px;
+    padding: 0 18px 12px;
+  }
+  .node-palette {
+    gap: 10px;
+    padding: 11px 6px;
+  }
+  .node-palette button {
+    width: 56px;
+    height: 53px;
+    gap: 6px;
+  }
+  .node-palette svg {
+    width: 22px;
+    height: 22px;
+  }
+  .world-readouts {
+    padding: 7px 13px;
+  }
+  .world-readouts b {
+    font-size: 17px;
+  }
+  .observation-strip {
+    padding: 8px 13px;
+  }
+  .manual-tools {
+    padding-bottom: 9px;
+  }
+  .runtime-controls {
+    padding: 9px 12px;
+  }
+  .last-receipt {
+    font-size: 9px;
+    padding-bottom: 8px;
+    min-height: 35px;
+    max-height: 47px;
+  }
+  .execution-status {
+    padding: 9px 13px;
+  }
+  .node-settings {
+    padding: 12px;
+    gap: 9px;
+  }
+  .node-settings h2 {
+    font-size: 17px;
+  }
+  .node-settings input,
+  .node-settings select {
+    padding: 6px;
+  }
+  .node-explanation {
+    font-size: 10px;
+  }
+  .trace-pane {
+    padding: 12px;
+    gap: 8px;
+  }
+  .trace-pane article {
+    padding: 5px 9px;
+  }
+  .trace-pane p {
+    font-size: 10px;
+  }
+  .blueprint-footer {
+    padding: 9px 18px;
+  }
+  .blueprint-footer button {
+    font-size: 10px;
+    padding: 5px 7px;
+  }
+  .mode-tabs {
+    margin-left: 3vw;
+    gap: 8px;
+  }
+  .unit-tabs {
+    gap: 5px;
+  }
+  .unit-tabs button {
+    font-size: 9px;
+    padding: 6px 4px;
+  }
+}
+@media (max-width: 1250px) {
+  .mode-tabs {
+    margin-left: 10px;
+  }
+  .mode-tabs button {
+    min-width: 105px;
+    font-size: 13px;
+  }
+  .blueprint-question h2 {
+    font-size: 19px;
+  }
+  .blueprint-workspace {
+    grid-template-columns: 65px minmax(0, 1fr) 345px;
+    gap: 10px;
+  }
+  .unit-tabs button span {
+    max-width: 44px;
+    line-height: 1.5;
+  }
+  .blueprint-footer > div {
+    gap: 6px;
+  }
+  .blueprint-footer button {
+    font-size: 9px;
+  }
+  .environment-controls label {
+    font-size: 9px;
+  }
+}
+.history-log-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.history-log-list article {
+  border-left: 2px solid #91abb1;
+  padding-left: 13px;
+}
+.history-log-list b {
+  font-size: 12px;
+  color: #65818c;
+}
+.history-log-list p {
+  font-size: 13px;
+}
+.history-log-list small {
+  font-size: 10px;
+  color: #7d9298;
+}
+.blueprint-app .dialog-grid > section > p {
+  font-size: 14px;
+  margin-top: 18px;
+}
+
+/* Engineering field: orthogonal traces, instrument silhouettes and direct tools. */
+.blueprint-app {
+  background: radial-gradient(ellipse at 54% 35%, #123c67, #061f40 77%);
+}
+.course-header {
+  background: #092644cc;
+  border-top: 3px solid #3c86b2;
+}
+.course-header h1 {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.chapter-no {
+  font-family: Consolas, monospace;
+  color: #79dfff;
+}
+.mode-tabs button {
+  letter-spacing: 1px;
+}
+.mode-tabs button[aria-pressed="true"] {
+  border-color: #93e7f2;
+  background: linear-gradient(0deg, #2c6b8a22, transparent);
+}
+.blueprint-question h2 {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.blueprint-question .micro-label {
+  color: #76a9cb;
+  letter-spacing: 3px;
+}
+.unit-tabs button {
+  border-bottom-style: dashed;
+}
+.unit-tabs button[aria-pressed="true"] {
+  border-bottom-style: solid;
+  color: #c5f1f8;
+}
+.blueprint-workspace {
+  gap: 15px;
+}
+.node-palette {
+  border: 0;
+  border-left: 1px solid #447ca267;
+  background: linear-gradient(90deg, #0c2c4c88, transparent);
+  padding-top: 13px;
+}
+.node-palette button {
+  border: 0;
+  border-bottom: 1px solid #487a9c66;
+  background: transparent;
+  position: relative;
+}
+.node-palette button:hover {
+  background: #28618033;
+  border-bottom-color: #88d4e9;
+}
+.node-palette button svg {
+  color: #95cbdf;
+}
+.node-palette .palette-undo {
+  border-top: 1px solid #487a9c66;
+}
+.blueprint-canvas {
+  border: 0;
+  border-top: 1px solid #5487aa66;
+  border-bottom: 1px solid #5487aa66;
+  box-shadow: inset 0 0 50px #05224366;
+}
+.blueprint-app .diagram-viewport {
+  background-image:
+    linear-gradient(#23608a16 1px, transparent 1px),
+    linear-gradient(90deg, #23608a16 1px, transparent 1px),
+    radial-gradient(#79c5df55 0.6px, transparent 0.6px);
+  background-size:
+    110px 110px,
+    110px 110px,
+    22px 22px;
+}
+.blueprint-app .kind-action {
+  --node: #123d5d;
+  --node-line: #7ac7df;
+}
+.blueprint-app .kind-output {
+  --node: #153d4c;
+  --node-line: #8ee0ba;
+  color: #c2f5d4;
+}
+.blueprint-app .kind-stop {
+  --node: #3b3648;
+  --node-line: #e3ad8f;
+}
+.blueprint-app .kind-model {
+  --model-node: #103856;
+  --model-line: #76cbdc;
+}
+.blueprint-app .canvas-guidance {
+  letter-spacing: 0.6px;
+  color: #80a9c0;
+}
+.blueprint-app .canvas-minimap {
+  background: #082743b8;
+}
+.blueprint-app .node-detail {
+  color: #8bb9cd;
+}
+.blueprint-app .node-handle strong {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.diagram-warning {
+  border-left: 2px solid #d7a271;
+  padding-left: 11px;
+  background: #092640bb;
+}
+.execution-panel {
+  border: 0;
+  border-top: 1px solid #7eb6d1;
+  background: linear-gradient(135deg, #15416a77, #09254077);
+  clip-path: polygon(0 0, calc(100% - 17px) 0, 100% 17px, 100% 100%, 0 100%);
+  box-shadow: inset 1px 0 #386d9380;
+}
+.execution-status {
+  border-bottom-style: dashed;
+}
+.execution-status strong {
+  letter-spacing: 1px;
+}
+.execution-status small {
+  letter-spacing: 0.5px;
+}
+.world-pane {
+  background: radial-gradient(ellipse at 58% 32%, #23779a20, transparent 62%);
+}
+.greenhouse-cutaway {
+  transform: translate(var(--field-x, 0px), var(--field-y, 0px));
+  transition: transform 0.2s;
+  filter: drop-shadow(0 5px 12px #00132977);
+}
+.greenhouse-cutaway path,
+.greenhouse-cutaway rect {
+  vector-effect: non-scaling-stroke;
+}
+.greenhouse-cutaway text {
+  fill: #b0d7e7;
+}
+.greenhouse-cutaway .scene-tool {
+  cursor: pointer;
+  outline: none;
+}
+.scene-tool .tool-hit {
+  stroke: #8be8ef33;
+  stroke-width: 1;
+}
+.scene-tool:hover .tool-hit,
+.scene-tool:focus-visible .tool-hit {
+  fill: #57e4f420;
+  stroke: #b1f2ff;
+  stroke-width: 1.5;
+}
+.scene-tool:hover text,
+.scene-tool:focus-visible text {
+  fill: #fff;
+}
+.blueprint-app[data-playing="true"] .scene-tool {
+  opacity: 0.45;
+  pointer-events: none;
+}
+.world-readouts {
+  border-color: #5c98b355;
+  padding: 10px 14px;
+}
+.world-readouts b {
+  font-size: 23px;
+  letter-spacing: -1px;
+  color: #d9f2f5;
+}
+.world-readouts > div {
+  position: relative;
+  padding-left: 10px;
+}
+.world-readouts > div:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: #66b9cd66;
+}
+.observation-strip {
+  border-left: 2px solid #85c2cd55;
+  margin: 8px 13px;
+  padding: 1px 9px;
+}
+.manual-tools button {
+  border: 0;
+  border-bottom: 1px solid #528eb3;
+  background: transparent;
+}
+.runtime-controls .primary {
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+  background: #1b5278;
+  border-color: #75bcd7;
+}
+.blueprint-footer {
+  background: #061d38;
+  border-top-color: #3a7097;
+}
+.blueprint-footer button {
+  border: 0;
+  border-bottom: 1px solid #3e688c;
+}
+.trace-pane article {
+  border-left-width: 1px;
+  background: linear-gradient(90deg, #265c7744, transparent);
+}
+.trace-pane article > span {
+  color: #a3d3e2;
+  letter-spacing: 0.5px;
+}
+.node-settings > label input,
+.node-settings > label select {
+  border: 0;
+  border-bottom: 1px solid #5c8cab;
+  background: #0d304d;
+}
+.node-settings .node-outlets {
+  border-top: 1px dashed #507998;
+  padding-top: 14px;
+}
+@media (max-height: 800px) {
+  .world-readouts b {
+    font-size: 19px;
+  }
+  .world-readouts {
+    padding: 7px 12px;
+  }
+  .observation-strip {
+    margin: 6px 12px;
+    padding: 1px 8px;
+  }
+  .blueprint-workspace {
+    gap: 13px;
+  }
+  .blueprint-question h2 {
+    font-size: 20px;
+  }
+}
+:root[data-tech-motion="off"] .greenhouse-cutaway {
+  transform: none;
+}
+
+/* The three receipts distinguish speaking, acting and checking. */
+.blueprint-app{overflow:clip}.blueprint-app .blueprint-question{padding-top:10px;padding-bottom:10px;gap:20px}.blueprint-app .blueprint-question .micro-label{font-size:12px;color:#80c6dd;letter-spacing:1.5px}.blueprint-app .blueprint-question h2{font-size:23px;margin-top:5px}.unit-instruction{font-size:12px;line-height:1.5;color:#89adbc;margin-top:6px}
+.blueprint-app .unit-tabs button{font-size:11px;padding:8px 7px}.blueprint-app .unit-tabs button[aria-pressed=true]{color:#d1f5f0;background:#36769418;border-bottom-color:#77dfdd}
+.feedback-evidence{display:grid;grid-template-columns:1fr 10px 1fr 10px 1fr;align-items:center;gap:3px;padding:10px 12px;border-top:1px solid #4b839b55;flex:0 0 auto;background:#08284188}.feedback-evidence>div{display:flex;align-items:flex-start;gap:6px;min-width:0}.feedback-evidence i{font:10px Consolas,monospace;padding-top:2px;color:#5d8498}.feedback-evidence span{font-size:12px;color:#789eaf}.feedback-evidence small{display:block;font-size:10px;line-height:1.6;margin-top:5px;color:#6e91a4}.feedback-evidence>b{font-size:10px;font-weight:400;color:#548298}.feedback-evidence .observed span{color:#b6e3e7}.feedback-evidence .observed i{color:#7bd9df}.feedback-evidence .verified span,.feedback-evidence .verified small{color:#a6e3be}
+.blueprint-app .execution-panel{border-top:2px solid #559bc3;box-shadow:inset 0 0 0 1px #a6d9e111,0 8px 25px #00152f33;background:linear-gradient(165deg,#113c59bf,#082641dd)}.blueprint-app .execution-status strong{font-size:15px}.blueprint-app .execution-status small{font-size:11px}.blueprint-app .panel-tabs button{font-size:13px}.blueprint-app .world-readouts span{font-size:11px}.blueprint-app .world-readouts b{color:#d4f4f5;font-size:22px}.blueprint-app .observation-strip{font-size:12px}.blueprint-app .manual-tools button{font-size:11px}.blueprint-app .last-receipt{font-size:11px;line-height:1.65;max-height:none;min-height:36px;padding-bottom:10px}.blueprint-app .runtime-controls{margin-top:0;padding-top:9px;padding-bottom:9px}
+.blueprint-app .node-palette button{border:1px solid #4b8ca566;clip-path:polygon(0 0,calc(100% - 8px) 0,100% 8px,100% 100%,8px 100%,0 calc(100% - 8px));background:linear-gradient(140deg,#2153754d,#0b2d4610);box-shadow:inset 0 1px #99e1ed22}.blueprint-app .node-palette button:hover:not(:disabled){border-color:#8cdae2;background:#2c6e8a33}.blueprint-app .blueprint-canvas{box-shadow:inset 0 0 0 1px #8dcce512,inset 0 0 65px #02162b55}.blueprint-app .greenhouse-viewport{box-shadow:inset 0 0 20px #03192e22}
+/* 提示位于场景中部，避开读数、工具和镜头操作说明。 */
+.blueprint-app:has(.field-mode) .toast {
+  bottom: 300px;
+}
+@media (max-height: 800px) {
+  .blueprint-app:has(.field-mode) .toast {
+    bottom: 250px;
+  }
+}

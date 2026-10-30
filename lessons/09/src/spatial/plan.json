@@ -1,0 +1,160 @@
+{
+  "title": "四季问询亭 · 知识温室",
+  "date": "2026-10-12",
+  "status": "independent-reconstruction-sample",
+  "units": "metres",
+  "axes": "X东、Y上、Z南；北门朝园区水院，南门为进入方向",
+  "shell": {
+    "sides": 8,
+    "radius": 7.2,
+    "eave": 4.25,
+    "crown": 7.15,
+    "wallBase": 0.65,
+    "columnWidth": 0.4,
+    "ribCount": 16,
+    "doorWidth": 3.1
+  },
+  "counter": {
+    "x": 0,
+    "z": 0,
+    "outer": 2.65,
+    "inner": 1.78,
+    "height": 1.02,
+    "top": 0.09,
+    "startDeg": 20,
+    "endDeg": 160
+  },
+  "objects": [
+    {
+      "id": "memory",
+      "label": "封存书展位",
+      "x": -5.45,
+      "z": -0.75,
+      "w": 2.35,
+      "d": 0.9,
+      "height": 2.35,
+      "supportHeight": 1.04,
+      "yaw": 90,
+      "view": "memory"
+    },
+    {
+      "id": "archive",
+      "label": "24页资料柜",
+      "x": 5.35,
+      "z": -0.9,
+      "w": 3.6,
+      "d": 0.65,
+      "height": 2.75,
+      "yaw": -90,
+      "view": "archive"
+    },
+    {
+      "id": "journal",
+      "label": "交班阅读位",
+      "x": -3.55,
+      "z": 3.55,
+      "w": 1.85,
+      "d": 0.82,
+      "height": 0.82,
+      "yaw": 135,
+      "view": "journal"
+    },
+    {
+      "id": "context",
+      "label": "玻璃便签装置",
+      "x": -0.55,
+      "z": 2.0,
+      "w": 0.98,
+      "d": 0.12,
+      "height": 0.7,
+      "base": 1.11,
+      "yaw": 0,
+      "view": "context"
+    },
+    {
+      "id": "robot",
+      "label": "园园",
+      "x": 0.65,
+      "z": 1.95,
+      "w": 0.65,
+      "d": 0.52,
+      "height": 0.95,
+      "base": 1.11,
+      "yaw": 0,
+      "view": "reception"
+    },
+    {
+      "id": "visitor",
+      "label": "游客站位",
+      "x": -2.6,
+      "z": 2.85,
+      "w": 0.65,
+      "d": 0.65,
+      "height": 1.48,
+      "yaw": -25,
+      "view": "reception"
+    },
+    {
+      "id": "host",
+      "label": "值班员站位",
+      "x": 1.7,
+      "z": -0.15,
+      "w": 0.65,
+      "d": 0.65,
+      "height": 1.82,
+      "yaw": 180,
+      "view": "reception"
+    }
+  ],
+  "garden": {
+    "pool": { "x": 0, "z": -13.4, "width": 3.4, "length": 8 },
+    "courtRadius": 22,
+    "horizonRadius": 55
+  },
+  "cameras": {
+    "overview": {
+      "label": "温室总览",
+      "position": [0, 1.95, 6.35],
+      "target": [0, 1.45, -0.7],
+      "fov": 54
+    },
+    "reception": {
+      "label": "中央问询台",
+      "position": [0.5, 2.02, 4.8],
+      "target": [0.15, 1.47, 1.85],
+      "fov": 59
+    },
+    "memory": {
+      "label": "记忆之书",
+      "position": [-2.6, 1.85, 1.2],
+      "target": [-5.35, 1.68, -0.75],
+      "fov": 49
+    },
+    "context": {
+      "label": "便签与窗口",
+      "position": [-0.6, 1.72, 3.75],
+      "target": [-0.5, 1.52, 2.0],
+      "fov": 48
+    },
+    "archive": {
+      "label": "资料馆",
+      "position": [2.65, 1.83, 1.8],
+      "target": [5.35, 1.5, -0.9],
+      "fov": 54
+    },
+    "journal": {
+      "label": "交班日志",
+      "position": [-1.85, 1.72, 2.4],
+      "target": [-3.5, 0.96, 3.5],
+      "fov": 47
+    },
+    "plan": { "label": "空间总览", "position": [9, 14.6, 11], "target": [0, 0.6, -4.5], "fov": 55 }
+  },
+  "routes": [
+    { "from": "overview", "to": "reception", "meaning": "开始值班" },
+    { "from": "reception", "to": "memory", "meaning": "查看封存与材料索引" },
+    { "from": "reception", "to": "context", "meaning": "准备临时便签" },
+    { "from": "reception", "to": "archive", "meaning": "检索与维护原文" },
+    { "from": "reception", "to": "journal", "meaning": "回顾与交班" }
+  ]
+}
