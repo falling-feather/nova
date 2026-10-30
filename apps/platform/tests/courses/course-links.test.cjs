@@ -83,3 +83,11 @@ test('a project chapter rejects a different project directory on the same host',
     assert.equal(links.returnUrl('https://example.org/nova/chapters/08/?novaChapter=8&novaReturn='+encodeURIComponent(target)),null);
   }
 });
+
+test('static directory navigation stays inside a project deployment',()=>{
+  const html=fs.readFileSync(require('node:path').resolve(__dirname,'../../courses/source/index.html'),'utf8');
+  for(const [,href] of html.matchAll(/href="([^"]+)"/g)){
+    if(/^(?:data:|https?:|#)/.test(href))continue;
+    assert.ok(new URL(href,'https://example.org/nova/courses/').pathname.startsWith('/nova/'),href);
+  }
+});
