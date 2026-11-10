@@ -1,13 +1,12 @@
 # 奇点开发文档
 
-- [项目介绍、构建与部署](../README.md)
+- [项目介绍与十三章实机画廊](../README.md)
+- [构建、静态部署与 Windows 一键启动](deployment.md)
 - [十三课时地图](课程地图.md)
 - [高中四章实现](highschool-concepts.md)
 - [分阶段验收记录](实际验收.md)
 - [第三方许可](licenses/)
 
-公开仓库以当前课程源码、运行素材和本目录文档为范围。历史文档中提到的“资料-制作过程”“资料-设计与开发文档”和比赛报送材料属于完整本地项目，不随本源码仓库上传。历史验证记录不等同于最新部署的全量交互验证。
+部署步骤以[部署指南](deployment.md)为准。Windows 与在线站点共用 [static-site.cjs](../tools/static-site.cjs) 组装；[course-links.js](../shared/linkage/course-links.js) 负责课程跳转与项目路径。
 
-## 网页发布
-
-`npm run build:site`构建十三章并在`dist-site/`组装纯前端站点，`npm start`在4173端口预览。Windows导出和在线站点使用同一个`tools/static-site.cjs`，静态客户端按页面层级加载。课程链接以`shared/linkage/course-links.js`为唯一入口，支持根目录与`/nova/`项目路径。
+带日期的章节实施与验收文档保留当时的范围和结果。其中引用的比赛材料、设计稿与过程记录属于本地项目档案，不随源码仓库发布。
