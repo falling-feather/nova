@@ -43,7 +43,7 @@
   function generated(name, repeating = true) {
     return loadMap(
       "art:" + name,
-      "assets/art/" + name + ".png",
+      "assets/art/" + name + ".webp",
       T.SRGBColorSpace,
       repeating,
     );

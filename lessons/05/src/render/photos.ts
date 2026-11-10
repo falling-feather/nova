@@ -2,6 +2,8 @@ import { ASSET_BASE } from "../content/catalog.ts";
 import { extractFeatures, filterPixels } from "../core/features.ts";
 import { photoRectangle, previewGeometry } from "../core/atlas.ts";
 import type { AnalyzedPhoto, Filter, Photo } from "../core/types.ts";
+// Keep the catalog/save identity; the published WebP retains every original pixel.
+function atlasUrl(file:string) {return ASSET_BASE+file.replace(/\.png$/, ".webp");}
 export class PhotoLibrary {
   private images=new Map<string,Promise<HTMLImageElement>>();
   private analyzed=new Map<string,AnalyzedPhoto>();
@@ -11,7 +13,7 @@ export class PhotoLibrary {
     let item=this.images.get(file);
     if(!item){item=new Promise<HTMLImageElement>((resolve,reject)=>{
       const image=new Image();image.decoding="async";image.onload=()=>resolve(image);
-      image.onerror=()=>{this.images.delete(file);reject(new Error("照片素材没能加载："+file));};image.src=ASSET_BASE+file;
+      image.onerror=()=>{this.images.delete(file);reject(new Error("照片素材没能加载："+file));};image.src=atlasUrl(file);
     });this.images.set(file,item);}
     return item;
   }
@@ -49,5 +51,5 @@ export class PhotoLibrary {
 function idle(fn:()=>void){if("requestIdleCallback" in window)requestIdleCallback(()=>fn(),{timeout:2500});else setTimeout(fn,400);}
 export function photoStyle(photo:Photo) {
   const g=previewGeometry(photo);
-  return `background-image:url("${ASSET_BASE}${photo.atlas}");background-size:${g.sizeX}% ${g.sizeY}%;background-position:${g.positionX}% ${g.positionY}%;aspect-ratio:${g.ratio}`;
+  return `background-image:url("${atlasUrl(photo.atlas)}");background-size:${g.sizeX}% ${g.sizeY}%;background-position:${g.positionX}% ${g.positionY}%;aspect-ratio:${g.ratio}`;
 }

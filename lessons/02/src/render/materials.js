@@ -41,7 +41,7 @@ export async function loadMaterials(
           name +
           "-" +
           role +
-          (textureSize < 4096 ? ".webp" : ".jpg"),
+          (textureSize < 4096 || role === "color" ? ".webp" : ".jpg"),
       });
   }
   const maps = {};

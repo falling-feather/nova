@@ -56,7 +56,7 @@ export async function makePalette(renderer: THREE.WebGLRenderer) {
   const [textures, font, scannedWood, metal, plaster, paving, hdri] =
     await Promise.all([
       Promise.all(
-        ["paper.webp", "brass.webp", "stone.webp", "porcelain-bamboo.png"].map(
+        ["paper.webp", "brass.webp", "stone.webp", "porcelain-bamboo.webp"].map(
           (n) => loader.loadAsync(assetUrl(`textures/${n}`)),
         ),
       ),

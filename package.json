@@ -5,6 +5,7 @@
     "node": ">=24.20.0"
   },
   "scripts": {
+    "assets:optimize": "node tools/optimize-images.cjs",
     "build": "node tools/project.cjs build",
     "dev": "node tools/project.cjs dev",
     "test": "node tools/project.cjs test",

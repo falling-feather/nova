@@ -28,6 +28,8 @@ npm start
 
 这一做法要求其他章节已完成一次构建。全部脚本以 [package.json](../package.json) 为准。
 
+修改原始插图后，先运行 `npm run assets:optimize` 更新网页图片，再构建站点。首次克隆已包含所需网页版本，具体范围见[图片交付说明](image-delivery.md)。
+
 ## 静态服务器
 
 1. 运行 `npm ci` 和 `npm run build:site`。

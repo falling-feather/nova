@@ -15,7 +15,7 @@ export async function loadMaterials(onProgress: (n: number, total: number) => vo
   jobs.push(
     ...['tree-foliage', 'naturalist-prints', 'warm-limestone'].map((key) => ({
       key,
-      url: `art/${key}.png`,
+      url: `art/${key}.webp`,
       color: true,
     })),
     { key: 'book-ornament', url: 'art/book-gilding-v2.svg', color: true }

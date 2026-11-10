@@ -3,15 +3,22 @@ const fs = require('node:fs');
 const path = require('node:path');
 const source = path.resolve(__dirname, '..');
 const config = require('../shared/linkage/chapters.json');
+const { imageVariants } = require('./image-variants.cjs');
 
 // The Windows package and hosted site use the same assembled frontend.
 function assembleSite(site) {
+  const variants = imageVariants(source);
+  for (const variant of variants) {
+    if (!fs.existsSync(path.join(source, variant.target))) throw Error('缺少网页图片，请运行 npm run assets:optimize：' + variant.target);
+  }
+  const originals = new Set(variants.map(variant => variant.publishedOriginal).filter(Boolean));
   const copy = (from, relative) => {
     const target = path.join(site, relative);
     fs.mkdirSync(path.dirname(target), { recursive: true });
     fs.cpSync(path.join(source, from), target, {
       recursive: true,
-      filter: file => !['.DS_Store', '.gitkeep'].includes(path.basename(file)),
+      filter: file => !['.DS_Store', '.gitkeep'].includes(path.basename(file)) &&
+        !originals.has(path.posix.join(relative, path.relative(path.join(source, from), file).split(path.sep).join('/'))),
     });
   };
   const inject = relative => {

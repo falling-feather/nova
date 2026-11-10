@@ -2,6 +2,7 @@
 
 - [项目介绍与十三章实机画廊](../README.md)
 - [构建、静态部署与 Windows 一键启动](deployment.md)
+- [网页图片、压缩策略与发布体积](image-delivery.md)
 - [十三课时地图](课程地图.md)
 - [高中四章实现](highschool-concepts.md)
 - [分阶段验收记录](实际验收.md)

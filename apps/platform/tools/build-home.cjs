@@ -5,7 +5,10 @@ const mime=file=>({'.webp':'image/webp','.png':'image/png','.jpg':'image/jpeg','
 const data=file=>'data:'+mime(file)+';base64,'+fs.readFileSync(file).toString('base64');
 const media={};
 for(const name of fs.readdirSync(path.join(root,'assets-rebuilt')).sort())if(name.endsWith('.webp'))media[path.parse(name).name]=data(path.join(root,'assets-rebuilt',name));
-for(const name of fs.readdirSync(path.join(root,'assets-backgrounds')).sort())if(/\.(png|webp)$/i.test(name))media['bg-'+path.parse(name).name]=data(path.join(root,'assets-backgrounds',name));
+for(const name of fs.readdirSync(path.join(root,'assets-backgrounds')).sort())if(/\.(png|webp)$/i.test(name)){
+  if(name.endsWith('.png')&&fs.existsSync(path.join(root,'assets-backgrounds',name.replace(/\.png$/,'.webp'))))continue;
+  media['bg-'+path.parse(name).name]=data(path.join(root,'assets-backgrounds',name));
+}
 const layers=JSON.parse(fs.readFileSync(path.join(root,'assets-rebuilt/layers.json'),'utf8'));
 fs.mkdirSync(path.join(root,'generated'),{recursive:true});
 fs.writeFileSync(path.join(root,'generated/media.js'),'window.NOVA_MEDIA='+JSON.stringify(media).replaceAll('<','\\u003c')+';\nwindow.NOVA_LAYERS='+JSON.stringify(layers).replaceAll('<','\\u003c')+';\n','utf8');
